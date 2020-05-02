@@ -1,4 +1,5 @@
-# cookingassistant2.0
+# cookingassistant
+A webapp with recipes and unit converter for easy cooking!
 
 ## Project setup
 ```

@@ -1,0 +1,94 @@
+[
+	{
+		"name": "Dumplings",
+		"teaser": "Beskrivelse mangler",
+		"image": "dumplings.jpg",
+		"ingredients": [
+			{
+				"ingredient": "flour",
+				"unit": "g",
+				"amount": "300"
+			},
+			{
+				"ingredient": "sugar",
+				"unit": "g",
+				"amount": "100"
+			}
+		],
+		"steps": [
+			"Add flour",
+			"Add sugar",
+			"Stir"
+		],
+		"path": "description"
+	},
+	{
+		"name": "Ciabatta",
+		"teaser": "Let og luftigt brød til sandwiches og tapas.",
+		"image": "ciabatta.jpg",
+		"ingredients": [
+			{
+				"ingredient": "flour",
+				"unit": "g",
+				"amount": "300"
+			},
+			{
+				"ingredient": "sugar",
+				"unit": "g",
+				"amount": "100"
+			}
+		],
+		"steps": [
+			"Add flour",
+			"Add sugar",
+			"Stir"
+		],
+		"path": "description"
+	},
+	{
+		"name": "Kanelsnurrer",
+		"teaser": "Asiatisk risret med alt godt fra havet, nej det er løgn men jeg skulle lige tjekke hvordan det så ud.",
+		"image": "kanelsnurrer.jpg",
+		"ingredients": [
+			{
+				"ingredient": "flour",
+				"unit": "g",
+				"amount": "300"
+			},
+			{
+				"ingredient": "sugar",
+				"unit": "g",
+				"amount": "100"
+			}
+		],
+		"steps": [
+			"Add flour",
+			"Add sugar",
+			"Stir"
+		],
+		"path": "description"
+	},
+	{
+		"name": "Jordbærtærte",
+		"teaser": "Asiatisk risret",
+		"image": "jordbaertaerte.jpg",
+		"ingredients": [
+			{
+				"ingredient": "flour",
+				"unit": "g",
+				"amount": "300"
+			},
+			{
+				"ingredient": "sugar",
+				"unit": "g",
+				"amount": "100"
+			}
+		],
+		"steps": [
+			"Add flour",
+			"Add sugar",
+			"Stir"
+		],
+		"path": "description"
+	}
+]
