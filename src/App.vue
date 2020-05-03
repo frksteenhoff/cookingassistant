@@ -1,8 +1,8 @@
 <template>
 	<div id="app">
 		<b-navbar sticky toggleable="lg" type="dark" variant="hest">
-			<b-navbar-brand href="#">
-				<img src="./assets/frk_header-transparent.png" style="width: 80px;" />
+			<b-navbar-brand href="#" class="mb-0 pb-0 pt-0">
+				<img src="./assets/logo_cropped.png" style="width: 60px;" />
 			</b-navbar-brand>
 
 			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -122,7 +122,6 @@ a.link-item {
 
 #content {
 	min-height: 1000px;
-	margin-top: 15px;
 }
 
 #nav-collapse.navbar-collapse.collapse,
@@ -132,8 +131,8 @@ nav {
 
 img {
 	margin: 0;
+	padding-bottom: 0;
 	width: 100%;
-	margin-bottom: 10px;
 	justify-content: center;
 }
 p,
