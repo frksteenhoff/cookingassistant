@@ -134,12 +134,12 @@ def fillRecipe(df, recipeObj):
 
 print("Converting recipes in CSV file.. ")
 df = pd.read_csv("recipes.csv")
-
+df_no_nan = df.replace(np.nan, '', regex=True)
 # Extracting propperties (columns)
-print("All columns in sheet: ", df.columns[0:].values, "\n")
+print("All columns in sheet: ", df_no_nan.columns[0:].values, "\n")
 
 # #### Converting csv content to JSON object
-recipes = fillRecipe(df, getRecipeObject(df))
+recipes = fillRecipe(df_no_nan, getRecipeObject(df))
 
 if(troubleshoot):
     print(json.dumps(recipes, indent=4))
