@@ -1,15 +1,15 @@
 <template>
-	<div>
+	<div class="mt-3">
 		<b-row class="mb-4">
 			<b-col cols="12">
 				<h1 class="ml-0">{{ recipe.name }}</h1>
 			</b-col>
 		</b-row>
 		<b-row class="mb-3">
-			<b-col cols="12" md="6" order-md="2">
-				<img :src="require('../assets/recipes/' + recipe.image)" />
+			<b-col cols="12" md="4" order-md="2">
+				<img style="border:1px solid; border-radius: 5px; padding: 5px;" :src="getImage()" />
 			</b-col>
-			<b-col cols="12" md="6" order-md="1">
+			<b-col cols="12" md="8" order-md="1">
 				<div class="mb-3 font-italic">{{ recipe.teaser }}</div>
 				<b-row class="mt-5" style="border-style: 1px black;">
 					<b-col cols="12" class="mb-3">
@@ -27,7 +27,7 @@
 					</b-col>
 				</b-row>
 				<ul v-for="step in recipe.steps" :key="step" class="mb-3">
-					<li>
+					<li class="ml-0">
 						{{ step }}
 					</li>
 				</ul>
@@ -59,6 +59,10 @@ export default class RecipeCard extends AppProps {
 
 	created() {
 		this.recipe = this.$store.state.recipe
+	}
+
+	getImage() {
+		return this.recipe.image === "NaN" || !this.recipe.image ? require("../assets/logo.png") : require("../assets/recipes/" + this.recipe.image)
 	}
 }
 </script>

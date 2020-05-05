@@ -1,7 +1,7 @@
 <template>
 	<b-card
 		:title="name"
-		:img-src="require('../assets/recipes/'+image)"
+		:img-src="getImage()"
 		:img-alt="name"
 		img-top
 		class="mb-4"
@@ -65,6 +65,10 @@ export default class RecipeCard extends AppProps {
 			inspirationlink: this.inspirationlink
 		})
 		this.$router.push({ name: this.path })
+	}
+
+	getImage() {
+		return this.image === "NaN" || !this.image ? require("../assets/logo.png") : require("../assets/recipes/" + this.image)
 	}
 }
 </script>
