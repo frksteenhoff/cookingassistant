@@ -17,7 +17,8 @@ module.exports = {
 		'indent': ["error", "tab"],
 		'no-tabs': ["error", { allowIndentationTabs: true }],
 		'quotes': [2, "double"],
-		'space-before-function-paren': ["error", "never"]
+		'space-before-function-paren': ["error", "never"],
+		'no-var-requires': 0
 	},
 	overrides: [
 		{
