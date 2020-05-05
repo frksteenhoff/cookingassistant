@@ -36,11 +36,12 @@ print("Moving old recipe file to archive ..")
 
 datestr = strftime("%d%m%Y", gmtime()) 
 name = "recipes"
+basePath = '../../data/'
 
-if os.path.isfile('../../data/' + name + ".json"):
-    archivePath = "../../data/archive/" + name + datestr + ".json"
+if os.path.isfile('basePath' + name + ".json"):
+    archivePath = basePath + "archive/" + name + datestr + ".json"
     if not os.path.isfile(archivePath):
-        os.rename('../../data/' + name + ".json", archivePath)
+        os.rename( basePath + name + ".json", archivePath)
         print("Old recipes file moved to archive.")
     print("Recipes file already moved to archive")
 else:
@@ -62,7 +63,9 @@ def getRecipeObject(df):
 
     return recipe
 
-# Convert ingredient string on format "<amount>.<unit>.<ingredient>/<amount>.<unit>.<ingredient>"
+# Convert ingredient string on format "<amount>*<unit>*<ingredient>/<amount>*<unit>*<ingredient>"
+# ingredient separator "/"
+# separator: * (could possibly just work with whitespace?)
 # To 
 # {
 #   amount: <amount>,
@@ -77,7 +80,8 @@ def stringToIngredientObject(string):
 	ingredient = string.split("/")
 
 	for part in ingredient:
-		part2 = part.split(".")
+
+		part2 = part.split("*")
 		
 		if(len(part2) == 3):
 			object["amount"] = part2[0]
@@ -85,7 +89,7 @@ def stringToIngredientObject(string):
 			object["ingredient"] = part2[2] 
 			ingredients.append(object)
 		else:
-			print("ingredient not added correctly, information is: " + part2)
+			print("ingredient not added correctly, information is: ", part2)
 
 		# Resetting object
 		object = { "amount": "", "unit": "", "ingredient": "" } 
@@ -103,9 +107,12 @@ def stringToIngredientObject(string):
 #   inspirationlink: string		link to recipe my recipe is based on
 # }
 def fillRecipe(df, recipeObj):
-	recipe = recipeObj
+	recipe = recipeObj.copy()
 	recipes = []
+	print(recipeObj)
+
 	for i in range(len(df['name'])):
+		print("\nConverting recipe: " + df['name'][i])
 		recipe['name'] = df['name'][i]
 		recipe['teaser'] = df['teaser'][i] 
 		recipe['image'] = df['image'][i]
@@ -113,7 +120,9 @@ def fillRecipe(df, recipeObj):
 		recipe['ingredients'] = stringToIngredientObject(df['ingredients'][i])
 		recipe['steps'] = df['steps'][i].split("/")
 		recipe['inspirationlink'] = df['inspirationlink'][i]
+		print("Converted recipe: ", recipe)
 		recipes.append(recipe)
+		recipe = recipeObj.copy()
 	return recipes
 
 
@@ -126,20 +135,18 @@ def fillRecipe(df, recipeObj):
 print("Converting recipes in CSV file.. ")
 df = pd.read_csv("recipes.csv")
 
-# **Showing basic content**
-df.head()
-
 # Extracting propperties (columns)
 print("All columns in sheet: ", df.columns[0:].values, "\n")
 
 # #### Converting csv content to JSON object
 recipes = fillRecipe(df, getRecipeObject(df))
+
 if(troubleshoot):
     print(json.dumps(recipes, indent=4))
 
 # ### Saving the above struture to a .JSON file
 
 print("Saving object to file as '" + name + ".json'.. ")
-with open('../../data/' + name + '.json', 'w') as f:
+with open(basePath + name + '.json', 'w') as f:
     json.dump(recipes, f)
     print("Conversion completed!")
