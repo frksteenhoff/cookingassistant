@@ -32,8 +32,8 @@
 					</li>
 				</ul>
 				<b-row class="mt-5">
-					<b-col v-if="recipe.inspirationlink" class="font-italic">
-						Jeg har fået inspiration til min opskrift fra <a :href="recipe.inspirationlink">denne opskrift</a>
+					<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
+						<p class="pl-3 m-0">Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a></p>
 					</b-col>
 				</b-row>
 			</b-col>
@@ -66,3 +66,10 @@ export default class RecipeCard extends AppProps {
 	}
 }
 </script>
+
+<style scoped>
+p, li {
+	font-size: 1rem;
+	color: black !important;
+}
+</style>
