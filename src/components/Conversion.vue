@@ -10,7 +10,7 @@
 				<b-form-input
 					v-model="unit"
 					type="number"
-					size="lg"
+					size="md"
 					:placeholder="`${measurementType} i ${fromUnit}`"
 				/>
 			</b-col>
