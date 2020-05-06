@@ -17,6 +17,9 @@
 					</b-col>
 				</b-row>
 				<b-row class="mb-2">
+					<b-col cols="12" class="mb-2">
+						Antal/serveringer: {{ recipe.servings }}
+					</b-col>
 					<b-col cols="4">
 						<b-form-select
 							v-model="numberOfPortions"
@@ -62,33 +65,7 @@ export default class RecipeCard extends AppProps {
 	data() {
 		return {
 			recipe: {},
-			numberOfPortions: null,
-			options: [
-				{
-					text: "Vælg en faktor at gange opskriften med",
-					value: null
-				},
-				{
-					text: 1,
-					value: 1
-				},
-				{
-					text: 2,
-					value: 2
-				},
-				{
-					text: 3,
-					value: 3
-				},
-				{
-					text: 4,
-					value: 4
-				},
-				{
-					text: 4,
-					value: 5
-				}
-			]
+			numberOfPortions: null
 		}
 	}
 
@@ -105,7 +82,7 @@ export default class RecipeCard extends AppProps {
 
 <style scoped>
 p, li {
-	font-size: 1rem;
+	font-size: 0.8rem;
 	color: black !important;
 }
 </style>

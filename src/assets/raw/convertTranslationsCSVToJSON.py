@@ -120,6 +120,8 @@ def fillRecipe(df, recipeObj):
 		recipe['ingredients'] = stringToIngredientObject(df['ingredients'][i])
 		recipe['steps'] = df['steps'][i].split("/")
 		recipe['inspirationlink'] = df['inspirationlink'][i]
+		recipe['servings'] = df['servings'][i]
+		recipe['categories'] = df['categories'][i].split(",")
 		print("Converted recipe: ", recipe)
 		recipes.append(recipe)
 		recipe = recipeObj.copy()
