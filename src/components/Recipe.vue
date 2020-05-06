@@ -16,9 +16,17 @@
 						<h3>Ingredienser</h3>
 					</b-col>
 				</b-row>
+				<b-row class="mb-2">
+					<b-col cols="4">
+						<b-form-select
+							v-model="numberOfPortions"
+							:options="Array(10).fill(1).map((x, y) => x + y)"
+						/>
+					</b-col>
+				</b-row>
 				<ul v-for="item in recipe.ingredients" :key="item.ingredient" class="mb-3">
 					<li>
-						{{ item.amount + " " + item.unit + " " + item.ingredient }}
+						{{ (Number(item.amount) * numberOfPortions) + " " + item.unit + " " + item.ingredient }}
 					</li>
 				</ul>
 				<b-row class="mt-5">
@@ -53,12 +61,40 @@ const AppProps = Vue.extend({
 export default class RecipeCard extends AppProps {
 	data() {
 		return {
-			recipe: {}
+			recipe: {},
+			numberOfPortions: null,
+			options: [
+				{
+					text: "Vælg en faktor at gange opskriften med",
+					value: null
+				},
+				{
+					text: 1,
+					value: 1
+				},
+				{
+					text: 2,
+					value: 2
+				},
+				{
+					text: 3,
+					value: 3
+				},
+				{
+					text: 4,
+					value: 4
+				},
+				{
+					text: 4,
+					value: 5
+				}
+			]
 		}
 	}
 
 	created() {
 		this.recipe = this.$store.state.recipe
+		this.numberOfPortions = 1
 	}
 
 	getImage() {
