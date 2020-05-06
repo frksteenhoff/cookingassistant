@@ -6,13 +6,7 @@
 		<b-row>
 			<b-col cols="12" md="6" lg="4" xl="3" v-for="recipe in recipes" :key="recipe.name">
 				<RecipeCard
-					:name="recipe.name"
-					:teaser="recipe.teaser"
-					:image="recipe.image"
-					:path="recipe.path"
-					:ingredients="recipe.ingredients"
-					:steps="recipe.steps"
-					:inspirationlink="recipe.inspirationlink"
+					:recipe="recipe"
 				/>
 			</b-col>
 		</b-row>
