@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<b-navbar sticky toggleable="lg" type="dark" variant="hest">
-			<b-navbar-brand href="#" class="mb-0 pb-0 pt-0">
+			<b-navbar-brand href="/Home" class="mb-0 pb-0 pt-0">
 				<img src="./assets/logo_cropped.png" style="width: 60px;" />
 			</b-navbar-brand>
 
@@ -13,6 +13,16 @@
 						<b-nav-item :to="link.page">{{ link.text }}</b-nav-item>
 					</div>
 				</b-navbar-nav>
+
+				<b-nav-item-dropdown text="Opskrifter" right>
+					<b-dropdown-item href="#/Recipes">Alle opskrifter</b-dropdown-item>
+					<b-dropdown-item href="#/Recipes">Aftensmad</b-dropdown-item>
+					<b-dropdown-item href="#/Recipes">Morgenmad</b-dropdown-item>
+					<b-dropdown-item href="#/Recipes">Brød</b-dropdown-item>
+					<b-dropdown-item href="#/Recipes">Saucer og dips</b-dropdown-item>
+					<b-dropdown-item href="#/Recipes">Dessert og bagning</b-dropdown-item>
+				</b-nav-item-dropdown>
+
 			</b-collapse>
 		</b-navbar>
 		<div id="content">
@@ -20,24 +30,21 @@
 		</div>
 		<footer>
 			<div class="footerinfo">
-				<p style="font-size: 30px; font-family: 'Permanent Marker'; font-weight: bold">
+				<p class="font-bold m-0" style="font-size: 1rem; font-family: 'Permanent Marker'">
 					Henriette Steenhoff
 					<!-- Adding logo inline -->
 					<span id="insta_logo">
 						<a href="https://www.instagram.com/frksteenhoff/" target="_blank">
-							<img style="float:right;" src="./assets/instagram_logo.png" />
+							<img class="m-4" style="float:right;" src="./assets/instagram_logo.png" />
 						</a>
 					</span>
 				</p>
-				<p>
-					<a
-						href="mailto:henriette.steenhoff@gmail.com?Subject=Vriiinsk"
-						style="padding-left:0"
-						target="_top"
+				<p class="m-0">
+					<a class="pl-0" style="font-size: 0.8rem;" href="mailto:henriette.steenhoff@gmail.com?Subject=Vriiinsk" target="_blank"
 					>henriette.steenhoff@gmail.com</a>
 				</p>
-				<p>
-					<a href="https://www.twitter.com/frksteehoff" style="padding-left:0">@frksteenhoff</a>
+				<p class="p-0 mt-0">
+					<a class="pl-0 m-0" style="font-size: 0.8rem;" href="https://www.twitter.com/frksteehoff">@frksteenhoff</a>
 				</p>
 			</div>
 		</footer>
@@ -56,19 +63,9 @@ const AppProps = Vue.extend({
 export default class App extends AppProps {
 	links = [
 		{
-			id: 0,
-			text: "Hjem",
-			page: "/"
-		},
-		{
 			id: 3,
 			text: "Enhedsoversætter",
 			page: "/UnitConverter"
-		},
-		{
-			id: 4,
-			text: "Opskrifter",
-			page: "/Recipes"
 		}
 	];
 }
@@ -77,18 +74,6 @@ export default class App extends AppProps {
 <style>
 @import url("//fonts.googleapis.com/css?family=Permanent+Marker:300,400,600,700&amp;lang=en");
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=en");
-
-@media only screen and (max-width: 480px) {
-	h1 {
-		font-size: 18px !important;
-	}
-	h2 {
-		font-size: 14px !important;
-	}
-	h3 {
-		font-size: 12px !important;
-	}
-}
 
 body {
 	margin: 0;
@@ -144,13 +129,17 @@ h2 {
 }
 h1 {
 	font-family: "Permanent Marker";
-	background-color: #dfcbc7;
+	background-color: #005f6a;
 	color: #ffffff;
 	display: inline;
 	margin: 0.75rem 41px;
+	font-size: 1.75rem !important;
+}
+h2 {
+	font-size: 1.4rem !important;
 }
 p {
-	font-size: 26px;
+	font-size: 1rem;
 	line-height: 1.4;
 	margin-left: 21px;
 	margin-right: 21px;
