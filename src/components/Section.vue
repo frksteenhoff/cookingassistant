@@ -5,9 +5,9 @@
 				<h1>{{ header }}</h1>
 			</b-col>
 		</b-row>
-		<b-row>
-			<b-col>
-				<p>{{ content }}</p>
+		<b-row class="mb-3">
+			<b-col cols="12" v-for="section in content.split('*')" :key="section">
+				<p>{{ section }}</p>
 			</b-col>
 		</b-row>
 	</b-container>
