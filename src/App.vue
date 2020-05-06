@@ -106,7 +106,7 @@ a.link-item {
 }
 
 #content {
-	min-height: 1000px;
+	min-height: 800px;
 }
 
 #nav-collapse.navbar-collapse.collapse,
