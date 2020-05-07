@@ -2,6 +2,7 @@ import Vue from "vue"
 import VueRouter, { RouteConfig } from "vue-router"
 import Home from "../views/Home.vue"
 import NotFound from "../views/NotFound.vue"
+import FoodLinks from "../views/FoodLinks.vue"
 
 Vue.use(VueRouter)
 
@@ -18,6 +19,11 @@ const routes: Array<RouteConfig> = [
 		// this generates a separate chunk (conversion.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () => import(/* webpackChunkName: "conversion" */ "../views/UnitConverter.vue")
+	},
+	{
+		path: "/FoodLinks",
+		name: "Madlinks",
+		component: FoodLinks
 	},
 	{
 		path: "/Recipes",

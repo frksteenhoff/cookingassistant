@@ -8,12 +8,6 @@
 			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
 			<b-collapse id="nav-collapse" is-nav>
-				<b-navbar-nav>
-					<div v-for="link in links" :key="link.id">
-						<b-nav-item :to="link.page">{{ link.text }}</b-nav-item>
-					</div>
-				</b-navbar-nav>
-
 				<b-nav-item-dropdown text="Opskrifter" right>
 					<b-dropdown-item href="#/Recipes">Alle opskrifter</b-dropdown-item>
 					<b-dropdown-item href="#/Recipes">Aftensmad</b-dropdown-item>
@@ -22,6 +16,12 @@
 					<b-dropdown-item href="#/Recipes">Saucer og dips</b-dropdown-item>
 					<b-dropdown-item href="#/Recipes">Dessert og bagning</b-dropdown-item>
 				</b-nav-item-dropdown>
+
+				<b-navbar-nav>
+					<div v-for="link in links" :key="link.id">
+						<b-nav-item :to="link.page">{{ link.text }}</b-nav-item>
+					</div>
+				</b-navbar-nav>
 
 			</b-collapse>
 		</b-navbar>
@@ -66,6 +66,11 @@ export default class App extends AppProps {
 			id: 3,
 			text: "Enhedsoversætter",
 			page: "/UnitConverter"
+		},
+		{
+			id: 4,
+			text: "Andre madlinks",
+			page: "/FoodLinks"
 		}
 	];
 }
