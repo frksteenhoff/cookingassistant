@@ -98,36 +98,25 @@ body {
 	color: #bf988f;
 }
 
-#content {
-	min-height: 800px;
-}
-
 ul.navbar-nav {
 	margin-top: 0;
+}
+nav,
+li a.nav-link,
+a.link-item {
+	color: #ffffff !important;
+	font-size: 30px;
+	font-family: "Permanent Marker";
+	background-color: #bf988f !important;
+}
+
+#content {
+	min-height: 800px;
 }
 
 #nav-collapse.navbar-collapse.collapse,
 nav {
 	height: 4.5rem;
-}
-
-nav,
-li a.nav-link {
-	color: #ffffff !important;
-	font-size: 1.5rem;
-	font-family: "Permanent Marker";
-	background-color: #bf988f !important;
-}
-
-a {
-	color: #bf988f !important;
-	text-decoration: none !important;
-}
-
-a:hover, a.nav.link:hover {
-	opacity: 0.5 !important;
-	text-decoration: none !important;
-	color: #000000 !important;
 }
 
 img {
@@ -136,20 +125,13 @@ img {
 	width: 100%;
 	justify-content: center;
 }
-
-p, h1, h2 {
+p,
+h1,
+h2 {
 	font-weight: normal;
 	padding-left: 21px;
 	padding-right: 21px;
 }
-
-p {
-	font-size: 1rem;
-	line-height: 1.4;
-	margin-left: 21px;
-	margin-right: 21px;
-}
-
 h1 {
 	font-family: "Permanent Marker";
 	background-color: #005f6a;
@@ -158,11 +140,15 @@ h1 {
 	margin: 0.75rem 41px;
 	font-size: 1.75rem !important;
 }
-
 h2 {
 	font-size: 1.4rem !important;
 }
-
+p {
+	font-size: 1rem;
+	line-height: 1.4;
+	margin-left: 21px;
+	margin-right: 21px;
+}
 ul {
 	list-style-type: none;
 	padding: 0;
@@ -182,7 +168,22 @@ li {
 	background-color: #bf988f;
 	color: #ffffff;
 }
+a {
+	color: #bf988f !important;
+	text-decoration: none !important;
+	padding: 5px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
 
+a:hover,
+a.nav.link:hover {
+	/*text-decoration: underline !important;*/
+	background: #bf988f;
+	opacity: 0.5 !important;
+	text-decoration: none !important;
+	color: #000000 !important;
+}
 footer {
 	width: 100%;
 	position: absolute;
@@ -200,5 +201,16 @@ footer {
 	padding-left: 21px;
 	text-decoration: none !important;
 	color: #ffffff !important;
+}
+p.top_line {
+	font-weight: bold;
+}
+p.end_line {
+	margin-top: 4em;
+	font-size: 30px;
+	font-family: "Permanent Marker";
+}
+.under_header {
+	margin-top: 21px;
 }
 </style>
