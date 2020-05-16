@@ -29,10 +29,6 @@ const AppProps = Vue.extend({
 	}
 })
 export default class Recipes extends AppProps {
-	data() {
-		return {
-			recipes: excelrecipes.concat(formrecipes)
-		}
-	}
+	recipes: RecipeObject[] = excelrecipes.concat(formrecipes)
 }
 </script>

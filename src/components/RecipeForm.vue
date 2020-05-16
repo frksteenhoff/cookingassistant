@@ -12,16 +12,36 @@
 			<b-col cols="12">
 				Overordnet
 			</b-col>
-			<b-col cols="12" md="6">
+			<b-col cols="12" md="8" xl="6">
 				<small>Titel</small>
 				<b-form-input
 					v-model="recipe.name"
 				/>
 			</b-col>
-			<b-col cols="12" md="6">
+			<b-col cols="12" md="8" xl="6">
 				<small>Kort beskrivelse</small>
 				<b-form-textarea
 					v-model="recipe.teaser"
+					placeholder="Giv en kort beskrivelse af din ret"
+					rows="2"
+					max-rows="4"
+					size="sm"
+				/>
+			</b-col>
+			<b-col cols="12" md="8" xl="6">
+				<small>Tilberedningstid</small>
+				<b-form-textarea
+					v-model="recipe.preparationtime"
+					placeholder="Giv en kort beskrivelse af din ret"
+					rows="2"
+					max-rows="4"
+					size="sm"
+				/>
+			</b-col>
+			<b-col cols="12" md="8" xl="6">
+				<small>Antal serveringer</small>
+				<b-form-textarea
+					v-model="recipe.servings"
 					placeholder="Giv en kort beskrivelse af din ret"
 					rows="2"
 					max-rows="4"
@@ -136,34 +156,37 @@ const AppProps = Vue.extend({
 	}
 })
 export default class RecipeForm extends AppProps {
-	recipe = {
+	recipe: RecipeObject = {
 		name: "",
 		teaser: "",
 		image: "",
 		ingredients: [
 			{
-				amount: 0,
+				amount: "",
 				unit: "",
 				ingredient: "f.eks hvedemel"
 			},
 			{
-				amount: 0,
+				amount: "",
 				unit: "",
 				ingredient: "f.eks vand"
 			},
 			{
-				amount: 0,
+				amount: "",
 				unit: "",
 				ingredient: "f.eks salt"
 			}
 		],
 		steps: ["", "", ""],
-		path: "description" // default
+		path: "description", // default
+		servings: "",
+		preparationtime: "",
+		categories: []
 	}
 
 	addIngredient() {
 		this.recipe.ingredients.push({
-			amount: 0,
+			amount: "",
 			unit: "",
 			ingredient: ""
 		})

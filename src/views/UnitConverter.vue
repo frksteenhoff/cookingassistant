@@ -8,7 +8,7 @@
 		<div v-for="combination in combinations" :key="combination.from+combination.to">
 			<Conversion :fromUnit="combination.from" :toUnit="combination.to" />
 		</div>
-		<b-row>
+		<b-row v-if="conversionReady">
 			<b-col cols="12" class="mt-5">
 				<h1 class="m-0">Byg-selv-enhedskonvertering</h1>
 			</b-col>
@@ -30,23 +30,20 @@ const AppProps = Vue.extend({
 	}
 })
 export default class UnitConverter extends AppProps {
-	data() {
-		return {
-			combinations: [
-				{
-					from: "fahrenheit",
-					to: "celsius"
-				},
-				{
-					from: "cups",
-					to: "deciliter"
-				},
-				{
-					from: "ounces",
-					to: "grams"
-				}
-			]
+	conversionReady = false
+	combinations: ConversionObject[] = [
+		{
+			from: "fahrenheit",
+			to: "celsius"
+		},
+		{
+			from: "cups",
+			to: "deciliter"
+		},
+		{
+			from: "ounces",
+			to: "grams"
 		}
-	}
+	]
 }
 </script>
