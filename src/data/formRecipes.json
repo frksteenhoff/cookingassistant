@@ -136,7 +136,7 @@
 		],
 		"servings": "",
 		"categories": ["marinade", "aftensmad"],
-		"preparation_time": "",
+		"preparation_time": "30 min",
 		"path": "description"
 	},
 	{
@@ -463,7 +463,7 @@
 	},
 	{
 		"name": "Marinade til grøntsagsspyd",
-		"teaser": "",
+		"teaser": "God marinade til at gøre dine grøntsagsspyd klar til en tur på grillen.",
 		"image": "",
 		"ingredients": [
 			{
