@@ -83,6 +83,5 @@ export default class RecipeCard extends AppProps {
 <style scoped>
 p, li {
 	font-size: 0.8rem;
-	color: black !important;
 }
 </style>

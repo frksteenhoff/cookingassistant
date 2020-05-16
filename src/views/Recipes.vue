@@ -16,7 +16,8 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
 import RecipeCard from "@/components/RecipeCard.vue"
-import allrecipes from "@/data/recipes.json"
+import excelrecipes from "@/data/recipes.json"
+import formrecipes from "@/data/formRecipes.json"
 
 const AppProps = Vue.extend({
 	props: {}
@@ -25,13 +26,14 @@ const AppProps = Vue.extend({
 @Component({
 	components: {
 		RecipeCard,
-		allrecipes
+		excelrecipes,
+		formrecipes
 	}
 })
 export default class Recipes extends AppProps {
 	data() {
 		return {
-			recipes: allrecipes
+			recipes: excelrecipes.concat(formrecipes)
 		}
 	}
 }

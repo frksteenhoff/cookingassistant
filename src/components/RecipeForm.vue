@@ -1,0 +1,184 @@
+<template>
+	<div>
+		<b-row>
+			<b-col cols="12" class="mt-4">
+				<h1 class="ml-4 mt-4">Opret opskrift</h1>
+			</b-col>
+			<b-col class="mt-4">
+				<p>Her kan du oprette en opskrift og sende den til godkendelse af mig. Hvis jeg synes om opskriften bliver den en del af "læseropskrifter".</p>
+			</b-col>
+		</b-row>
+		<b-row class="m-2">
+			<b-col cols="12">
+				Overordnet
+			</b-col>
+			<b-col cols="12" md="6">
+				<small>Titel</small>
+				<b-form-input
+					v-model="recipe.name"
+				/>
+			</b-col>
+			<b-col cols="12" md="6">
+				<small>Kort beskrivelse</small>
+				<b-form-textarea
+					v-model="recipe.teaser"
+					placeholder="Giv en kort beskrivelse af din ret"
+					rows="2"
+					max-rows="4"
+					size="sm"
+				/>
+			</b-col>
+		</b-row>
+		<b-row class="m-2">
+			<b-col cols="12">
+				Ingredienser
+			</b-col>
+		</b-row>
+		<b-row v-for="(ing, index) in recipe.ingredients" :key="index" class="m-2">
+			<b-col cols="12" sm="4" lg="3">
+				<small>Mængde</small>
+				<b-form-input
+					v-model="ing.amount"
+				/>
+			</b-col>
+			<b-col cols="12" sm="3" lg="2">
+				<small>Enhed</small>
+				<b-form-select
+					v-model="ing.unit"
+					:options="$store.state.units"
+				/>
+			</b-col>
+			<b-col cols="12" sm="4" lg="3">
+				<small>Ingrediens</small>
+				<b-form-input
+					v-model="ing.ingredient"
+				/>
+			</b-col>
+			<b-col cols="1" class="mt-4 ml-0 pl-0" @click="deleteRow(index)">
+					x
+			</b-col>
+		</b-row>
+		<b-row class="m-2 mt-4 mb-4">
+			<b-col>
+				<b-button
+					variant="outline-secondary"
+					@click="addIngredient()"
+				>
+					Tilføj række
+				</b-button>
+			</b-col>
+		</b-row>
+		<b-row class="m-2">
+			<b-col cols="12">
+				Fremgangsmåde
+			</b-col>
+		</b-row>
+		<b-row v-for="(step, index) in recipe.steps" :key="index" class="m-2">
+			<b-col cols="11" md="6" xl="4">
+				<small>Step {{ index + 1 }}</small>
+				<b-textarea
+					v-model="recipe.steps[index]"
+					placeholder="Beskriv hvordan retten tilberedes"
+					size="sm"
+				/>
+			</b-col>
+			<b-col cols="1" class="mt-4 ml-0 pl-0" @click="deleteStep(index)">
+					x
+			</b-col>
+		</b-row>
+		<b-row class="m-2 mt-4 mb-4">
+			<b-col>
+				<b-button
+					variant="outline-secondary"
+					@click="addStep()"
+				>
+					Tilføj step
+				</b-button>
+			</b-col>
+		</b-row>
+		<b-row class="m-2 mb-0">
+			<b-col cols="16" md="8">
+				<FormTag />
+			</b-col>
+		</b-row>
+		<b-row class="m-2">
+			<b-button
+				variant="success"
+				class="ml-3 mt-4"
+			>
+				<a :href="'mailto:henriette.steenhoff@gmail.com?subject=' + recipe.name + '&body=' + JSON.stringify(recipe, undefined, 4)">Indsend</a>
+			</b-button>
+		</b-row>
+		<b-row class="ml-2 mt-5 mb-5">
+			<b-col cols="12" class="mb-4">
+				Forhåndsvisning af opskrift
+			</b-col>
+			<b-col cols="12" md="6">
+				{{ JSON.stringify(recipe, undefined, 4) }}
+			</b-col>
+		</b-row>
+	</div>
+</template>
+
+<script lang="ts">
+import { Vue, Component } from "vue-property-decorator"
+import FormTag from "@/components/form-tag-list.vue"
+
+const AppProps = Vue.extend({
+	props: {
+	}
+})
+
+@Component({
+	components: {
+		Vue,
+		FormTag
+	}
+})
+export default class RecipeForm extends AppProps {
+	recipe = {
+		name: "",
+		teaser: "",
+		image: "",
+		ingredients: [
+			{
+				amount: 0,
+				unit: "",
+				ingredient: "f.eks hvedemel"
+			},
+			{
+				amount: 0,
+				unit: "",
+				ingredient: "f.eks vand"
+			},
+			{
+				amount: 0,
+				unit: "",
+				ingredient: "f.eks salt"
+			}
+		],
+		steps: ["", "", ""],
+		path: "description" // default
+	}
+
+	addIngredient() {
+		this.recipe.ingredients.push({
+			amount: 0,
+			unit: "",
+			ingredient: ""
+		})
+	}
+
+	addStep() {
+		this.recipe.steps.push("")
+	}
+
+	deleteStep(index: number) {
+		this.recipe.steps.splice(index, 1)
+	}
+
+	deleteRow(index: number) {
+		this.recipe.ingredients.splice(index, 1)
+	}
+}
+</script>

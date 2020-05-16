@@ -5,7 +5,9 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
 	state: {
-		recipe: Object
+		recipe: Object,
+		units: ["ml", "dl", "L", "F", "C", "K", "tsk", "spsk", "knivspis", "g", "kg", "stk", "bundt"],
+		tags: ["aftensmad", "snack", "brød", "bagning", "dessert", "specielle anledninger", "sause", "dip", "morgenmad", "frokost", "marinade", "drink"]
 	},
 	mutations: {
 		setRecipe(state, recipeObject) {

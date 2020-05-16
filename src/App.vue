@@ -43,8 +43,8 @@
 					<a class="pl-0" style="font-size: 0.8rem;" href="mailto:henriette.steenhoff@gmail.com?Subject=Vriiinsk" target="_blank"
 					>henriette.steenhoff@gmail.com</a>
 				</p>
-				<p class="p-0 mt-0">
-					<a class="pl-0 m-0" style="font-size: 0.8rem;" href="https://www.twitter.com/frksteehoff">@frksteenhoff</a>
+				<p class="mt-0">
+					<a class="pl-0" style="font-size: 0.8rem;" href="https://www.twitter.com/frksteehoff">@frksteenhoff</a>
 				</p>
 			</div>
 		</footer>
@@ -71,6 +71,11 @@ export default class App extends AppProps {
 			id: 4,
 			text: "Andre madlinks",
 			page: "/FoodLinks"
+		},
+		{
+			id: 5,
+			text: "Opret",
+			page: "/Create"
 		}
 	];
 }
@@ -138,10 +143,9 @@ img {
 }
 
 p {
-	font-size: 1rem;
 	line-height: 1.4;
-	margin-left: 21px;
-	margin-right: 21px;
+	font-size: 1rem;
+	color: black !important;
 }
 
 p, h1, h2 {

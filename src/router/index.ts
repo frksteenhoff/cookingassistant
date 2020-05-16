@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from "vue-router"
 import Home from "../views/Home.vue"
 import NotFound from "../views/NotFound.vue"
 import FoodLinks from "../views/FoodLinks.vue"
+import Create from "../views/Create.vue"
 
 Vue.use(VueRouter)
 
@@ -24,6 +25,11 @@ const routes: Array<RouteConfig> = [
 		path: "/FoodLinks",
 		name: "Madlinks",
 		component: FoodLinks
+	},
+	{
+		path: "/Create",
+		name: "Opret",
+		component: Create
 	},
 	{
 		path: "/Recipes",

@@ -1,0 +1,196 @@
+[
+	{
+		"name": "Pulled pork",
+		"teaser": "Langtidsstegt nakkefilet i stærk marinade.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "kg",
+				"ingredient": "nakkefilet"
+			},
+			{
+				"amount": "12",
+				"unit": "g",
+				"ingredient": "brun farin"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "løg"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "teriyaki"
+			},
+			{
+				"amount": "0.25",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "æblejuice"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "whiskey"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "tabasco"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "ketchup"
+			}
+		],
+		"steps": [
+			"Pil og hak rød- og hvidløg og brun dem på en pande",
+			"Tilsæt brun farin, teriyaki, soya, whiskey og ketchup",
+			"Saucen varmes herefter op til kogepunktet og simrer derefter i 30 min under jævn omrøring.",
+			"Smag saucen til -- den skal være sød, syrlig og stærk.",
+			"Rens nakkefileten for sener og fedt",
+			"Rub marinaden ind i købet og læg derefter kødet i en pose med den resterende del af marinaden."
+		],
+		"path": "description"
+	},
+	{
+		"name": "Coleslaw",
+		"teaser": "Kål- og gulerodsslaw bruges som tilbehør til blandt andet brugere og fish tacos.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "gulerødder"
+			},
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "hvidkål"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "dijon sennep"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "100",
+				"unit": "ml",
+				"ingredient": "æblecider eddike"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "1 ",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "creme fraiche"
+			},
+			{
+				"amount": "1.5",
+				"unit": "dl",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "sukker"
+			}
+		],
+		"steps": [
+			"Skræl og riv gulerødder og hvidkål",
+			"Bland honning, dijon, ælbecidereddike, salt, sukker, spidskommen og peber og bland med gulerod/kål-blandingen",
+			"Bland creme fraiche, mayo sukker og salt og hæld det over coleslawen."
+		],
+		"path": "description"
+	},
+	{
+		"name": "Blåbærmuffins",
+		"teaser": "Lyse muffins med blåbær",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "1.5",
+				"unit": "tsk",
+				"ingredient": "bagepulver"
+			},
+			{
+				"amount": "0.25",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "125",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "225",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "2",
+				"unit": "knivspis",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "vanillesukker"
+			},
+			{
+				"amount": "1.25",
+				"unit": "dl",
+				"ingredient": "sødmælk"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "blåbær (friske))"
+			}
+		],
+		"steps": [
+			"Tænd ovnen på 190 grader",
+			"Rør mel, bagepulver og salt sammen og sæt det til side.",
+			"Pisk sukker og smør sammen til det er lyst -- tilsæt æggene et af gangen. ",
+			"Bland vanille og mælk i og vend melblandingen og bærrene i.",
+			"Hæld blandingen i forme og bag i ca. 12 minutter eller til når de er gyldne."
+		],
+		"path": "description"
+	}
+]
