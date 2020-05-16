@@ -63,7 +63,10 @@
 			"Rens nakkefileten for sener og fedt",
 			"Rub marinaden ind i købet og læg derefter kødet i en pose med den resterende del af marinaden."
 		],
-		"path": "description"
+		"servings": "",
+		"categories": ["marinade"],
+		"preparation_time": "1.5 time",
+        "path": "description"
 	},
 	{
 		"name": "Coleslaw",
@@ -131,6 +134,9 @@
 			"Bland honning, dijon, ælbecidereddike, salt, sukker, spidskommen og peber og bland med gulerod/kål-blandingen",
 			"Bland creme fraiche, mayo sukker og salt og hæld det over coleslawen."
 		],
+		"servings": "",
+		"categories": ["marinade", "aftensmad"],
+		"preparation_time": "",
 		"path": "description"
 	},
 	{
@@ -191,6 +197,1281 @@
 			"Bland vanille og mælk i og vend melblandingen og bærrene i.",
 			"Hæld blandingen i forme og bag i ca. 12 minutter eller til når de er gyldne."
 		],
-		"path": "description"
+		"servings": "12 stk",
+		"categories": ["dessert", "specielle anledninger"],
+		"preparation_time": "30 min",
+        "path": "description"
+	},
+	{
+		"name": "Misomayo",
+		"teaser": "Lækker mayonnaise med et japansk twist",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "miso"
+			},
+			{
+				"amount": "1.5",
+				"unit": "dl",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "finthakket skalloteløg"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "citronsaft"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "peber"
+			}
+		],
+		"steps": [
+			"Bland alle ingredienser og spis som dip eller toppings til tacos, sushi, rå fisk eller lignende."
+		],
+		"servings": "2 dl",
+		"categories": ["dip"],
+		"preparation_time": "10 min",
+        "path": "description"
+	},
+	{
+		"name": "Spicy chili dip",
+		"teaser": "Til japanske retter som friske rispapirsruller, roårsruller, sushi, sashimi, bao og lign.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "chili (hel)"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "hvidløg (fed)"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "koriander (eller frisk)"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "limesaft"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			}
+		],
+		"steps": [
+			"Bland alle ingredienser og lad stå 15 min inden brug.",
+			"",
+			""
+		],
+		"servings": "2 dl",
+		"categories": ["dip"],
+		"preparation_time": "25 min",
+        "path": "description"
+	},
+	{
+		"name": "Soyadressing",
+		"teaser": "Til japanske retter",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "skalotteløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "riseddike"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "rapsolie"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "sesamolie"
+			}
+		],
+		"steps": [
+			"Bland alle ingredienser og lad stå minimum 15 min inden brug.",
+			"",
+			""
+		],
+		"servings": "2dl",
+		"categories": ["dressing"],
+		"preparation_time": "15 min",
+                "path": "description"
+	},
+	{
+		"name": "Kahlua",
+		"teaser": "Lækker kaffedrink med vodka",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "1",
+				"unit": "kg",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "10",
+				"unit": "spsk",
+				"ingredient": "instant kaffe"
+			}
+		],
+		"steps": [
+			"Kog vand, sukker og instant kaffe ind til en tyk sirup, blandingen må ikke koge og skal helst ikke over medium varme. Hvis kaffen brænder vil sirupen også smage brændt. Lad den stå på varme i 4-6 timer, til blandingen er tyk.",
+			"Køl siruppen ned til den er helt kold. Bland herfter vodka i og opbevar på køl. ",
+			""
+		],
+		"servings": "1-1.5L kahlua",
+		"categories": ["drink", "dessert"],
+		"preparation_time": "6-7 timer",
+        "path": "description"
+	},
+	{
+		"name": "Syltede rødløg",
+		"teaser": "Til tacos, åbne sandwiches, salater etc.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "rødløg"
+			},
+			{
+				"amount": "4",
+				"unit": "dl",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "hele peberkorn"
+			}
+		],
+		"steps": [
+			"Skær løgene i tynde skiver og kom den i en beholder.",
+			"Kog eddike og sukker op i en gryde sammen med peberkornene og lad stå over varme indtil sukkeret er opløst.",
+			"Hæld den kogende lage over løgene, lad det køle af på køkkenbordet og opbevar derefter i køleskabet."
+		],
+		"servings": "1 stort sylteglas",
+		"categories": ["tilbehør"],
+		"preparation_time": "20 min",
+        "path": "description"
+	},
+	{
+		"name": "Marinade til grillspyd (kød)",
+		"teaser": "Marinade til grillspyd med kød",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "sweet chili sauce"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "ketchup"
+			},
+			{
+				"amount": "1 dl",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "hvidløg (fed)"
+			},
+			{
+				"amount": "5",
+				"unit": "g",
+				"ingredient": "brun farin"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber"
+			}
+		],
+		"steps": [
+			"Bland alle ingredienser og lad mariaden trække 15 minutter før den påføres kødet.",
+			"",
+			""
+		],
+		"servings": "5 dl",
+		"categories": ["marinade"],
+		"preparation_time": "25 min",
+        "path": "description"
+	},
+	{
+		"name": "Marinade til grøntsagsspyd",
+		"teaser": "",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2.4",
+				"unit": "dl",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "10",
+				"unit": "dl",
+				"ingredient": "ketchup"
+			},
+			{
+				"amount": "10",
+				"unit": "g",
+				"ingredient": "brun farin"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "0.25",
+				"unit": "dl",
+				"ingredient": "worhestershire sauce"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "cayenne peber"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "hvidløg (fed)"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "chilipulver"
+			}
+		],
+		"steps": [
+			"Pil hvidløg",
+			"Bland olivenolie, ketchup, brun farin, soya, worchestershire sauce og peber",
+			"Tilføj hvidløgene til blandingen og smag til med salt, peber og chili."
+		],
+		"servings": "3-4 dl",
+		"categories": ["marinade"],
+		"preparation_time": "20 min",
+        "path": "description"
+	},
+	{
+		"name": "Hoisin sauce",
+		"teaser": "",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "fermenterede sorte bønner (blødgjort i vand i en time og derefter drænet for vand"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "olie"
+			},
+			{
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "hvidløg (fed)"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "ingefær, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "forårsløg, finthakket"
+			},
+			{
+				"amount": "120",
+				"unit": "ml",
+				"ingredient": "grøntsags- eller hønsebuillion"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "risvin"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sriracha"
+			},
+			{
+				"amount": "1.5",
+				"unit": "tsk",
+				"ingredient": "maizena"
+			}
+		],
+		"steps": [
+			"Bland alt og voilá!",
+			"",
+			""
+		],
+		"servings": "4 dl",
+		"categories": ["sauce"],
+		"preparation_time": "1.5 time",
+        "path": "description"
+	},
+	{
+		"name": "Fucking lækre veggiedeller",
+		"teaser": "Når du vil prøve noget andet end frikadeller og ikke vil bllive skuffet over hverken smag eller tekstur.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "blomkål"
+			},
+			{
+				"amount": "2-3",
+				"unit": "stk",
+				"ingredient": "rødbeder (fint revet)"
+			},
+			{
+				"amount": "70",
+				"unit": "g",
+				"ingredient": "parmesan"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "forårsløg"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "rasp"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "purløg (klip 2-3 cm af og hak fint)"
+			},
+			{
+				"amount": "5-6",
+				"unit": "stk",
+				"ingredient": "soltørrede tomater (skiver)"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "persille (stilke)"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "chilipulver"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "paprika"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "smør (til stegning)"
+			}
+		],
+		"steps": [
+			"Bland alle ingredienser sammen i en skål. Lad blandingen stå i 5-10 minutter. ",
+			"Hvis dejen virker for våd, bland mere rasp i.",
+			"Smag til med salt of peber.",
+			"Steg gyldne/til de har fået en god skorpe på begge sider."
+		],
+		"servings": "30 deller",
+		"categories": ["aftensmad", "tilbehør"],
+		"preparation_time": "35 min",
+        "path": "description"
+	},
+	{
+		"name": "Stegte kyllingelår med tomat og peberfrugt",
+		"teaser": "En lækker, cremet paprikasauce til at give kyllingen god smag. Perfekt efterårsret.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "600",
+				"unit": "g",
+				"ingredient": "kyllingestykker med ben/skind/lår/bryst"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "grillede røde peberfrugter (200g)"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "hakkede tomater"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "hvidløg (fed)"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "herbes de provence"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "cayenne peber"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "paprika"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "peberfrugt, skåret i strimler"
+			},
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "madlavningsfløde"
+			}
+		],
+		"steps": [
+			"Put olivenolien på en pande",
+			"Brun kyllingestykkerne på alle sider ved høj varme (og skru derefter ned til lav varme)",
+			"Kom peberfrugt, tomat, løg, hvidløg og krydderier i en blender og blend til en ensartet masse.",
+			"Held saucen over kyllingestykkerne på panden og blad det sammen.",
+			"Kom låg på og lad det hele simre ved lav varme i 25-30 min.",
+			"Skru derefter op for varmen og tilsæt peberfrugtstrimlerne og fløde og lad stå på varmen i 2-3 min. Smag til med salt og peber",
+			"Server med ris og evt. frisk basilikum."
+		],
+		"servings": "2-3 personer",
+		"categories": ["aftensmad"],
+		"preparation_time": "1 time",
+        "path": "description"
+	},
+	{
+		"name": "Mangosalsa",
+		"teaser": "Den perfekte salsa til alle former for tacos",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "mango, fintskåret"
+			},
+			{
+				"amount": "10",
+				"unit": "stk",
+				"ingredient": "cherry tomater"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rødløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rød chili, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "bundt",
+				"ingredient": "koriander"
+			}
+		],
+		"steps": [
+			"Bland alle ingredienser",
+			"Lad salsaen stå på køl i 30 min inden brug. Smag til med lime",
+			""
+		],
+		"servings": "3-4 personer",
+		"categories": ["sause"],
+		"preparation_time": "40 min",
+        "path": "description"
+	},
+	{
+		"name": "Pulled chicken",
+		"teaser": "Frisk og spicy marinade til pulled chicken",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "brun farin"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "paprika"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "rødløg"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "ketchup/sweet chili sauce"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "chili"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "hvidløg (fed)"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "kyllingefilleter"
+			}
+		],
+		"steps": [
+			"Kog de to kyllingebryster i ca. 15 min (til de er gennemkogt) ",
+			"Tag kyllingen af blusset og riv kødet fra hinanden med to gafler",
+			"Hak hvidløg fint og bland med resterende ingredienser",
+			"Hæld blandingen ud over det revede kylling.",
+			"Server f.eks. til madpandekager eller tacos."
+		],
+		"servings": "3-4 personer",
+		"categories": ["aftensmad", "tilbehør"],
+		"preparation_time": "35 min",
+        "path": "description"
+	},
+	{
+		"name": "Brun sovs med myseost",
+		"teaser": "God til f.eks. and eller som en erstatning, hvor du ellers ville bruge alm. brun sovs.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "svinebullion (2 tern)"
+			},
+			{
+				"amount": "15",
+				"unit": "g",
+				"ingredient": "tyttebærsyltetøj"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "myseost (eller mere, smag dig frem)"
+			},
+			{
+				"amount": "10",
+				"unit": "g",
+				"ingredient": "salt"
+			}
+		],
+		"steps": [
+			"Smelt smørret til det er skummet af",
+			"Kom mel i og brun det lidt",
+			"Hæld langsomt fløde i",
+			"Kom derefter ost, marmelade og buillon i",
+			"Tilføj sovsekulør til det ser godt ud",
+			"Smag til med salt."
+		],
+		
+		"servings": "3 dl",
+		"categories": ["tilbehør"],
+		"preparation_time": "30 min",
+        "path": "description"
+	},
+	{
+		"name": "Jakobs chokoladekugler",
+		"teaser": "En lækkert dessert eller snack, når du er lækkersulten",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "sorte bønner (dåse)"
+			},
+			{
+				"amount": "15",
+				"unit": "stk",
+				"ingredient": "dadler (uden sten)"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "kakao"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "vanillepulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "romessens"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "stærkt shot espresso"
+			}
+		],
+		"steps": [
+			"Lad bønnerne dryppe godt af og blend alle ingredienser til det bliver en ensartet masse.",
+			"Smag til med salt",
+			""
+		],
+		"servings": "20 kugler",
+		"categories": ["dessert", "snack"],
+		"preparation_time": "30 min",
+        "path": "description"
+	},
+	{
+		"name": "Svampetacos",
+		"teaser": "",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "portobellosvampe"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "chili"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "paprika"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, stort, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "peberfrugter, groft skåret"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime, saften"
+			}
+		],
+		"steps": [
+			"Hak løgene fint og steg dem på en pande. Tilføj svampene og peberfrugter og brun det af.",
+			"Når peberfrugterne begynder at blive bløde tilsættes alle krydderier og lime, som steges godt af.",
+			"Serveres som tilbehør til tacoes sammen med creme fraiche, lime, koriander, oliven, ost, løg, tomat, salsa og avocado"
+		],
+		"servings": "fyld til 10 tacos",
+		"categories": ["aftensmad"],
+		"preparation_time": "30 min",
+        "path": "description"
+	},
+	{
+		"name": "Kartoffelsalat",
+		"teaser": "En god, let kartoffelsalat. Skøn som tilbehør til enhver sommerret.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "kg",
+				"ingredient": "kartofler"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "3",
+				"unit": "dl",
+				"ingredient": "ymer"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "creme fraiche"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "eddike"
+			},
+			{
+				"amount": "10",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "rødløg"
+			}
+		],
+		"steps": [
+			"Kog kartoflerne og lad dem køle af i gryden efter vandet er hældt fra",
+			"Hak rødløg",
+			"Bland de resterende ingredienser og tilsæt rødløg",
+			"Hæld blandingen over de kolde kartofler og opbevar kartoffelsalaten på køl inden de skal bruges."
+		],
+		"servings": "10 personer",
+		"categories": ["tilbehør", "dressing"],
+		"preparation_time": "40 min",
+        "path": "description"
+	},
+	{
+		"name": "Madpandekager med spinat",
+		"teaser": "Madpandekager, kan bruges som erstatning til alle retter, hvor du ellers ville bruge tortillas.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "spinat, hakket fra frost"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "3.5",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "smør (til stegning)"
+			}
+		],
+		"steps": [
+			"Bland æg, mælk, olie og spinat.",
+			"Tilføj mel og rør til dejen er jævn. Lad dejen stå i 5-10 minutter.",
+			"Steg evt. lidt bacon og bland i pandekagen dejen",
+			"Steg pandekagerne og server med det samme."
+		],
+		"servings": "8-10 pandekager",
+		"categories": ["aftensmad"],
+		"preparation_time": "45 min",
+        "path": "description"
+	},
+	{
+		"name": "Dahl",
+		"teaser": "Stærk, velsmagende linsesuppe",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "røde linser"
+			},
+			{
+				"amount": "150",
+				"unit": "ml",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "tomatpuré (dåse)"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "hakkede tomater"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "kokosmælk"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "hvidløg (fed)"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "chili, hel, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "garam masala"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "friske tomater, grofthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "lime (saften af én i gryden + én skåret i både til servering)"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "koriander"
+			}
+		],
+		"steps": [
+			"Svits hvidløg, ingefær og chili i en gryde",
+			"Tilsæt vand når krydderierne er begyndt at tage farve",
+			"Tilsæt hakkede tomater, friske tomater, skyllede linser og kokosmælk og rør.",
+			"Lad retten stå på lavt blus i 1 time med hyppig omrøring"
+		],
+		"servings": "3 personer",
+		"categories": ["aftensmad"],
+		"preparation_time": "1.5 time",
+        "path": "description"
+	},
+	{
+		"name": "Falafler",
+		"teaser": "Friturestegte, vegetariske deller",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "kikærter"
+			},
+			{
+				"amount": "2",
+				"unit": "bundt",
+				"ingredient": "persille"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "hvidløg (fed)"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "løg, finthakken"
+			},
+			{
+				"amount": "3",
+				"unit": "tsk",
+				"ingredient": "stødt koriander"
+			},
+			{
+				"amount": "3",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "kartofler, revet"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "4",
+				"unit": "spsk",
+				"ingredient": "rasp"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "chili"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "citronsaft"
+			},
+			{
+				"amount": "0.5",
+				"unit": "L",
+				"ingredient": "olie (til stegning)"
+			}
+		],
+		"steps": [
+			"Hak løg, hvidløg, persille og koriander.",
+			"Riv kartoflerne og dræn dem for vand ved at putte de revede kartofler i et viskestykke og presse væden fra.",
+			"Med en stavblener, blend alle ingredienser til massen begynder at samle sig. Lad det ikke blive helt mast, lad der være lidt klumper.",
+			"Massen skal være våd, føler du at den er for våd, tilføj lidt ekstra rasp.",
+			"Jeg splitter ofte farsen i to og bruger rødbeder i den ene halvdel i stedet for kartofler. Dette giver en fin farve og et godt afbræk i smagen.",
+			"Sæt farsen på køl i 30 minutter til 1 time",
+			"Brug en spiseske til at samle lidt fars og lave bolde.",
+			"Varm olien op og steg falaflerne til de begynder at tage farve.",
+			"Server med tortillas og grønt, som en variation til pitabrød."
+		],
+		"servings": "20-30 falafler",
+		"categories": ["aftensmad"],
+		"preparation_time": "2 timer",
+        "path": "description"
+	},
+	{
+		"name": "Nannas karamelkage",
+		"teaser": "En lækker og tung karamelkage med kiksebund",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "brun farin"
+			},
+			{
+				"amount": "40",
+				"unit": "g",
+				"ingredient": "kokosmel"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "kondenseret mælk (dåse)"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "sirup"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "30",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "125",
+				"unit": "g",
+				"ingredient": "chokolade"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "smør"
+			}
+		],
+		"steps": [
+			"BUND - smelt smør og bland med brun farin, kokos og mel - ælt grundig.",
+			"Tryk dejen ud i et fad (20x20)",
+			"Bag i 12-15 min ved 175 grader (indtil lysebrun)",
+			"FYLD - bland kondenseret mælk, salt, smør og sirup i en gryde.",
+			"Lad blandingen koge under omrøring. Lad den stå på varmen, uden at koge, i 10 min og blive tykkere og mørkere.",
+			"Når massen er karameliseret, hældes den ud over bunden og bager 10-15 min til karamellem bliver fast og gylden. Lad den derefter køle af",
+			"CHOKOLADEOVERTRÆK - Hak og smelt chokolade og smør",
+			"Når chokoladen er helt opløst overtrækkes den afkølede kage med chokoladen og kagen sættes igen på køl. "
+		],
+		"servings": "1 kage",
+		"categories": ["snack", "bagning"],
+		"preparation_time": "1.5 time",
+        "path": "description"
+	},
+	{
+		"name": "Burgerboller med spinat og rugkerner",
+		"teaser": "Skift dine burgerboller ud med en ny type bolle",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "rugkerne"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "gær"
+			},
+			{
+				"amount": "3",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "creme fraiche"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "spinat"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "havregryn"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "ølandshvedemel"
+			},
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			}
+		],
+		"steps": [
+			"Start med at opløse gæren i vandet og bland derefter alle våde ingredienser i",
+			"Tilsæt derefter de tørre ingredienser, hvedemel lidt ad gangen.",
+			"Lad dejen hæve i 30 min",
+			"Del dejen i 12 stykker og placer dem på en bageplade",
+			"Bag i 15 min ved 200 grader varmluft.",
+			"Super lækkert med gulerod/rødbede bøffer, aioli og hummus som spread, syltede rødløg, blandet salat"
+		],
+		"servings": "10-12 boller",
+		"categories": ["tilbehør", "bagning"],
+		"preparation_time": "40 min",
+        "path": "description"
 	}
 ]
