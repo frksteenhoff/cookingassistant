@@ -27,8 +27,8 @@
 					<b-col cols="12" class="mb-2 mt-2">
 						Antal/serveringer: {{ recipe.servings }}
 					</b-col>
-					<b-col v-if="'preparation_time' in recipe" cols="12" class="mb-4">
-						Tilberedningstid: {{ recipe.preparation_time }}
+					<b-col v-if="'preparationtime' in recipe" cols="12" class="mb-4">
+						Tilberedningstid: {{ recipe.preparationtime }}
 					</b-col>
 				</b-row>
 				<b-row class="mb-2">

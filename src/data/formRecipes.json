@@ -65,7 +65,7 @@
 		],
 		"servings": "",
 		"categories": ["marinade"],
-		"preparation_time": "1.5 time",
+		"preparationtime": "1.5 time",
         "path": "description"
 	},
 	{
@@ -136,7 +136,7 @@
 		],
 		"servings": "",
 		"categories": ["marinade", "aftensmad"],
-		"preparation_time": "30 min",
+		"preparationtime": "30 min",
 		"path": "description"
 	},
 	{
@@ -199,7 +199,7 @@
 		],
 		"servings": "12 stk",
 		"categories": ["dessert", "specielle anledninger"],
-		"preparation_time": "30 min",
+		"preparationtime": "30 min",
         "path": "description"
 	},
 	{
@@ -238,7 +238,7 @@
 		],
 		"servings": "2 dl",
 		"categories": ["dip"],
-		"preparation_time": "10 min",
+		"preparationtime": "10 min",
         "path": "description"
 	},
 	{
@@ -294,7 +294,7 @@
 		],
 		"servings": "2 dl",
 		"categories": ["dip"],
-		"preparation_time": "25 min",
+		"preparationtime": "25 min",
         "path": "description"
 	},
 	{
@@ -340,7 +340,7 @@
 		],
 		"servings": "2dl",
 		"categories": ["dressing"],
-		"preparation_time": "15 min",
+		"preparationtime": "15 min",
                 "path": "description"
 	},
 	{
@@ -371,7 +371,7 @@
 		],
 		"servings": "1-1.5L kahlua",
 		"categories": ["drink", "dessert"],
-		"preparation_time": "6-7 timer",
+		"preparationtime": "6-7 timer",
         "path": "description"
 	},
 	{
@@ -407,7 +407,7 @@
 		],
 		"servings": "1 stort sylteglas",
 		"categories": ["tilbehør"],
-		"preparation_time": "20 min",
+		"preparationtime": "20 min",
         "path": "description"
 	},
 	{
@@ -458,7 +458,7 @@
 		],
 		"servings": "5 dl",
 		"categories": ["marinade"],
-		"preparation_time": "25 min",
+		"preparationtime": "25 min",
         "path": "description"
 	},
 	{
@@ -524,7 +524,7 @@
 		],
 		"servings": "3-4 dl",
 		"categories": ["marinade"],
-		"preparation_time": "20 min",
+		"preparationtime": "20 min",
         "path": "description"
 	},
 	{
@@ -595,7 +595,7 @@
 		],
 		"servings": "4 dl",
 		"categories": ["sauce"],
-		"preparation_time": "1.5 time",
+		"preparationtime": "1.5 time",
         "path": "description"
 	},
 	{
@@ -692,7 +692,7 @@
 		],
 		"servings": "30 deller",
 		"categories": ["aftensmad", "tilbehør"],
-		"preparation_time": "35 min",
+		"preparationtime": "35 min",
         "path": "description"
 	},
 	{
@@ -782,7 +782,7 @@
 		],
 		"servings": "2-3 personer",
 		"categories": ["aftensmad"],
-		"preparation_time": "1 time",
+		"preparationtime": "1 time",
         "path": "description"
 	},
 	{
@@ -833,7 +833,7 @@
 		],
 		"servings": "3-4 personer",
 		"categories": ["sause"],
-		"preparation_time": "40 min",
+		"preparationtime": "40 min",
         "path": "description"
 	},
 	{
@@ -896,7 +896,7 @@
 		],
 		"servings": "3-4 personer",
 		"categories": ["aftensmad", "tilbehør"],
-		"preparation_time": "35 min",
+		"preparationtime": "35 min",
         "path": "description"
 	},
 	{
@@ -951,7 +951,7 @@
 		
 		"servings": "3 dl",
 		"categories": ["tilbehør"],
-		"preparation_time": "30 min",
+		"preparationtime": "30 min",
         "path": "description"
 	},
 	{
@@ -997,7 +997,7 @@
 		],
 		"servings": "20 kugler",
 		"categories": ["dessert", "snack"],
-		"preparation_time": "30 min",
+		"preparationtime": "30 min",
         "path": "description"
 	},
 	{
@@ -1063,7 +1063,7 @@
 		],
 		"servings": "fyld til 10 tacos",
 		"categories": ["aftensmad"],
-		"preparation_time": "30 min",
+		"preparationtime": "30 min",
         "path": "description"
 	},
 	{
@@ -1115,7 +1115,7 @@
 		],
 		"servings": "10 personer",
 		"categories": ["tilbehør", "dressing"],
-		"preparation_time": "40 min",
+		"preparationtime": "40 min",
         "path": "description"
 	},
 	{
@@ -1162,7 +1162,7 @@
 		],
 		"servings": "8-10 pandekager",
 		"categories": ["aftensmad"],
-		"preparation_time": "45 min",
+		"preparationtime": "45 min",
         "path": "description"
 	},
 	{
@@ -1244,7 +1244,7 @@
 		],
 		"servings": "3 personer",
 		"categories": ["aftensmad"],
-		"preparation_time": "1.5 time",
+		"preparationtime": "1.5 time",
         "path": "description"
 	},
 	{
@@ -1331,7 +1331,7 @@
 		],
 		"servings": "20-30 falafler",
 		"categories": ["aftensmad"],
-		"preparation_time": "2 timer",
+		"preparationtime": "2 timer",
         "path": "description"
 	},
 	{
@@ -1402,7 +1402,7 @@
 		],
 		"servings": "1 kage",
 		"categories": ["snack", "bagning"],
-		"preparation_time": "1.5 time",
+		"preparationtime": "1.5 time",
         "path": "description"
 	},
 	{
@@ -1471,7 +1471,7 @@
 		],
 		"servings": "10-12 boller",
 		"categories": ["tilbehør", "bagning"],
-		"preparation_time": "40 min",
+		"preparationtime": "40 min",
         "path": "description"
 	}
 ]
