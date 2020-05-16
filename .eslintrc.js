@@ -19,7 +19,8 @@ module.exports = {
 		'quotes': [2, "double"],
 		'space-before-function-paren': ["error", "never"],
 		'no-var-requires': 0,
-		'ban-ts-ignore': 0
+		'@typescript-eslint/ban-ts-ignore': 0,
+		'@typescript-eslint/camelcase': 0	
 	},
 	overrides: [
 		{

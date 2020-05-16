@@ -6,7 +6,7 @@ declare type RecipeObject = {
 	steps: string[],
 	servings: string
 	categories?: string[],
-	preparation_time?: string,
+	preparationtime?: string,
 	inspirationlink?: string,
 	path: string,
 }
@@ -15,4 +15,14 @@ declare type IngredientObject = {
 	amount: string, 
 	unit: string, 
 	ingredient: string
+}
+
+declare type ConversionObject = {
+	from: string, 
+	to: string
+} 
+
+declare type BasicLinkObject = {
+	name: string, 
+	link: string
 }
