@@ -124,7 +124,7 @@ a {
 a:hover,
 a.nav.link:hover {
 	text-decoration: none !important;
-	opacity: 0.5;
+	color:#000 !important;
 }
 
 nav,
