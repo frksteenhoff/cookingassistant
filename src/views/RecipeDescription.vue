@@ -9,14 +9,11 @@ import { Vue, Component } from "vue-property-decorator"
 import Recipe from "@/components/Recipe.vue"
 
 const AppProps = Vue.extend({
-	props: {
-	}
+	props: {}
 })
 
 @Component({
-	components: {
-		Recipe
-	}
+	components: { Recipe }
 })
 export default class RecipeDescription extends AppProps {
 }

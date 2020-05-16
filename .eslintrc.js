@@ -18,7 +18,8 @@ module.exports = {
 		'no-tabs': ["error", { allowIndentationTabs: true }],
 		'quotes': [2, "double"],
 		'space-before-function-paren': ["error", "never"],
-		'no-var-requires': 0
+		'no-var-requires': 0,
+		'ban-ts-ignore': 0
 	},
 	overrides: [
 		{

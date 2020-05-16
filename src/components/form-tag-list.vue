@@ -33,18 +33,20 @@
 	</div>
 </template>
 
-<script>
-export default {
-	data() {
-		return {
-			value: []
-		}
-	},
+<script lang="ts">
+import { Vue, Component } from "vue-property-decorator"
 
-	computed: {
-		availableOptions() {
-			return this.$store.state.tags
-		}
+const AppProps = Vue.extend({
+	props: {
+	}
+})
+
+@Component({})
+export default class FormTagList extends AppProps {
+	value = []
+
+	get availableOptions() {
+		return this.$store.state.tags
 	}
 }
 </script>

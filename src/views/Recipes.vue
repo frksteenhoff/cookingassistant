@@ -25,9 +25,7 @@ const AppProps = Vue.extend({
 
 @Component({
 	components: {
-		RecipeCard,
-		excelrecipes,
-		formrecipes
+		RecipeCard
 	}
 })
 export default class Recipes extends AppProps {

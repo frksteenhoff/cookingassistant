@@ -39,11 +39,7 @@ const AppProps = Vue.extend({
 
 @Component({})
 export default class Conversion extends AppProps {
-	data() {
-		return {
-			unit: null
-		}
-	}
+	unit = 0
 
 	conversionRate = {
 		fahrenheit: {

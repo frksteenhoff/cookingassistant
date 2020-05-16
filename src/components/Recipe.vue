@@ -66,7 +66,7 @@
 	</div>
 </template>
 
-<script>
+<script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
 
 const AppProps = Vue.extend({
@@ -76,16 +76,11 @@ const AppProps = Vue.extend({
 
 @Component({})
 export default class RecipeCard extends AppProps {
-	data() {
-		return {
-			recipe: {},
-			numberOfPortions: null
-		}
-	}
+	recipe!: RecipeObject
+	numberOfPortions = 1
 
 	created() {
 		this.recipe = this.$store.state.recipe
-		this.numberOfPortions = 1
 	}
 
 	getImage() {
