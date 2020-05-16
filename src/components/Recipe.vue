@@ -6,10 +6,10 @@
 			</b-col>
 		</b-row>
 		<b-row class="mb-3">
-			<b-col cols="12" md="4" order-md="2">
+			<b-col cols="12" md="6" order-md="2" lg="4" order-lg="3">
 				<img style="border:1px solid; border-radius: 5px; padding: 5px;" :src="getImage()" />
 			</b-col>
-			<b-col cols="12" md="8" order-md="1">
+			<b-col cols="12" md="6" order-md="1" lg="4" order-lg="1">
 				<b-row>
 					<b-col cols="12" class="mt-3 mb-3 font-italic"><p class="pl-0 m-0">{{ recipe.teaser }}</p></b-col>
 				</b-row>
@@ -19,16 +19,16 @@
 							{{ category }}
 						</b-badge>
 					</b-col>
-					<b-col cols="12" class="mt-4 mb-2">
-						Antal/serveringer: {{ recipe.servings }}
-					</b-col>
-					<b-col v-if="'preparation_time' in recipe" cols="12" class="mb-2">
-						Tilberedningstid: {{ recipe.preparation_time }}
-					</b-col>
 				</b-row>
-				<b-row class="mt-5" style="border-style: 1px black;">
+				<b-row class="mt-3" style="border-style: 1px black;">
 					<b-col cols="12" class="mb-3">
 						<h3>Ingredienser</h3>
+					</b-col>
+					<b-col cols="12" class="mb-2 mt-2">
+						Antal/serveringer: {{ recipe.servings }}
+					</b-col>
+					<b-col v-if="'preparation_time' in recipe" cols="12" class="mb-4">
+						Tilberedningstid: {{ recipe.preparation_time }}
 					</b-col>
 				</b-row>
 				<b-row class="mb-2">
@@ -44,8 +44,10 @@
 						{{ (Number(item.amount) * numberOfPortions) + " " + item.unit + " " + item.ingredient }}
 					</li>
 				</ul>
-				<b-row class="mt-5">
-					<b-col cols="12" class="mb-3">
+			</b-col>
+			<b-col cols=12 md="6" order-md="3" lg="4" order-lg="2" class="mt-lg-4">
+				<b-row class="mt-lg-5">
+					<b-col cols="12" class="mb-3 mt-lg-5">
 						<h3>Procedure</h3>
 					</b-col>
 				</b-row>
@@ -54,11 +56,11 @@
 						{{ step }}
 					</li>
 				</ul>
-				<b-row class="mt-5 mb-3">
-					<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
-						<p class="pl-3 m-0">Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a></p>
-					</b-col>
-				</b-row>
+			</b-col>
+		</b-row>
+		<b-row class="mt-3 mb-5">
+			<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
+				<p class="pl-3 m-0">Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a></p>
 			</b-col>
 		</b-row>
 	</div>
