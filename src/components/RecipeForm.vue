@@ -30,21 +30,17 @@
 			</b-col>
 			<b-col cols="12" md="8" xl="6">
 				<small>Tilberedningstid</small>
-				<b-form-textarea
+				<b-form-input
 					v-model="recipe.preparationtime"
-					placeholder="Giv en kort beskrivelse af din ret"
-					rows="2"
-					max-rows="4"
+					type="text"
 					size="sm"
 				/>
 			</b-col>
 			<b-col cols="12" md="8" xl="6">
 				<small>Antal serveringer</small>
-				<b-form-textarea
+				<b-form-input
 					v-model="recipe.servings"
-					placeholder="Giv en kort beskrivelse af din ret"
-					rows="2"
-					max-rows="4"
+					type="text"
 					size="sm"
 				/>
 			</b-col>
@@ -118,7 +114,7 @@
 		</b-row>
 		<b-row class="m-2 mb-0">
 			<b-col cols="16" md="8">
-				<FormTag />
+				<form-tag />
 			</b-col>
 		</b-row>
 		<b-row class="m-2">
