@@ -10,20 +10,32 @@
 				<img style="border:1px solid; border-radius: 5px; padding: 5px;" :src="getImage()" />
 			</b-col>
 			<b-col cols="12" md="8" order-md="1">
-				<div class="mt-3 mb-3 font-italic"><p class="pl-0 m-0">{{ recipe.teaser }}</p></div>
+				<b-row>
+					<b-col cols="12" class="mt-3 mb-3 font-italic"><p class="pl-0 m-0">{{ recipe.teaser }}</p></b-col>
+				</b-row>
+				<b-row>
+					<b-col v-if="'categories' in recipe" cols="12" class="ml-3 pl-0">
+						<b-badge v-for="category in recipe.categories" :key="category" class="mt-2 mr-2 p-1">
+							{{ category }}
+						</b-badge>
+					</b-col>
+					<b-col cols="12" class="mt-4 mb-2">
+						Antal/serveringer: {{ recipe.servings }}
+					</b-col>
+					<b-col v-if="'preparation_time' in recipe" cols="12" class="mb-2">
+						Tilberedningstid: {{ recipe.preparation_time }}
+					</b-col>
+				</b-row>
 				<b-row class="mt-5" style="border-style: 1px black;">
 					<b-col cols="12" class="mb-3">
 						<h3>Ingredienser</h3>
 					</b-col>
 				</b-row>
 				<b-row class="mb-2">
-					<b-col cols="12" class="mb-2">
-						Antal/serveringer: {{ recipe.servings }}
-					</b-col>
-					<b-col cols="4">
+					<b-col cols="4" class="mb-2">
 						<b-form-select
 							v-model="numberOfPortions"
-							:options="Array(10).fill(1).map((x, y) => x + y)"
+							:options="[0.5].concat(Array(10).fill(1).map((x, y) => x + y))"
 						/>
 					</b-col>
 				</b-row>
@@ -82,6 +94,6 @@ export default class RecipeCard extends AppProps {
 
 <style scoped>
 p, li {
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 </style>
