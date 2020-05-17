@@ -9,42 +9,56 @@
 			</b-col>
 		</b-row>
 		<b-row class="m-2">
-			<b-col cols="12">
-				Overordnet
-			</b-col>
 			<b-col cols="12" md="8">
-				<small>Titel</small>
-				<b-form-input
-					v-model="recipe.name"
-				/>
+				<b-row>
+					<b-col cols="12">
+						Overordnet
+					</b-col>
+					<b-col cols="12">
+						<small>Titel</small>
+						<b-form-input
+							v-model="recipe.name"
+						/>
+					</b-col>
+					<b-col cols="12">
+						<small>Kort beskrivelse</small>
+						<b-form-textarea
+							v-model="recipe.teaser"
+							placeholder="Giv en kort beskrivelse af din ret"
+							rows="2"
+							max-rows="4"
+							size="sm"
+						/>
+					</b-col>
+				</b-row>
+				<b-row class="mb-4">
+					<b-col cols="6">
+						<small>Tilberedningstid</small>
+						<b-form-input
+							v-model="recipe.preparationtime"
+							type="text"
+							size="sm"
+						/>
+					</b-col>
+					<b-col cols="6">
+						<small>Antal serveringer</small>
+						<b-form-input
+							v-model="recipe.servings"
+							type="text"
+							size="sm"
+						/>
+					</b-col>
+				</b-row>
 			</b-col>
-			<b-col cols="12" md="8">
-				<small>Kort beskrivelse</small>
-				<b-form-textarea
-					v-model="recipe.teaser"
-					placeholder="Giv en kort beskrivelse af din ret"
-					rows="2"
-					max-rows="4"
-					size="sm"
-				/>
-			</b-col>
-		</b-row>
-		<b-row class="m-2 mb-4">
-			<b-col cols="6" md="4">
-				<small>Tilberedningstid</small>
-				<b-form-input
-					v-model="recipe.preparationtime"
-					type="text"
-					size="sm"
-				/>
-			</b-col>
-			<b-col cols="6" md="4">
-				<small>Antal serveringer</small>
-				<b-form-input
-					v-model="recipe.servings"
-					type="text"
-					size="sm"
-				/>
+			<b-col cols="12" md="3" class="p-3 d-md-none d-lg-block" style="background-color: #eaddda;">
+				Oversæt enheder her
+				<div v-for="combination in combinations" :key="combination.from+combination.to">
+					<Conversion
+						:fromUnit="combination.from"
+						:toUnit="combination.to"
+						size="sm"
+					/>
+				</div>
 			</b-col>
 		</b-row>
 		<b-row class="m-2">
@@ -73,7 +87,7 @@
 				/>
 			</b-col>
 			<b-col cols="1" class="mt-4 ml-0 pl-0 pt-2" @click="deleteRow(index)">
-					<b-icon icon="x-circle"></b-icon>
+					<b-icon v-b-tooltip.hover title="Slet linje" icon="x-circle"></b-icon>
 			</b-col>
 		</b-row>
 		<b-row class="m-2 mt-4 mb-4">
@@ -101,7 +115,7 @@
 				/>
 			</b-col>
 			<b-col cols="1" class="mt-4 ml-0 pl-0 pt-3" @click="deleteStep(index)">
-					<b-icon icon="x-circle"></b-icon>
+					<b-icon v-b-tooltip.hover title="Slet linje" icon="x-circle"></b-icon>
 			</b-col>
 		</b-row>
 		<b-row class="m-2 mt-4 mb-4">
@@ -145,6 +159,7 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
 import FormTag from "@/components/form-tag-list.vue"
+import Conversion from "@/components/Conversion.vue"
 
 const AppProps = Vue.extend({
 	props: {
@@ -154,7 +169,8 @@ const AppProps = Vue.extend({
 @Component({
 	components: {
 		Vue,
-		FormTag
+		FormTag,
+		Conversion
 	}
 })
 export default class RecipeForm extends AppProps {
@@ -186,6 +202,21 @@ export default class RecipeForm extends AppProps {
 		categories: []
 	}
 
+	combinations: ConversionObject[] = [
+		{
+			from: "fahrenheit",
+			to: "celsius"
+		},
+		{
+			from: "cups",
+			to: "deciliter"
+		},
+		{
+			from: "ounces",
+			to: "grams"
+		}
+	]
+
 	addIngredient() {
 		this.recipe.ingredients.push({
 			amount: "",
@@ -215,3 +246,10 @@ export default class RecipeForm extends AppProps {
 	}
 }
 </script>
+
+<style scoped>
+svg:hover{
+	color: red !important;
+	cursor: grab;
+}
+</style>
