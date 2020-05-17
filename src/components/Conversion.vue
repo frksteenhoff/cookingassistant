@@ -1,11 +1,11 @@
 <template>
 	<div>
-		<b-row>
+		<b-row class="m-2">
 			<b-col cols="12">
 				<h2 class="pl-0 mt-4">{{ capitalize(fromUnit) }} til {{ capitalize(toUnit) }}</h2>
 			</b-col>
 		</b-row>
-		<b-row>
+		<b-row class="m-2">
 			<b-col cols="12" md="6">
 				<b-form-input
 					v-model="unit"

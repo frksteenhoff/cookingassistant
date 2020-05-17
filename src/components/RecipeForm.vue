@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<b-row>
-			<b-col cols="12" class="mt-4">
+			<b-col cols="12" class="mt-3">
 				<h1 class="ml-4 mt-4">Opret opskrift</h1>
 			</b-col>
 			<b-col class="mt-4">

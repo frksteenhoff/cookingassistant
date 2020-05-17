@@ -1,6 +1,6 @@
 <template>
 	<b-container class="mt-3">
-		<b-row>
+		<b-row class="m-2">
 			<b-col cols="12">
 				<h1 class="m-0">Ofte brugte konverteringer</h1>
 			</b-col>
