@@ -12,13 +12,13 @@
 			<b-col cols="12">
 				Overordnet
 			</b-col>
-			<b-col cols="12" md="8" xl="6">
+			<b-col cols="12" md="8">
 				<small>Titel</small>
 				<b-form-input
 					v-model="recipe.name"
 				/>
 			</b-col>
-			<b-col cols="12" md="8" xl="6">
+			<b-col cols="12" md="8">
 				<small>Kort beskrivelse</small>
 				<b-form-textarea
 					v-model="recipe.teaser"
@@ -28,7 +28,9 @@
 					size="sm"
 				/>
 			</b-col>
-			<b-col cols="12" md="8" xl="6">
+		</b-row>
+		<b-row class="m-2 mb-4">
+			<b-col cols="6" md="4">
 				<small>Tilberedningstid</small>
 				<b-form-input
 					v-model="recipe.preparationtime"
@@ -36,7 +38,7 @@
 					size="sm"
 				/>
 			</b-col>
-			<b-col cols="12" md="8" xl="6">
+			<b-col cols="6" md="4">
 				<small>Antal serveringer</small>
 				<b-form-input
 					v-model="recipe.servings"
@@ -50,21 +52,21 @@
 				Ingredienser
 			</b-col>
 		</b-row>
-		<b-row v-for="(ing, index) in recipe.ingredients" :key="index" class="m-2">
-			<b-col cols="12" sm="4" lg="3">
+		<b-row v-for="(ing, index) in recipe.ingredients" :key="ing+index" class="m-2">
+			<b-col cols="12" sm="4" md="2">
 				<small>Mængde</small>
 				<b-form-input
 					v-model="ing.amount"
 				/>
 			</b-col>
-			<b-col cols="12" sm="3" lg="2">
+			<b-col cols="12" sm="3" md="2">
 				<small>Enhed</small>
 				<b-form-select
 					v-model="ing.unit"
 					:options="$store.state.units"
 				/>
 			</b-col>
-			<b-col cols="12" sm="4" lg="3">
+			<b-col cols="12" sm="4" md="4">
 				<small>Ingrediens</small>
 				<b-form-input
 					v-model="ing.ingredient"
@@ -90,7 +92,7 @@
 			</b-col>
 		</b-row>
 		<b-row v-for="(step, index) in recipe.steps" :key="index" class="m-2">
-			<b-col cols="11" md="6" xl="4">
+			<b-col cols="11" md="8">
 				<small>Step {{ index + 1 }}</small>
 				<b-textarea
 					v-model="recipe.steps[index]"
@@ -122,15 +124,19 @@
 				variant="success"
 				class="ml-3 mt-4"
 			>
-				<a :href="'mailto:henriette.steenhoff@gmail.com?subject=' + recipe.name + '&body=' + JSON.stringify(recipe, undefined, 4)">Indsend</a>
+				<!--<a :href="'mailto:henriette.steenhoff@gmail.com?subject=' + recipe.name + '&body=' + JSON.stringify(recipe, undefined, 4)">Indesend</a>-->Indsend
 			</b-button>
 		</b-row>
 		<b-row class="ml-2 mt-5 mb-5">
 			<b-col cols="12" class="mb-4">
-				Forhåndsvisning af opskrift
-			</b-col>
-			<b-col cols="12" md="6">
-				{{ JSON.stringify(recipe, undefined, 4) }}
+				<b-button v-b-toggle="'collapse-2'" variant="outline-secondary" class="m-1">Forhåndsvisning af opskrift</b-button>
+				<b-collapse id="collapse-2">
+					<b-card>
+						{{ JSON.stringify(recipe, undefined, 4) }}
+						<br><br>
+						Tags: {{ $store.getters.getCreateTags }}
+					</b-card>
+				</b-collapse>
 			</b-col>
 		</b-row>
 	</div>
@@ -188,12 +194,20 @@ export default class RecipeForm extends AppProps {
 		})
 	}
 
+	updated() {
+		this.recipe.categories = this.$store.getters.getCreateTags
+	}
+
 	addStep() {
 		this.recipe.steps.push("")
 	}
 
 	deleteStep(index: number) {
 		this.recipe.steps.splice(index, 1)
+	}
+
+	sayHello() {
+		console.log("input")
 	}
 
 	deleteRow(index: number) {
