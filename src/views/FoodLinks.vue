@@ -1,27 +1,31 @@
 <template>
 	<div>
 		<b-container class="mt-3 mb-3">
-			<b-row>
+			<b-row class="m-2">
 				<b-col cols="12" class="mb-3">
-					<h1>Madlinks</h1>
+					<h1 class="ml-0">Madlinks</h1>
+					<p class="pl-0 mt-4">Disse opskrifter bliver stille og roligt integreret på denne side med de retterser/tiføjelser som jeg har til dem. Jeg har tilføjet dem her som inspiration.</p>
 				</b-col>
-				<b-col cols="12">
+				<b-col cols="12" md="12" lg="4">
+					<h3>Godt at vide</h3>
+					<p  class="pl-0">
+						<ul v-for="recipe in sortedOtherLinks" :key="recipe.name">
+							<li><a :href="recipe.link" target="_blank">{{ recipe.name }}</a></li>
+						</ul>
+					</p>
+				</b-col>
+				<b-col cols="12" md="6" lg="4">
 					<h3>Hovedretter</h3>
-					<p>Disse opskrifter bliver stille og roligt integreret på denne side med de retterser/tiføjelser som jeg har til dem. Jeg har tilføjet dem her som inspiration.</p>
-					<p>
-						<ul v-for="recipe in foodLinks" :key="recipe.name">
+					<p class="pl-0">
+						<ul v-for="recipe in sortedFoodLinks" :key="recipe.name">
 							<li><a :href="recipe.link" target="_blank">{{ recipe.name }}</a></li>
 						</ul>
 					</p>
+				</b-col>
+				<b-col cols="12" md="6" lg="4">
 					<h3>Desserter</h3>
-					<p>
-						<ul v-for="recipe in dessertLinks" :key="recipe.name">
-							<li><a :href="recipe.link" target="_blank">{{ recipe.name }}</a></li>
-						</ul>
-					</p>
-					<h3>Andet</h3>
-					<p>
-						<ul v-for="recipe in otherLinks" :key="recipe.name">
+					<p class="pl-0">
+						<ul v-for="recipe in sortedDessertLinks" :key="recipe.name">
 							<li><a :href="recipe.link" target="_blank">{{ recipe.name }}</a></li>
 						</ul>
 					</p>
@@ -51,6 +55,18 @@ export default class FoodLinks extends AppProps {
 			link: "https://madensverden.dk/meltyper/"
 		}
 	]
+
+	get sortedFoodLinks() {
+		return this.foodLinks.sort((a, b) => a.name.localeCompare(b.name))
+	}
+
+	get sortedDessertLinks() {
+		return this.dessertLinks.sort((a, b) => a.name.localeCompare(b.name))
+	}
+
+	get sortedOtherLinks() {
+		return this.otherLinks.sort((a, b) => a.name.localeCompare(b.name))
+	}
 
 	dessertLinks: BasicLinkObject[] = [
 		{
@@ -169,7 +185,7 @@ export default class FoodLinks extends AppProps {
 			link: " https://www.valdemarsro.dk/blomkaalssuppe/"
 		},
 		{
-			name: "Kyllingelasagne",
+			name: "Lasagne - Kyllingelasagne",
 			link: "https://www.dk-kogebogen.dk/opskrifter/visopskrift.php?id=19934"
 		},
 		{
@@ -217,7 +233,7 @@ export default class FoodLinks extends AppProps {
 			link: "http://clemfoodie.com/2019/11/13/risotto-potimarron-champignons-noisettes/"
 		},
 		{
-			name: "Græskarsrisotto",
+			name: "Risotto - Græskarsrisotto",
 			link: "http://clemfoodie.com/?s=Risotto+courge"
 		},
 		{
@@ -229,7 +245,7 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.jamieoliver.com/recipes/chicken-recipes/wine-braised-chicken-with-roasted-grapes/"
 		},
 		{
-			name: "Wild rice mushroom risotto",
+			name: "Risotto - Wild rice and mushroom risotto",
 			link: "http://www.olivemagazine.com/recipes/wild-rice-and-mushroom-risotto-with-roast-garlic/15078.html"
 		},
 		{
@@ -301,10 +317,6 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.yummly.com/recipe/Thai-Chicken-Satay-with-Peanut-Sauce-9026800?prm-v1#directions"
 		},
 		{
-			name: "Bao",
-			link: "https://www.bbcgoodfood.com/recipes/steamed-bao-buns"
-		},
-		{
 			name: "Panang Curry Chicken",
 			link: "https://www.louisesmadblog.dk/panang-karry-med-kylling-panang-gai/"
 		},
@@ -321,7 +333,7 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.valdemarsro.dk/quinoadeller/"
 		},
 		{
-			name: "Mexi kyllinge lasagne",
+			name: "Lasagne - mexi kyllinge lasagne",
 			link: "http://www.webopskrifter.dk/madopskrifter/150/"
 		},
 		{
@@ -397,10 +409,6 @@ export default class FoodLinks extends AppProps {
 			link: "http://coupleeatsfood.com/sushi-tacos-with-crispy-fried-seaweed-shells/"
 		},
 		{
-			name: "Teriyaki",
-			link: "https://www.tasteandtellblog.com/teriyaki-chicken/"
-		},
-		{
 			name: "Salmon sashimi",
 			link: "https://www.santamariaworld.com/ie/recipes/salmon-sashimi/"
 		},
@@ -427,10 +435,6 @@ export default class FoodLinks extends AppProps {
 		{
 			name: "Okonomiyaki",
 			link: "https://www.valdemarsro.dk/okonomiyaki/"
-		},
-		{
-			name: "Bao",
-			link: "https://www.valdemarsro.dk/bao-opskrift/"
 		},
 		{
 			name: "Bao filling",
