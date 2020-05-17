@@ -61,12 +61,18 @@
 			"Saucen varmes herefter op til kogepunktet og simrer derefter i 30 min under jævn omrøring.",
 			"Smag saucen til -- den skal være sød, syrlig og stærk.",
 			"Rens nakkefileten for sener og fedt",
-			"Rub marinaden ind i købet og læg derefter kødet i en pose med den resterende del af marinaden."
+			"Rub kødet ind i marinaden og læg derefter kødet i en pose natten over.",
+			"Tag kødet ud af køleskabet og læg det i et ovnfast fad. Gem den resterende marinade.",
+			"Lagtidssteg kødet ved 110 grader i minimum 12 timer, husk at vende kødet jævnligt.",
+			"Træk kødet -- brug to gafler til at rive kødet fra hinanden.",
+			"Hæld æblejuicen over kødet og evt. resterende marinade"
 		],
 		"servings": "",
-		"categories": ["marinade"],
+		"categories": [
+			"marinade"
+		],
 		"preparationtime": "1.5 time",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Coleslaw",
@@ -135,7 +141,10 @@
 			"Bland creme fraiche, mayo sukker og salt og hæld det over coleslawen."
 		],
 		"servings": "",
-		"categories": ["marinade", "aftensmad"],
+		"categories": [
+			"marinade",
+			"aftensmad"
+		],
 		"preparationtime": "30 min",
 		"path": "description"
 	},
@@ -198,9 +207,12 @@
 			"Hæld blandingen i forme og bag i ca. 12 minutter eller til når de er gyldne."
 		],
 		"servings": "12 stk",
-		"categories": ["dessert", "specielle anledninger"],
+		"categories": [
+			"dessert",
+			"specielle anledninger"
+		],
 		"preparationtime": "30 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Misomayo",
@@ -237,9 +249,11 @@
 			"Bland alle ingredienser og spis som dip eller toppings til tacos, sushi, rå fisk eller lignende."
 		],
 		"servings": "2 dl",
-		"categories": ["dip"],
+		"categories": [
+			"dip"
+		],
 		"preparationtime": "10 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Spicy chili dip",
@@ -263,8 +277,8 @@
 			},
 			{
 				"amount": "1",
-				"unit": "stk",
-				"ingredient": "hvidløg (fed)"
+				"unit": "fed",
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "1",
@@ -293,9 +307,11 @@
 			""
 		],
 		"servings": "2 dl",
-		"categories": ["dip"],
+		"categories": [
+			"dip"
+		],
 		"preparationtime": "25 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Soyadressing",
@@ -339,9 +355,11 @@
 			""
 		],
 		"servings": "2dl",
-		"categories": ["dressing"],
+		"categories": [
+			"dressing"
+		],
 		"preparationtime": "15 min",
-                "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Kahlua",
@@ -370,9 +388,12 @@
 			""
 		],
 		"servings": "1-1.5L kahlua",
-		"categories": ["drink", "dessert"],
+		"categories": [
+			"drink",
+			"dessert"
+		],
 		"preparationtime": "6-7 timer",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Syltede rødløg",
@@ -406,9 +427,11 @@
 			"Hæld den kogende lage over løgene, lad det køle af på køkkenbordet og opbevar derefter i køleskabet."
 		],
 		"servings": "1 stort sylteglas",
-		"categories": ["tilbehør"],
+		"categories": [
+			"tilbehør"
+		],
 		"preparationtime": "20 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Marinade til grillspyd (kød)",
@@ -432,8 +455,8 @@
 			},
 			{
 				"amount": "3",
-				"unit": "stk",
-				"ingredient": "hvidløg (fed)"
+				"unit": "fed",
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "5",
@@ -457,9 +480,11 @@
 			""
 		],
 		"servings": "5 dl",
-		"categories": ["marinade"],
+		"categories": [
+			"marinade"
+		],
 		"preparationtime": "25 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Marinade til grøntsagsspyd",
@@ -498,8 +523,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "stk",
-				"ingredient": "hvidløg (fed)"
+				"unit": "fed",
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "1",
@@ -523,9 +548,11 @@
 			"Tilføj hvidløgene til blandingen og smag til med salt, peber og chili."
 		],
 		"servings": "3-4 dl",
-		"categories": ["marinade"],
+		"categories": [
+			"marinade"
+		],
 		"preparationtime": "20 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Hoisin sauce",
@@ -544,8 +571,8 @@
 			},
 			{
 				"amount": "4",
-				"unit": "stk",
-				"ingredient": "hvidløg (fed)"
+				"unit": "fed",
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "2",
@@ -594,9 +621,11 @@
 			""
 		],
 		"servings": "4 dl",
-		"categories": ["sauce"],
+		"categories": [
+			"sauce"
+		],
 		"preparationtime": "1.5 time",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Fucking lækre veggiedeller",
@@ -691,9 +720,12 @@
 			"Steg gyldne/til de har fået en god skorpe på begge sider."
 		],
 		"servings": "30 deller",
-		"categories": ["aftensmad", "tilbehør"],
+		"categories": [
+			"aftensmad",
+			"tilbehør"
+		],
 		"preparationtime": "35 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Stegte kyllingelår med tomat og peberfrugt",
@@ -727,8 +759,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "stk",
-				"ingredient": "hvidløg (fed)"
+				"unit": "fed",
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "0.5",
@@ -781,9 +813,11 @@
 			"Server med ris og evt. frisk basilikum."
 		],
 		"servings": "2-3 personer",
-		"categories": ["aftensmad"],
+		"categories": [
+			"aftensmad"
+		],
 		"preparationtime": "1 time",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Mangosalsa",
@@ -832,9 +866,11 @@
 			""
 		],
 		"servings": "3-4 personer",
-		"categories": ["sause"],
+		"categories": [
+			"sause"
+		],
 		"preparationtime": "40 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Pulled chicken",
@@ -878,8 +914,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "hvidløg (fed)"
+				"unit": "fed",
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "2",
@@ -895,9 +931,12 @@
 			"Server f.eks. til madpandekager eller tacos."
 		],
 		"servings": "3-4 personer",
-		"categories": ["aftensmad", "tilbehør"],
+		"categories": [
+			"aftensmad",
+			"tilbehør"
+		],
 		"preparationtime": "35 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Brun sovs med myseost",
@@ -948,11 +987,12 @@
 			"Tilføj sovsekulør til det ser godt ud",
 			"Smag til med salt."
 		],
-		
 		"servings": "3 dl",
-		"categories": ["tilbehør"],
+		"categories": [
+			"tilbehør"
+		],
 		"preparationtime": "30 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Jakobs chokoladekugler",
@@ -996,9 +1036,12 @@
 			""
 		],
 		"servings": "20 kugler",
-		"categories": ["dessert", "snack"],
+		"categories": [
+			"dessert",
+			"snack"
+		],
 		"preparationtime": "30 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Svampetacos",
@@ -1062,9 +1105,11 @@
 			"Serveres som tilbehør til tacoes sammen med creme fraiche, lime, koriander, oliven, ost, løg, tomat, salsa og avocado"
 		],
 		"servings": "fyld til 10 tacos",
-		"categories": ["aftensmad"],
+		"categories": [
+			"aftensmad"
+		],
 		"preparationtime": "30 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Kartoffelsalat",
@@ -1114,9 +1159,12 @@
 			"Hæld blandingen over de kolde kartofler og opbevar kartoffelsalaten på køl inden de skal bruges."
 		],
 		"servings": "10 personer",
-		"categories": ["tilbehør", "dressing"],
+		"categories": [
+			"tilbehør",
+			"dressing"
+		],
 		"preparationtime": "40 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Madpandekager med spinat",
@@ -1161,9 +1209,11 @@
 			"Steg pandekagerne og server med det samme."
 		],
 		"servings": "8-10 pandekager",
-		"categories": ["aftensmad"],
+		"categories": [
+			"aftensmad"
+		],
 		"preparationtime": "45 min",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Dahl",
@@ -1202,8 +1252,8 @@
 			},
 			{
 				"amount": "3",
-				"unit": "stk",
-				"ingredient": "hvidløg (fed)"
+				"unit": "fed",
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "1",
@@ -1243,9 +1293,11 @@
 			"Lad retten stå på lavt blus i 1 time med hyppig omrøring"
 		],
 		"servings": "3 personer",
-		"categories": ["aftensmad"],
+		"categories": [
+			"aftensmad"
+		],
 		"preparationtime": "1.5 time",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Falafler",
@@ -1264,8 +1316,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "stk",
-				"ingredient": "hvidløg (fed)"
+				"unit": "fed",
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "2",
@@ -1330,9 +1382,11 @@
 			"Server med tortillas og grønt, som en variation til pitabrød."
 		],
 		"servings": "20-30 falafler",
-		"categories": ["aftensmad"],
+		"categories": [
+			"aftensmad"
+		],
 		"preparationtime": "2 timer",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Nannas karamelkage",
@@ -1401,9 +1455,12 @@
 			"Når chokoladen er helt opløst overtrækkes den afkølede kage med chokoladen og kagen sættes igen på køl. "
 		],
 		"servings": "1 kage",
-		"categories": ["snack", "bagning"],
+		"categories": [
+			"snack",
+			"bagning"
+		],
 		"preparationtime": "1.5 time",
-        "path": "description"
+		"path": "description"
 	},
 	{
 		"name": "Burgerboller med spinat og rugkerner",
@@ -1470,8 +1527,142 @@
 			"Super lækkert med gulerod/rødbede bøffer, aioli og hummus som spread, syltede rødløg, blandet salat"
 		],
 		"servings": "10-12 boller",
-		"categories": ["tilbehør", "bagning"],
+		"categories": [
+			"tilbehør",
+			"bagning"
+		],
 		"preparationtime": "40 min",
-        "path": "description"
+		"path": "description"
+	},
+	{
+		"name": "Teriyaki sauce",
+		"teaser": "Tyk og smagfuld asiatisk sauce -- god som marinade eller sauce til svin, fjærkræ og seafood",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "5",
+				"unit": "spsk",
+				"ingredient": "brun farin"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "ingefær, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "maizena"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "koldt vand"
+			}
+		],
+		"steps": [
+			"Hak ingefær og hvidløg fint.",
+			"Kom vand, brun farin, soya, honning, hvidløg og ingefær i en pande på medium varme",
+			"I en lille beholder, bland maizena og 0.5 del vand -- rør til massen er ensartet. Tilføj herefter blandingen til ingredienserne på panden.",
+			"Varm saucen op til den begynder at tykne og fortsæt indtil den rammer den tykkelse du kan lide. Bliver den for tyk kan du altid komme lidt vand i. ",
+			"Hint: lad blandingen mørkne lidt i farven inden du tager den af panden."
+		],
+		"path": "description",
+		"servings": "1.5 dl",
+		"preparationtime": "15 min",
+		"categories": [
+			"aftensmad",
+			"bagning"
+		],
+		"inspirationlink": "https://www.tasteandtellblog.com/teriyaki-chicken/"
+	},
+	{
+		"name": "Bao boller",
+		"teaser": "Lette og luftige hvedeboller, der fyldes med grøntsager og/eller kød. ",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "525",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "1.5",
+				"unit": "spsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "10",
+				"unit": "g",
+				"ingredient": "gær"
+			},
+			{
+				"amount": "50",
+				"unit": "ml",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "solsikkeolie"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "riseddike"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "bagepulver"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand"
+			}
+		],
+		"steps": [
+			"Bland mel, sukker og salt i en skål",
+			"Opløs gæren i 1 spsk varmt vand og lidt sukker og tilsæt det derefter til melblandingen sammen med mælk, solsikkeolie, riseddike og vand -- bland de tørre ingredienser sammen med de våde lidt efter lidt for at undgå klumper.",
+			"Saml dejen og ælt den i 10-15 min. Læg derefter dejen i en let olieret skål og hæver enten 2 timer på køkkenbordet eller på køl natten over. Den skal gerne hæve til den dobbelte størrelse.",
+			"Når dejen har hævet, lægger du den ud på en ren overflade, hvor du flader den ud med dine hænder og derefter drysser 1 tsk bagepulver ud over.",
+			"Rul herefter dejen til en lang pølse (ca. 3 cm tyk) og skær den i 3 cm tykke skiver -- der skal være ca. 18 stk.",
+			"Rul hver af dine skiver til en lille bold og lad dem hvile på bordet i 2-3 min.",
+			"Brug nu en kagerulle til at rulle hver bold ud til så den bliver oval, ca. 3-4mm tyk. Smør overfladen med olie.",
+			"Når alle bolde er rullet ud, tag da en spisepind og smør med olie. For hver af dine boller, læg spisepinden på midten og fold dejen hen over spisepinden. Træk herefter spisepinden ud.",
+			"Læg bollerne på individuelle stykker bagepapir og lad dem hvile i 1.5 time (indtil de er blevet dobbelt så store)",
+			"Varm derefter vand op til en steamer på medium varme og damp bollerne i ca. 8 minutter (til de puffer op). Med dette antal boller kræver det, at du damper dem af flere omgange.",
+			"Åbn bollerne på midten og fyld med kød, svampe, koriander og gulerod. (Se opskrift på pulled pork)",
+			"Tip: lad være med at tjekke til bollerne mens de damper -- dette vil ændre temperaturen og få bollerne til at falde sammen."
+		],
+		"path": "description",
+		"servings": "18 boller",
+		"preparationtime": "2.5-12 timer",
+		"categories": [
+			"aftensmad",
+			"bagning"
+		],
+		"inspirationlink": "https://www.bbcgoodfood.com/recipes/steamed-bao-buns"
 	}
 ]
