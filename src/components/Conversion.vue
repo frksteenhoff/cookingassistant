@@ -10,12 +10,14 @@
 				<b-form-input
 					v-model="unit"
 					type="number"
-					size="md"
+					:size="size"
 					:placeholder="`${measurementType} i ${fromUnit}`"
 				/>
+				{{ fromUnit }}
 			</b-col>
 			<b-col cols="12" md="6" class="mt-1">
-				<p class="ml-0 pl-0 text-center text-md-left" v-html="conversion(fromUnit, toUnit) + ' ' + unitSymbol[toUnit]" />
+				<p class="mb-0 ml-0 pl-0 text-center text-md-left" v-html="conversion(fromUnit, toUnit) + ' ' + unitSymbol[toUnit]" />
+				{{ toUnit }}
 			</b-col>
 		</b-row>
 	</div>
@@ -33,6 +35,10 @@ const AppProps = Vue.extend({
 		toUnit: {
 			type: String,
 			required: true
+		},
+		size: {
+			type: String,
+			default: "md"
 		}
 	}
 })
