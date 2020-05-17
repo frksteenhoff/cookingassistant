@@ -72,8 +72,8 @@
 					v-model="ing.ingredient"
 				/>
 			</b-col>
-			<b-col cols="1" class="mt-4 ml-0 pl-0" @click="deleteRow(index)">
-					x
+			<b-col cols="1" class="mt-4 ml-0 pl-0 pt-2" @click="deleteRow(index)">
+					<b-icon icon="x-circle"></b-icon>
 			</b-col>
 		</b-row>
 		<b-row class="m-2 mt-4 mb-4">
@@ -100,8 +100,8 @@
 					size="sm"
 				/>
 			</b-col>
-			<b-col cols="1" class="mt-4 ml-0 pl-0" @click="deleteStep(index)">
-					x
+			<b-col cols="1" class="mt-4 ml-0 pl-0 pt-3" @click="deleteStep(index)">
+					<b-icon icon="x-circle"></b-icon>
 			</b-col>
 		</b-row>
 		<b-row class="m-2 mt-4 mb-4">
