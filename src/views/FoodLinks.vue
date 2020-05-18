@@ -70,10 +70,6 @@ export default class FoodLinks extends AppProps {
 
 	dessertLinks: BasicLinkObject[] = [
 		{
-			name: "Lemon meringue pie",
-			link: "https://www.lurpak.com/da-dk/opskrifter-med-lurpak/lemon-meringue-taerte/"
-		},
-		{
 			name: "Triple chocolate tart",
 			link: "https://www.epicurious.com/recipes/food/views/triple-chocolate-tart-with-boozy-whipped-cream-365216"
 		},
