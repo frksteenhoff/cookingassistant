@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Pulled pork",
-		"teaser": "Langtidsstegt nakkefilet i stærk marinade.",
-		"image": "",
+		"teaser": "Langtidsstegt nakkefilet i stærk marinade. Brug det til pulled pork burgere eller som fyld til bao.",
+		"image": "pulled_pork.jpg",
 		"ingredients": [
 			{
 				"amount": "1",
@@ -72,6 +72,11 @@
 			"marinade"
 		],
 		"preparationtime": "1.5 time",
+		"relatedrecipes": [
+			"bao boller",
+			"misomayo",
+			"syltede rødløg"
+		],
 		"path": "description"
 	},
 	{
@@ -1599,7 +1604,7 @@
 	{
 		"name": "Bao boller",
 		"teaser": "Lette og luftige hvedeboller, der fyldes med grøntsager og/eller kød. ",
-		"image": "",
+		"image": "bao_dampet.jpg",
 		"ingredients": [
 			{
 				"amount": "525",
@@ -1664,5 +1669,113 @@
 			"bagning"
 		],
 		"inspirationlink": "https://www.bbcgoodfood.com/recipes/steamed-bao-buns"
+	},
+	{
+		"name": "Lemon meringue pie",
+		"teaser": "Syrlig citrontærte med marengs",
+		"image": "lemon_meringue_pie.jpg",
+		"ingredients": [
+			{
+				"amount": "225",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "120",
+				"unit": "g",
+				"ingredient": "smør (koldt)"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æggeblomme"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "vand, koldt"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "citronskal, fintrevet"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "citronsaft"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "majsstivelse"
+			},
+			{
+				"amount": "175",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æggeblommer"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "smør (i tern)"
+			},
+			{
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "æggehvider"
+			},
+			{
+				"amount": "225",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "majsstivelse"
+			}
+		],
+		"steps": [
+			"Bland mel, sukker og slat i en skål",
+			"Skær smørret i mindre stykker og smuldr det i melet.",
+			"Saml dejen med æggeblomme og vand og tryk derefter dejen ud i en tærteform.",
+			"Prik huller i bunden med en gaffel og stil tærteformen tildækket i fryseren i 0.5 time.",
+			"Bag herefter tærtebunden i 20-25 min ved 180 grader i en forvarmet ovn.",
+			"Kom citronskal, -saft og vand i en gryde. ",
+			"Tilsæt majsstivelse og pisk blandingen jævn. Pisk herefter sukker og æggeblommer i.",
+			"Varm blandingen op ved lav varme under omrøring. Tilsæt smør og bring blandingen i kog under omrøring til den tykner.",
+			"Hæld citroncremen i den bagte tærtebund og afkøl.",
+			"Pisk æggehvider stive i en skål. Tilsæt sukker lidt af gangen under piskning.",
+			"Tilsæt majsstivelse og pisk til sukeret er opløst og marengsen skinnende, ca. 5 min. ",
+			"Fordel marengsen på toppen af tærten og bag citrontærten i ca. 15 min (til marengsen er gylden)."
+		],
+		"path": "description",
+		"servings": "8 personer",
+		"preparationtime": "1.5 time",
+		"categories": [
+			"dessert",
+			"specielle anledninger"
+		]
 	}
 ]

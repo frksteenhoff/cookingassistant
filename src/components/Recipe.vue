@@ -8,6 +8,10 @@
 		<b-row class="mb-3">
 			<b-col cols="12" md="6" order-md="2" lg="4" order-lg="3">
 				<img style="border:1px solid; border-radius: 5px; padding: 5px;" :src="getImage()" />
+				<div v-if="'relatedrecipes' in recipe">
+					<h5 class="pl-0 mt-3">Relaterede opskrifter:</h5>
+					<p v-for="recipe in recipe.relatedrecipes" :key="recipe" class="pl-0 mt-3">{{ recipe }}</p>
+				</div>
 			</b-col>
 			<b-col cols="12" md="6" order-md="1" lg="4" order-lg="1">
 				<b-row>
@@ -92,5 +96,6 @@ export default class RecipeCard extends AppProps {
 <style scoped>
 p, li {
 	font-size: 1rem;
+	color: #000;
 }
 </style>
