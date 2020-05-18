@@ -10,7 +10,9 @@
 				<img style="border:1px solid; border-radius: 5px; padding: 5px;" :src="getImage()" />
 				<div v-if="'relatedrecipes' in recipe">
 					<h5 class="pl-0 mt-3">Relaterede opskrifter:</h5>
-					<p v-for="recipe in recipe.relatedrecipes" :key="recipe" class="pl-0 mt-3">{{ recipe }}</p>
+					<p v-for="recipe in recipe.relatedrecipes" :key="recipe" class="pl-0 mt-3">
+						<router-link :to="{ name: 'recipe', params: { name: recipe }}">{{ recipe }}</router-link>
+					</p>
 				</div>
 			</b-col>
 			<b-col cols="12" md="6" order-md="1" lg="4" order-lg="1">

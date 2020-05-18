@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<b-navbar sticky toggleable="lg" type="dark" variant="hest">
-			<b-navbar-brand href="/Home" class="mb-0 pb-0 pt-0">
+			<b-navbar-brand href="/home" class="mb-0 pb-0 pt-0">
 				<img src="./assets/logo_cropped.png" style="width: 60px;" />
 			</b-navbar-brand>
 
@@ -9,12 +9,12 @@
 
 			<b-collapse id="nav-collapse" is-nav>
 				<b-nav-item-dropdown text="Opskrifter" right>
-					<b-dropdown-item href="#/Recipes">Alle opskrifter</b-dropdown-item>
-					<b-dropdown-item href="#/Recipes">Aftensmad</b-dropdown-item>
-					<b-dropdown-item href="#/Recipes">Morgenmad</b-dropdown-item>
-					<b-dropdown-item href="#/Recipes">Brød</b-dropdown-item>
-					<b-dropdown-item href="#/Recipes">Saucer og dips</b-dropdown-item>
-					<b-dropdown-item href="#/Recipes">Dessert og bagning</b-dropdown-item>
+					<b-dropdown-item href="#/recipes">Alle opskrifter</b-dropdown-item>
+					<b-dropdown-item href="#/recipes">Aftensmad</b-dropdown-item>
+					<b-dropdown-item href="#/recipes">Morgenmad</b-dropdown-item>
+					<b-dropdown-item href="#/recipes">Brød</b-dropdown-item>
+					<b-dropdown-item href="#/recipes">Saucer og dips</b-dropdown-item>
+					<b-dropdown-item href="#/recipes">Dessert og bagning</b-dropdown-item>
 				</b-nav-item-dropdown>
 
 				<b-navbar-nav>
@@ -65,17 +65,17 @@ export default class App extends AppProps {
 		{
 			id: 3,
 			text: "Enhedsoversætter",
-			page: "/UnitConverter"
+			page: "/unitconverter"
 		},
 		{
 			id: 4,
 			text: "Andre madlinks",
-			page: "/FoodLinks"
+			page: "/foodlinks"
 		},
 		{
 			id: 5,
 			text: "Opret",
-			page: "/Create"
+			page: "/create"
 		}
 	];
 }
