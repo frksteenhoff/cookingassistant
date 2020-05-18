@@ -3,24 +3,39 @@ import Vuex from "vuex"
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
+export interface AppState {
+	recipe: RecipeObject;
+	recipes: RecipeObject[];
+	units: string[];
+	tags: string[];
+	createTags: string[];
+  }
+
+export default new Vuex.Store<AppState>({
 	state: {
-		recipe: {},
+		recipe: {} as RecipeObject,
+		recipes: {} as RecipeObject[],
 		units: ["ml", "dl", "L", "F", "C", "K", "tsk", "spsk", "knivspis", "g", "kg", "stk", "bundt", "fed"],
 		tags: ["aftensmad", "snack", "brød", "bagning", "dessert", "specielle anledninger", "sauce", "dip", "dressing", "marinade", "morgenmad", "frokost", "marinade", "drink", "tilbehør"],
 		createTags: []
 	},
 	mutations: {
-		setRecipe(state, recipeObject) {
-			state.recipe = recipeObject
+		setRecipe(state, recipeName) {
+			state.recipe = state.recipes[state.recipes.map(recipe => recipe.name).indexOf(recipeName)]
+		},
+		setRecipes(state, recipeObject) {
+			state.recipes = recipeObject
 		},
 		setCreateTags(state, tags) {
 			state.createTags = tags
 		}
 	},
 	actions: {
-		setRecipe(context, recipeObject) {
-			context.commit("setRecipe", recipeObject)
+		setRecipe(context, recipeName) {
+			context.commit("setRecipe", recipeName)
+		},
+		setRecipes(context, recipes) {
+			context.commit("setRecipes", recipes)
 		},
 		setCreateTags(context, tags) {
 			context.commit("setCreateTags", tags)

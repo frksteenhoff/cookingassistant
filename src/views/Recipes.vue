@@ -30,5 +30,9 @@ const AppProps = Vue.extend({
 })
 export default class Recipes extends AppProps {
 	recipes: RecipeObject[] = excelrecipes.concat(formrecipes)
+
+	created() {
+		this.$store.dispatch("setRecipes", this.recipes)
+	}
 }
 </script>

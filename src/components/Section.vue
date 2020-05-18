@@ -2,7 +2,7 @@
 	<b-container>
 		<b-row class="mb-3">
 			<b-col>
-				<h1>{{ header }}</h1>
+				<h1 class="ml-3">{{ header }}</h1>
 			</b-col>
 		</b-row>
 		<b-row class="mb-3">
