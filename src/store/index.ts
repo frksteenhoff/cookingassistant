@@ -21,7 +21,7 @@ export default new Vuex.Store<AppState>({
 	},
 	mutations: {
 		setRecipe(state, recipeName) {
-			state.recipe = state.recipes[state.recipes.map(recipe => recipe.name).indexOf(recipeName)]
+			state.recipe = state.recipes[state.recipes.map(recipe => recipe.name.toLowerCase()).indexOf(recipeName.toLowerCase())]
 		},
 		setRecipes(state, recipeObject) {
 			state.recipes = recipeObject
@@ -44,6 +44,7 @@ export default new Vuex.Store<AppState>({
 	modules: {
 	},
 	getters: {
-		getCreateTags: (state) => state.createTags
+		getCreateTags: (state) => state.createTags,
+		getRecipe: (state) => state.recipe
 	}
 })

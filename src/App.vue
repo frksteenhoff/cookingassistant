@@ -70,7 +70,7 @@ export default class App extends AppProps {
 		{
 			id: 4,
 			text: "Andre madlinks",
-			page: "/foodlinks"
+			page: "/links"
 		},
 		{
 			id: 5,
