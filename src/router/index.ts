@@ -22,7 +22,7 @@ const routes: Array<RouteConfig> = [
 		component: () => import(/* webpackChunkName: "conversion" */ "../views/UnitConverter.vue")
 	},
 	{
-		path: "/foodlinks",
+		path: "/links",
 		name: "Madlinks",
 		component: FoodLinks
 	},
@@ -52,7 +52,10 @@ const routes: Array<RouteConfig> = [
 ]
 
 const router = new VueRouter({
-	routes
+	routes,
+	scrollBehavior() {
+		return { x: 0, y: 0 }
+	}
 })
 
 export default router
