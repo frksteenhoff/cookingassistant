@@ -30,11 +30,11 @@
 					<b-col cols="12" class="mb-3">
 						<h3>Ingredienser</h3>
 					</b-col>
-					<b-col cols="12" class="mb-2 mt-2">
-						Antal/serveringer: {{ recipe.servings }}
+					<b-col v-if="'servings' in recipe && recipe.servings" cols="12" class="mb-2 mt-2">
+						<b-icon icon="person"></b-icon> Antal/serveringer: {{ recipe.servings }}
 					</b-col>
-					<b-col v-if="'preparationtime' in recipe" cols="12" class="mb-4">
-						Tilberedningstid: {{ recipe.preparationtime }}
+					<b-col v-if="'preparationtime' in recipe && recipe.preparationtime" cols="12" class="mb-4">
+						<b-icon icon="clock"></b-icon>  Tilberedningstid: {{ recipe.preparationtime }}
 					</b-col>
 				</b-row>
 				<b-row class="mb-2">
