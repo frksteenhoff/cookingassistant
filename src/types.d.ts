@@ -5,7 +5,7 @@ declare type RecipeObject = {
 	ingredients: IngredientObject[],
 	steps: string[],
 	servings: string
-	categories?: string[],
+	categories: string[],
 	preparationtime?: string,
 	inspirationlink?: string,
 	path: string,
