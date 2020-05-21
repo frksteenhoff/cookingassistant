@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<b-navbar sticky toggleable="lg" type="dark" variant="hest">
-			<b-navbar-brand href="/home" class="mb-0 pb-0 pt-0">
+			<b-navbar-brand href="#/home" class="mb-0 pb-0 pt-0">
 				<img src="./assets/logo_cropped.png" style="width: 60px;" />
 			</b-navbar-brand>
 
@@ -134,6 +134,9 @@ li a.nav-link {
 	font-size: 1.5rem;
 	font-family: "Permanent Marker";
 	background-color: #bf988f !important;
+	text-decoration: none !important;
+	-webkit-tap-highlight-color: transparent;
+	outline: none !important;
 }
 
 img {
