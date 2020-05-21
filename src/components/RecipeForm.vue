@@ -133,15 +133,15 @@
 				<form-tag />
 			</b-col>
 		</b-row>
-		<b-row class="m-2">
+		<b-row class="m-2 mb-5">
 			<b-button
-				variant="success"
+				variant="info"
 				class="ml-3 mt-4"
 			>
-				<!--<a :href="'mailto:henriette.steenhoff@gmail.com?subject=' + recipe.name + '&body=' + JSON.stringify(recipe, undefined, 4)">Indesend</a>-->Indsend
+				<a :href="'mailto:' + mailingInfo.email + '?subject='+ mailingInfo.subject + '&body=' + mailingInfo.body">Indsend opskrift</a>
 			</b-button>
 		</b-row>
-		<b-row class="ml-2 mt-5 mb-5">
+		<b-row v-if="troubleshoot" class="ml-2 mt-5 mb-5">
 			<b-col cols="12" class="mb-4">
 				<b-button v-b-toggle="'collapse-2'" variant="outline-secondary" class="m-1">Forhåndsvisning af opskrift</b-button>
 				<b-collapse id="collapse-2">
@@ -174,6 +174,7 @@ const AppProps = Vue.extend({
 	}
 })
 export default class RecipeForm extends AppProps {
+	troubleshoot = false
 	recipe: RecipeObject = {
 		name: "",
 		teaser: "",
@@ -225,6 +226,12 @@ export default class RecipeForm extends AppProps {
 		})
 	}
 
+	mailingInfo: MailToObject = {
+		email: "henriette.steenhoff@gmail.com",
+		subject: encodeURI("Nyt forslag til opskrift: " + this.recipe.name),
+		body: "Jeg har brugt din hjemmeside til at generere denne opskrift, som du gerne må tage et kig på: " + encodeURI(JSON.stringify(this.recipe))
+	}
+
 	updated() {
 		this.recipe.categories = this.$store.getters.getCreateTags
 	}
@@ -251,5 +258,8 @@ export default class RecipeForm extends AppProps {
 svg:hover{
 	color: red !important;
 	cursor: grab;
+}
+button a {
+	color: white !important;
 }
 </style>

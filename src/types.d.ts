@@ -32,3 +32,9 @@ declare type CarouselObject = {
 	caption: string,
 	src: string
 }
+
+declare type MailToObject = {
+	email: string,
+	subject: string, 
+	body: string
+}
