@@ -59,7 +59,7 @@ export default class Conversion extends AppProps {
 		fahrenheit: "&deg;F",
 		deciliter: "dl",
 		milliliter: "ml",
-		grams: "gr"
+		gram: "g"
 	};
 
 	conversion(from: string, to: string) {

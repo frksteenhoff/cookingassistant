@@ -9,7 +9,7 @@
 			},
 			{
 				"amount": "100",
-				"unit": "gr",
+				"unit": "g",
 				"ingredient": "sukker"
 			}
 		],
@@ -37,7 +37,7 @@
 			},
 			{
 				"amount": "10",
-				"unit": "gr",
+				"unit": "g",
 				"ingredient": "g\u00e6r"
 			},
 			{
@@ -47,7 +47,7 @@
 			},
 			{
 				"amount": "800",
-				"unit": "gr",
+				"unit": "g",
 				"ingredient": "hvedemel (manitoba)"
 			},
 			{
@@ -234,7 +234,7 @@
 			},
 			{
 				"amount": "50",
-				"unit": "gr",
+				"unit": "g",
 				"ingredient": "sm\u00f8r"
 			},
 			{
@@ -327,12 +327,12 @@
 			},
 			{
 				"amount": "150",
-				"unit": "gr",
+				"unit": "g",
 				"ingredient": "gramhamshvedemel"
 			},
 			{
 				"amount": "10",
-				"unit": "gr",
+				"unit": "g",
 				"ingredient": "g\u00e6r"
 			},
 			{
@@ -538,7 +538,7 @@
 			},
 			{
 				"amount": "250",
-				"unit": "gr",
+				"unit": "g",
 				"ingredient": "kalvek\u00f8d"
 			},
 			{

@@ -213,7 +213,7 @@ export default class RecipeForm extends AppProps {
 		},
 		{
 			from: "ounces",
-			to: "grams"
+			to: "gram"
 		}
 	]
 
