@@ -41,7 +41,7 @@
 					</span>
 				</p>
 				<p class="m-0">
-					<a class="pl-0" style="font-size: 0.8rem;" href="mailto:henriette.steenhoff@gmail.com?Subject=Vriiinsk" target="_blank"
+					<a class="pl-0" style="font-size: 0.8rem;" href="mailto:henriette.steenhoff@gmail.com?subject=CookingAssistant" target="_blank"
 					>henriette.steenhoff@gmail.com</a>
 				</p>
 				<p class="mt-0">

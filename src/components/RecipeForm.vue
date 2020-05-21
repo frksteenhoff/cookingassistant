@@ -138,7 +138,7 @@
 				variant="info"
 				class="ml-3 mt-4"
 			>
-				<a :href="'mailto:' + mailingInfo.email + '?subject='+ mailingInfo.subject + '&body=' + mailingInfo.body">Indsend opskrift</a>
+				<a :href="'mailto:' + mailingInfo.email + '?subject='+ mailingInfo.subject + '&body=' + mailingInfo.body" target="_blank">Indsend opskrift</a>
 			</b-button>
 		</b-row>
 		<b-row v-if="troubleshoot" class="ml-2 mt-5 mb-5">
