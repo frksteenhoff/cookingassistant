@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<b-navbar sticky toggleable="lg" type="dark" variant="hest">
-			<b-navbar-brand href="#/home" class="mb-0 pb-0 pt-0">
+			<b-navbar-brand href="/" class="mb-0 pb-0 pt-0">
 				<img src="./assets/logo_cropped.png" style="width: 60px;" />
 			</b-navbar-brand>
 
