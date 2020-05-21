@@ -10,11 +10,12 @@
 			<b-collapse id="nav-collapse" is-nav>
 				<b-nav-item-dropdown text="Opskrifter" right>
 					<b-dropdown-item href="#/recipes">Alle opskrifter</b-dropdown-item>
-					<b-dropdown-item href="#/recipes">Aftensmad</b-dropdown-item>
-					<b-dropdown-item href="#/recipes">Morgenmad</b-dropdown-item>
-					<b-dropdown-item href="#/recipes">Brød</b-dropdown-item>
-					<b-dropdown-item href="#/recipes">Saucer og dips</b-dropdown-item>
-					<b-dropdown-item href="#/recipes">Dessert og bagning</b-dropdown-item>
+					<b-dropdown-item href="#/dinner">Aftensmad</b-dropdown-item>
+					<b-dropdown-item href="#/breakfast">Morgenmad</b-dropdown-item>
+					<b-dropdown-item href="#/bread">Brød</b-dropdown-item>
+					<b-dropdown-item href="#/sauces">Saucer og dips</b-dropdown-item>
+					<b-dropdown-item href="#/vegetarian">Vegetarisk</b-dropdown-item>
+					<b-dropdown-item href="#/dessert">Dessert og bagning</b-dropdown-item>
 				</b-nav-item-dropdown>
 
 				<b-navbar-nav>

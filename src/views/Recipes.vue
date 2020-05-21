@@ -4,7 +4,7 @@
 			<h1 class="ml-3">Opskrifter</h1>
 		</b-row>
 		<b-row class="m-2">
-			<b-col cols="12" md="6" lg="4" xl="3" v-for="recipe in recipes" :key="recipe.name">
+			<b-col cols="12" md="6" lg="4" xl="3" v-for="recipe in currentRecipes" :key="recipe.name">
 				<RecipeCard
 					:recipe="recipe"
 				/>
@@ -33,6 +33,32 @@ export default class Recipes extends AppProps {
 
 	created() {
 		this.$store.dispatch("setRecipes", this.recipes)
+	}
+
+	get currentRecipes() {
+		// @ts-ignore
+		return this.$route.name === "recipes" ? this.recipes : this.recipes.filter(recipe => recipe.categories.some(category => this.getRecipeCategory(this.$route.name).includes(category)))
+	}
+
+	getRecipeCategory(path: string): string[] {
+		switch (path) {
+		case "dinner":
+			return ["aftensmad"]
+		case "breakfast":
+			return ["morgenmad"]
+		case "baking":
+			return ["bagning"]
+		case "dessert":
+			return ["dessert"]
+		case "sauces":
+			return ["sauce", "dip", "dressing", "marinade"]
+		case "vegetarian":
+			return ["vegetarisk"]
+		case "bread":
+			return ["brød"]
+		default:
+			return ["unknown"]
+		}
 	}
 }
 </script>

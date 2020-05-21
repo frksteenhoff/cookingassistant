@@ -40,6 +40,36 @@ const routes: Array<RouteConfig> = [
 		component: () => import(/* webpackChunkName: "recipes" */ "../views/Recipes.vue")
 	},
 	{
+		path: "/dinner",
+		name: "dinner",
+		component: () => import("../views/Recipes.vue")
+	},
+	{
+		path: "/breakfast",
+		name: "breakfast",
+		component: () => import("../views/Recipes.vue")
+	},
+	{
+		path: "/bread",
+		name: "bread",
+		component: () => import("../views/Recipes.vue")
+	},
+	{
+		path: "/sauces",
+		name: "sauces",
+		component: () => import("../views/Recipes.vue")
+	},
+	{
+		path: "/dessert",
+		name: "dessert",
+		component: () => import("../views/Recipes.vue")
+	},
+	{
+		path: "/vegetarian",
+		name: "vegetarian",
+		component: () => import("../views/Recipes.vue")
+	},
+	{
 		path: "/recipes/:name",
 		name: "recipe",
 		component: () => import("../views/RecipeDescription.vue")
