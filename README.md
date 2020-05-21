@@ -1,7 +1,10 @@
-# cookingassistant
-A webapp with recipes and unit converter for easy cooking!
+# CookingAssistant
+A Vue, TypeScript, Bootstrap webapp with different kinds of recipes made available in my online cook book for easy cooking anywhere! 
+The application is in Danish, for now.
 
-View the app here: <link missing>
+Images and more recipes are added continuously.
+
+View the app here: [cookingassistant.herokuapp.com](https://cookingassistant.herokuapp.com/)
 
 ## Project setup
 ```
@@ -18,7 +21,7 @@ npm run serve
 npm run build
 ```
 
-Commits on this branch automatically pushes the changes to Heroku.
+_Commits on branch master are automatically pushed to and built on Heroku._
 
 ### Run your unit tests
 ```
@@ -38,12 +41,14 @@ npm run lint
 ├── public          # static resources (e.g. favicon and logo)
 │   └── index.html      # the main entry point for the application
 ├── src             # application source files -- where most logic and interface resides
-│   ├── assets          # abstraction of the rest api in code, used solely through the data store
-│   ├── components      # data files for api fallback
+│   ├── assets          # application images and logos
+│       ├── reipes      # images for all recipes
+│       └── carousel    # images used in front page carousel 
+│   ├── components      # application components
 │   ├── data            # recipes
 │       ├── .formRecipes.json   # recipes created usig browser
 │       ├── .recipes.json       # recipes from Excel file
-│       └── archive         # old recipe JSON files
+│       └── archive             # old recipe JSON files
 │   ├── router          # routing logic and setup
 │   ├── store           # vuex store
 │   ├── App.vue         # main application
