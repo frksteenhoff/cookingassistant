@@ -26,3 +26,8 @@ declare type BasicLinkObject = {
 	name: string, 
 	link: string
 }
+
+declare type CarouselObject = {
+	caption: string,
+	src: string
+}

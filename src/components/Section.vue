@@ -1,6 +1,6 @@
 <template>
 	<b-container>
-		<b-row class="mb-3">
+		<b-row class="mt-3 mb-3">
 			<b-col>
 				<h1 class="ml-3">{{ header }}</h1>
 			</b-col>
