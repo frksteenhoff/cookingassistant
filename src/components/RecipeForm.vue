@@ -49,8 +49,47 @@
 						/>
 					</b-col>
 				</b-row>
+				<b-row>
+					<b-col cols="12">
+						Ingredienser
+					</b-col>
+				</b-row>
+				<b-row v-for="(ing, index) in recipe.ingredients" :key="ing+index">
+					<b-col cols="12" sm="4" md="4">
+						<small>Mængde</small>
+						<b-form-input
+							v-model="ing.amount"
+						/>
+					</b-col>
+					<b-col cols="12" sm="3" md="3">
+						<small>Enhed</small>
+						<b-form-select
+							v-model="ing.unit"
+							:options="$store.state.units"
+						/>
+					</b-col>
+					<b-col cols="12" sm="4" md="4">
+						<small>Ingrediens</small>
+						<b-form-input
+							v-model="ing.ingredient"
+						/>
+					</b-col>
+					<b-col cols="1" class="mt-4 ml-0 pl-0 pt-2" @click="deleteRow(index)">
+							<b-icon v-b-tooltip.hover title="Slet linje" icon="x-circle"></b-icon>
+					</b-col>
+				</b-row>
+				<b-row class="mt-4 mb-4">
+					<b-col>
+						<b-button
+							variant="outline-secondary"
+							@click="addIngredient()"
+						>
+							Tilføj række
+						</b-button>
+					</b-col>
+				</b-row>
 			</b-col>
-			<b-col cols="12" md="3" class="p-3 d-md-none d-lg-block" style="background-color: #eaddda;">
+			<b-col cols="12" md="3" class="p-3 d-sm-none d-md-none d-lg-block" style="background-color: #eaddda;">
 				Oversæt enheder her
 				<div v-for="combination in combinations" :key="combination.from+combination.to">
 					<Conversion
@@ -59,45 +98,6 @@
 						size="sm"
 					/>
 				</div>
-			</b-col>
-		</b-row>
-		<b-row class="m-2">
-			<b-col cols="12">
-				Ingredienser
-			</b-col>
-		</b-row>
-		<b-row v-for="(ing, index) in recipe.ingredients" :key="ing+index" class="m-2">
-			<b-col cols="12" sm="4" md="2">
-				<small>Mængde</small>
-				<b-form-input
-					v-model="ing.amount"
-				/>
-			</b-col>
-			<b-col cols="12" sm="3" md="2">
-				<small>Enhed</small>
-				<b-form-select
-					v-model="ing.unit"
-					:options="$store.state.units"
-				/>
-			</b-col>
-			<b-col cols="12" sm="4" md="4">
-				<small>Ingrediens</small>
-				<b-form-input
-					v-model="ing.ingredient"
-				/>
-			</b-col>
-			<b-col cols="1" class="mt-4 ml-0 pl-0 pt-2" @click="deleteRow(index)">
-					<b-icon v-b-tooltip.hover title="Slet linje" icon="x-circle"></b-icon>
-			</b-col>
-		</b-row>
-		<b-row class="m-2 mt-4 mb-4">
-			<b-col>
-				<b-button
-					variant="outline-secondary"
-					@click="addIngredient()"
-				>
-					Tilføj række
-				</b-button>
 			</b-col>
 		</b-row>
 		<b-row class="m-2">
@@ -129,7 +129,7 @@
 			</b-col>
 		</b-row>
 		<b-row class="m-2 mb-0">
-			<b-col cols="16" md="8">
+			<b-col cols="12" md="8">
 				<form-tag />
 			</b-col>
 		</b-row>
