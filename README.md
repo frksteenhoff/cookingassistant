@@ -6,6 +6,15 @@ Images and more recipes are added continuously.
 
 View the app here: [cookingassistant.herokuapp.com](https://cookingassistant.herokuapp.com/)
 
+## Preview
+### Recipe overview
+Browse recipes
+![](https://github.com/frksteenhoff/cookingassistant/blob/master/src/assets/preview.PNG)
+
+### Unit converter
+Convert standard units
+![](https://github.com/frksteenhoff/cookingassistant/blob/master/src/assets/preview-converter.PNG)
+
 ## Project setup
 ```
 npm install
