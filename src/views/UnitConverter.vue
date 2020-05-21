@@ -42,7 +42,7 @@ export default class UnitConverter extends AppProps {
 		},
 		{
 			from: "ounces",
-			to: "grams"
+			to: "gram"
 		}
 	]
 }
