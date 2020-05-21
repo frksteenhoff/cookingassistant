@@ -16,7 +16,7 @@ export default new Vuex.Store<AppState>({
 		recipe: {} as RecipeObject,
 		recipes: {} as RecipeObject[],
 		units: ["ml", "dl", "L", "F", "C", "K", "tsk", "spsk", "knivspis", "g", "kg", "stk", "bundt", "fed"],
-		tags: ["aftensmad", "snack", "brød", "bagning", "dessert", "specielle anledninger", "sauce", "dip", "dressing", "marinade", "morgenmad", "frokost", "marinade", "drink", "tilbehør"],
+		tags: ["aftensmad", "snack", "brød", "bagning", "dessert", "specielle anledninger", "sauce", "dip", "dressing", "marinade", "morgenmad", "frokost", "marinade", "drink", "tilbehør", "vegetarisk"],
 		createTags: []
 	},
 	mutations: {
