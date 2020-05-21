@@ -1,31 +1,56 @@
 [
 	{
-		"name": "Dumplings",
+		"name": "Dumpling wrappers",
 		"ingredients": [
 			{
-				"amount": "300",
-				"unit": "dl",
+				"amount": "100",
+				"unit": "g",
 				"ingredient": "mel"
 			},
 			{
 				"amount": "100",
 				"unit": "g",
-				"ingredient": "sukker"
+				"ingredient": "tipo OO mel"
+			},
+			{
+				"amount": "100",
+				"unit": "ml",
+				"ingredient": "kogende vand"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "sesamolie"
 			}
 		],
 		"image": "dumplings.jpg",
-		"inspirationlink": "",
+		"inspirationlink": "https://www.chopstickchronicles.com/homemade-japanese-gyoza-wrappers/",
 		"teaser": "Sm\u00e5 hvedemelspandekager med fars af svin og for\u00e5rsl\u00f8g",
 		"steps": [
-			"afm\u00e5l ingredienser",
-			"bland i sk\u00e5l"
+			"Bland de to typer mel i en stor skål",
+			"Tilføj kogende vand og rør til blandingen bliver som savsmul",
+			"TIlføj sesamolie og fortsæt med at røre. Når blandingen er som savsmul kan du beguunde at samle dejen med hænderne, så det bliver en bold",
+			"Dæk dejen med vitawrap og lad den hvile i ca. 30 min.",
+			"Fjern herefter wrappen og ælt dejen i et par minutter på en meldrysset overflade. Når overfladen begynder at være glat, tildæk igen dejen med vitawrap og lad den afkøle i yderligere 30 min.",
+			"Del dejen i to lige store stykker. Rul den flat ud på en meldrysset overflade til en tykkelse på ca. 1-2mm med en kagerulle.",
+			"Brug nu et glas, eller en kagering (ca. 10-11 cm i diameter) til at skære dejen ud i cirkler.",
+			"Bliv ved indtil al dejen er brugt",
+			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling pandekager kan sagtens fryses ned."
 		],
-		"servings": "30 pandekager",
+		"servings": "30 dumplings",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"aftensmad",
-			"snack"
-		]
+			"snack",
+			"forret"
+		],
+		"preparationtime": "1.5 timer"
 	},
 	{
 		"name": "Ciabatta",
@@ -71,6 +96,7 @@
 		],
 		"servings": "4 br\u00f8d",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"br\u00f8d",
 			"bagning"
@@ -109,14 +135,18 @@
 		"inspirationlink": "https://www.valdemarsro.dk/hjemmelavet-pizza/",
 		"teaser": "Pizzadej",
 		"steps": [
-			"Opl\u00f8s g\u00e6ren i vandet -- vandet m\u00e5 gerne v\u00e6re lunkent",
-			"Tils\u00e6t alle v\u00e5de ingredienser og derefter de t\u00f8rre",
-			"Melet m\u00e5 gerne tilf\u00f8jes lidt efter lidt."
+			"Opl\u00f8s g\u00e6ren i vandet -- vandet m\u00e5 gerne v\u00e6re lunkent.",
+			"Tils\u00e6t alle v\u00e5de ingredienser og derefter de t\u00f8rre.",
+			"Melet m\u00e5 gerne tilf\u00f8jes lidt efter lidt.",
+			"Tilføj tomatsauce og det fyld du ønsker (champignon og chorizo eller mosarella og parmaskinke fungerer rigtig godt).",
+			"Bag ved 200 grader i 10-12 minutter --  til skorpen er gylden og osten let brændt."
 		],
 		"servings": "2 pizzadeje",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
-			"bagning"
+			"bagning",
+			"aftensmad"
 		]
 	},
 	{
@@ -153,6 +183,7 @@
 		],
 		"servings": "20 tortillas",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"bagning",
 			" aftensmad"
@@ -194,14 +225,16 @@
 			"Bland \u00f8l sirup kn\u00e6kkede rugkerner fr\u00f8 og kerner",
 			"Sm\u00f8r dine forme og h\u00e6ld rugbr\u00f8dsdejen i",
 			"Lad dejen h\u00e6ver under et viskestykke i 3-4 timer",
-			"Bag ved 190 grader i 5-7 kvarter",
+			"Bag ved 190 grader i 1.5-2 timer",
 			"Lad br\u00f8dene afk\u00f8le p\u00e5 rist"
 		],
 		"servings": "2 rugbr\u00f8d",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"bagning",
-			" frokost"
+			"frokost",
+			"brød"
 		]
 	},
 	{
@@ -256,9 +289,11 @@
 		],
 		"servings": "8-10 boller",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"morgenmad",
-			" bagning"
+			"bagning",
+			"brød"
 		]
 	},
 	{
@@ -298,8 +333,10 @@
 		],
 		"servings": "",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
-			"bagning"
+			"bagning",
+			"brød"
 		]
 	},
 	{
@@ -359,9 +396,11 @@
 		],
 		"servings": "\u00e9n focaccia",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"bagning",
-			" aftensmad"
+			"aftensmad",
+			"brød"
 		]
 	},
 	{
@@ -375,7 +414,7 @@
 			{
 				"amount": "1",
 				"unit": "stk",
-				"ingredient": "bay leaf"
+				"ingredient": "laurbærblad"
 			},
 			{
 				"amount": "0.5",
@@ -397,10 +436,13 @@
 		"inspirationlink": "",
 		"teaser": "En l\u00e6kker tomatsauce til pastaretter.",
 		"steps": [
-			"Bland alle ingredienser og varm dem op i en gryde. Jo l\u00e6ngere den st\u00e5r jo mere frmetr\u00e6dende blier tomatsmagen."
+			"Hak hvidløg fint",
+			"Bland alle ingredienser og varm dem op i en gryde.",
+			"Lad saucen simre i mindst 30 minutter. Jo l\u00e6ngere den st\u00e5r jo mere frmetr\u00e6dende bliver tomatsmagen."
 		],
 		"servings": "2 personer",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"aftensmad",
 			" frokost"
@@ -439,10 +481,12 @@
 		"inspirationlink": "",
 		"teaser": "Sauce til friske for\u00e5rsruller",
 		"steps": [
+			"Hak ingefær fint",
 			"Bland ingredienserne og lad dressingen st\u00e5 i 10-15 min inden brug"
 		],
 		"servings": "ca. 200 ml",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"sauce"
 		]
@@ -453,7 +497,7 @@
 			{
 				"amount": "150",
 				"unit": "g",
-				"ingredient": "ramsl\u00f8g (vaskede)"
+				"ingredient": "ramsl\u00f8g (skyllede)"
 			},
 			{
 				"amount": "2.5",
@@ -480,10 +524,15 @@
 		"inspirationlink": "",
 		"teaser": "Til sandwiches, pastaretter etc.",
 		"steps": [
-			"Ingen beskrivelse"
+			"Skyl ramsløgene og hak parmasanen i nogle grove stykker",
+			"Tilføj alle ingredienser i en blender og blend til massen er ensartet",
+			"Brug som spread på brød, eller som sauce til en pastaret"
 		],
 		"servings": "3-4 dl",
 		"path": "description",
+		"relatedrecipes": [
+			"hjemmelavet pasta"
+		],
 		"categories": [
 			"sauce"
 		]
@@ -563,6 +612,10 @@
 		],
 		"servings": "25 k\u00f8dboller",
 		"path": "description",
+		"relatedrecipes": [
+			"hjemmelavet pasta",
+			"tomatsauce"
+		],
 		"categories": [
 			"aftensmad",
 			" frokost"
@@ -605,6 +658,11 @@
 		],
 		"servings": "5 personer",
 		"path": "description",
+		"relatedrecipes": [
+			"ramsløgspesto",
+			"sicilienske kødboller",
+			"tomatsauce"
+		],
 		"categories": [
 			"aftensmad",
 			" frokost"
@@ -693,13 +751,35 @@
 		"inspirationlink": "https://dittejulie.dk/2015/07/jordbaertaerte/",
 		"teaser": "Jordb\u00e6rt\u00e6rte med m\u00f8rdejsbund, vanillecreme, chokolade og masser af friske jordb\u00e6r",
 		"steps": [
-			""
+			"Mørdej",
+			"Sigt mel og flormelis i en stor skål. Smuldr smørret heri med hænderne til det ligner savsmul/revet ost.",
+			"Ælt ægget ned i dejen og stop med at ælte, når dejen er glat.",
+			"Pak dejen ind i vitawrap og læg den på køl i 30 min.",
+			"Rul dejen ud til en tykkelse på ca. 2-3 mm og placér mørdejen i tærteformen.",
+			"I stedet for at rulle dejen ud kan du også dele den op i 5-10 stykker og presse den ned i formen, hvis du finder dette lettere.",
+			"Marcipanmasse",
+			"Ælt rå marcipan, rørsukker og smør godt sammen med hænderne så der ikke er nogen klumper",
+			"Rør ægget i massen og herefter hvedemel, salt og citron til den er homogen (ensartet)",
+			"Kom massen op i den ubagte tærte og bag den ved 200 grader varmluft i 15-20 min.",
+			"Lad tærten køle helt af i formen.",
+			"Vanillecreme",
+			"Skrab vanillekornene ud af vanillestangen og bland det med lidt af sukkeret.",
+			"Kom den tomme vanillestang i en gryde med 2 dl sødmælk og bring det i kog.",
+			"Bland vanillesukker, sukker, æggeblommer, maizena og 1 dl sødmælk i en skål.",
+			"Når mælken er ved kogepunktet tilsættes æggeblandingen og der røres rundt til blandingen begynder at tynke.",
+			"Pisk den gerne over varmen i nogle minutter, så stivelsen er kogt ud.",
+			"Kom vanillecremen i en frysepose og læg den på køl i minimum en time, så den er blevet helt kold.",
+			"Kom vanillecremen op i en skål, fjern vanillestangen og pisk cremen sammen med en elpisker",
+			"Pisk fløden i flødeskum og vend den sammen med vanillecremen.",
+			"Smelt chokoladen og pensl tærten. Stil herefter tærten på køl, så chokoladen kan sætte sig.",
+			"Smør vanillecremen jævn ud over tærten og pynt den med hele eller halve jordbær."
 		],
 		"servings": "6-8 personer",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"dessert",
-			" specielle anledninger"
+			"specielle anledninger"
 		]
 	},
 	{
@@ -745,13 +825,28 @@
 		"inspirationlink": "https://juliebruun.com/2020/04/kanelsnurrer/",
 		"teaser": "Kanelsnurrer med sukker, kanel og kardemomme, snurret for en fin lagdeling.",
 		"steps": [
-			""
+			"Boller",
+			"Lun mælk og smør i en gryde så det bliver lunkent, det skal ikke koge.",
+			"Bland mælkeblandingen med gær, salt, kardemomme, sukker og mel og rør rundt indtil dejen begynder at slippe skålen kanter.",
+			"Læg et klæde over skålen og lad bollerne hæve i 1 time.",
+			"Fyld",
+			"Kom smør, kanel, salt og sukker i en skål og rør det sammen. Det kan være nemmere at smøre fyldet ud, hvis du har lunet smørret først. Fordi dejen er så tynd har den let ved at gå i stykker, det undgår man med lunet smør.",
+			"Snurrer",
+			"Rul dejen ud på et meldrysset bord, så tynd som muligt.",
+			"Fold en tredjedel af dejen ind mod midten og fold den anden tredjedel ind over den første, så der er tre lag.",
+			"Rul herefter dejen ud forsigtig med en kagerulle",
+			"Skær dejen ud i strimler, 2-3cm brede. Spræt strimlen op på midten (indtil ca. 1cm fra kanten).",
+			"Sno de to dele af strimlen om hinanden og rul dem rundt om dine fingre i et lille tårn. (Se evt. videoen i inspirationslinket)",
+			"Læg dem på en bageplade og gentag med resten.",
+			"Lad snurrene efterhæve i 20 min mens ovnen varmes op til 200 grader",
+			"Bag snurrene i 15 minutter."		
 		],
 		"servings": "12 stk",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"dessert",
-			" specielle anledninger"
+			"specielle anledninger"
 		]
 	},
 	{
@@ -806,6 +901,7 @@
 		],
 		"servings": "20 stk",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"frokost",
 			" morgenmad",
@@ -860,10 +956,20 @@
 		"inspirationlink": "https://www.valdemarsro.dk/blaabaertaerte/",
 		"teaser": "Bl\u00e5b\u00e6rt\u00e6rte med frangipane",
 		"steps": [
-			""
+			"Mørdejstærtebund",
+			"Rør sukker/flormelis, salt og mel sammen.",
+			"Skær smørret i tern og smuldr det i melet. Med en mixer eller røremaskine, kør det til det er som savsmuld.",
+			"Saml dejen med æg og form det som en kugle.",
+			"Lad dejen hvile en halv time på køl.",
+			"Rul dejen ud til en tykkelse på ca. 2-3 mm og placér mørdejen i tærteformen.",
+			"Frangipane",
+			"Pisk smør og sukker sammen, vend mandelmel i og tilsæt æg.",
+			"Fordel frangipane på mørdejsbunden og drys alle blåbærene over (tryk dem lidt ned i cremen).",
+			"Bag tærten i en forvarmet ovn ved 175 grader varmludt i ca. 30 minutter."
 		],
-		"servings": "",
+		"servings": "6-8 personer",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"dessert",
 			" specielle anledninger"
@@ -959,6 +1065,7 @@
 		],
 		"servings": "1 cheesecake",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"dessert",
 			" specielle anledninger"
@@ -1031,6 +1138,7 @@
 		],
 		"servings": "1 brunsviger",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			"dessert",
 			" specielle anledninger"
@@ -1097,6 +1205,7 @@
 		],
 		"servings": "12 stk",
 		"path": "description",
+		"relatedrecipes": [],
 		"categories": [
 			""
 		]

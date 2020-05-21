@@ -1,5 +1,66 @@
 [
 	{
+		"name": "Guacamole",
+		"teaser": "Dippen du aldrig hverkan kan eller har nok af.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "avocado"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "rødløg, finthakket"
+			},
+			{
+				"amount": "1 tsk",
+				"unit": "tsk",
+				"ingredient": "paprika"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg (dosér efter behag, jeg elsker hvidløg)"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "creme fraiche (kan udelades)"
+			}
+		],
+		"steps": [
+			"Hak løg og hvidløg fint.",
+			"Udsten avocadoen og kom det i en skål med løg og hvidløg. Mos godt. Du kan sagtens bruge en stavblender/food processor, men jeg kan godt lide at massen er lidt grov)",
+			"Pres saften af limen ned i skålen med avocadoen og tilsæt paprika.",
+			"Smag til med salt og peber."
+		],
+		"path": "description",
+		"servings": "Kan man have for meget?",
+		"preparationtime": "10 min",
+		"categories": [
+			"dip",
+			"snack",
+			"tilbehør"
+		]
+	},
+	{
 		"name": "Pulled pork",
 		"teaser": "Langtidsstegt nakkefilet i stærk marinade. Brug det til pulled pork burgere eller som fyld til bao.",
 		"image": "pulled_pork.jpg",
@@ -56,10 +117,12 @@
 			}
 		],
 		"steps": [
+			"Marinade",
 			"Pil og hak rød- og hvidløg og brun dem på en pande",
 			"Tilsæt brun farin, teriyaki, soya, whiskey og ketchup",
 			"Saucen varmes herefter op til kogepunktet og simrer derefter i 30 min under jævn omrøring.",
 			"Smag saucen til -- den skal være sød, syrlig og stærk.",
+			"Kødet",
 			"Rens nakkefileten for sener og fedt",
 			"Rub kødet ind i marinaden og læg derefter kødet i en pose natten over.",
 			"Tag kødet ud af køleskabet og læg det i et ovnfast fad. Gem den resterende marinade.",
@@ -145,13 +208,16 @@
 			"Bland honning, dijon, ælbecidereddike, salt, sukker, spidskommen og peber og bland med gulerod/kål-blandingen",
 			"Bland creme fraiche, mayo sukker og salt og hæld det over coleslawen."
 		],
-		"servings": "",
+		"servings": "8 personer",
 		"categories": [
 			"marinade",
 			"aftensmad"
 		],
 		"preparationtime": "30 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": [
+			"pulled pork"
+		]
 	},
 	{
 		"name": "Blåbærmuffins",
@@ -209,7 +275,8 @@
 			"Rør mel, bagepulver og salt sammen og sæt det til side.",
 			"Pisk sukker og smør sammen til det er lyst -- tilsæt æggene et af gangen. ",
 			"Bland vanille og mælk i og vend melblandingen og bærrene i.",
-			"Hæld blandingen i forme og bag i ca. 12 minutter eller til når de er gyldne."
+			"Hæld blandingen i forme og bag i ca. 12 minutter eller til når de er gyldne.",
+			"Server alene eller med vanilleis"
 		],
 		"servings": "12 stk",
 		"categories": [
@@ -217,7 +284,8 @@
 			"specielle anledninger"
 		],
 		"preparationtime": "30 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Misomayo",
@@ -258,7 +326,11 @@
 			"dip"
 		],
 		"preparationtime": "10 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": [
+			"bao boller",
+			"syltede rødløg"
+		]
 	},
 	{
 		"name": "Spicy chili dip",
@@ -307,16 +379,19 @@
 			}
 		],
 		"steps": [
-			"Bland alle ingredienser og lad stå 15 min inden brug.",
-			"",
-			""
+			"Hak chili og hvidløg fint",
+			"Pres saften af limen og bland alle ingredienser i en lille skål",
+			"Lad stå 15 min inden brug."
 		],
 		"servings": "2 dl",
 		"categories": [
 			"dip"
 		],
 		"preparationtime": "25 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": [
+			"dumplings"
+		]
 	},
 	{
 		"name": "Soyadressing",
@@ -355,16 +430,16 @@
 			}
 		],
 		"steps": [
-			"Bland alle ingredienser og lad stå minimum 15 min inden brug.",
-			"",
-			""
+			"Hak skalotteløg fint",
+			"Bland alle ingredienser og lad stå minimum 15 min inden brug."
 		],
 		"servings": "2dl",
 		"categories": [
 			"dressing"
 		],
 		"preparationtime": "15 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Kahlua",
@@ -398,7 +473,8 @@
 			"dessert"
 		],
 		"preparationtime": "6-7 timer",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Syltede rødløg",
@@ -436,7 +512,11 @@
 			"tilbehør"
 		],
 		"preparationtime": "20 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": [
+			"svampetacos",
+			"bao boller"
+		]
 	},
 	{
 		"name": "Marinade til grillspyd (kød)",
@@ -454,7 +534,7 @@
 				"ingredient": "ketchup"
 			},
 			{
-				"amount": "1 dl",
+				"amount": "1",
 				"unit": "dl",
 				"ingredient": "soya"
 			},
@@ -480,16 +560,16 @@
 			}
 		],
 		"steps": [
-			"Bland alle ingredienser og lad mariaden trække 15 minutter før den påføres kødet.",
-			"",
-			""
+			"Hak hvidløg fint og bland med resterende ingredienser",
+			"Lad mariaden trække 15 minutter før den påføres kødet."
 		],
 		"servings": "5 dl",
 		"categories": [
 			"marinade"
 		],
 		"preparationtime": "25 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Marinade til grøntsagsspyd",
@@ -557,7 +637,8 @@
 			"marinade"
 		],
 		"preparationtime": "20 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Hoisin sauce",
@@ -630,7 +711,8 @@
 			"sauce"
 		],
 		"preparationtime": "1.5 time",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Fucking lækre veggiedeller",
@@ -730,7 +812,8 @@
 			"tilbehør"
 		],
 		"preparationtime": "35 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Stegte kyllingelår med tomat og peberfrugt",
@@ -809,8 +892,10 @@
 			}
 		],
 		"steps": [
+			"Tilberedning af kylling",
 			"Put olivenolien på en pande",
 			"Brun kyllingestykkerne på alle sider ved høj varme (og skru derefter ned til lav varme)",
+			"Paprikasauce",
 			"Kom peberfrugt, tomat, løg, hvidløg og krydderier i en blender og blend til en ensartet masse.",
 			"Held saucen over kyllingestykkerne på panden og blad det sammen.",
 			"Kom låg på og lad det hele simre ved lav varme i 25-30 min.",
@@ -822,7 +907,8 @@
 			"aftensmad"
 		],
 		"preparationtime": "1 time",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Mangosalsa",
@@ -866,7 +952,8 @@
 			}
 		],
 		"steps": [
-			"Bland alle ingredienser",
+			"Hak cherrytomater, mango, rødløg og chili fint",
+			"Pres saften af limen og bland alle ingredienser i en lille skål",
 			"Lad salsaen stå på køl i 30 min inden brug. Smag til med lime",
 			""
 		],
@@ -875,7 +962,8 @@
 			"sause"
 		],
 		"preparationtime": "40 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Pulled chicken",
@@ -929,8 +1017,10 @@
 			}
 		],
 		"steps": [
+			"Tilberedning af kyllingen",
 			"Kog de to kyllingebryster i ca. 15 min (til de er gennemkogt) ",
 			"Tag kyllingen af blusset og riv kødet fra hinanden med to gafler",
+			"Marinade",
 			"Hak hvidløg fint og bland med resterende ingredienser",
 			"Hæld blandingen ud over det revede kylling.",
 			"Server f.eks. til madpandekager eller tacos."
@@ -938,10 +1028,14 @@
 		"servings": "3-4 personer",
 		"categories": [
 			"aftensmad",
-			"tilbehør"
+			"tilbehør",
+			"marinade"
 		],
 		"preparationtime": "35 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": [
+			"mangosalsa"
+		]
 	},
 	{
 		"name": "Brun sovs med myseost",
@@ -997,7 +1091,8 @@
 			"tilbehør"
 		],
 		"preparationtime": "30 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Jakobs chokoladekugler",
@@ -1046,7 +1141,8 @@
 			"snack"
 		],
 		"preparationtime": "30 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Svampetacos",
@@ -1114,7 +1210,11 @@
 			"aftensmad"
 		],
 		"preparationtime": "30 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": [
+			"mangosalsa",
+			"guacamole"
+		]
 	},
 	{
 		"name": "Kartoffelsalat",
@@ -1169,7 +1269,8 @@
 			"dressing"
 		],
 		"preparationtime": "40 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Madpandekager med spinat",
@@ -1218,7 +1319,11 @@
 			"aftensmad"
 		],
 		"preparationtime": "45 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": [
+			"syltede rødløg",
+			"pulled chicken"
+		]
 	},
 	{
 		"name": "Dahl",
@@ -1295,14 +1400,16 @@
 			"Svits hvidløg, ingefær og chili i en gryde",
 			"Tilsæt vand når krydderierne er begyndt at tage farve",
 			"Tilsæt hakkede tomater, friske tomater, skyllede linser og kokosmælk og rør.",
-			"Lad retten stå på lavt blus i 1 time med hyppig omrøring"
+			"Lad retten stå på lavt blus i 1 time med hyppig omrøring, så linserne ikke brænder fast",
+			"Server med creme fraiche, lime og koriander."
 		],
 		"servings": "3 personer",
 		"categories": [
 			"aftensmad"
 		],
 		"preparationtime": "1.5 time",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Falafler",
@@ -1376,12 +1483,14 @@
 			}
 		],
 		"steps": [
+			"Fars",
 			"Hak løg, hvidløg, persille og koriander.",
 			"Riv kartoflerne og dræn dem for vand ved at putte de revede kartofler i et viskestykke og presse væden fra.",
 			"Med en stavblener, blend alle ingredienser til massen begynder at samle sig. Lad det ikke blive helt mast, lad der være lidt klumper.",
 			"Massen skal være våd, føler du at den er for våd, tilføj lidt ekstra rasp.",
 			"Jeg splitter ofte farsen i to og bruger rødbeder i den ene halvdel i stedet for kartofler. Dette giver en fin farve og et godt afbræk i smagen.",
 			"Sæt farsen på køl i 30 minutter til 1 time",
+			"Stening",
 			"Brug en spiseske til at samle lidt fars og lave bolde.",
 			"Varm olien op og steg falaflerne til de begynder at tage farve.",
 			"Server med tortillas og grønt, som en variation til pitabrød."
@@ -1391,7 +1500,10 @@
 			"aftensmad"
 		],
 		"preparationtime": "2 timer",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": [
+			"syltede rødløg"
+		]
 	},
 	{
 		"name": "Nannas karamelkage",
@@ -1450,13 +1562,16 @@
 			}
 		],
 		"steps": [
-			"BUND - smelt smør og bland med brun farin, kokos og mel - ælt grundig.",
+			"Bund", 
+			"Smelt smør og bland med brun farin, kokos og mel - ælt grundig.",
 			"Tryk dejen ud i et fad (20x20)",
 			"Bag i 12-15 min ved 175 grader (indtil lysebrun)",
-			"FYLD - bland kondenseret mælk, salt, smør og sirup i en gryde.",
+			"Fyld",
+			"Bland kondenseret mælk, salt, smør og sirup i en gryde.",
 			"Lad blandingen koge under omrøring. Lad den stå på varmen, uden at koge, i 10 min og blive tykkere og mørkere.",
 			"Når massen er karameliseret, hældes den ud over bunden og bager 10-15 min til karamellem bliver fast og gylden. Lad den derefter køle af",
-			"CHOKOLADEOVERTRÆK - Hak og smelt chokolade og smør",
+			"Chokoladeovertræk",
+			"Hak og smelt chokolade og smør",
 			"Når chokoladen er helt opløst overtrækkes den afkølede kage med chokoladen og kagen sættes igen på køl. "
 		],
 		"servings": "1 kage",
@@ -1465,7 +1580,8 @@
 			"bagning"
 		],
 		"preparationtime": "1.5 time",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Burgerboller med spinat og rugkerner",
@@ -1537,7 +1653,8 @@
 			"bagning"
 		],
 		"preparationtime": "40 min",
-		"path": "description"
+		"path": "description",
+		"relatedrecipes": []
 	},
 	{
 		"name": "Teriyaki sauce",
@@ -1593,6 +1710,7 @@
 			"Hint: lad blandingen mørkne lidt i farven inden du tager den af panden."
 		],
 		"path": "description",
+		"relatedrecipes": [],
 		"servings": "1.5 dl",
 		"preparationtime": "15 min",
 		"categories": [
@@ -1662,6 +1780,10 @@
 			"Tip: lad være med at tjekke til bollerne mens de damper -- dette vil ændre temperaturen og få bollerne til at falde sammen."
 		],
 		"path": "description",
+		"relatedrecipes": [
+			"pulled pork",
+			"syltede rødløg"
+		],
 		"servings": "18 boller",
 		"preparationtime": "2.5-12 timer",
 		"categories": [
@@ -1711,7 +1833,7 @@
 				"ingredient": "citronskal, fintrevet"
 			},
 			{
-				"amount": "2",
+				"amount": "1.5",
 				"unit": "dl",
 				"ingredient": "citronsaft"
 			},
@@ -1757,20 +1879,24 @@
 			}
 		],
 		"steps": [
+			"Mørdejsbund",
 			"Bland mel, sukker og slat i en skål",
 			"Skær smørret i mindre stykker og smuldr det i melet.",
 			"Saml dejen med æggeblomme og vand og tryk derefter dejen ud i en tærteform.",
 			"Prik huller i bunden med en gaffel og stil tærteformen tildækket i fryseren i 0.5 time.",
 			"Bag herefter tærtebunden i 20-25 min ved 180 grader i en forvarmet ovn.",
+			"Citronmasse",
 			"Kom citronskal, -saft og vand i en gryde. ",
 			"Tilsæt majsstivelse og pisk blandingen jævn. Pisk herefter sukker og æggeblommer i.",
 			"Varm blandingen op ved lav varme under omrøring. Tilsæt smør og bring blandingen i kog under omrøring til den tykner.",
 			"Hæld citroncremen i den bagte tærtebund og afkøl.",
+			"Marengs",
 			"Pisk æggehvider stive i en skål. Tilsæt sukker lidt af gangen under piskning.",
 			"Tilsæt majsstivelse og pisk til sukeret er opløst og marengsen skinnende, ca. 5 min. ",
 			"Fordel marengsen på toppen af tærten og bag citrontærten i ca. 15 min (til marengsen er gylden)."
 		],
 		"path": "description",
+		"relatedrecipes": [],
 		"servings": "8 personer",
 		"preparationtime": "1.5 time",
 		"categories": [

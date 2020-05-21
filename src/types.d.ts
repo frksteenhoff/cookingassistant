@@ -9,6 +9,7 @@ declare type RecipeObject = {
 	preparationtime?: string,
 	inspirationlink?: string,
 	path: string,
+	relatedrecipes?: string[]
 }
 
 declare type IngredientObject = {
