@@ -1562,7 +1562,7 @@
 			}
 		],
 		"steps": [
-			"Bund", 
+			"Bund",
 			"Smelt smør og bland med brun farin, kokos og mel - ælt grundig.",
 			"Tryk dejen ud i et fad (20x20)",
 			"Bag i 12-15 min ved 175 grader (indtil lysebrun)",
@@ -1904,5 +1904,81 @@
 			"specielle anledninger"
 		],
 		"inspirationlink": "https://www.lurpak.com/da-dk/opskrifter-med-lurpak/lemon-meringue-taerte/"
+	},
+	{
+		"name": "Råcreme og frugtsalat",
+		"teaser": "En lækker creme til at bringe smagen frem i din frugtsalat",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "æggeblommer"
+			},
+			{
+				"amount": "1.5",
+				"unit": "spsk",
+				"ingredient": "rørsukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "vanillesukker"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "piskefløde"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "banan"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "mango"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æble"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "ananas"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "jordbær (hvis de er i sæson)"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "blåbær, friske"
+			},
+			{
+				"amount": "30",
+				"unit": "g",
+				"ingredient": "chokolade, mørk"
+			}
+		],
+		"steps": [
+			"Råcreme",
+			"Pisk vanille, æggeblommer og sukker til en lluftig æggesnaps.",
+			"Pisk fløden til flødeskum og vend den sammen med æggeblandingen.",
+			"Frugtsalat",
+			"Rens og skær alle frugter i munrette stykker og server med råcreme og et drys finthakket chokolade."
+		],
+		"path": "description",
+		"servings": "4 personer",
+		"preparationtime": "20min",
+		"categories": [
+			"dessert",
+			"sommer"
+		]
 	}
 ]
