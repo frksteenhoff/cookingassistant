@@ -174,7 +174,7 @@ const AppProps = Vue.extend({
 	}
 })
 export default class RecipeForm extends AppProps {
-	troubleshoot = false
+	troubleshoot = true
 	recipe: RecipeObject = {
 		name: "",
 		teaser: "",
@@ -200,7 +200,9 @@ export default class RecipeForm extends AppProps {
 		path: "description", // default
 		servings: "",
 		preparationtime: "",
-		categories: []
+		categories: [],
+		relatedrecipes: [],
+		inspirationlink: ""
 	}
 
 	combinations: ConversionObject[] = [
@@ -226,10 +228,12 @@ export default class RecipeForm extends AppProps {
 		})
 	}
 
-	mailingInfo: MailToObject = {
-		email: "henriette.steenhoff@gmail.com",
-		subject: encodeURI("Nyt forslag til opskrift: " + this.recipe.name),
-		body: "Jeg har brugt din hjemmeside til at generere denne opskrift, som du gerne må tage et kig på: " + encodeURI(JSON.stringify(this.recipe))
+	get mailingInfo(): MailToObject {
+		return {
+			email: "henriette.steenhoff@gmail.com",
+			subject: encodeURI("Nyt forslag til opskrift: " + this.recipe.name),
+			body: "Jeg har brugt din hjemmeside til at generere denne opskrift, som du gerne må tage et kig på: " + encodeURI(JSON.stringify(this.recipe))
+		}
 	}
 
 	updated() {
