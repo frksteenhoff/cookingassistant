@@ -89,14 +89,16 @@
 					</b-col>
 				</b-row>
 			</b-col>
-			<b-col cols="12" md="3" class="p-3 d-sm-none d-md-none d-lg-block" style="background-color: #eaddda;">
-				Oversæt enheder her
-				<div v-for="combination in combinations" :key="combination.from+combination.to">
-					<Conversion
-						:fromUnit="combination.from"
-						:toUnit="combination.to"
-						size="sm"
-					/>
+			<b-col cols="12" md="3" class="p-3 d-sm-none d-md-none d-lg-block">
+				<div class="p-3" style="background-color: #eaddda;">
+					Oversæt enheder her
+					<div v-for="combination in combinations" :key="combination.from+combination.to">
+						<Conversion
+							:fromUnit="combination.from"
+							:toUnit="combination.to"
+							size="sm"
+						/>
+					</div>
 				</div>
 			</b-col>
 		</b-row>

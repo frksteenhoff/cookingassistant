@@ -1,12 +1,12 @@
 <template>
 	<div>
 		<b-row class="m-2">
-			<b-col cols="12">
+			<b-col cols="12" class="p-0">
 				<h2 class="pl-0 mt-4">{{ capitalize(fromUnit) }} til {{ capitalize(toUnit) }}</h2>
 			</b-col>
 		</b-row>
 		<b-row class="m-2">
-			<b-col cols="12" md="6">
+			<b-col cols="12" md="5" class="p-0">
 				<b-form-input
 					v-model="unit"
 					type="number"
@@ -15,8 +15,8 @@
 				/>
 				{{ fromUnit }}
 			</b-col>
-			<b-col cols="12" md="6" class="mt-1">
-				<p class="mb-0 ml-0 pl-0 text-center text-md-left" v-html="conversion(fromUnit, toUnit) + ' ' + unitSymbol[toUnit]" />
+			<b-col cols="12" md="7" class="mt-1 p-0 pl-3">
+				<p class="mb-1 ml-0 p-0 text-center text-md-left" v-html="conversion(fromUnit, toUnit) + ' ' + unitSymbol[toUnit]" />
 				{{ toUnit }}
 			</b-col>
 		</b-row>

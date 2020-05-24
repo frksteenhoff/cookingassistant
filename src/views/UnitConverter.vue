@@ -1,7 +1,7 @@
 <template>
 	<b-container class="mt-3">
 		<b-row class="m-2">
-			<b-col cols="12">
+			<b-col cols="12" class="pl-0">
 				<h1 class="m-0">Ofte brugte konverteringer</h1>
 			</b-col>
 		</b-row>
