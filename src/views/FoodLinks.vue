@@ -177,10 +177,6 @@ export default class FoodLinks extends AppProps {
 
 	foodLinks: BasicLinkObject[] = [
 		{
-			name: "5 forskellige hverdagsretter",
-			link: "https://www.facebook.com/buzzfeedtasty/videos/206721910731884/"
-		},
-		{
 			name: "Blomkålssuppe",
 			link: " https://www.valdemarsro.dk/blomkaalssuppe/"
 		},
@@ -285,10 +281,6 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.valdemarsro.dk/buddha-bowl/"
 		},
 		{
-			name: "Chicken satay",
-			link: "https://www.yummly.com/recipe/Thai-Chicken-Satay-with-Peanut-Sauce-9026800?prm-v1#directions"
-		},
-		{
 			name: "Tacos",
 			link: "http://www.louisesmadblog.dk/tacos/"
 		},
@@ -375,10 +367,6 @@ export default class FoodLinks extends AppProps {
 		{
 			name: "Gyoza",
 			link: "https://youtu.be/z60_v7NhFck"
-		},
-		{
-			name: "Hoisin sauce",
-			link: "https://www.daringgourmet.com/best-homemade-hoisin-sauce/"
 		},
 		{
 			name: "Homemade black bean sauce",

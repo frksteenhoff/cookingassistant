@@ -642,7 +642,7 @@
 	},
 	{
 		"name": "Hoisin sauce",
-		"teaser": "",
+		"teaser": "Tyk smagfuld sauce fra Kina. Bruges til bl.a. Peking and",
 		"image": "",
 		"ingredients": [
 			{
@@ -658,7 +658,7 @@
 			{
 				"amount": "4",
 				"unit": "fed",
-				"ingredient": "hvidløg"
+				"ingredient": "hvidløg, finthakket"
 			},
 			{
 				"amount": "2",
@@ -702,9 +702,9 @@
 			}
 		],
 		"steps": [
-			"Bland alt og voilá!",
-			"",
-			""
+			"Hak forårsløg, hvidløg og ingefær",
+			"Kom alle ingredienser i en blender og blend indtil du får en ensartet puré.",
+			"Brug med det samme,  eller opbevar i en lukket beholder i køleskabet."
 		],
 		"servings": "4 dl",
 		"categories": [
@@ -2824,7 +2824,7 @@
 	{
 		"name": "Laksetartar",
 		"teaser": "Laksetartar med syrlig cremefraiche dressing",
-		"image": "",
+		"image": "laksetartar.jpg",
 		"ingredients": [
 			{
 				"amount": "250",
@@ -2885,5 +2885,128 @@
 			"forret"
 		],
 		"inspirationlink": "https://kreamorskoekken.dk/roeget-laksetatar/"
+	},
+	{
+		"name": "Chicken Satay",
+		"teaser": "Kylling med en kraftig sesamsauce og ris",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "kokosmælk, én dåse"
+			},
+			{
+				"amount": "600",
+				"unit": "g",
+				"ingredient": "kyllingefillet"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "karry, stødt"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "karrypasta"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "karrypasta"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "peanut butter"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "peanuts, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "lime, til pynt"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "koriander, til pynt"
+			},
+			{
+				"amount": "1",
+				"unit": "pakke(r)",
+				"ingredient": "grillspyd, i træ"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rød chili, finthakket"
+			}
+		],
+		"steps": [
+			"Kyllingemarinade",
+			"Skær kyllingen ud i mundrette stykker.",
+			"Bland 0.5 dl af kokosmælken med karry, sukker, karrypasta og salt og vend kyllingen i marinaden. Lad kyllingen marinere over natten, minimum 30 min. ",
+			"Når kyllingen har marineret, put den da på spyd, ca. 4-5 stykker kylling på hver. Varm en pande med lidt olivenolie til medium varme og steg spydene af nogle omgange.",
+			"Peanutsauce",
+			"Kom resten af kokosmælken på en pande sammen med karrypasta, eanut butter, sukker, soya, salt, æblecidereddike og vand ved svag varme. ",
+			"Rør rundt til blandingen er ensartet og lad den simre i 5 minutter.",
+			"Tilpas konsistensen med vand. Saucen skal være til at hælde, men tyk.",
+			"Dæk panden til med et låg og lad stå indtil kyllingen er klar.",
+			"Servering",
+			"Hæld saucen i en skål og drys peanuts over den.",
+			"Kom alle satay spydene på en tallerken og drys med de resterende hakkede peanuts, koriander og chili.",
+			"Server med ris."
+		],
+		"path": "description",
+		"servings": "6-8 personer",
+		"preparationtime": "50min",
+		"categories": [
+			"forret",
+			"aftensmad",
+			"snack",
+			"sauce",
+			"dip"
+		],
+		"inspirationlink": "https://www.yummly.com/recipe/Thai-Chicken-Satay-with-Peanut-Sauce-9026800?prm-v1#directions"
 	}
 ]
