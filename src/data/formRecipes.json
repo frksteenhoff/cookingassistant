@@ -1252,6 +1252,11 @@
 				"ingredient": "sukker"
 			},
 			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "dijon"
+			},
+			{
 				"amount": "0.5",
 				"unit": "stk",
 				"ingredient": "rødløg"
@@ -1259,9 +1264,10 @@
 		],
 		"steps": [
 			"Kog kartoflerne og lad dem køle af i gryden efter vandet er hældt fra",
-			"Hak rødløg",
+			"Hak rødløg fint.",
 			"Bland de resterende ingredienser og tilsæt rødløg",
-			"Hæld blandingen over de kolde kartofler og opbevar kartoffelsalaten på køl inden de skal bruges."
+			"Hæld blandingen over de kolde kartofler og opbevar kartoffelsalaten på køl inden de skal bruges.",
+			"Kartoffelsalaten er bedst hvis den har fået 2-3 timer på køl inden servering."
 		],
 		"servings": "10 personer",
 		"categories": [
@@ -1980,5 +1986,904 @@
 			"dessert",
 			"sommer"
 		]
+	},
+	{
+		"name": "Forårsruller (stegte)",
+		"teaser": "Friturestegte forårsruller med grøntsager og svinekød",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "hakket svinekød"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "champignon, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "gulerod"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "chili"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "ingefær, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "fiskesauce"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "rørsukker"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "glasnudler"
+			},
+			{
+				"amount": "30",
+				"unit": "stk",
+				"ingredient": "forårsrulleplader"
+			},
+			{
+				"amount": "1",
+				"unit": "L",
+				"ingredient": "fritureolie (rasp/solsikke eller lignende)"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			}
+		],
+		"steps": [
+			"Sauter løg, hvidløg og svampe i olivenolien ved medium varme i en pande indtil løgene er klare.",
+			"Kom hakkekødet på panden og skru op for varmen og steg kødet indtil det er gennemstegt.",
+			"Smag til med krydderier, hvis der skal mere til end angivet.",
+			"Hæld kogende vand over glasnudlerne og lad dem stå i ca. 30 sekunder.",
+			"Kom 1 spsk dej på forårsrulledejen sammen med lidt glasnudler og rul fra det ene hjørne ind over midten. Luk de midterste hjørner til og rul indtil du rammer det modsatte hjørne.",
+			"Gør dette indtil al dejen er brugt.",
+			"Varm olien op i en gryde og tjek at den er blevet varm med et grillspyd i træ. Når olien bruser op om træet, er den klar.",
+			"Steg forårsrullerne af flere omgange og læg de færdige forårsruller på et stykke køkkenrulle.",
+			"Server gerne med sursødsauce eller spicy chili dip."
+		],
+		"path": "description",
+		"servings": "30 stk",
+		"preparationtime": "45min",
+		"categories": [
+			"snack",
+			"aftensmad",
+			"tilbehør"
+		]
+	},
+	{
+		"name": "Garam Masala",
+		"teaser": "Lækker indisk krydderi der bruges i mange gryderetter",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "3.5",
+				"unit": "spsk",
+				"ingredient": "kardemomme, stødt"
+			},
+			{
+				"amount": "2.5",
+				"unit": "spsk",
+				"ingredient": "kanel"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "muskatnød"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "kryddernellike"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "kværnet peber"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "1.5",
+				"unit": "tsk",
+				"ingredient": "koriander, stødt"
+			}
+		],
+		"steps": [
+			"Tilføj alle krydderier på en tør pande og steg ved medium varme under omrøring indtil du kan dufte krydderierne",
+			"Lad dem køle af og put dem i en lille beholder -- brug helst indenfor 2 måneder."
+		],
+		"path": "description",
+		"servings": "1 lille bøtte",
+		"preparationtime": "5 min",
+		"categories": [
+			"krydderier"
+		]
+	},
+	{
+		"name": "Chicken Korma",
+		"teaser": "Traditionel indisk ret der er let og krydret med en cremet sauce.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "6",
+				"unit": "stk",
+				"ingredient": "kyllingefileter"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "tomatpasta"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "garam masala"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "ingefær, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "rød peber"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "paprika"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "kardemomme"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "gurkemeje"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "mandler"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "græsk yoghurt"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "rapsolie"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "fløde"
+			}
+		],
+		"steps": [
+			"Skær kyllingen i mundrette stykker og put dem i en stor skål.",
+			"Kom tompasta, ingefær, hvidløg, garam masala, rød peber, paprika, kerdemomme, salt, gurkemeje og mandler i en food processor og blend indtil blandingen er ensartet ",
+			"Tilføj blandingen til skålen med kylling sammen med yoghurt og bland godt.",
+			"Stil på køl i 1-2 timer.",
+			"Tilføj olie og smør til en stor pande ved medium varme.",
+			"Tilføj de hakkede løg og brun dem af.",
+			"Tilføj kyllingen og lad blandingen stå i 12-15 minutter (til kyllingen er gennemkogt).",
+			"Tilføj fløden og bland godt. Lad blandingen stå i 5 minutter.",
+			"Server med ris og naan."
+		],
+		"path": "description",
+		"relatedrecipes": [
+			"garam masala",
+			"Naan brød"
+		],
+		"inspirationlink": "https://dinnerthendessert.com/indian-chicken-korma/",
+		"servings": "4 personer",
+		"preparationtime": "1  time og 45 min",
+		"categories": [
+			"aftensmad"
+		]
+	},
+	{
+		"name": "Butter chicken",
+		"teaser": "Traditionel indisk ret med kylling og en cremet sauce",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "6",
+				"unit": "spsk",
+				"ingredient": "smør, i tern"
+			},
+			{
+				"amount": "1",
+				"unit": "kg",
+				"ingredient": "kyllingefilet"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "garam masala"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "chilipulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "0.5",
+				"unit": "spsk",
+				"ingredient": "cayenne peber"
+			},
+			{
+				"amount": "1",
+				"unit": "dåse(r)",
+				"ingredient": "hakkede tomater"
+			},
+			{
+				"amount": "5",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime, til pynt"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "koriander, til pynt"
+			}
+		],
+		"steps": [
+			"Brun kyllingen i en pande med 2 spsk smør. De behøver ikke være gennemstegt. Lav det i omgange og tag fra på en tallerken.",
+			"Smelt 2 spsk smør på en pande ved medium varme, tilføj de hakkede løg og steg til de får en glasagtig overflade.",
+			"Tilføj herefter hvidløg, garam masala, finthakket ingefær, chili pulver, spidskommen og cayenne, Rør rundt så blandingen bliver ensartet og tilføj derefter hakkede tomater. Hvis du gerne vil have en sauce uden tomatstykker kan du med fordel blende tomaterne inden de kommer på panden.",
+			"Lad blandingen simre i 5 minutter og tilføj derefter fløden. Når blandingen igen smirer, tilføj da kyllingen og lad retten stå i 15 minutter. Hold varmen moderat, det skal ikke bulderkoge.",
+			"Tilføj det resterende smør og smag til med salt og peber.",
+			"Servér med ris og naan. Pynt med lime og koriander"
+		],
+		"path": "description",
+		"servings": "4 personer",
+		"preparationtime": "40min",
+		"categories": [
+			"aftensmad"
+		],
+		"relatedrecipes": [
+			"Naan brød"
+		]
+	},
+	{
+		"name": "Naan brød",
+		"teaser": "Indisk madbrød, super lækkert til sammenkogte retter.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "40",
+				"unit": "g",
+				"ingredient": "gær"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand, lunkent"
+			},
+			{
+				"amount": "1.5",
+				"unit": "spsk",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "1.5",
+				"unit": "dl",
+				"ingredient": "yoghurt"
+			},
+			{
+				"amount": "3",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "grahamsmel eller ølandshvedemel"
+			},
+			{
+				"amount": "400-450",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "sesam"
+			},
+			{
+				"amount": "5",
+				"unit": "spsk",
+				"ingredient": "smør, blødt (til stegning)"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, kan fravælges"
+			},
+			{
+				"amount": "10",
+				"unit": "stk",
+				"ingredient": "frisk koriander, stilke (kan undlades)"
+			}
+		],
+		"steps": [
+			"Dej\n",
+			"Opløs gæren i det lunkne vand og tilsæt derefter sukker, yoghurt, salt og groft mel. ",
+			"Tilsæt hvedemel lidt efter lidt. Ælt dejen til den er glat.",
+			"Lad dejen hæve til dobbelt størrelse, ca 1 time.",
+			"Topping",
+			"Pil og hak hvidløgene fint og bland dem med det bløde smør. Stil et til side i en lille skål.",
+			"Når dejen er hævet, del den da i 8 stykker og rul hver af dem ud til de er ca. 0.5cm tykke.",
+			"Pensl brødene med hvidløgssmørret på den ene side, drys lidt sesamfrø udover og giv den en stilk koriander eller to. Kom dem på en varm påande i ca. 2 minutter på hver side. Pensl den side der mangler hvidløgssmør mens brødet er på panden.",
+			"Serves med det samme."
+		],
+		"path": "description",
+		"servings": "6 store brød",
+		"preparationtime": "1.5time",
+		"categories": [
+			"aftensmad",
+			"tilbehør",
+			"vegetarisk"
+		],
+		"relatedrecipes": [
+			"Butter chicken",
+			"Chicken korma"
+		],
+		"inspirationlink": "https://drkoch.dk/indiske-naanbroed-med-og-uden-hvidloeg-opskrift/"
+	},
+	{
+		"name": "Panang Curry",
+		"teaser": "Spicy, cremet sauce med grøntsager og kød.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "kyllingefillet"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "panang karrypasta"
+			},
+			{
+				"amount": "6",
+				"unit": "stk",
+				"ingredient": "kaffir limeblade, i strimler"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rød chili, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "ingefær, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "fiskesauce"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "rørsukker"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime, saften"
+			},
+			{
+				"amount": "2",
+				"unit": "dåse(r)",
+				"ingredient": "kokosmælk"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "olie, til stegning"
+			},
+			{
+				"amount": "1 ",
+				"unit": "stk",
+				"ingredient": "rød peber, i grove tern"
+			},
+			{
+				"amount": "8",
+				"unit": "stk",
+				"ingredient": "champignon, skåret i 4"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "blomkål"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "broccoli"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "gulerod, skiveskåret"
+			}
+		],
+		"steps": [
+			"Skær kyllingen i strimler/mundrette stykker.",
+			"Hak chili, hvidløg og ingefær fint og skær kaffirbladene i strimler. Hvis du ikke kan få fat i kaffirblade, brug da lidt ekstra lime.",
+			"Opvarm en wok med lidt olie og tilsæt karrypastaen og svits den af. ",
+			"Tilsæt derefter kyllingen og brun den -- den skal helst ikke være helt gennemstegt, da den også skal simre i 30 minutter.",
+			"Tilsæt, chili, hvidløg, ingefær, rørsukker, kaffirblade, fiskesauce, kokosmælk og vand. Rør det godt sammen og bring retten i kog.",
+			"Lad retten simre i 20-30 minutter.",
+			"Mens retten simrer, skær gulerødder i 0.5 cm skiver, peber i grove stykker, skær champignon i 4 og pluk buske af broccoli og blomkål og skær dem til i mundrette stykker. ",
+			"Smag retten til med sukker, fiskesauce og lime.",
+			"Kom grøntsagerne i karryen og lad den stå i yderligere 5 minutter. Grøntsagerne skal helst stadig have bid.",
+			"Server med ris og pynt med koriander."
+		],
+		"path": "description",
+		"servings": "4 personer",
+		"preparationtime": "40min",
+		"categories": [
+			"aftensmad"
+		],
+		"inspirationlink": "https://cookieandkate.com/thai-panang-curry-recipe/"
+	},
+	{
+		"name": "Gyoza dipping sauce",
+		"teaser": "Dyppelse til dumplings, friske eller stegte forårsruller o.lign.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "riseddike"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "ingefær, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "forårsløg"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sesamolie"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sriracha/chili flager"
+			}
+		],
+		"steps": [
+			"Hak hvidløg og ingefær fint og skær forårsløget i tynde skiver.",
+			"Bland alle ingredienser i en skål og lad dem stå i 15 minutter inden brug.",
+			""
+		],
+		"path": "description",
+		"servings": "",
+		"preparationtime": "10 min",
+		"categories": [
+			"sauce",
+			"dip",
+			"tilbehør"
+		],
+		"relatedrecipes": [
+			"Dumplings",
+			"Forårsruller (stegte)"
+		],
+		"inspirationlink": "https://www.recipezazz.com/recipe/gyoza-dipping-sauce-20523"
+	},
+	{
+		"name": "Rispapirsruller",
+		"teaser": "Firske forårsruller med grøntsagsfyld",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "gulerod, i strimler"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "agurk, i strimler"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "avocado"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "2",
+				"unit": "pakke(r)",
+				"ingredient": "rispapirsplader"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "mango, i strimler"
+			},
+			{
+				"amount": "0.25",
+				"unit": "stk",
+				"ingredient": "spidskål, tyndt skåret"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "alm rejer, tempurarejer eller kylling i strimler (kan udelades)"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "koriander"
+			}
+		],
+		"steps": [
+			"Forberedelse",
+			"Snit gulerødder, agurk, peber og mango i tynde strimler (julienne) og kom grøntsagerne i et fad eller separate skåle.",
+			"Del avocadoerne i 2 og udhul dem. Skær derefter avocadoen i skiver (mens den stadig har skal på) og udhul skiverne med en ske og kom dem i en skål.",
+			"Skær spidskålen i tyne strimler (start fra den tynde ende) og kom det i en skål.",
+			"Hvis du vil bruge kød, steg det på en pande eller i ovnen -- gerne med lidt hvidløg.",
+			"Samling",
+			"Brug et tærtefad til at blødgøre rispapirspladerne (en af gangen).",
+			"Læg et papir i og sørg for at det er dækket af vand, tag det herefter op og læg det på en tallerken.",
+			"Kom lidt af alle ingredienser på papiret. For at give lidt ekstra smag kom enten soya, goma dressing eller peanutbutter sauce ovenpå ingredienser inden du lukker rullen (som en tortilla, hvis den spises med hænderne, eller luk den i begge ender, hvis den skal skæres ud). Sørg for ikke at komme for meget i, så den kan lukkes.",
+			"Lav alle ruller klar på forhånd, eller lad dine gæster lave deres egne ved bordet."
+		],
+		"path": "description",
+		"servings": "4 personer",
+		"preparationtime": "30min",
+		"categories": [
+			"forret",
+			"vegetarisk",
+			"aftensmad"
+		],
+		"relatedrecipes": [
+			"Peanutbutter sauce",
+			"Gyoza dipping sauce",
+			"Spicy chili dip"
+		]
+	},
+	{
+		"name": "Sticky hvidløg-sesam kylling",
+		"teaser": "Krydret kylling med hvidløg-honning sauce og forårsløg",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "mel"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "løgpulver"
+			},
+			{
+				"amount": "0.25",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "0.25",
+				"unit": "tsk",
+				"ingredient": "chili, stødt"
+			},
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "kyllingefillet"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "olivenolie, til stegning"
+			},
+			{
+				"amount": "0.25",
+				"unit": "dl",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "riseddike"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "0.25",
+				"unit": "tsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "0.5",
+				"unit": "spsk",
+				"ingredient": "sesamfrø"
+			},
+			{
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "forårsløg, finthakket"
+			},
+			{
+				"amount": "1.5",
+				"unit": "dl",
+				"ingredient": "ris"
+			}
+		],
+		"steps": [
+			"Varm olivenolien på en pande ved medium varme.",
+			"Skær kyllingen i mundrette stykker. ",
+			"Bland mel, chili og løgpulver i en skål og tilføj kyllingen. Bland til kyllingen er fuldstændig dækket af krydderiblandingen.",
+			"Kom kyllingen over på panden og brun den.",
+			"Bland honning, riseddike, finthakket hvidløg, chiliflager og soya i en lille skål og sæt det til side.",
+			"Efter 5 minutter, vend kyllingen og brun den på den modsatte side. Når kyllingen er stegt på begge sider, tilsæt honningblandingen og skru ned på lav varme.",
+			"Lad panden stå på lav varme i 10 minutter og vend kyllingen 1-2 gange.",
+			"Sluk nu for panden og lad kyllingen hvile i minimum 5 minutter. Drys sesam og finthakket forårsløg over og server med ris."
+		],
+		"path": "description",
+		"servings": "3 personer",
+		"preparationtime": "25min",
+		"categories": [
+			"aftensmad"
+		],
+		"inspirationlink": "https://www.swankyrecipes.com/sticky-garlic-sesame-chicken.html"
+	},
+	{
+		"name": "Chinese Five Spice",
+		"teaser": "Kinesisk Femkrydderi - stjerneanis, fennikel, peber, kanel og nelliker",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "stjerneanis, stødt"
+			},
+			{
+				"amount": "1.5",
+				"unit": "spsk",
+				"ingredient": "fennikelfrø, stødt"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "szechuan peberkorn"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "kanel"
+			},
+			{
+				"amount": "0.25",
+				"unit": "tsk",
+				"ingredient": "nelliker"
+			}
+		],
+		"steps": [
+			"Rist alle ingredienserne på en pande ved medium varme til man kan dufte krydderierne. ",
+			"Vær forsigtig så de ikke bliver brændt.",
+			"Lad krydderierne køle helt af og mal dem i en morter. ",
+			"Opbevar i lukket beholder."
+		],
+		"path": "description",
+		"servings": "",
+		"preparationtime": "10min",
+		"categories": [
+			"krydderier"
+		],
+		"inspirationlink": "https://www.daringgourmet.com/chinese-five-spice-powder/"
+	},
+	{
+		"name": "Laksetartar",
+		"teaser": "Laksetartar med syrlig cremefraiche dressing",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "laks"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "creme fraiche"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "citron, saften"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "dijon"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "rødløg, finthakket"
+			},
+			{
+				"amount": "0.5",
+				"unit": "bundt",
+				"ingredient": "purløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber"
+			}
+		],
+		"steps": [
+			"Skær laksen ud i 1x1 cm tern. ",
+			"Bland alle ingredienser sammen og vend laksen i.",
+			"Smag til med salt, peber og citron",
+			"Lad tartaren stå på køl 1 time eller 2."
+		],
+		"path": "description",
+		"servings": "4 personer",
+		"preparationtime": "20min",
+		"categories": [
+			"forret"
+		],
+		"inspirationlink": "https://kreamorskoekken.dk/roeget-laksetatar/"
 	}
 ]

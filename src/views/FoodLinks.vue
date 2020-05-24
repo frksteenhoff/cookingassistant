@@ -53,6 +53,10 @@ export default class FoodLinks extends AppProps {
 		{
 			name: "Meltyper",
 			link: "https://madensverden.dk/meltyper/"
+		},
+		{
+			name: "Jeg køber asiatiske ingredienser til madlavning her",
+			link: "https://www.denkinesiskekoebmand.dk/"
 		}
 	]
 
@@ -201,14 +205,6 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.arla.dk/opskrifter/pasta-i-champignonsauce/"
 		},
 		{
-			name: "Laksetartar",
-			link: "https://www.spisbedre.dk/forretter/fisk/laekker-laksetatar-med-krydderurter"
-		},
-		{
-			name: "Laksetartar (den med mayo)",
-			link: "https://kreamorskoekken.dk/roeget-laksetatar/"
-		},
-		{
 			name: "Grilled vegetables + feta + tabbouleh",
 			link: "https://www.jamieoliver.com/recipes/cheese-recipes/griddled-vegetables-feta-with-tabbouleh/"
 		},
@@ -265,32 +261,12 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.valdemarsro.dk/ravioli-opskrift/"
 		},
 		{
-			name: "Butter chicken",
-			link: "https://thekitchenpaper.com/indian-butter-chicken/"
-		},
-		{
 			name: "Chicken Biryani",
 			link: "https://www.thedeliciouscrescent.com/easy-hyderabadi-chicken-biryani/"
 		},
 		{
-			name: "Chicken Korma",
-			link: "https://dinnerthendessert.com/indian-chicken-korma/"
-		},
-		{
-			name: "Naan Brød",
-			link: "https://drkoch.dk/indiske-naanbroed-med-og-uden-hvidloeg-opskrift/"
-		},
-		{
-			name: "Naan",
-			link: "https://www.frokenkraesen.com/opskrift-naanbroed-paa-30-minutter/"
-		},
-		{
 			name: "Mushroom curry",
 			link: "https://www.jamieoliver.com/recipes/vegetable-recipes/mushroom-curry/"
-		},
-		{
-			name: "Pulled chicken",
-			link: "http://www.myrecipes.com/recipe/pulled-chicken-sandwiches"
 		},
 		{
 			name: "Beef wellington",
@@ -313,10 +289,6 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.yummly.com/recipe/Thai-Chicken-Satay-with-Peanut-Sauce-9026800?prm-v1#directions"
 		},
 		{
-			name: "Panang Curry Chicken",
-			link: "https://www.louisesmadblog.dk/panang-karry-med-kylling-panang-gai/"
-		},
-		{
 			name: "Tacos",
 			link: "http://www.louisesmadblog.dk/tacos/"
 		},
@@ -327,10 +299,6 @@ export default class FoodLinks extends AppProps {
 		{
 			name: "Quinoa deller",
 			link: "https://www.valdemarsro.dk/quinoadeller/"
-		},
-		{
-			name: "Lasagne - mexi kyllinge lasagne",
-			link: "http://www.webopskrifter.dk/madopskrifter/150/"
 		},
 		{
 			name: "Black bean enchiladas",
@@ -347,10 +315,6 @@ export default class FoodLinks extends AppProps {
 		{
 			name: "Fish tacos",
 			link: "https://www.delish.com/uk/cooking/recipes/a28869036/easy-fish-taco-recipe/"
-		},
-		{
-			name: "Poached eggs",
-			link: "https://downshiftology.com/recipes/poached-eggs/"
 		},
 		{
 			name: "Black bean burgers",
@@ -409,10 +373,6 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.santamariaworld.com/ie/recipes/salmon-sashimi/"
 		},
 		{
-			name: "Gyoza dipping sauce",
-			link: "https://www.recipezazz.com/recipe/gyoza-dipping-sauce-20523"
-		},
-		{
 			name: "Gyoza",
 			link: "https://youtu.be/z60_v7NhFck"
 		},
@@ -421,24 +381,12 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.daringgourmet.com/best-homemade-hoisin-sauce/"
 		},
 		{
-			name: "Chinese five spice",
-			link: "https://www.daringgourmet.com/2013/04/12/chinese-five-spice-powder/"
-		},
-		{
 			name: "Homemade black bean sauce",
 			link: "https://www.daringgourmet.com/2016/03/04/how-to-make-homemade-black-bean-sauce-or-black-bean-paste/"
 		},
 		{
 			name: "Okonomiyaki",
 			link: "https://www.valdemarsro.dk/okonomiyaki/"
-		},
-		{
-			name: "Bao filling",
-			link: "https://www.google.com/amp/s/www.brit.co/steamed-bao-recipes-2639446564.amp.html"
-		},
-		{
-			name: "Forårsruller",
-			link: "https://www.valdemarsro.dk/sproede-foraarsruller/"
 		},
 		{
 			name: "Miso",
@@ -451,10 +399,6 @@ export default class FoodLinks extends AppProps {
 		{
 			name: "Miso glaced salmon",
 			link: "http://clemfoodie.com/2019/01/28/saumon-glace-au-miso-riz-kale-et-avocat/"
-		},
-		{
-			name: "Sticky garlic sesame chicken",
-			link: "https://www.swankyrecipes.com/sticky-garlic-sesame-chicken.html"
 		}
 	]
 }
