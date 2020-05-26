@@ -81,6 +81,7 @@ export default new Vuex.Store<AppState>({
 	},
 	getters: {
 		getCreateTags: (state) => state.createTags,
-		getRecipe: (state) => state.recipe
+		getRecipe: (state) => state.recipe,
+		getRecipes: (state) => state.recipes
 	}
 })

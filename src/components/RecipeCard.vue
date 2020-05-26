@@ -31,9 +31,7 @@ const AppProps = Vue.extend({
 @Component({})
 export default class RecipeCard extends AppProps {
 	handleCardClick() {
-		this.$store.dispatch("setRecipe", this.recipe.name).then(() => {
-			this.$router.push({ path: "recipes/" + this.recipe.name })
-		})
+		this.$router.push({ path: "recipes/" + this.recipe.name })
 	}
 
 	getImage() {

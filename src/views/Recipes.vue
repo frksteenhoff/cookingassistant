@@ -16,8 +16,6 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
 import RecipeCard from "@/components/RecipeCard.vue"
-import excelrecipes from "@/data/recipes.json"
-import formrecipes from "@/data/formRecipes.json"
 
 const AppProps = Vue.extend({
 	props: {}
@@ -29,15 +27,9 @@ const AppProps = Vue.extend({
 	}
 })
 export default class Recipes extends AppProps {
-	recipes: RecipeObject[] = excelrecipes.concat(formrecipes)
-
-	created() {
-		this.$store.dispatch("setRecipes", this.recipes)
-	}
-
 	get currentRecipes() {
 		// @ts-ignore
-		return this.$route.name === "recipes" ? this.recipes : this.recipes.filter(recipe => recipe.categories.some(category => this.getRecipeCategory(this.$route.name).includes(category)))
+		return this.$route.name === "recipes" ? this.$store.getters.getRecipes : this.$store.getters.getRecipes.filter(recipe => recipe.categories.some(category => this.getRecipeCategory(this.$route.name).includes(category)))
 	}
 
 	getRecipeCategory(path: string): string[] {

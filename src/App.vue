@@ -54,6 +54,9 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
+import excelrecipes from "@/data/recipes.json"
+import formrecipes from "@/data/formRecipes.json"
+
 const AppProps = Vue.extend({
 	props: {}
 })
@@ -62,6 +65,12 @@ const AppProps = Vue.extend({
 	components: {}
 })
 export default class App extends AppProps {
+	recipes: RecipeObject[] = excelrecipes.concat(formrecipes)
+
+	created() {
+		this.$store.dispatch("setRecipes", this.recipes)
+	}
+
 	links = [
 		{
 			id: 3,
