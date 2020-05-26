@@ -463,9 +463,9 @@
 			}
 		],
 		"steps": [
-			"Kog vand, sukker og instant kaffe ind til en tyk sirup, blandingen må ikke koge og skal helst ikke over medium varme. Hvis kaffen brænder vil sirupen også smage brændt. Lad den stå på varme i 4-6 timer, til blandingen er tyk.",
-			"Køl siruppen ned til den er helt kold. Bland herfter vodka i og opbevar på køl. ",
-			""
+			"Kog vand, sukker og instant kaffe ind til en tyk sirup, blandingen må ikke koge og skal helst ikke over medium varme.",
+			"Hvis kaffen brænder vil sirupen også smage brændt. Lad den stå på varme i 4-6 timer, til blandingen er tyk.",
+			"Køl siruppen ned til den er helt kold. Bland herfter vodka i og opbevar på køl. "
 		],
 		"servings": "1-1.5L kahlua",
 		"categories": [
@@ -954,8 +954,7 @@
 		"steps": [
 			"Hak cherrytomater, mango, rødløg og chili fint",
 			"Pres saften af limen og bland alle ingredienser i en lille skål",
-			"Lad salsaen stå på køl i 30 min inden brug. Smag til med lime",
-			""
+			"Lad salsaen stå på køl i 30 min inden brug. Smag til med lime"
 		],
 		"servings": "3-4 personer",
 		"categories": [
@@ -1133,7 +1132,7 @@
 		"steps": [
 			"Lad bønnerne dryppe godt af og blend alle ingredienser til det bliver en ensartet masse.",
 			"Smag til med salt",
-			""
+			"Drys evt. med kokos"
 		],
 		"servings": "20 kugler",
 		"categories": [
@@ -2588,8 +2587,7 @@
 		],
 		"steps": [
 			"Hak hvidløg og ingefær fint og skær forårsløget i tynde skiver.",
-			"Bland alle ingredienser i en skål og lad dem stå i 15 minutter inden brug.",
-			""
+			"Bland alle ingredienser i en skål og lad dem stå i 15 minutter inden brug."
 		],
 		"path": "description",
 		"servings": "",
@@ -3008,5 +3006,64 @@
 			"dip"
 		],
 		"inspirationlink": "https://www.yummly.com/recipe/Thai-Chicken-Satay-with-Peanut-Sauce-9026800?prm-v1#directions"
+	},
+	{
+		"name": "Langtidshævede hvedeboller",
+		"teaser": "Luftige boller der er sprøde udenpå og luftige med store huller indeni.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "5",
+				"unit": "dl",
+				"ingredient": "vand, lunkent"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "gær"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "salt, groft"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "700",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			}
+		],
+		"steps": [
+			"Rør gæren ud i det lunkne vand og tilføj salt, sukker og olie.",
+			"Rør melet i lidt efter lidt (del det op i 4) og rør det godt sammen på en røremaskine. ",
+			"Dejen er våd, men når alt melet er tilføjet, skal den slippe kanterne af skålen. Når dette sker, kan du stoppe med at røre.",
+			"Lad dejen hæve natten over ved stuetemperatur i en skål dække med husholdningsfilm.",
+			"Bagning",
+			"Læg dejen ud på et meldrysset bord og fold den ind over sig selv.",
+			"Del dejen i 12 stykker og kom dem direkte på en bageplade.",
+			"Lad bollerne hæve mens ovnen varmes til 250 grader varmluft.",
+			"Bag bollerne i 12-14 minutter (mere hvis ovnen ikke er helt varm)",
+			"Lad bollerne køle på en rist. Server mens de er lune."
+		],
+		"path": "description",
+		"servings": "12 stk",
+		"preparationtime": "12 timer",
+		"categories": [
+			"morgenmad",
+			"brød",
+			"bagning"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.gastrofun.dk/opskrift/langtidshaevede-boller"
 	}
 ]

@@ -2,7 +2,7 @@
 	<div class="mt-3">
 		<b-row class="mb-4">
 			<b-col cols="12">
-				<h1 class="ml-0">{{ recipe.name + $route.params.name }}</h1>
+				<h1 class="ml-0">{{ recipe.name }}</h1>
 			</b-col>
 		</b-row>
 		<b-row>
@@ -54,15 +54,16 @@
 			</b-col>
 			<b-col cols=12 md="8" order-md="3" lg="5" order-lg="2" class="mt-lg-4">
 				<b-row class="mt-0">
-					<b-col cols="12" class="mb-3 mt-lg-4">
+					<b-col cols="12" class="mb-3 mt-lg-4 pl-0">
 						<h3>Procedure</h3>
 					</b-col>
-				</b-row>
-				<ul v-for="step in recipe.steps" :key="step" class="mb-3">
+					<p v-if="recipe.steps.length <= 1" class="pl-0">Fremgangsmåde kommer snart!</p>
+					<ul v-for="step in recipe.steps" :key="step" class="mb-3">
 					<li :class="{'ml-0': true, 'font-weight-bold': (step.split(' ').length === 1)}">
 						{{ step }}
 					</li>
 				</ul>
+				</b-row>
 			</b-col>
 		</b-row>
 		<b-row class="mt-5 mb-5">
