@@ -110,7 +110,7 @@ body {
 	font-family: "Roboto Light", "Roboto", "Arial", Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #bf988f;
+	color: #20B2AA;
 }
 
 #content {
@@ -127,7 +127,7 @@ nav {
 }
 
 a {
-	color: #bf988f !important;
+	color: #20B2AA !important;
 	text-decoration: none !important;
 }
 
@@ -142,7 +142,7 @@ li a.nav-link {
 	color: #ffffff !important;
 	font-size: 1.5rem;
 	font-family: "Permanent Marker";
-	background-color: #bf988f !important;
+	background-color: #20B2AA !important;
 	text-decoration: none !important;
 	-webkit-tap-highlight-color: transparent;
 	outline: none !important;
@@ -197,7 +197,7 @@ li {
 }
 
 #insta_logo a:hover {
-	background-color: #bf988f;
+	background-color: #20B2AA;
 	color: #ffffff;
 }
 
@@ -207,7 +207,7 @@ footer {
 	margin: 0;
 	padding: 16px 0 16px 0;
 	padding-bottom: 40px;
-	background-color: #bf988f;
+	background-color: #20B2AA;
 	color: #ffffff;
 }
 
