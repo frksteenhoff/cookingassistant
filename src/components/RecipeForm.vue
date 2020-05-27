@@ -59,6 +59,7 @@
 						<small>Mængde</small>
 						<b-form-input
 							v-model="ing.amount"
+							type="number"
 						/>
 					</b-col>
 					<b-col cols="12" sm="3" md="3">
@@ -72,6 +73,7 @@
 						<small>Ingrediens</small>
 						<b-form-input
 							v-model="ing.ingredient"
+							type="text"
 						/>
 					</b-col>
 					<b-col cols="1" class="mt-4 ml-0 pl-0 pt-2" @click="deleteRow(index)">
