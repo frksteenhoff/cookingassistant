@@ -6,8 +6,8 @@
 			fade
 			indicators
 			:interval="3000"
-			img-width="1024"
-			img-height="480"
+			img-width="768"
+			img-height="360"
 		>
 			<b-carousel-slide caption="Jordbærtærte" text="Opskrifter til alle anledninger" :img-src="require('../assets/carousel/jordbaertaerte.jpg')"></b-carousel-slide>
 			<b-carousel-slide caption="Lemon meringue pie" text="Find både brød, kager og andre søde sager" :img-src="require('../assets/carousel/front.jpg')"></b-carousel-slide>
