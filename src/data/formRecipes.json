@@ -3158,5 +3158,61 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Langtidshævet surdejsfoccacia",
+		"teaser": "En spændstig og luftig dej til en let foccacia.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "tipo OO mel"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "surdej"
+			},
+			{
+				"amount": "5",
+				"unit": "g",
+				"ingredient": "tørgær (hvis ikke surdej)"
+			},
+			{
+				"amount": "4",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "12.5",
+				"unit": "g",
+				"ingredient": "salt"
+			}
+		],
+		"steps": [
+			"Bland surdej/gær med mel og vand (gem 0.25dl af vandet). Lad dejen hvile i 30 minutter.",
+			"Tilføj det resterende vand sammen med salt og masér det ind i dejen. Dejen kan skille, men den vil samle sig igen. Lad dejen hvile 30 minutter.",
+			"Tag fat i en af enderne af dejen, træk den op og læg den ind over resten af dejen. Drej din skål 90 grader og gør det samme igen. Fortsæt til du har været alle 4 sider rundt. Lad dejen hvile 30 minutter.",
+			"Gentag stræk/fold/hvil rutninen yderligere 3 gange.",
+			"Prøv ikke at slå for meget luft ud af dejen.",
+			"Kom dejen i køleskabet (tildækket så den ikke tørrer ud) i ca. en dag, det er nu smagen udvikles.",
+			"Tag derefter dejen ud af køleskabet og lad den stå til den har stuetemperatur (så bliver den nemmere at arbejde med).",
+			"Stil din ovn på 250 grader og kom en bradepande/ildfast form ind for at forvarmes.",
+			"Kom bagepapir i en anden bradepande eller ildfast form og påfør et let lag olie. Vend dejen ud på midten af formen. Prøve at strække dejen nedefra og fordel den i et jævnt lag. Dejen skal helst ikke presses for meget, da dette mindsker mængden af huller i brødet og skorpen.",
+			"Kom olie ovenpå dejen og brug dine fingre til let at presse \"smilehuller\" i dejen. Kom salt og evt. cherrytomater ovenpå dejen som ekstra topping. ",
+			"Kom dit fad ovenpå den forvarmede bageplade og bag det i ca. 22 minutter, eller til det får den gyldne farve, som du bedst kan lide. Dette kan afhænge af, hvor varm din ovn er."
+		],
+		"path": "description",
+		"servings": "",
+		"preparationtime": "2.5 time, koldhævning 24 timer",
+		"categories": [
+			"snack",
+			"tilbehør",
+			"aftensmad",
+			"vegetarisk"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
