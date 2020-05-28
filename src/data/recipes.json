@@ -340,7 +340,7 @@
 		]
 	},
 	{
-		"name": "Focaccia",
+		"name": "Grov Focaccia",
 		"ingredients": [
 			{
 				"amount": "1.5",
@@ -383,9 +383,9 @@
 				"ingredient": "salt"
 			}
 		],
-		"image": "focaccia.jpg",
+		"image": "focaccia_grov.jpg",
 		"inspirationlink": "",
-		"teaser": "Et l\u00e6kkert madbr\u00f8d, som kan spises som tilbeh\u00f8r eller som det er.",
+		"teaser": "Et l\u00e6kkert madbr\u00f8d, som kan spises som tilbeh\u00f8r eller som det er. Kort hævetid.",
 		"steps": [
 			"Bland alle v\u00e5de ingredienser i en sk\u00e5l (sammen med g\u00e6ren)",
 			"N\u00e5r g\u00e6ren er opl\u00f8st tils\u00e6t da alle de t\u00f8rre ingredienser -- gerne ad flere omgange",

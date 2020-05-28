@@ -222,7 +222,7 @@
 	{
 		"name": "Blåbærmuffins",
 		"teaser": "Lyse muffins med blåbær",
-		"image": "",
+		"image": "blaabaermuffins.jpg",
 		"ingredients": [
 			{
 				"amount": "300",
@@ -260,7 +260,7 @@
 				"ingredient": "vanillesukker"
 			},
 			{
-				"amount": "1.25",
+				"amount": "2",
 				"unit": "dl",
 				"ingredient": "sødmælk"
 			},
@@ -275,7 +275,7 @@
 			"Rør mel, bagepulver og salt sammen og sæt det til side.",
 			"Pisk sukker og smør sammen til det er lyst -- tilsæt æggene et af gangen. ",
 			"Bland vanille og mælk i og vend melblandingen og bærrene i.",
-			"Hæld blandingen i forme og bag i ca. 12 minutter eller til når de er gyldne.",
+			"Hæld blandingen i forme og bag i ca. 15-7 minutter -- til de er gyldne.",
 			"Server alene eller med vanilleis"
 		],
 		"servings": "12 stk",
@@ -3068,7 +3068,7 @@
 	},
 	{
 		"name": "Porretærte med kylling",
-		"teaser": "Klassisk tærte med en cremet ægemasse med hytteost",
+		"teaser": "Klassisk tærte med en cremet ægemasse og hytteost",
 		"image": "",
 		"ingredients": [
 			{
