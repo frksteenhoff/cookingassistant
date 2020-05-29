@@ -53,7 +53,7 @@
 				</ul>
 			</b-col>
 			<b-col cols=12 md="8" order-md="3" lg="5" order-lg="2" class="mt-lg-4">
-				<b-row class="mt-0">
+				<b-row class="mt-0 pl-3">
 					<b-col cols="12" class="mb-3 mt-lg-4 pl-0">
 						<h3>Procedure</h3>
 					</b-col>
