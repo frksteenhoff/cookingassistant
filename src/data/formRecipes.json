@@ -715,8 +715,8 @@
 		"relatedrecipes": []
 	},
 	{
-		"name": "Fucking lækre veggiedeller",
-		"teaser": "Når du vil prøve noget andet end frikadeller og ikke vil bllive skuffet over hverken smag eller tekstur.",
+		"name": "Fucking lækre veggiedeller/veggiefars",
+		"teaser": "Rødbedebaseret fars til deller eller pølser som erstatning for kød, når du vil prøve noget andet og ikke vil bllive skuffet over hverken smag eller tekstur.",
 		"image": "",
 		"ingredients": [
 			{
@@ -801,6 +801,9 @@
 			}
 		],
 		"steps": [
+			"Tilføj mælk og rasp i en skål og lad stå i 5 minutter.",
+			"Mens raspblandingen hviler, hak hvidløg og forårsløg fint og riv blomkål, rødbeder og parmesan fint på et rivejern.",
+			"Skær dde soltørrede tomater i små tern og hak persillen.",
 			"Bland alle ingredienser sammen i en skål. Lad blandingen stå i 5-10 minutter. ",
 			"Hvis dejen virker for våd, bland mere rasp i.",
 			"Smag til med salt of peber.",
@@ -1258,15 +1261,20 @@
 			{
 				"amount": "0.5",
 				"unit": "stk",
-				"ingredient": "rødløg"
+				"ingredient": "rødløg eller skalotteløg"
+			},
+			{
+				"amount": "8",
+				"unit": "stk",
+				"ingredient": "radiser, skiveskåret"
 			}
 		],
 		"steps": [
 			"Kog kartoflerne og lad dem køle af i gryden efter vandet er hældt fra",
-			"Hak rødløg fint.",
-			"Bland de resterende ingredienser og tilsæt rødløg",
+			"Hak rødløg fint og skær radiserne i skiver.",
+			"Bland de resterende ingredienser og tilsæt rødløg og radiser",
 			"Hæld blandingen over de kolde kartofler og opbevar kartoffelsalaten på køl inden de skal bruges.",
-			"Kartoffelsalaten er bedst hvis den har fået 2-3 timer på køl inden servering."
+			"Kartoffelsalaten er bedst hvis den har fået minimum 2-3 timer på køl inden servering."
 		],
 		"servings": "10 personer",
 		"categories": [

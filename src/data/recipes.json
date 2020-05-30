@@ -819,6 +819,35 @@
 				"amount": "550",
 				"unit": "g",
 				"ingredient": "hvedemel"
+			},
+			{
+				"amount": null,
+				"unit": "",
+				"ingredient": ""
+			},{
+				"amount": "130",
+				"unit": "g",
+				"ingredient": "smør, blødt"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "kanel"
+			},
+			{
+				"amount": "1",
+				"unit": "knivspids",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg (pensling)"
 			}
 		],
 		"image": "kanelsnurrer.jpg",
@@ -830,7 +859,8 @@
 			"Bland mælkeblandingen med gær, salt, kardemomme, sukker og mel og rør rundt indtil dejen begynder at slippe skålen kanter.",
 			"Læg et klæde over skålen og lad bollerne hæve i 1 time.",
 			"Fyld",
-			"Kom smør, kanel, salt og sukker i en skål og rør det sammen. Det kan være nemmere at smøre fyldet ud, hvis du har lunet smørret først. Fordi dejen er så tynd har den let ved at gå i stykker, det undgår man med lunet smør.",
+			"Kom smør, kanel, salt og sukker i en skål og rør det sammen. Det kan være nemmere at smøre fyldet ud, hvis du har lunet smørret først.",
+			"Fordi dejen bliver så tynd, når den er rullet ud, har den let ved at gå i stykker. Det undgår man med lunet smør.",
 			"Snurrer",
 			"Rul dejen ud på et meldrysset bord, så tynd som muligt.",
 			"Fold en tredjedel af dejen ind mod midten og fold den anden tredjedel ind over den første, så der er tre lag.",

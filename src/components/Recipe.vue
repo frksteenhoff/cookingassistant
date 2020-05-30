@@ -46,9 +46,9 @@
 						/>
 					</b-col>
 				</b-row>
-				<ul v-for="item in recipe.ingredients" :key="item.ingredient" class="mb-3">
+				<ul v-for="(item) in recipe.ingredients" :key="item.amount+item.unit+item.ingredient" class="mb-3">
 					<li>
-						{{ (Number(item.amount) * numberOfPortions) + " " + item.unit + " " + item.ingredient }}
+						{{ !item.amount ? "" : (Number(item.amount) * numberOfPortions) + " " + item.unit + " " + item.ingredient }}
 					</li>
 				</ul>
 			</b-col>
@@ -58,7 +58,7 @@
 						<h3>Procedure</h3>
 					</b-col>
 					<p v-if="recipe.steps.length <= 1" class="pl-0">Fremgangsmåde kommer snart!</p>
-					<ul v-for="step in recipe.steps" :key="step" class="mb-3">
+					<ul v-for="step in recipe.steps" :key="step" class="mb-3 mr-5">
 					<li :class="{'ml-0': true, 'font-weight-bold': (step.split(' ').length === 1)}">
 						{{ step }}
 					</li>
