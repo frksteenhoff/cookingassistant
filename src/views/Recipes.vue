@@ -4,7 +4,7 @@
 			<h1 class="ml-3">Opskrifter</h1>
 		</b-row>
 		<b-row class="m-2">
-			<b-col cols="12" md="6" lg="4" xl="3" v-for="recipe in currentRecipes" :key="recipe.name">
+			<b-col cols="12" md="6" lg="4" xl="3" v-for="recipe in recipesInAlphabeticalOrder" :key="recipe.name">
 				<RecipeCard
 					:recipe="recipe"
 				/>
@@ -30,6 +30,11 @@ export default class Recipes extends AppProps {
 	get currentRecipes() {
 		// @ts-ignore
 		return this.$route.name === "recipes" ? this.$store.getters.getRecipes : this.$store.getters.getRecipes.filter(recipe => recipe.categories.some(category => this.getRecipeCategory(this.$route.name).includes(category)))
+	}
+
+	get recipesInAlphabeticalOrder() {
+		// @ts-ignore
+		return this.currentRecipes.sort((a, b) => (a.name > b.name) ? 1 : -1)
 	}
 
 	getRecipeCategory(path: string): string[] {
