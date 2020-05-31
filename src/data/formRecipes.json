@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Guacamole",
-		"teaser": "Dippen du aldrig hverkan kan eller har nok af.",
+		"teaser": "Dippen du aldrig hverkan kan få eller har nok af. Meksikans inspireret.",
 		"image": "",
 		"ingredients": [
 			{
@@ -12,7 +12,7 @@
 			{
 				"amount": "1",
 				"unit": "stk",
-				"ingredient": "lime"
+				"ingredient": "lime, saften"
 			},
 			{
 				"amount": "0.5",
@@ -20,7 +20,7 @@
 				"ingredient": "rødløg, finthakket"
 			},
 			{
-				"amount": "1 tsk",
+				"amount": "1",
 				"unit": "tsk",
 				"ingredient": "paprika"
 			},
@@ -123,7 +123,7 @@
 			"Saucen varmes herefter op til kogepunktet og simrer derefter i 30 min under jævn omrøring.",
 			"Smag saucen til -- den skal være sød, syrlig og stærk.",
 			"Kødet",
-			"Rens nakkefileten for sener og fedt",
+			"Rens nakkefileten for sener og fedt (den skal ikke finpudses, da fedtet også er med til at give smag)",
 			"Rub kødet ind i marinaden og læg derefter kødet i en pose natten over.",
 			"Tag kødet ud af køleskabet og læg det i et ovnfast fad. Gem den resterende marinade.",
 			"Lagtidssteg kødet ved 110 grader i minimum 12 timer, husk at vende kødet jævnligt.",
@@ -369,13 +369,8 @@
 			},
 			{
 				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "limesaft"
-			},
-			{
-				"amount": "",
-				"unit": "",
-				"ingredient": ""
+				"unit": "stk",
+				"ingredient": "lime, saften"
 			}
 		],
 		"steps": [
@@ -390,7 +385,8 @@
 		"preparationtime": "25 min",
 		"path": "description",
 		"relatedrecipes": [
-			"dumplings"
+			"dumpling wrappers", 
+			"dumpling fars"
 		]
 	},
 	{

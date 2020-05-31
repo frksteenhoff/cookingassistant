@@ -37,14 +37,14 @@
 			"TIlføj sesamolie og fortsæt med at røre. Når blandingen er som savsmul kan du beguunde at samle dejen med hænderne, så det bliver en bold",
 			"Dæk dejen med vitawrap og lad den hvile i ca. 30 min.",
 			"Fjern herefter wrappen og ælt dejen i et par minutter på en meldrysset overflade. Når overfladen begynder at være glat, tildæk igen dejen med vitawrap og lad den afkøle i yderligere 30 min.",
-			"Del dejen i to lige store stykker. Rul den flat ud på en meldrysset overflade til en tykkelse på ca. 1-2mm med en kagerulle.",
+			"Del dejen i to lige store stykker. Rul den flat ud på en meldrysset overflade til en tykkelse på ca. 1mm med en kagerulle.",
 			"Brug nu et glas, eller en kagering (ca. 10-11 cm i diameter) til at skære dejen ud i cirkler.",
 			"Bliv ved indtil al dejen er brugt",
 			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling pandekager kan sagtens fryses ned."
 		],
 		"servings": "30 dumplings",
 		"path": "description",
-		"relatedrecipes": [],
+		"relatedrecipes": ["dumpling fars", ""],
 		"categories": [
 			"aftensmad",
 			"snack",
@@ -170,7 +170,7 @@
 		],
 		"image": "",
 		"inspirationlink": "https://www.mexicanplease.com/homemade-corn-tortillas/",
-		"teaser": "De sm\u00e5 wrap der bruges til al mexikansk mad, hjemmelavet.",
+		"teaser": "De sm\u00e5 wraps der bruges til al mexikansk mad, hjemmelavet.",
 		"steps": [
 			"Tilf\u00f8j majsmel og salt i en sk\u00e5l",
 			"Tilf\u00f8j ca. en tredjedel af det varme vand til blandingen og r\u00f8r til vandet er optaget.",
@@ -672,14 +672,19 @@
 		"name": "Jordb\u00e6rt\u00e6rte",
 		"ingredients": [
 			{
-				"amount": "300",
+				"amount": "250",
 				"unit": "g",
 				"ingredient": "hvedemel"
 			},
 			{
-				"amount": "100",
+				"amount": "80",
 				"unit": "g",
 				"ingredient": "flormelis"
+			},
+			{
+				"amount": "125",
+				"unit": "g",
+				"ingredient": "smør"
 			},
 			{
 				"amount": "1",
@@ -687,7 +692,12 @@
 				"ingredient": "\u00e6g"
 			},
 			{
-				"amount": "110",
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "100",
 				"unit": "g",
 				"ingredient": "r\u00e5 m\u00e5rcipan"
 			},
@@ -709,7 +719,7 @@
 			{
 				"amount": "1",
 				"unit": "spsk",
-				"ingredient": "hvedeml"
+				"ingredient": "hvedemel"
 			},
 			{
 				"amount": "1",
@@ -718,8 +728,13 @@
 			},
 			{
 				"amount": "0.5",
-				"unit": "x",
-				"ingredient": "saft fra en citron"
+				"unit": "stk",
+				"ingredient": "citron, saften"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
 			},
 			{
 				"amount": "3",
@@ -745,6 +760,21 @@
 				"amount": "1",
 				"unit": "dl",
 				"ingredient": "piskefl\u00f8de"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "mørk chokolade"
+			},
+			{
+				"amount": "1",
+				"unit": "bakke",
+				"ingredient": "jordbær"
 			}
 		],
 		"image": "jordbaertaerte.jpg",
@@ -761,7 +791,7 @@
 			"Ælt rå marcipan, rørsukker og smør godt sammen med hænderne så der ikke er nogen klumper",
 			"Rør ægget i massen og herefter hvedemel, salt og citron til den er homogen (ensartet)",
 			"Kom massen op i den ubagte tærte og bag den ved 200 grader varmluft i 15-20 min.",
-			"Lad tærten køle helt af i formen.",
+			"Lad tærten køle helt af i formen, før du arbejder videre med den.",
 			"Vanillecreme",
 			"Skrab vanillekornene ud af vanillestangen og bland det med lidt af sukkeret.",
 			"Kom den tomme vanillestang i en gryde med 2 dl sødmælk og bring det i kog.",
@@ -774,7 +804,7 @@
 			"Smelt chokoladen og pensl tærten. Stil herefter tærten på køl, så chokoladen kan sætte sig.",
 			"Smør vanillecremen jævn ud over tærten og pynt den med hele eller halve jordbær."
 		],
-		"servings": "6-8 personer",
+		"servings": "8 personer",
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -824,7 +854,8 @@
 				"amount": null,
 				"unit": "",
 				"ingredient": ""
-			},{
+			},
+			{
 				"amount": "130",
 				"unit": "g",
 				"ingredient": "smør, blødt"
@@ -869,7 +900,7 @@
 			"Sno de to dele af strimlen om hinanden og rul dem rundt om dine fingre i et lille tårn. (Se evt. videoen i inspirationslinket)",
 			"Læg dem på en bageplade og gentag med resten.",
 			"Lad snurrene efterhæve i 20 min mens ovnen varmes op til 200 grader",
-			"Bag snurrene i 15 minutter."		
+			"Bag snurrene i 15 minutter."
 		],
 		"servings": "12 stk",
 		"path": "description",
@@ -934,8 +965,8 @@
 		"relatedrecipes": [],
 		"categories": [
 			"frokost",
-			" morgenmad",
-			" brunch"
+			"morgenmad",
+			"brunch"
 		]
 	},
 	{
@@ -1075,7 +1106,7 @@
 		"steps": [
 			"Hindb\u00e6rpur\u00e9",
 			"Pres saften af citronen og blend hindb\u00e6r, citronsaft og flormelis til en fin pur\u00e9.",
-			"Si pur\u00e9en og s\u00e6t den i k\u00f8leskabet.",
+			"Si pur\u00e9en for at fjerne hindbærfrøene og s\u00e6t den i k\u00f8leskabet.",
 			"Kiksebund",
 			"Bekl\u00e6d bunden af springformen med bagepapir",
 			"Smelt sm\u00f8rret ved svag varme .",
@@ -1239,5 +1270,73 @@
 		"categories": [
 			""
 		]
+	},
+	{
+		"name": "Dumpling fars",
+		"teaser": "Fars til dumplings eller gyoza med kål og ingefær",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "spidskål, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "kalv/svin"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "purløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "ingefær, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sesamolie"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			}
+		],
+		"steps": [
+			"Halvér denne opskrift, hvis du bruger denne opskrift sammen med dumpling wrappers",
+			"Hak kål, hvidløg og ingefær fint.",
+			"Bland alle ingredienser godt i en skål og sæt på køl i 30 min.",
+			"Brug farsen som dumplings fyld, eller for at afprøve en ny frikadelle."
+		],
+		"path": "description",
+		"servings": "1kg",
+		"preparationtime": "10min",
+		"categories": [
+			"aftensmad",
+			"snack",
+			"forret"
+		],
+		"relatedrecipes": ["dumpling wrappers"],
+		"inspirationlink": ""
 	}
 ]
