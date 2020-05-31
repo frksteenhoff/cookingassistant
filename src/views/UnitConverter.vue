@@ -13,7 +13,7 @@
 				<h1 class="m-0">Byg-selv-enhedskonvertering</h1>
 			</b-col>
 		</b-row>
-		<b-row class="m-2">
+		<b-row v-if="calculatorFinished" class="m-2">
 			<Calculator />
 		</b-row>
 	</b-container>
@@ -35,6 +35,7 @@ const AppProps = Vue.extend({
 	}
 })
 export default class UnitConverter extends AppProps {
+	calculatorFinished = false
 	conversionReady = false
 	combinations: ConversionObject[] = [
 		{
