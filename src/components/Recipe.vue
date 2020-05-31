@@ -2,7 +2,7 @@
 	<div class="mt-3">
 		<b-row class="mb-4">
 			<b-col cols="12">
-				<h1 class="ml-0">{{ recipe.name }}</h1>
+				<h1 class="ml-0 mr-3">{{ recipe.name }}</h1>
 			</b-col>
 		</b-row>
 		<b-row>
