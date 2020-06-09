@@ -385,7 +385,7 @@
 		"preparationtime": "25 min",
 		"path": "description",
 		"relatedrecipes": [
-			"dumpling wrappers", 
+			"dumpling wrappers",
 			"dumpling fars"
 		]
 	},
@@ -892,14 +892,14 @@
 			}
 		],
 		"steps": [
-			"Tilberedning af kylling",
-			"Put olivenolien på en pande",
-			"Brun kyllingestykkerne på alle sider ved høj varme (og skru derefter ned til lav varme)",
+			"Kylling",
+			"Put olivenolien på en pande pande og varm det op.",
+			"Brun kyllingestykkerne på alle sider ved høj varme (og skru derefter ned til lav varme).",
 			"Paprikasauce",
 			"Kom peberfrugt, tomat, løg, hvidløg og krydderier i en blender og blend til en ensartet masse.",
 			"Held saucen over kyllingestykkerne på panden og blad det sammen.",
 			"Kom låg på og lad det hele simre ved lav varme i 25-30 min.",
-			"Skru derefter op for varmen og tilsæt peberfrugtstrimlerne og fløde og lad stå på varmen i 2-3 min. Smag til med salt og peber",
+			"Skru derefter op for varmen og tilsæt peberfrugtstrimlerne og fløde og lad stå på varmen i 2-3 min. Smag til med salt og peber.",
 			"Server med ris og evt. frisk basilikum."
 		],
 		"servings": "2-3 personer",
@@ -3219,5 +3219,140 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Hønsesalat med karry og vidruer",
+		"teaser": "",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "kyllingefillet"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "hvide asparges, glas"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "skalotteløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "creme frainche"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "dijon"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "chili, stødt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "vindruer, halverede "
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "karry"
+			}
+		],
+		"steps": [
+			"Kog kyllingen i ca. 12 minutter, eller indtil den er gennemkogt. Skær den herefter i tern.",
+			"Hak løg fint, skær asparges i mindre stykker og halvér vindruerne.",
+			"Bland creme fraiche og mayonnaise og bland med de resterende ingredienser.",
+			"Vindruer kan udelades eller erstattes med tomater. Karry kan ligeledes udelades.",
+			"Hvis du vil kræse lidt ekstra for hønsesalaten kan du med fordel lave kyllingen i sous vide."
+		],
+		"path": "description",
+		"servings": "4 personer",
+		"preparationtime": "25min",
+		"categories": [
+			"frokost"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Keto pizzabund",
+		"teaser": "En pizzabund der er lav på kylhydrater og høj på fedt.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "5",
+				"unit": "dl",
+				"ingredient": "revet mosarella"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "flødeost, neutral"
+			},
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "mandelmel"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "bagepulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "oregano"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "hvidløgspulver"
+			}
+		],
+		"steps": [
+			"Forvarm ovnen til 230 grader",
+			"Tilføj mosarella og flødeost i en stor skål. Put disse ingredienser i mokroovnen i ca. 45 sekunder.",
+			"Tag skålen ud af mikroovnen og tilsæt æg, mandelmel, bagepulver og krydderier. Bland til det er blevet en ensartet masse.",
+			"Rul dejen ud på et stykke bagepapir og bag den derefter i ca. 10 minutter.",
+			"Tag dejen ud og tilføj det fyld, du gerne vil have på.",
+			"Bag pizzaen i 5-8 minutter, eller inditl osten er smeltet."
+		],
+		"path": "description",
+		"servings": "1 pizzabund",
+		"preparationtime": "25 minutter",
+		"categories": [
+			"aftensmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://gimmedelicious.com/keto-pizza/"
 	}
 ]

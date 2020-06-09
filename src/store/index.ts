@@ -43,7 +43,6 @@ export default new Vuex.Store<AppState>({
 			"sauce",
 			"dip",
 			"dressing",
-			"marinade",
 			"morgenmad",
 			"frokost",
 			"marinade",
@@ -81,6 +80,7 @@ export default new Vuex.Store<AppState>({
 	},
 	getters: {
 		getCreateTags: (state) => state.createTags,
+		getTags: (state) => state.tags,
 		getRecipe: (state) => state.recipe,
 		getRecipes: (state) => state.recipes
 	}
