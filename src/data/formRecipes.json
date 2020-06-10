@@ -3354,5 +3354,103 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://gimmedelicious.com/keto-pizza/"
+	},
+	{
+		"name": "Koldhævede boller",
+		"teaser": "",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "5",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "10",
+				"unit": "g",
+				"ingredient": "gær"
+			},
+			{
+				"amount": "4",
+				"unit": "dl",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "havregryn"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			}
+		],
+		"steps": [
+			"Rør vand og gær sammen i en skål",
+			"Tilsæt grahamsmel og havregryn. Tilsæt 3 dl hvedemel og salt. Dejen skal vær til at røre i, men ikke for flydende.",
+			"Sæt på køl natten over.",
+			"Bag ved 225 grader i 15 minutter"
+		],
+		"path": "description",
+		"servings": "12 stk",
+		"preparationtime": "15 min",
+		"categories": [
+			"morgenmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Blomkålsbrød",
+		"teaser": "En erstatning til brød lavet med blomkål, æg og cheddar",
+		"image": "cauliflower_bread.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "blomkål, revet"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "cheddar"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "05",
+				"unit": "L",
+				"ingredient": "vand, til blanchering"
+			}
+		],
+		"steps": [
+			"Riv blomkålen og blancher den herefter med ca. 0,5L vand.",
+			"Dræn vandet fra blomkålen ved at putte blomkålen i et viskestykke og derefter presse vandet ud. Bland med de resterende ingredienser og rør indtil massen er ensartet.",
+			"Del massen i 8 og kom dem på et stykke bagepapir, hvor de mases fladt (ca. 0.5-1cm) -- det kan være du skal bruge mere end ét stykke bagepapir for at få plads til dem alle.",
+			"Bag i ca. 20 minutter, eller indtil gyldne. Servér med f.eks. avocado, serrano og æg eller lignende."
+		],
+		"path": "description",
+		"servings": "8 stykker",
+		"preparationtime": "15min",
+		"categories": [
+			"morgenmad",
+			"vegetarisk"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
