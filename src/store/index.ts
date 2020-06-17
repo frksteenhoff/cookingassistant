@@ -31,7 +31,8 @@ export default new Vuex.Store<AppState>({
 			"bundt",
 			"fed",
 			"dåse(r)",
-			"pakke(r)"
+			"pakke(r)",
+			"glas"
 		],
 		tags: [
 			"aftensmad",

@@ -3452,5 +3452,151 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Risotto med blomkål og asparges",
+		"teaser": "",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "Grødris"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "parmasan, revet"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "blåmkål, revet"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "asparges"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "parmasan, til pynt"
+			},
+			{
+				"amount": "1",
+				"unit": "L",
+				"ingredient": "grøntsagsbuillion"
+			}
+		],
+		"steps": [
+			"Kom risene i en si og skyl dem under koldt vand og lad dem dryppe af.",
+			"Hak og svits løg og hvidløg i en gryde med risene og smør.",
+			"TIlsæt bouillon og kog op, lad risene simre i 10 min.",
+			"Skær asparges i 4 og kom dem i gryden med risottoen og bring i kog igen. Skru ned på svag varme og lad simre i yderligere 10 min.",
+			"Smag til med salt og peber. Pynt med persille og parmasan"
+		],
+		"path": "description",
+		"servings": "4 personer",
+		"preparationtime": "30min",
+		"categories": [
+			"frokost",
+			"aftensmad",
+			"vegetarisk",
+			"forret"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://saeson-web.dk/opskrifter/risotto-med-kylling-og-blomkaal/"
+	},
+	{
+		"name": "Risotto med kylling, svampe og soltørrede tomater",
+		"teaser": "Ris i en tyk fond med kylling og grøntsager",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "grødris"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "parmasan, revet"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "kyllingefillet"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "champignon"
+			},
+			{
+				"amount": "1",
+				"unit": "L",
+				"ingredient": "hønsebuillion"
+			}
+		],
+		"steps": [
+			"Kom risene i en si og skyl dem under koldt vand og lad dem dryppe af.",
+			"Hak og svits løg og hvidløg i en gryde med risene og smør.",
+			"TIlsæt bouillon og kog op, lad risene simre i 10 min.",
+			"Skær champignon i skiver og svits dem let på panden.",
+			"Skær kylling i mundrette stykker og kom dem i gryden med risottoen og bring den i kog igen. Når retten har nået kogepunktet, skru da ned på lav varme, bland champignon i og lad simre i 10 minutter. ",
+			"Skær de soltørrede tomater i mindre stykker og bland ind i risottoen.",
+			"Smag til med salt og peber. Pynt med persille og parmasan",
+			""
+		],
+		"path": "description",
+		"servings": "4 personer",
+		"preparationtime": "30min",
+		"categories": [
+			"aftensmad",
+			"frokost"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
