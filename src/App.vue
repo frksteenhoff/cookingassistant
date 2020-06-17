@@ -114,7 +114,7 @@ body {
 }
 
 #content {
-	min-height: 800px;
+	min-height: 100vh;
 }
 
 ul.navbar-nav {
