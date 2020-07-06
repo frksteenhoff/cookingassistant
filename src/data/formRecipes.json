@@ -831,9 +831,9 @@
 				"ingredient": "olivenolie"
 			},
 			{
-				"amount": "2",
-				"unit": "dl",
-				"ingredient": "grillede røde peberfrugter (200g)"
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "peberfrugter"
 			},
 			{
 				"amount": "2",
@@ -896,13 +896,15 @@
 			"Put olivenolien på en pande pande og varm det op.",
 			"Brun kyllingestykkerne på alle sider ved høj varme (og skru derefter ned til lav varme).",
 			"Paprikasauce",
+			"Grill peberfrugterne hele i ovnen ved 200 grader i ca. 40 min. Gem én peberfrugt og skær denne i strimler",
+			"Skær løg i grove tern og pil hvidløg.",
 			"Kom peberfrugt, tomat, løg, hvidløg og krydderier i en blender og blend til en ensartet masse.",
 			"Held saucen over kyllingestykkerne på panden og blad det sammen.",
 			"Kom låg på og lad det hele simre ved lav varme i 25-30 min.",
 			"Skru derefter op for varmen og tilsæt peberfrugtstrimlerne og fløde og lad stå på varmen i 2-3 min. Smag til med salt og peber.",
 			"Server med ris og evt. frisk basilikum."
 		],
-		"servings": "2-3 personer",
+		"servings": "3 personer",
 		"categories": [
 			"aftensmad"
 		],
