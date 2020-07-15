@@ -5,7 +5,7 @@
 				<h1 class="ml-4 mt-4">Opret opskrift</h1>
 			</b-col>
 			<b-col class="mt-4">
-				<p>Her kan du oprette en opskrift og sende den til godkendelse af mig. Hvis jeg synes om opskriften bliver den en del af "læseropskrifter".</p>
+				<p>Her kan du oprette en opskrift og sende den til godkendelse af mig. Hvis jeg synes om opskriften bliver den en del af "læseropskrifter", når jeg har fået samlet et par stykker sammen.</p>
 			</b-col>
 		</b-row>
 		<b-row class="m-2">
