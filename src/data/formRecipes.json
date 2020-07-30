@@ -3600,5 +3600,143 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Svin i barbeque",
+		"teaser": "Krydret tomatsauce med grøntsager og nakkekotellet serveret med rodfrugtmos",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1.5",
+				"unit": "kg",
+				"ingredient": "Nakkefillet"
+			},
+			{
+				"amount": "700",
+				"unit": "g",
+				"ingredient": "løg"
+			},
+			{
+				"amount": "700",
+				"unit": "g",
+				"ingredient": "gulerødder"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "ingefær"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "brun farin"
+			},
+			{
+				"amount": "3",
+				"unit": "dåse(r)",
+				"ingredient": "hakkede tomater"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "4",
+				"unit": "spsk",
+				"ingredient": "dijonsennep"
+			},
+			{
+				"amount": "2",
+				"unit": "kg",
+				"ingredient": "kartofler"
+			},
+			{
+				"amount": "1",
+				"unit": "kg",
+				"ingredient": "pastinak"
+			},
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "jordskokker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "blomkålshovede"
+			},
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "5",
+				"unit": "g",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "800",
+				"unit": "g",
+				"ingredient": "rødbeder"
+			},
+			{
+				"amount": "2",
+				"unit": "kg",
+				"ingredient": "æbler"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "0.25",
+				"unit": "dl",
+				"ingredient": "citronsaft"
+			}
+		],
+		"steps": [
+			"Svin",
+			"Pil og skær løg i både",
+			"Skræl og riv ingefær og hvidløg",
+			"Skær fedt og sener fra kødet samt skær det i terninger (3×3 cm)",
+			"Brun kødet i olie ved høj varme",
+			"Tilsæt løg og steg videre i nogle minutter",
+			"Tilsæt hvidøg, ingefær og brun farin - steg videre i nogle minutter\n",
+			"Tilsæt hakkede tomater, sennep og halvdelen af soja og cayenne peber - ikke salt!",
+			"Lad retten simre i 30-40 min",
+			"Smag det til med citron, salt og cayenne peber og soja.",
+			"Rodfrugtmos",
+			"Alle grøntsager skrælles og skæres i mindre stykker",
+			"De koges uden salt i 20 min (til de er møre)",
+			"Når de er møre, mases de med stavblender med en smule af kogevandet, mælk og smør",
+			"Smag til med salt og peber",
+			"Rødbedesalat",
+			"Skræl hvidløg og rødbeder samt udkærn æbler",
+			"Riv rødbeder, æbler og hvidløg",
+			"Bland olivenolie, salt og citronsaft",
+			"Hæld dressing over og server.",
+			"Smag til, justér og servér."
+		],
+		"path": "description",
+		"servings": "10 personer",
+		"preparationtime": "1 time",
+		"categories": [
+			"aftensmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://studiestartswiki.pf.dk/da:hyttebumser:opskrifter:svin_i_bbq?s[]=svin&s[]=bbq"
 	}
 ]

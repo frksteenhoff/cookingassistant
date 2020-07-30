@@ -1011,6 +1011,11 @@
 				"amount": "2",
 				"unit": "stk",
 				"ingredient": "\u00e6g"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "blåbær"
 			}
 		],
 		"image": "",
@@ -1224,7 +1229,7 @@
 				"ingredient": "fl\u00f8de"
 			},
 			{
-				"amount": "1.5",
+				"amount": "2.5",
 				"unit": "dl",
 				"ingredient": "m\u00e6lk"
 			},
@@ -1232,6 +1237,11 @@
 				"amount": "1",
 				"unit": "dl",
 				"ingredient": "vand"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "ymer/A38"
 			},
 			{
 				"amount": "350",
@@ -1261,6 +1271,7 @@
 			"Pisk \u00e6g og sukker godt sammen",
 			"Tils\u00e6t fl\u00f8de, m\u00e6lk og vand.",
 			"Bland alle de t\u00f8rre ingredienser i or r\u00f8r til du f\u00e5r en ensartet masse.",
+			"Vaffelrøren skal virke let, men  fyldig at røre rundt i. Den skal ikke have alt for svært ved at hældes fra en øse, men skal heller ikke være vandig.",
 			"Lad vaffelr\u00f8ren st\u00e5 i minimum 15 min",
 			"Tils\u00e6t sm\u00f8r og steg vaflerne."
 		],
