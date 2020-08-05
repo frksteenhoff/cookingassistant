@@ -1008,6 +1008,11 @@
 				"ingredient": "sukker"
 			},
 			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "mandelmel"
+			},
+			{
 				"amount": "2",
 				"unit": "stk",
 				"ingredient": "\u00e6g"
