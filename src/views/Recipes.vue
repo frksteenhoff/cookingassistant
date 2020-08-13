@@ -3,6 +3,13 @@
 		<b-row class="m-2 mb-3">
 			<h1 class="ml-3">Opskrifter</h1>
 		</b-row>
+		<b-row>
+			<b-col class="ml-3">
+				<DropdownForm
+					:availableTags="tags"
+				/>
+			</b-col>
+		</b-row>
 		<b-row class="m-2">
 			<b-col cols="12" md="6" lg="4" xl="3" v-for="recipe in recipesInAlphabeticalOrder" :key="recipe.name">
 				<RecipeCard
@@ -16,6 +23,7 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
 import RecipeCard from "@/components/RecipeCard.vue"
+import DropdownForm from "@/components/DropdownForm.vue"
 
 const AppProps = Vue.extend({
 	props: {}
@@ -23,13 +31,42 @@ const AppProps = Vue.extend({
 
 @Component({
 	components: {
-		RecipeCard
+		RecipeCard,
+		DropdownForm
 	}
 })
 export default class Recipes extends AppProps {
+	chosenValues: string[] = []
+
+	created() {
+		this.$root.$on("recipeSearchUpdated", this.setChosenValues)
+	}
+
+	setChosenValues(values: string[]) {
+		this.chosenValues = values
+	}
+
+	get tags() {
+		return this.$store.getters.getTags.concat(this.recipeNames)
+	}
+
+	get recipeNames() {
+		// @ts-ignorec
+		return this.currentRecipes.map(recipe => recipe.name)
+	}
+
 	get currentRecipes() {
-		// @ts-ignore
-		return this.$route.name === "recipes" ? this.$store.getters.getRecipes : this.$store.getters.getRecipes.filter(recipe => recipe.categories.some(category => this.getRecipeCategory(this.$route.name).includes(category)))
+		if (this.$route.name === "recipes") {
+			if (this.chosenValues.length > 0) {
+				// @ts-ignore
+				return this.$store.getters.getRecipes.filter(recipe => recipe.categories.some(category => this.chosenValues.includes(category)))
+			} else {
+				return this.$store.getters.getRecipes
+			}
+		} else {
+			// @ts-ignore
+			return this.$store.getters.getRecipes.filter(recipe => recipe.categories.some(category => this.getRecipeCategory(this.$route.name).includes(category)))
+		}
 	}
 
 	get recipesInAlphabeticalOrder() {

@@ -252,10 +252,6 @@ export default class RecipeForm extends AppProps {
 		this.recipe.steps.splice(index, 1)
 	}
 
-	sayHello() {
-		console.log("input")
-	}
-
 	deleteRow(index: number) {
 		this.recipe.ingredients.splice(index, 1)
 	}
