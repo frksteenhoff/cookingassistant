@@ -1,8 +1,8 @@
 <template>
 	<div id="app">
-		<b-navbar sticky toggleable="lg" type="dark" variant="hest">
+		<b-navbar sticky toggleable="md" type="dark" variant="hest">
 			<b-navbar-brand href="/" class="mb-0 pb-0 pt-0">
-				<img src="./assets/logo_cropped.png" style="width: 60px;" />
+				<img src="./assets/logo_cropped.png" style="width: 50px;" />
 			</b-navbar-brand>
 
 			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -123,7 +123,7 @@ ul.navbar-nav {
 
 #nav-collapse.navbar-collapse.collapse,
 nav {
-	height: 4.5rem;
+	height: 3.75rem;
 }
 
 a {
@@ -140,12 +140,21 @@ a.nav.link:hover {
 nav,
 li a.nav-link {
 	color: #ffffff !important;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	font-family: "Permanent Marker";
 	background-color: #bf988f !important;
 	text-decoration: none !important;
 	-webkit-tap-highlight-color: transparent;
 	outline: none !important;
+}
+
+.nav-item a {
+	width: 13rem;
+	padding-left: 1rem;
+}
+
+.navbar-nav .nav-link {
+	padding-left: 1rem !important;
 }
 
 img {
