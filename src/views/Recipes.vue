@@ -4,10 +4,13 @@
 			<h1 class="ml-3">Opskrifter</h1>
 		</b-row>
 		<b-row>
-			<b-col class="ml-3">
+			<b-col cols="12" class="ml-3">
 				<DropdownForm
 					:availableTags="tags"
 				/>
+			</b-col>
+			<b-col cols="12" class="ml-3">
+				{{ recipesInAlphabeticalOrder.length }} resultater
 			</b-col>
 		</b-row>
 		<b-row class="m-2">
@@ -43,11 +46,12 @@ export default class Recipes extends AppProps {
 	}
 
 	setChosenValues(values: string[]) {
+		console.log(values)
 		this.chosenValues = values
 	}
 
 	get tags() {
-		return this.$store.getters.getTags.concat(this.recipeNames)
+		return this.$store.getters.getTags
 	}
 
 	get recipeNames() {

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<b-form-group label="Søg efter opskrifter der indeholder et eller flere tags">
+		<b-form-group label="Søg efter opskrifter der indeholder et eller flere af de emner, der er angivet nedenunder. En opskrift bliver vist, så længe den har ét af de angivne tags.">
 			<b-form-tags v-model="value" no-outer-focus class="mb-2">
 				<template v-slot="{ tags, disabled, addTag, removeTag }">
 					<b-dropdown size="sm" variant="outline-secondary" block menu-class="w-100">
@@ -27,7 +27,6 @@
 							</b-form-group>
 						</b-dropdown-form>
 						<b-dropdown-divider></b-dropdown-divider>
-						{{ tags }}
 						<b-dropdown-item-button
 							v-for="option in availableOptions"
 							:key="option"
@@ -41,10 +40,10 @@
 					<ul v-if="tags.length > 0" class="list-inline d-inline-block mb-2">
 						<li v-for="tag in tags" :key="tag" class="list-inline-item">
 							<b-form-tag
-								@remove="removeTag(tag);$root.$emit('recipeSearchUpdated', tags)"
+								@remove="remove({ tag, tags, removeTag })"
 								:title="tag"
 								:disabled="disabled"
-								variant="info"
+								variant="secondary"
 								class="mt-3"
 							>
 								{{ tag }}
@@ -107,6 +106,13 @@ export default class DropdownForm extends AppProps {
 		addTag(option)
 		this.search = ""
 		this.$root.$emit("recipeSearchUpdated", tags.concat(option))
+	}
+
+	// @ts-ignore
+	remove({ tag, tags, removeTag }) {
+		const index = tags.indexOf(tag)
+		removeTag(tag)
+		this.$root.$emit("recipeSearchUpdated", tags.splice(index, 1))
 	}
 }
 </script>
