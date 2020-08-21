@@ -2,6 +2,7 @@ declare type RecipeObject = {
 	name: string,
 	teaser: string,
 	image: string, 
+	additionalImages?: string[], 
 	ingredients: IngredientObject[],
 	steps: string[],
 	servings: string

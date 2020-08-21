@@ -66,6 +66,14 @@
 				</b-row>
 			</b-col>
 		</b-row>
+		<b-row v-if="recipe.additionalImages" class="mt-3 mb-5">
+			<b-col cols="12">
+				<h3>Billeder</h3>
+			</b-col>
+			<b-col v-for="(image, index) in recipe.additionalImages" :key="image" cols="12" sm="6" md="4" class="p-0 font-italic">
+				<img class="p-3" :src="getAdditionalImage(index)" />
+			</b-col>
+		</b-row>
 		<b-row class="mt-5 mb-5">
 			<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
 				<p class="pl-3 m-0">Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a></p>
@@ -86,7 +94,7 @@ const AppProps = Vue.extend({
 export default class RecipeCard extends AppProps {
 	numberOfPortions = 1
 	@Watch("$route.params.name")
-	onProperyChanged(value: string, oldValue: string) {
+	onProperyChanged(value: string) {
 		this.$store.dispatch("setRecipe", value)
 	}
 
@@ -96,6 +104,10 @@ export default class RecipeCard extends AppProps {
 
 	getImage() {
 		return this.recipe.image === "NaN" || !this.recipe.image ? require("../assets/logo.png") : require("../assets/recipes/" + this.recipe.image)
+	}
+
+	getAdditionalImage(index: number) {
+		return require("../assets/recipes/" + this.recipe.additionalImages[index])
 	}
 
 	get recipe() {

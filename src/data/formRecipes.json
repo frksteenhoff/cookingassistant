@@ -1735,6 +1735,7 @@
 		"name": "Bao boller",
 		"teaser": "Lette og luftige hvedeboller, der fyldes med grøntsager og/eller kød. ",
 		"image": "bao_dampet.jpg",
+		"additionalImages": ["bao_haevning.jpg", "bao_dampning.jpg", "bao_damper.jpg", "bao_gao.jpg", "bao_fyldt.jpg"],
 		"ingredients": [
 			{
 				"amount": "525",
@@ -1794,7 +1795,9 @@
 		"path": "description",
 		"relatedrecipes": [
 			"pulled pork",
-			"syltede rødløg"
+			"syltede rødløg",
+			"misomayo",
+			"Gyoza dipping sauce"
 		],
 		"servings": "18 boller",
 		"preparationtime": "2.5-12 timer",
@@ -3407,6 +3410,7 @@
 		"name": "Blomkålsbrød",
 		"teaser": "En erstatning til brød lavet med blomkål, æg og cheddar",
 		"image": "cauliflower_bread.jpg",
+		"additionalImages": ["blomkaal.jpg", "blomkaal_avo.jpg"],
 		"ingredients": [
 			{
 				"amount": "1",

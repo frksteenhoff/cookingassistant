@@ -82,6 +82,7 @@
 			}
 		],
 		"image": "ciabatta.jpg",
+		"additionalImages": ["ciabatta_haev.jpg"],
 		"inspirationlink": "https://madensverden.dk/ciabattabroed/",
 		"teaser": "Let og luftigt br\u00f8d til sandwiches eller tapas -- dejen kan ogs\u00e5 bruges til boller.",
 		"steps": [
@@ -601,7 +602,7 @@
 				"ingredient": "hakkede traneb\u00e6r"
 			}
 		],
-		"image": "",
+		"image": "sicilienske_koedboller.jpg",
 		"inspirationlink": "https://www.ciaoitalia.com/seasons/18/1812/sicilian-meatballs",
 		"teaser": "Perfekte sammen med hjemmelavet pasta og tomatsauce, eller som en variation til frikadeller.",
 		"steps": [
@@ -778,6 +779,7 @@
 			}
 		],
 		"image": "jordbaertaerte.jpg",
+		"additionalImages": ["jordbaertaerte_skaaret.jpg"],
 		"inspirationlink": "https://dittejulie.dk/2015/07/jordbaertaerte/",
 		"teaser": "Jordb\u00e6rt\u00e6rte med m\u00f8rdejsbund, vanillecreme, chokolade og masser af friske jordb\u00e6r",
 		"steps": [
@@ -882,6 +884,7 @@
 			}
 		],
 		"image": "kanelsnurrer.jpg",
+		"additionalImages": ["kanelsnurrer_haev.jpg", "kanelsnurrer2.jpg"],
 		"inspirationlink": "https://juliebruun.com/2020/04/kanelsnurrer/",
 		"teaser": "Kanelsnurrer med sukker, kanel og kardemomme, snurret for en fin lagdeling.",
 		"steps": [
@@ -955,6 +958,7 @@
 			}
 		],
 		"image": "croissant.jpg",
+		"additionalImages": ["croissant_haev.jpg", "croissant_2.jpg"],
 		"inspirationlink": "https://www.gastrofun.dk/opskrift/laekre-nemme-hjemmelavet-croissanter",
 		"teaser": "Let og luftigt bagv\u00e6rk. Sp\u00f8rdt udenp\u00e5 og bl\u00f8dt indeni.",
 		"steps": [
