@@ -1,10 +1,10 @@
 <template>
 	<div>
 		<b-row>
-			<b-col cols="auto" class="ml-md-auto" v-if="'servings' in recipe && recipe.servings">
+			<b-col cols="auto" :class="[hasServings && hasPrepTime ? 'ml-md-auto': '']" v-if="hasServings">
 				<b-icon icon="person"></b-icon> Antal: {{ recipe.servings }}
 			</b-col>
-			<b-col cols="auto" class="mr-md-auto" v-if="'preparationtime' in recipe && recipe.preparationtime">
+			<b-col cols="auto" :class="[hasServings && hasPrepTime ? 'mr-md-auto': '']" v-if="hasPrepTime">
 				<b-icon icon="clock"></b-icon>  Tilberedningstid: {{ recipe.preparationtime }}
 			</b-col>
 		</b-row>
@@ -36,5 +36,13 @@ import RecipeHeader from "@/components/BaseComponents/RecipeHeader.vue"
 export default class PreparationsOverview extends Vue {
 	@Prop({ required: true }) recipe!: RecipeObject;
 	@Prop({ required: true }) numberOfPortions!: number;
+
+	get hasServings() {
+		return "servings" in this.recipe && this.recipe.servings
+	}
+
+	get hasPrepTime() {
+		return "preparationtime" in this.recipe && this.recipe.preparationtime
+	}
 }
 </script>

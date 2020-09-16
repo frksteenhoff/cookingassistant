@@ -6,8 +6,8 @@
 			/>
 		</b-col>
 		<p v-if="recipe.steps.length <= 1" class="pl-0">Fremgangsmåde kommer snart!</p>
-		<ul v-for="step in recipe.steps" :key="step" class="mb- mr-5">
-			<li :class="{'ml-0': true, 'font-weight-bold': (step.split(' ').length === 1)}">
+		<ul v-for="step in recipe.steps" :key="step" class="mb-3">
+			<li :class="['ml-0', (step.split(' ').length === 1) ? 'title font-weight-bold' : '']">
 				{{ step }}
 			</li>
 		</ul>
@@ -29,3 +29,9 @@ export default class RecipeProcedure extends Vue {
 	@Prop({ required: true }) numberOfPortions!: number;
 }
 </script>
+
+<style scoped>
+.title {
+	margin-right: 12rem; /* to ensure that li item after title is on new line */
+}
+</style>
