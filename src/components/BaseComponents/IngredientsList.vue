@@ -38,7 +38,9 @@ p, li {
 }
 
 .ingredients {
-	background: lightgray;
+	background: #E8E8E8;
+	border: 1px #E8E8E8;
+	border-radius: 2px;
 }
 
 .ingredients-header {

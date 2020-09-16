@@ -108,6 +108,6 @@ p, li {
 .sticky-column {
 	position: -webkit-sticky !important;
 	position: sticky !important;
-	top: 60px !important; /* height of navbar */
+	top: 65px !important; /* height of navbar + 5px */
 }
 </style>

@@ -5,7 +5,7 @@
 				title="Billeder"
 			/>
 		</b-col>
-		<b-col v-for="(image, index) in recipe.additionalImages" :key="image" cols="12" sm="6" md="4" class="p-0 font-italic">
+		<b-col v-for="(image, index) in recipe.additionalImages" :key="image" cols="12" sm="6" md="4" lg="3" class="p-0 font-italic">
 			<img class="p-3" :src="getAdditionalImage(index)" />
 		</b-col>
 	</b-row>
