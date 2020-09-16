@@ -10,7 +10,7 @@
 		</b-row>
 		<b-row class="mb-3">
 			<b-col cols="12" md="6" order-md="2" lg="4" order-lg="3">
-				<img style="border:1px solid; border-radius: 5px; padding: 5px;" :src="getImage()" />
+				<img v-if="recipe.image" style="border:1px solid; border-radius: 5px; padding: 5px;" :src="getImage()" />
 				<div v-if="'relatedrecipes' in recipe && recipe.relatedrecipes.length > 0">
 					<h5 class="pl-0 mt-3">Relaterede opskrifter:</h5>
 					<p v-for="recipe in recipe.relatedrecipes" :key="recipe" class="pl-0 mt-3">
@@ -21,7 +21,7 @@
 			<b-col cols="12" md="4" order-md="1" lg="3" order-lg="1">
 				<b-row>
 					<b-col v-if="'categories' in recipe" cols="12" class="ml-3 pl-0">
-						<b-badge v-for="category in recipe.categories" :key="category" class="mt-2 mr-2 p-1">
+						<b-badge v-for="category in recipe.categories" :key="category" class="mt-2 mr-2 p-1 pl-2 pr-2">
 							{{ category }}
 						</b-badge>
 					</b-col>
