@@ -1358,5 +1358,164 @@
 		],
 		"relatedrecipes": ["dumpling wrappers"],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Hummus",
+		"teaser": "Lækker spread til en sandwich eller dip til dine grøntsager",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "4",
+				"unit": "spsk",
+				"ingredient": "tahin"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "citronsaft"
+			},
+			{
+				"amount": "2",
+				"unit": "dåse(r)",
+				"ingredient": "kikærter, drænet"
+			},
+			{
+				"amount": "5",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "6",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "3",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "cayenne peber"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt, smag til"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, smag til"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "paprika"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "vand"
+			}
+		],
+		"steps": [
+			"Pres citronen, dræn kikærterne og hak hvidløg fint",
+			"Kom alle ingredienser i en skål",
+			"Blend alle ingredienserne med en stavblender til en ensartet masse",
+			"Hæld lidt olivenolie over den færdige masse og stil på køl, eller servér direkte."
+		],
+		"path": "description",
+		"servings": "5 personer",
+		"preparationtime": "10 min",
+		"categories": [
+			"dip",
+			"snack",
+			"forret"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.valdemarsro.dk/humus/"
+	},
+	{
+		"name": "Hokkaido suppe",
+		"teaser": "En cremet efterårssuppe med masser af smag.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "hokkaido græskar"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "kartofler"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "gulerødder, i tern"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "rød chili, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "ingefær, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "L",
+				"ingredient": "grøntsagsbuillon"
+			},
+			{
+				"amount": "0.5",
+				"unit": "L",
+				"ingredient": "piskefløde"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "citron, saften"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, stødt"
+			}
+		],
+		"steps": [
+			"Skyld hokkaidoen og skær den over på midten. Fjern derefter alle kerner og skær den i grove tern.",
+			"Varm olie op i en gryde og sauter løg, gulerød, kartofler og hokkaido sammen med chili, spidskommen og ingefær.",
+			"Hæld grøntsagbuillon over, så det dækker to tredjedele af grøntsagerne, hellere lidt for lidt end lidt for meget, så suppen senere ikke bliver for vandet.",
+			"Kom et låg på og lad det kode i 15-20 min.",
+			"Blend suppen med en stavblender til den er glat.",
+			"Tilsæt citron og fløde og blend igen til den er ensartet.",
+			"Top evt. med ristede græskarkerner og creme fraiche."
+		],
+		"path": "description",
+		"servings": "5 personer",
+		"preparationtime": "10 min",
+		"categories": [
+			"dip",
+			"snack",
+			"forret"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.valdemarsro.dk/humus/"
 	}
 ]
