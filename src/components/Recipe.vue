@@ -15,15 +15,21 @@
 				</b-badge>
 			</b-col>
 		</b-row>
-		<b-row>
-			<PreparationsOverview
-				:recipe="recipe"
-				:number-of-portions="numberOfPortions"
-			/>
+		<b-row class="text-md-center">
+			<b-col cols="12" class="mt-2 mb-0">
+				<PreparationsOverview
+					:recipe="recipe"
+					:number-of-portions="numberOfPortions"
+				/>
+			</b-col>
 		</b-row>
-		<b-row class="mt-lg-3 mb-sm-3">
-			<b-col cols=12 md="3" order-md="3" lg="3" class="pt-sm-3">
-				<img v-if="recipe.image" class="recipe-top-image d-md-none d-lg-block" :src="getImage()" />
+		<b-row class="mt-lg-1 mb-sm-3">
+			<b-col cols=12 md="3" order-md="3" lg="3">
+				<img v-if="recipe.image" class="recipe-top-image d-md-none d-lg-block mt-3" :src="getImage()" />
+				<RelatedRecipeList
+					:recipe="recipe"
+					class="d-sm-none d-md-block"
+				/>
 			</b-col>
 			<b-col cols="12" md="4" order-md="1" lg="3" order-lg="1" class="pt-sm-3">
 				<IngredientsList
@@ -55,9 +61,10 @@
 import { Vue, Component, Watch } from "vue-property-decorator"
 import RecipeHeader from "@/components/BaseComponents/RecipeHeader.vue"
 import IngredientsList from "@/components/BaseComponents/IngredientsList.vue"
-import PreparationsOverview from "@/components/PreparationsOverview.vue"
+import PreparationsOverview from "@/components/BaseComponents/PreparationsOverview.vue"
 import RecipeProcedure from "@/components/RecipeProcedure.vue"
 import RecipeImages from "@/components/RecipeImages.vue"
+import RelatedRecipeList from "@/components/BaseComponents/RelatedRecipeList.vue"
 
 import LoadImage from "@/plugin/mixin/loadImage"
 
@@ -72,7 +79,8 @@ const AppProps = Vue.extend({
 		RecipeHeader,
 		IngredientsList,
 		RecipeProcedure,
-		RecipeImages
+		RecipeImages,
+		RelatedRecipeList
 	},
 	mixins: [
 		LoadImage
