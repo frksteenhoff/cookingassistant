@@ -1440,7 +1440,8 @@
 	{
 		"name": "Hokkaido suppe",
 		"teaser": "En cremet efterårssuppe med masser af smag.",
-		"image": "",
+		"image": "hokkaido_soup.jpg",
+		"additionalImages": ["hokkaido_soup_ingredients.jpg", "hokkaido_chopped.jpg"],
 		"ingredients": [
 			{
 				"amount": "1",
@@ -1517,5 +1518,54 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://www.valdemarsro.dk/humus/"
+	},
+	{
+		"name": "Focaccia (den bedste)",
+		"teaser": "Et madbrød der er let, sejt og med masser af huller.",
+		"image": "focaccia_done.jpg",
+		"additionalImages": ["focaccia_dough.jpg", "focaccia_closeup.jpg"],
+		"ingredients": [
+			{
+				"amount": "4",
+				"unit": "g",
+				"ingredient": "tørgær"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "Tipo 00 mel"
+			},
+			{
+				"amount": "320",
+				"unit": "g",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "10",
+				"unit": "g",
+				"ingredient": "salt"
+			}
+		],
+		"steps": [
+			"Bland surdej/gær med mel og vand (gem 5% af vandet) Lad dejen hvile 30 min.",
+			"Tilføj resten af vandet med saltet og masér det ind i dejen, dejen kan skille, men den samler sig igen. Lad den hvile 30 min.",
+			"Vend dejen over sig selv fra alle kanter. Lad den hvile i 30 min.",
+			"Gentag forrige step, 3 gange yderligere. Lad så meget luft blive i dejen som muligt.",
+			"Put dejen i køleskabet i ca. 1 dag, her kommer smagen.",
+			"Tag dejen ud og lad den stå til den er ca. rumtemperatur, dette gør den nemmere at arbejde med og strække ud.",
+			"Opvarm ovnen til 250 grader på varmluft.",
+			"Put olivenolie i et fad og læg dejen på midten af fadet. Stræk nænsomt dejen ud så den fylder hele fadet. Fordel den ligeligt.",
+			"Oliér dejen let på toppen og pres let huller i den. Tilføj topping (salt, rosmarin, oliven eller lign.).",
+			"Bag i ca. 22 min."
+		],
+		"path": "description",
+		"servings": "5 personer",
+		"preparationtime": "2.5 timer + 1 dag på køl",
+		"categories": [
+			"tilbehør",
+			"snack"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.instagram.com/memoirsofabaker"
 	}
 ]
