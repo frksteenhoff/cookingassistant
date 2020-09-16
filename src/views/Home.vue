@@ -5,15 +5,15 @@
 			style="text-shadow: 0px 0px 2px #000"
 			fade
 			indicators
-			:interval="3000"
+			:interval="2000"
 			img-width="768"
 			img-height="360"
 		>
-			<b-carousel-slide caption="Jordbærtærte" text="Opskrifter til alle anledninger" :img-src="require('../assets/carousel/jordbaertaerte.jpg')"></b-carousel-slide>
-			<b-carousel-slide caption="Lemon meringue pie" text="Find både brød, kager og andre søde sager" :img-src="require('../assets/carousel/front.jpg')"></b-carousel-slide>
-			<b-carousel-slide caption="Dumplings" text="Traditionelle og udenlandske retter" :img-src="require('../assets/carousel/dumplings.jpg')"></b-carousel-slide>
-			<b-carousel-slide caption="Ciabatta" text="Prøv noget nyt, eller lav en kending" :img-src="require('../assets/carousel/ciabatta.jpg')"></b-carousel-slide>
-			<b-carousel-slide caption="Kanelsnurrer" text="Hvis der er noget der mangler, så sig endelig til" :img-src="require('../assets/carousel/kanelsnurrer.jpg')"></b-carousel-slide>
+			<b-carousel-slide caption="Jordbærtærte" text="Opskrifter til alle anledninger" :img-src="require('@/assets/carousel/jordbaertaerte.jpg')"></b-carousel-slide>
+			<b-carousel-slide caption="Lemon meringue pie" text="Find både brød, kager og andre søde sager" :img-src="require('@/assets/carousel/front.jpg')"></b-carousel-slide>
+			<b-carousel-slide caption="Dumplings" text="Traditionelle og udenlandske retter" :img-src="require('@/assets/carousel/dumplings.jpg')"></b-carousel-slide>
+			<b-carousel-slide caption="Ciabatta" text="Prøv noget nyt, eller lav en kending" :img-src="require('@/assets/carousel/ciabatta.jpg')"></b-carousel-slide>
+			<b-carousel-slide caption="Kanelsnurrer" text="Hvis der er noget der mangler, så sig endelig til" :img-src="require('@/assets/carousel/kanelsnurrer.jpg')"></b-carousel-slide>
 		</b-carousel>
 	<Section
 		header="Madglæde"
@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
-import Section from "@/components/Section.vue"
+import Section from "@/components/BaseComponents/Section.vue"
 
 const AppProps = Vue.extend({
 	props: {
@@ -39,15 +39,15 @@ export default class Home extends AppProps {
 	frontImages: CarouselObject[] = [
 		{
 			caption: "Jordbærtærte",
-			src: "../assets/carousel/jordbaertaerte.jpg"
+			src: "@/assets/carousel/jordbaertaerte.jpg"
 		},
 		{
 			caption: "Lemon meringue pie",
-			src: "../assets/carousel/front.jpg"
+			src: "@/assets/carousel/front.jpg"
 		},
 		{
 			caption: "Kanelsnurrer",
-			src: "../assets/carousel/kanelsnurrer.png"
+			src: "@/assets/carousel/kanelsnurrer.png"
 		}
 	]
 

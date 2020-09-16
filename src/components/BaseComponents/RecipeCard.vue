@@ -35,7 +35,7 @@ export default class RecipeCard extends AppProps {
 	}
 
 	getImage() {
-		return this.recipe.image === "NaN" || !this.recipe.image ? require("../assets/logo.png") : require("../assets/recipes/" + this.recipe.image)
+		return this.recipe.image === "NaN" || !this.recipe.image ? require("@/assets/logo.png") : require("@/assets/recipes/" + this.recipe.image)
 	}
 }
 </script>

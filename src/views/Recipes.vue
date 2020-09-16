@@ -25,8 +25,8 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
-import RecipeCard from "@/components/RecipeCard.vue"
-import DropdownForm from "@/components/DropdownForm.vue"
+import RecipeCard from "@/components/BaseComponents/RecipeCard.vue"
+import DropdownForm from "@/components/BaseComponents/DropdownForm.vue"
 
 const AppProps = Vue.extend({
 	props: {}
