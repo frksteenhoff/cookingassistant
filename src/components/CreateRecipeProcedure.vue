@@ -18,7 +18,7 @@
 				<small>Step {{ index + 1 }}</small>
 				<b-textarea
 					v-model="recipe.steps[index]"
-					placeholder="Beskriv hvordan retten tilberedes step"
+					:placeholder="'Beskriv hvordan retten tilberedes, step ' + (index + 1)"
 					size="sm"
 				/>
 			</b-col>
