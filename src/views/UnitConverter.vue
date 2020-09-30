@@ -21,7 +21,7 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
-import Conversion from "@/components/Conversion.vue"
+import Conversion from "@/components/BaseComponents/Conversion.vue"
 import Calculator from "@/components/Calculator.vue"
 
 const AppProps = Vue.extend({

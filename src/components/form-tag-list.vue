@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="mt-4">
 		<b-form-group label="Relaterede emner">
 			<!-- prop `add-on-change` is needed to enable adding tags vie the `change` event -->
 			<b-form-tags v-model="value" size="lg" add-on-change no-outer-focus>

@@ -10,131 +10,31 @@
 		</b-row>
 		<b-row class="m-2">
 			<b-col cols="12" md="8">
-				<b-row>
-					<b-col cols="12">
-						Overordnet
-					</b-col>
-					<b-col cols="12">
-						<small>Titel</small>
-						<b-form-input
-							v-model="recipe.name"
-						/>
-					</b-col>
-					<b-col cols="12">
-						<small>Kort beskrivelse</small>
-						<b-form-textarea
-							v-model="recipe.teaser"
-							placeholder="Giv en kort beskrivelse af din ret"
-							rows="2"
-							max-rows="4"
-							size="sm"
-						/>
-					</b-col>
-				</b-row>
-				<b-row class="mb-4">
-					<b-col cols="6">
-						<small>Tilberedningstid</small>
-						<b-form-input
-							v-model="recipe.preparationtime"
-							type="text"
-							size="sm"
-						/>
-					</b-col>
-					<b-col cols="6">
-						<small>Antal serveringer</small>
-						<b-form-input
-							v-model="recipe.servings"
-							type="text"
-							size="sm"
-						/>
-					</b-col>
-				</b-row>
-				<b-row>
-					<b-col cols="12">
-						Ingredienser
-					</b-col>
-				</b-row>
-				<b-row v-for="(ing, index) in recipe.ingredients" :key="ing+index">
-					<b-col cols="12" sm="4" md="4">
-						<small>Mængde</small>
-						<b-form-input
-							v-model="ing.amount"
-							type="number"
-						/>
-					</b-col>
-					<b-col cols="12" sm="3" md="3">
-						<small>Enhed</small>
-						<b-form-select
-							v-model="ing.unit"
-							:options="$store.state.units"
-						/>
-					</b-col>
-					<b-col cols="12" sm="4" md="4">
-						<small>Ingrediens</small>
-						<b-form-input
-							v-model="ing.ingredient"
-							type="text"
-						/>
-					</b-col>
-					<b-col cols="1" class="mt-4 ml-0 pl-0 pt-2" @click="deleteRow(index)">
-							<b-icon v-b-tooltip.hover title="Slet linje" icon="x-circle"></b-icon>
-					</b-col>
-				</b-row>
-				<b-row class="mt-4 mb-4">
-					<b-col>
-						<b-button
-							variant="outline-secondary"
-							@click="addIngredient()"
-						>
-							Tilføj række
-						</b-button>
-					</b-col>
-				</b-row>
+				<CreateRecipeBasicInfo :recipe="recipe" />
+				<CreateRecipeIngredientsList :recipe="recipe" />
 			</b-col>
 			<b-col cols="12" md="3" class="p-3 d-sm-none d-md-none d-lg-block">
-				<div class="p-3 sticky-column" style="background-color: #eaddda">
-					Oversæt enheder her
-					<div v-for="combination in combinations" :key="combination.from + combination.to">
-						<Conversion
-							:fromUnit="combination.from"
-							:toUnit="combination.to"
-							size="sm"
-						/>
-					</div>
-				</div>
+				<ConversionSidebar :combinations="combinations" />
 			</b-col>
 		</b-row>
-		<b-row class="m-2">
-			<b-col cols="12">
-				Fremgangsmåde
-			</b-col>
-		</b-row>
-		<b-row v-for="(step, index) in recipe.steps" :key="index" class="m-2">
-			<b-col cols="11" md="8">
-				<small>Step {{ index + 1 }}</small>
-				<b-textarea
-					v-model="recipe.steps[index]"
-					placeholder="Beskriv hvordan retten tilberedes"
-					size="sm"
-				/>
-			</b-col>
-			<b-col cols="1" class="mt-4 ml-0 pl-0 pt-3" @click="deleteStep(index)">
-					<b-icon v-b-tooltip.hover title="Slet linje" icon="x-circle"></b-icon>
-			</b-col>
-		</b-row>
-		<b-row class="m-2 mt-4 mb-4">
-			<b-col>
-				<b-button
-					variant="outline-secondary"
-					@click="addStep()"
-				>
-					Tilføj step
-				</b-button>
-			</b-col>
-		</b-row>
+		<CreateRecipeProcedure :recipe="recipe" />
 		<b-row class="m-2 mb-0">
 			<b-col cols="12" md="8">
 				<form-tag />
+			</b-col>
+		</b-row>
+		<b-row v-if="troubleshoot" class="ml-2 mt-3">
+			<b-col cols="12">
+				<b-button v-b-toggle="'collapse-2'" variant="outline-secondary" class="m-1">
+					Forhåndsvisning af opskrift
+				</b-button>
+				<b-collapse id="collapse-2">
+					<b-card>
+						{{ JSON.stringify(recipe, undefined, 4) }}
+						<br><br>
+						Tags: {{ $store.getters.getCreateTags }}
+					</b-card>
+				</b-collapse>
 			</b-col>
 		</b-row>
 		<b-row class="m-2 mb-5">
@@ -145,39 +45,28 @@
 				<a :href="'mailto:' + mailingInfo.email + '?subject='+ mailingInfo.subject + '&body=' + mailingInfo.body" target="_blank">Indsend opskrift</a>
 			</b-button>
 		</b-row>
-		<b-row v-if="troubleshoot" class="ml-2 mt-5 mb-5">
-			<b-col cols="12" class="mb-4">
-				<b-button v-b-toggle="'collapse-2'" variant="outline-secondary" class="m-1">Forhåndsvisning af opskrift</b-button>
-				<b-collapse id="collapse-2">
-					<b-card>
-						{{ JSON.stringify(recipe, undefined, 4) }}
-						<br><br>
-						Tags: {{ $store.getters.getCreateTags }}
-					</b-card>
-				</b-collapse>
-			</b-col>
-		</b-row>
 	</div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
 import FormTag from "@/components/form-tag-list.vue"
-import Conversion from "@/components/Conversion.vue"
-
-const AppProps = Vue.extend({
-	props: {
-	}
-})
+import ConversionSidebar from "@/components/ConversionSidebar.vue"
+import CreateRecipeBasicInfo from "@/components/CreateRecipeBasicInfo.vue"
+import CreateRecipeProcedure from "@/components/CreateRecipeProcedure.vue"
+import CreateRecipeIngredientsList from "@/components/CreateRecipeIngredientsList.vue"
 
 @Component({
 	components: {
 		Vue,
 		FormTag,
-		Conversion
+		ConversionSidebar,
+		CreateRecipeBasicInfo,
+		CreateRecipeProcedure,
+		CreateRecipeIngredientsList
 	}
 })
-export default class CreateRecipeForm extends AppProps {
+export default class CreateRecipeForm extends Vue {
 	troubleshoot = true
 	recipe: RecipeObject = {
 		name: "",
@@ -240,8 +129,20 @@ export default class CreateRecipeForm extends AppProps {
 		}
 	}
 
+	created() {
+		this.$root.$on("delete-ingredient", this.deleteRow)
+		this.$root.$on("delete-step", this.deleteStep)
+		this.$root.$on("add-step", this.addStep)
+		this.$root.$on("add-ingredient", this.addIngredient)
+	}
+
 	updated() {
 		this.recipe.categories = this.$store.getters.getCreateTags
+	}
+
+	beforeDestroy() {
+		this.$off("delete-ingredient")
+		this.$off("delete-step")
 	}
 
 	addStep() {
