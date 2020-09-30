@@ -47,7 +47,7 @@
 		</b-row>
 		<RecipeImages />
 		<b-row class="mb-4">
-			<b-col v-if="recipe.inspirationlink" class="p-0 font-italic sticky-column">
+			<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
 				<hr>
 				<p class="pl-3 m-0">
 					Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a>

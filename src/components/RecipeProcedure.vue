@@ -32,6 +32,6 @@ export default class RecipeProcedure extends Vue {
 
 <style scoped>
 .title {
-	margin-right: 12rem; /* to ensure that li item after title is on new line */
+	margin-right: 23rem; /* to ensure that li item after title is on new line */
 }
 </style>

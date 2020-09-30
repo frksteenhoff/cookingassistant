@@ -44,7 +44,10 @@
 		],
 		"servings": "30 dumplings",
 		"path": "description",
-		"relatedrecipes": ["dumpling fars", "Gyoza dipping sauce"],
+		"relatedrecipes": [
+			"dumpling fars",
+			"Gyoza dipping sauce"
+		],
 		"categories": [
 			"aftensmad",
 			"snack",
@@ -82,7 +85,9 @@
 			}
 		],
 		"image": "ciabatta.jpg",
-		"additionalImages": ["ciabatta_haev.jpg"],
+		"additionalImages": [
+			"ciabatta_haev.jpg"
+		],
 		"inspirationlink": "https://madensverden.dk/ciabattabroed/",
 		"teaser": "Let og luftigt br\u00f8d til sandwiches eller tapas -- dejen kan ogs\u00e5 bruges til boller.",
 		"steps": [
@@ -779,7 +784,9 @@
 			}
 		],
 		"image": "jordbaertaerte.jpg",
-		"additionalImages": ["jordbaertaerte_skaaret.jpg"],
+		"additionalImages": [
+			"jordbaertaerte_skaaret.jpg"
+		],
 		"inspirationlink": "https://dittejulie.dk/2015/07/jordbaertaerte/",
 		"teaser": "Jordb\u00e6rt\u00e6rte med m\u00f8rdejsbund, vanillecreme, chokolade og masser af friske jordb\u00e6r",
 		"steps": [
@@ -884,7 +891,10 @@
 			}
 		],
 		"image": "kanelsnurrer.jpg",
-		"additionalImages": ["kanelsnurrer_haev.jpg", "kanelsnurrer2.jpg"],
+		"additionalImages": [
+			"kanelsnurrer_haev.jpg",
+			"kanelsnurrer2.jpg"
+		],
 		"inspirationlink": "https://juliebruun.com/2020/04/kanelsnurrer/",
 		"teaser": "Kanelsnurrer med sukker, kanel og kardemomme, snurret for en fin lagdeling.",
 		"steps": [
@@ -958,7 +968,10 @@
 			}
 		],
 		"image": "croissant.jpg",
-		"additionalImages": ["croissant_haev.jpg", "croissant_2.jpg"],
+		"additionalImages": [
+			"croissant_haev.jpg",
+			"croissant_2.jpg"
+		],
 		"inspirationlink": "https://www.gastrofun.dk/opskrift/laekre-nemme-hjemmelavet-croissanter",
 		"teaser": "Let og luftigt bagv\u00e6rk. Sp\u00f8rdt udenp\u00e5 og bl\u00f8dt indeni.",
 		"steps": [
@@ -1356,7 +1369,9 @@
 			"snack",
 			"forret"
 		],
-		"relatedrecipes": ["dumpling wrappers"],
+		"relatedrecipes": [
+			"dumpling wrappers"
+		],
 		"inspirationlink": ""
 	},
 	{
@@ -1441,7 +1456,10 @@
 		"name": "Hokkaido suppe",
 		"teaser": "En cremet efterårssuppe med masser af smag.",
 		"image": "hokkaido_soup.jpg",
-		"additionalImages": ["hokkaido_soup_ingredients.jpg", "hokkaido_chopped.jpg"],
+		"additionalImages": [
+			"hokkaido_soup_ingredients.jpg",
+			"hokkaido_chopped.jpg"
+		],
 		"ingredients": [
 			{
 				"amount": "1",
@@ -1457,6 +1475,16 @@
 				"amount": "2",
 				"unit": "stk",
 				"ingredient": "gulerødder, i tern"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, groft hakket"
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
 			},
 			{
 				"amount": "0.5",
@@ -1523,7 +1551,10 @@
 		"name": "Focaccia (den bedste)",
 		"teaser": "Et madbrød der er let, sejt og med masser af huller.",
 		"image": "focaccia_done.jpg",
-		"additionalImages": ["focaccia_dough.jpg", "focaccia_closeup.jpg"],
+		"additionalImages": [
+			"focaccia_dough.jpg",
+			"focaccia_closeup.jpg"
+		],
 		"ingredients": [
 			{
 				"amount": "4",
@@ -1567,5 +1598,81 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://www.instagram.com/memoirsofabaker"
+	},
+	{
+		"name": "Bananpandekager",
+		"teaser": "Lette, luftige og tykke pandekager med skiver af banan.",
+		"image": "bananapancakes.jpg",
+		"ingredients": [
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "mel"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "bagepulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "smør, smeltet"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "vanillepulver"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "smør, stegning"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "banan, skiveskåret"
+			}
+		],
+		"steps": [
+			"Forberedelse",
+			"Tilføj sukker, salt og bagepulver og vanillepulver i en skål og bland godt.",
+			"I en anden skål, bland æg, mælk og smør. Smørret skal være afkølet.",
+			"Bland de tørre og de våde ingredienser. Dejen skal være lidt tyk.",
+			"Skær bananen i skiver.",
+			"Stegning",
+			"Klargør en pande med smør ved medium varme. Brug en øse, så pandekagerne bliver lige store.", 
+			"Når pandekager er stegt færdig på den ene side (når der begynder at komme bobler i dejen og dejen bliver mat), pres da forsigtig to skiver banan ned på toppen af pandekagen og dæk den til med en smule ekstra dej. Vend derefter og steg til pandekagen er gylden brun."
+		],
+		"path": "description",
+		"servings": "",
+		"preparationtime": "",
+		"categories": [
+			"snack",
+			"morgenmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]

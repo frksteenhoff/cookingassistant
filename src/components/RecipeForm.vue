@@ -92,9 +92,9 @@
 				</b-row>
 			</b-col>
 			<b-col cols="12" md="3" class="p-3 d-sm-none d-md-none d-lg-block">
-				<div class="p-3" style="background-color: #eaddda;">
+				<div class="p-3 sticky-column" style="background-color: #eaddda">
 					Oversæt enheder her
-					<div v-for="combination in combinations" :key="combination.from+combination.to">
+					<div v-for="combination in combinations" :key="combination.from + combination.to">
 						<Conversion
 							:fromUnit="combination.from"
 							:toUnit="combination.to"
@@ -265,5 +265,11 @@ svg:hover{
 }
 button a {
 	color: white !important;
+}
+
+div .sticky-column {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	top: 65px !important; /* height of navbar + 5px */
 }
 </style>
