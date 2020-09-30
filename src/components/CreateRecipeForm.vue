@@ -177,7 +177,7 @@ const AppProps = Vue.extend({
 		Conversion
 	}
 })
-export default class RecipeForm extends AppProps {
+export default class CreateRecipeForm extends AppProps {
 	troubleshoot = true
 	recipe: RecipeObject = {
 		name: "",
