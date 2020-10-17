@@ -2,15 +2,15 @@
 	<div class="mt-3">
 		<b-row class="mb-4">
 			<b-col cols="12">
-				<h1 class="ml-0 mr-3">{{ recipe.name }}</h1>
+				<h1 class="ml-0">{{ recipe.name }}</h1>
 			</b-col>
 		</b-row>
 		<b-row>
 			<b-col cols="12" class="mt-2 mb-3 font-italic"><p class="pl-0 m-0">{{ recipe.teaser }}</p></b-col>
 		</b-row>
 		<b-row>
-			<b-col v-if="'categories' in recipe" cols="12" class="ml-3 pl-0">
-				<b-badge v-for="category in recipe.categories" :key="category" class="mt-2 mb-2 mr-2 p-1 pl-2 pr-2">
+			<b-col v-if="'categories' in recipe" cols="12" class="pl-0">
+				<b-badge v-for="category in recipe.categories" :key="category" class="ml-3 mt-2 mb-2 p-1 pl-2 pr-2">
 					{{ category }}
 				</b-badge>
 			</b-col>
@@ -49,7 +49,7 @@
 		<b-row class="mb-4">
 			<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
 				<hr>
-				<p class="pl-3 m-0 mn-3">
+				<p class="pl-3 m-0">
 					Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a>
 				</p>
 			</b-col>

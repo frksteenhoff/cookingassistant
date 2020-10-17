@@ -1,19 +1,19 @@
 <template>
 	<b-container class="mt-3">
-		<b-row class="m-2 mb-3">
-			<h1 class="ml-3">Opskrifter</h1>
+		<b-row class="mb-3">
+			<h1>Opskrifter</h1>
 		</b-row>
 		<b-row>
-			<b-col cols="12" class="ml-3">
+			<b-col cols="12">
 				<DropdownForm
 					:availableTags="tags"
 				/>
 			</b-col>
-			<b-col cols="12" class="ml-3">
+			<b-col cols="12">
 				{{ recipesInAlphabeticalOrder.length }} resultater
 			</b-col>
 		</b-row>
-		<b-row class="m-2">
+		<b-row>
 			<b-col id="recipes" cols="12" md="6" lg="4" xl="3" v-for="recipe in recipesInAlphabeticalOrder" :key="recipe.name">
 				<RecipeCard
 					:recipe="recipe"

@@ -7,8 +7,8 @@
 		</b-col>
 		<p v-if="recipe.steps.length <= 1" class="pl-0">Fremgangsmåde kommer snart!</p>
 		<ul v-for="(step, index) in recipe.steps" :key="step + index" class="mb-3">
-			<li :class="['ml-0', (step.split(' ').length === 1) ? 'title font-weight-bold' : '']">
-				{{ step }}
+			<li :class="['ml-0', (step.split(' ').length === 1) ? 'font-weight-bold' : '']">
+				{{ step }} <br/>
 			</li>
 		</ul>
 	</b-row>
@@ -28,9 +28,3 @@ export default class RecipeProcedure extends Vue {
 	@Prop({ required: true }) recipe!: RecipeObject;
 }
 </script>
-
-<style scoped>
-.title {
-	margin-right: 23rem; /* to ensure that li item after title is on new line */
-}
-</style>
