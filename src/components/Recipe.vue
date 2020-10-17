@@ -25,11 +25,13 @@
 		</b-row>
 		<b-row class="mt-lg-1 mb-sm-3">
 			<b-col cols=12 md="3" order-md="3" lg="3">
+				<div class="sticky-column">
 				<img v-if="recipe.image" class="recipe-top-image d-md-none d-lg-block mt-3" :src="getImage()" />
 				<RelatedRecipeList
 					:recipe="recipe"
 					class="d-sm-none d-md-block"
 				/>
+				</div>
 			</b-col>
 			<b-col cols="12" md="4" order-md="1" lg="3" order-lg="1" class="pt-sm-3">
 				<IngredientsList
@@ -49,7 +51,7 @@
 		<b-row class="mb-4">
 			<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
 				<hr>
-				<p class="pl-3 m-0">
+				<p class="pl-3 m-0 mn-3">
 					Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a>
 				</p>
 			</b-col>
