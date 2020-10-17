@@ -14,11 +14,21 @@
 			</b-col>
 		</b-row>
 		<b-row class="m-2">
-			<b-col cols="12" md="6" lg="4" xl="3" v-for="recipe in recipesInAlphabeticalOrder" :key="recipe.name">
+			<b-col id="recipes" cols="12" md="6" lg="4" xl="3" v-for="recipe in recipesInAlphabeticalOrder" :key="recipe.name">
 				<RecipeCard
 					:recipe="recipe"
 				/>
 			</b-col>
+			<!--<b-pagination
+				v-model="currentPage"
+				:total-rows="noOfRecipes"
+				:per-page="perPage"
+				first-text="Først"
+				prev-text="Forrige"
+				next-text="Næste"
+				last-text="Sidste"
+				aria-controls="recipes"
+			/>-->
 		</b-row>
 	</b-container>
 </template>
@@ -40,13 +50,14 @@ const AppProps = Vue.extend({
 })
 export default class Recipes extends AppProps {
 	chosenValues: string[] = []
+	currentPage = 1
+	perPage = 15
 
 	created() {
 		this.$root.$on("recipeSearchUpdated", this.setChosenValues)
 	}
 
 	setChosenValues(values: string[]) {
-		console.log(values)
 		this.chosenValues = values
 	}
 
@@ -57,6 +68,10 @@ export default class Recipes extends AppProps {
 	get recipeNames() {
 		// @ts-ignorec
 		return this.currentRecipes.map(recipe => recipe.name)
+	}
+
+	get noOfRecipes() {
+		return this.recipesInAlphabeticalOrder.length
 	}
 
 	get currentRecipes() {

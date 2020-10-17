@@ -26,7 +26,6 @@ import RecipeHeader from "@/components/BaseComponents/RecipeHeader.vue"
 })
 export default class RecipeProcedure extends Vue {
 	@Prop({ required: true }) recipe!: RecipeObject;
-	@Prop({ required: true }) numberOfPortions!: number;
 }
 </script>
 

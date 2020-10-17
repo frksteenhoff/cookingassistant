@@ -15,7 +15,8 @@
 			<b-col cols="auto" class="text-left">
 				<b-form-select
 					v-model="numberOfPortions"
-					:options="[0.5].concat(Array(10).fill(1).map((x, y) => x + y))"
+					:options="[0.5, 0.75].concat(Array(10).fill(1).map((x, y) => x + y))"
+					@change="$root.$emit('update-portions', numberOfPortions)"
 					size="sm"
 				/>
 			</b-col>
@@ -35,7 +36,7 @@ import RecipeHeader from "@/components/BaseComponents/RecipeHeader.vue"
 })
 export default class PreparationsOverview extends Vue {
 	@Prop({ required: true }) recipe!: RecipeObject;
-	@Prop({ required: true }) numberOfPortions!: number;
+	numberOfPortions = 1;
 
 	get hasServings() {
 		return "servings" in this.recipe && this.recipe.servings

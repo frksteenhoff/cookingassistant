@@ -3,7 +3,7 @@
 		<b-form-group label="Søg efter opskrifter der indeholder et eller flere af de emner, der er angivet nedenunder. En opskrift bliver vist, så længe den har ét af de angivne tags.">
 			<b-form-tags v-model="value" no-outer-focus class="mb-2">
 				<template v-slot="{ tags, disabled, addTag, removeTag }">
-					<b-dropdown size="sm" variant="outline-secondary" block menu-class="w-100">
+					<b-dropdown size="sm" variant="outline-secondary" block menu-class="w-50">
 						<template v-slot:button-content>
 							<b-icon icon="tag-fill"></b-icon>Vælg søgekriterier
 						</template>

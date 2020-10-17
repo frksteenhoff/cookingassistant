@@ -19,7 +19,6 @@
 			<b-col cols="12" class="mt-2 mb-0">
 				<PreparationsOverview
 					:recipe="recipe"
-					:number-of-portions="numberOfPortions"
 				/>
 			</b-col>
 		</b-row>
@@ -43,7 +42,6 @@
 			<b-col cols="12" md="8" order-md="2" lg="6" order-lg="2" class="pb-3">
 				<RecipeProcedure
 					:recipe="recipe"
-					:number-of-portions="numberOfPortions"
 				/>
 			</b-col>
 		</b-row>
@@ -98,7 +96,13 @@ export default class RecipeCard extends AppProps {
 	}
 
 	created() {
+		this.$root.$on("update-portions", this.setNumberOfPortions)
 		this.$store.dispatch("setRecipe", this.$route.params.name)
+	}
+
+	setNumberOfPortions(event: number) {
+		console.log(event)
+		this.numberOfPortions = event
 	}
 }
 </script>
