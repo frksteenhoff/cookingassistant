@@ -101,7 +101,6 @@ export default class RecipeCard extends AppProps {
 	}
 
 	setNumberOfPortions(event: number) {
-		console.log(event)
 		this.numberOfPortions = event
 	}
 }

@@ -2,7 +2,7 @@
 	<div>
 		<b-row>
 			<b-col cols="auto" :class="[hasServings && hasPrepTime ? 'ml-md-auto': '']" v-if="hasServings">
-				<b-icon icon="person"></b-icon> Antal: {{ recipe.servings }}
+				<b-icon icon="person"></b-icon> Antal: {{ parseInt(recipe.servings) * numberOfPortions }}
 			</b-col>
 			<b-col cols="auto" :class="[hasServings && hasPrepTime ? 'mr-md-auto': '']" v-if="hasPrepTime">
 				<b-icon icon="clock"></b-icon>  Tilberedningstid: {{ recipe.preparationtime }}
@@ -15,7 +15,7 @@
 			<b-col cols="auto" class="text-left">
 				<b-form-select
 					v-model="numberOfPortions"
-					:options="[0.5, 0.75].concat(Array(10).fill(1).map((x, y) => x + y))"
+					:options="portionScaling"
 					@change="$root.$emit('update-portions', numberOfPortions)"
 					size="sm"
 				/>
@@ -44,6 +44,10 @@ export default class PreparationsOverview extends Vue {
 
 	get hasPrepTime() {
 		return "preparationtime" in this.recipe && this.recipe.preparationtime
+	}
+
+	get portionScaling(): number [] {
+		return [0.25, 0.5, 0.75].concat(Array(10).fill(1).map((x, y) => x + y))
 	}
 }
 </script>
