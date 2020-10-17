@@ -25,7 +25,7 @@
 		<b-row class="mt-lg-1 mb-sm-3">
 			<b-col cols=12 md="3" order-md="3" lg="3">
 				<div class="sticky-column">
-				<img v-if="recipe.image" class="recipe-top-image d-md-none d-lg-block mt-3" :src="getImage()" />
+				<img v-b-modal.show-image-modal v-if="recipe.image" class="recipe-top-image d-md-none d-lg-block mt-3" :src="getImage()" />
 				<RelatedRecipeList
 					:recipe="recipe"
 					class="d-sm-none d-md-block"
@@ -54,6 +54,20 @@
 				</p>
 			</b-col>
 		</b-row>
+		<!-- modal for enlarging image -->
+		<b-modal
+			id="show-image-modal"
+			:title="recipe.name"
+			button-size="sm"
+			header-text-variant="light"
+			modal-footer-visible="hide"
+			ok-title="Luk"
+			variant="secondary"
+			ok-only
+			no-stacking
+		>
+			<b-img :src="getImage()"></b-img>
+		</b-modal>
 	</div>
 </template>
 

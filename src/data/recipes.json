@@ -2064,5 +2064,73 @@
 		"relatedrecipes": [],
 		"inspirationlink": "",
 		"relatedImages": []
+	},
+	{
+		"name": "Chimichurri",
+		"teaser": "Frisk og stærk marinade eller smagsforstærker til kød og grillede grøntsager",
+		"image": "chimichurri.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "skalloteløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "chili, finthakket"
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "rødvinseddike"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "frisk koriander, finthakket"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "frisk persille, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "frisk oregano, finthakket"
+			},
+			{
+				"amount": "0.75",
+				"unit": "dl",
+				"ingredient": "ekstra jomfru olivenolie"
+			}
+		],
+		"steps": [
+			"Bland skalotteløg, hvidløg, og salt i en lille skål og lad stå i et par minutter",
+			"Bland med koriander, persille og oregano.",
+			"Med en gaffel, bland olie med krydderierne.",
+			"Skal helst stå i 3 timer inden brug"
+		],
+		"path": "description",
+		"servings": "2dl",
+		"preparationtime": "10min",
+		"categories": [
+			"dressing",
+			"marinade"
+		],
+		"relatedrecipes": [],
+		"relatedImages": [],
+		"inspirationlink": ""
 	}
 ]
