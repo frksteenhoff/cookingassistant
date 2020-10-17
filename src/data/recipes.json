@@ -2023,12 +2023,17 @@
 				"ingredient": ""
 			},
 			{
-				"amount": "100",
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "smør, blødt"
+			},
+			{
+				"amount": "50",
 				"unit": "g",
 				"ingredient": "flødeost (naturel)"
 			},
 			{
-				"amount": "100",
+				"amount": "150",
 				"unit": "g",
 				"ingredient": "flormelis"
 			},
