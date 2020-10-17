@@ -833,7 +833,7 @@
 			{
 				"amount": "4",
 				"unit": "stk",
-				"ingredient": "peberfrugter"
+				"ingredient": "peberfrugter, grillede"
 			},
 			{
 				"amount": "2",
@@ -889,6 +889,11 @@
 				"amount": "2.5",
 				"unit": "dl",
 				"ingredient": "madlavningsfløde"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "basilikum"
 			}
 		],
 		"steps": [
