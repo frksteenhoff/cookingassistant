@@ -1169,7 +1169,9 @@
 		"servings": "1 cheesecake",
 		"path": "description",
 		"relatedrecipes": [],
-		"additionalImages": ["hindbaer_cheesecake.jpg"],
+		"additionalImages": [
+			"hindbaer_cheesecake.jpg"
+		],
 		"categories": [
 			"dessert",
 			" specielle anledninger"
@@ -1964,5 +1966,98 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Gulerodsmuffins med ostecreme ",
+		"teaser": "Svampet muffins med gulerod og krydderier toppet med en syrlig ostecreme",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "brun farin"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "gulerod"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "olie"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "1.5",
+				"unit": "tsk",
+				"ingredient": "bagepulver"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "kanel"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "flødeost (naturel)"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "flormelis"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "citronsaft + skrællen, revet"
+			}
+		],
+		"steps": [
+			"Muffins",
+			"Pisk æg, sukker og farin luftigt",
+			"Vend de øvrige ingredienser i.",
+			"Fordel dejen i muffinsforme.",
+			"Bag dine muffins ved 200 grader i 20 min.",
+			"Ostecreme",
+			"Pisk flødeost, flormelis og citronsaft til en homogen masse.",
+			"Når muffinsene er afkøl, påfør da enten med en spatel eller fra en sprøjtepose.",
+			"Top evt. med hakkede mandler, pistacie eller pekannødder."
+		],
+		"path": "description",
+		"servings": "16 stk",
+		"preparationtime": "30min",
+		"categories": [
+			"snack",
+			"dessert"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "",
+		"relatedImages": []
 	}
 ]
