@@ -55,19 +55,12 @@
 			</b-col>
 		</b-row>
 		<!-- modal for enlarging image -->
-		<b-modal
+		<ImageModal
 			id="show-image-modal"
 			:title="recipe.name"
-			button-size="sm"
-			header-text-variant="light"
-			modal-footer-visible="hide"
-			ok-title="Luk"
-			variant="secondary"
-			ok-only
-			no-stacking
 		>
 			<b-img :src="getImage()"></b-img>
-		</b-modal>
+		</ImageModal>
 	</div>
 </template>
 
@@ -79,6 +72,7 @@ import PreparationsOverview from "@/components/BaseComponents/PreparationsOvervi
 import RecipeProcedure from "@/components/RecipeProcedure.vue"
 import RecipeImages from "@/components/RecipeImages.vue"
 import RelatedRecipeList from "@/components/BaseComponents/RelatedRecipeList.vue"
+import ImageModal from "@/components/BaseComponents/ImageModal.vue"
 
 import LoadImage from "@/plugin/mixin/loadImage"
 
@@ -94,7 +88,8 @@ const AppProps = Vue.extend({
 		IngredientsList,
 		RecipeProcedure,
 		RecipeImages,
-		RelatedRecipeList
+		RelatedRecipeList,
+		ImageModal
 	},
 	mixins: [
 		LoadImage

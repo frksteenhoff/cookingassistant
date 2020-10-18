@@ -164,6 +164,11 @@ img {
 	justify-content: center;
 }
 
+img:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
+
 p {
 	line-height: 1.4;
 	font-size: 1rem;
