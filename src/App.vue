@@ -168,7 +168,8 @@ img {
 	justify-content: center;
 }
 
-img:hover {
+img.card-img-top:hover,
+img.opacity-change:hover {
 	cursor: pointer;
 	opacity: 0.9;
 }

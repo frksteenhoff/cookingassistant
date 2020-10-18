@@ -4,7 +4,7 @@
 		:img-src="getImage()"
 		:img-alt="recipe.name"
 		img-top
-		class="mb-4"
+		class="mb-4 opacity-change"
 		@click="handleCardClick"
 	>
 		<b-card-text
