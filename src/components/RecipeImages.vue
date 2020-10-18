@@ -1,5 +1,5 @@
 <template>
-	<b-row v-if="recipe.additionalImages" class="mt-3 mb-5">
+	<b-row v-if="recipe.additionalImages && recipe.additionalImages.length > 0" class="mt-3 mb-5">
 		<b-col cols="12">
 			<RecipeHeader
 				title="Billeder"
