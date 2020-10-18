@@ -131,6 +131,10 @@ a {
 	text-decoration: none !important;
 }
 
+a:focus {
+	background-color: lightgrey !important;
+}
+
 a:hover,
 a.nav.link:hover {
 	text-decoration: none !important;
