@@ -86,7 +86,7 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.plainchicken.com/2015/01/the-best-homemade-cheesecake.html"
 		},
 		{
-			name: "Chocolte covered cheesecake bites",
+			name: "Chocolate covered cheesecake bites",
 			link: "https://www.cookingpanda.com/content/get-recipe-cheesecake-bites"
 		},
 		{
@@ -365,10 +365,6 @@ export default class FoodLinks extends AppProps {
 			link: "https://www.santamariaworld.com/ie/recipes/salmon-sashimi/"
 		},
 		{
-			name: "Gyoza",
-			link: "https://youtu.be/z60_v7NhFck"
-		},
-		{
 			name: "Homemade black bean sauce",
 			link: "https://www.daringgourmet.com/2016/03/04/how-to-make-homemade-black-bean-sauce-or-black-bean-paste/"
 		},
@@ -379,10 +375,6 @@ export default class FoodLinks extends AppProps {
 		{
 			name: "Miso",
 			link: "https://www.chopstickchronicles.com/how-to-make-miso/"
-		},
-		{
-			name: "Fried dumplings",
-			link: "https://www.thespruceeats.com/chinese-pan-fried-dumplings-694499"
 		},
 		{
 			name: "Miso glaced salmon",

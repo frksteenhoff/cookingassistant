@@ -1969,8 +1969,8 @@
 	},
 	{
 		"name": "Gulerodsmuffins med ostecreme ",
-		"teaser": "Svampet muffins med gulerod og krydderier toppet med en syrlig ostecreme",
-		"image": "",
+		"teaser": "Svampede muffins med gulerod og krydderier toppet med en syrlig ostecreme",
+		"image": "gulerodsmuffins.jpg",
 		"ingredients": [
 			{
 				"amount": "3",
@@ -1988,7 +1988,7 @@
 				"ingredient": "brun farin"
 			},
 			{
-				"amount": "3",
+				"amount": "5",
 				"unit": "stk",
 				"ingredient": "gulerod"
 			},
@@ -1998,7 +1998,7 @@
 				"ingredient": "salt"
 			},
 			{
-				"amount": "0.5",
+				"amount": "1",
 				"unit": "dl",
 				"ingredient": "olie"
 			},
@@ -2023,24 +2023,24 @@
 				"ingredient": ""
 			},
 			{
-				"amount": "50",
+				"amount": "100",
 				"unit": "g",
 				"ingredient": "smør, blødt"
 			},
 			{
-				"amount": "50",
+				"amount": "150",
 				"unit": "g",
 				"ingredient": "flødeost (naturel)"
 			},
 			{
-				"amount": "150",
+				"amount": "50",
 				"unit": "g",
 				"ingredient": "flormelis"
 			},
 			{
 				"amount": "1",
-				"unit": "spsk",
-				"ingredient": "citronsaft + skrællen, revet"
+				"unit": "stk",
+				"ingredient": "lime (saften) + skrællen, revet"
 			}
 		],
 		"steps": [
@@ -2048,7 +2048,7 @@
 			"Pisk æg, sukker og farin luftigt",
 			"Vend de øvrige ingredienser i.",
 			"Fordel dejen i muffinsforme.",
-			"Bag dine muffins ved 200 grader i 20 min.",
+			"Bag dine muffins ved 175 grader i 15-20 min.",
 			"Ostecreme",
 			"Pisk flødeost, flormelis og citronsaft til en homogen masse.",
 			"Når muffinsene er afkøl, påfør da enten med en spatel eller fra en sprøjtepose.",
@@ -2063,7 +2063,7 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "",
-		"relatedImages": []
+		"relatedImages": ["gulerodsmuffins_dej.jpg"]
 	},
 	{
 		"name": "Chimichurri",
@@ -2132,5 +2132,92 @@
 		"relatedrecipes": [],
 		"relatedImages": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Chokolade pavlova med bær ",
+		"teaser": "",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "6",
+				"unit": "stk",
+				"ingredient": "æggehvider"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "flormelis"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "balsamico eddike"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "kakaopulver"
+			},
+			{
+				"amount": "55",
+				"unit": "g",
+				"ingredient": "mørk chokolade"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "3.5",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "flormelis"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "vanilleekstrakt"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "friske bær"
+			},
+			{
+				"amount": "30",
+				"unit": "g",
+				"ingredient": "mørk chokolade, finthakket"
+			}
+		],
+		"steps": [
+			"Tænd ovnen på 175 grader Celcius og kom bagepapir i en bradepande. Tegn en cirkel med en diameter på ca. 24 cm (dette er her pavlovaen til sidst skal smøres ud.",
+			"Marengs",
+			"Bland æggehvider med en mixer til deen bliver fast og let og tilføj derefter sukker én skefuld ad gangen til marengsen er stiv og skinnende.",
+			"Drys salt, kakao og eddike og den finthakkede chokolade over æggehviderne og vend dem forsigtig i massen. Du ksn vælge ikke at blande til massen er helt ensartet for at få lidt spil i farverne.",
+			"Kom marengsen på bagepapiret og tilpase det indenfor din cirkel. Den behøver ikke være helt glat, men skal gerne have den samme tykkelse hele vejen rundt.",
+			"Kom marengsen i ovnen og skru derefter temperaturen ned til 150 grader. Lad pavlovaen bage i 60-90 minutter. Når den er færdig skulle den gerne se crisp ud på toppen og føles tør, men når du stikker ned i overfladen skulle den gerne være blød og lækker.",
+			"Sluk herefter for ovnen og lad døren stå lidt åben. Lad marengsen stå her til den er helt afkølet. Den kan blive stående her over natten, eller stå ved stuetemperatur til den skal bruges.",
+			"Når du er klar til at servere pavlovaen, vend den på hovedet og fjern bagepapiret. Pisk fløde sammen med sukker og vanille, til den er let og luftig og kom den herefter på marengsen. ",
+			"Fordel bærene på toppen og drys derefter med den mørke finthakkede, eller revede chokolade. Servér med det samme. Opbevar rester i køleskabet."
+		],
+		"path": "description",
+		"servings": "10 personer",
+		"preparationtime": "2 timer",
+		"categories": [
+			"dessert"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "",
+		"additionalImages": []
 	}
 ]
