@@ -1492,6 +1492,11 @@
 			{
 				"amount": "2",
 				"unit": "stk",
+				"ingredient": "pastinak, i tern"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
 				"ingredient": "gulerødder, i tern"
 			},
 			{
@@ -1530,12 +1535,7 @@
 				"ingredient": "olivenolie"
 			},
 			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "citron, saften"
-			},
-			{
-				"amount": "1",
+				"amount": "2",
 				"unit": "tsk",
 				"ingredient": "spidskommen"
 			},
@@ -1547,22 +1547,23 @@
 		],
 		"steps": [
 			"Skyld hokkaidoen og skær den over på midten. Fjern derefter alle kerner og skær den i grove tern.",
-			"Varm olie op i en gryde og sauter løg, gulerød, kartofler og hokkaido sammen med chili, spidskommen og ingefær.",
-			"Hæld grøntsagbuillon over, så det dækker to tredjedele af grøntsagerne, hellere lidt for lidt end lidt for meget, så suppen senere ikke bliver for vandet.",
-			"Kom et låg på og lad det kode i 15-20 min.",
+			"Skræl og hak alle grøntsager",
+			"Varm olie op i en gryde og sauter løg, gulerød, kartofler, pastinak og hokkaido sammen med chili, spidskommen og ingefær.",
+			"Hæld grøntsagbuillon over, så det dækker to tredjedele af grøntsagerne, hellere lidt for lidt end lidt for meget, så suppen senere ikke bliver for vandet. Det kan også hældes fra inden den blendes, hvis man kan se at der er for meget væske)",
+			"Kom et låg på og lad det kode i 20-30 min.",
 			"Blend suppen med en stavblender til den er glat.",
-			"Tilsæt citron og fløde og blend igen til den er ensartet.",
-			"Top evt. med ristede græskarkerner og creme fraiche."
+			"Tilsæt fløde og blend igen til den er ensartet. Smag til med salt, evt. spidskommen.",
+			"Top gerne med ristede græskarkerner og creme fraiche."
 		],
 		"path": "description",
-		"servings": "5 personer",
-		"preparationtime": "10 min",
+		"servings": "4 personer",
+		"preparationtime": "30 min",
 		"categories": [
 			"dip",
 			"snack",
 			"forret"
 		],
-		"relatedrecipes": [],
+		"relatedrecipes": ["Focaccia (den bedste)"],
 		"inspirationlink": "https://www.valdemarsro.dk/humus/"
 	},
 	{
