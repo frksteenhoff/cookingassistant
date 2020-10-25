@@ -1304,7 +1304,7 @@
 				"ingredient": "sm\u00f8r"
 			}
 		],
-		"image": "",
+		"image": "vafler.jpg",
 		"inspirationlink": "https://www.tine.no/oppskrifter/kaker/vafler-og-smakaker/verdens-beste-vafler",
 		"teaser": "Den bedste vaffelr\u00f8re til bl\u00f8de og l\u00e6kre vafler.",
 		"steps": [
@@ -1313,10 +1313,15 @@
 			"Bland alle de t\u00f8rre ingredienser i or r\u00f8r til du f\u00e5r en ensartet masse.",
 			"Vaffelrøren skal virke let, men  fyldig at røre rundt i. Den skal ikke have alt for svært ved at hældes fra en øse, men skal heller ikke være vandig.",
 			"Lad vaffelr\u00f8ren st\u00e5 i minimum 15 min",
-			"Tils\u00e6t sm\u00f8r og steg vaflerne."
+			"Tils\u00e6t sm\u00f8r og steg vaflerne.",
+			"Jeg serverer mine vafler med brunost (myseost), syltetøj og en lille klat creme fraiche -- på ægte norsk manér. Det lyder måske lidt underligt, men prøv det. Det er en perfekt kombination."
 		],
 		"servings": "12 stk",
 		"path": "description",
+		"additionalImages": [
+			"vafler_zoom.jpg",
+			"vafler_serve.jpg"
+		],
 		"relatedrecipes": [],
 		"categories": [
 			"dessert"
