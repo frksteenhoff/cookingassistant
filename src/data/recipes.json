@@ -1568,7 +1568,9 @@
 			"snack",
 			"forret"
 		],
-		"relatedrecipes": ["Focaccia (den bedste)"],
+		"relatedrecipes": [
+			"Focaccia (den bedste)"
+		],
 		"inspirationlink": "https://www.valdemarsro.dk/humus/"
 	},
 	{
@@ -2069,7 +2071,9 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "",
-		"relatedImages": ["gulerodsmuffins_dej.jpg"]
+		"relatedImages": [
+			"gulerodsmuffins_dej.jpg"
+		]
 	},
 	{
 		"name": "Chimichurri",
@@ -2225,5 +2229,114 @@
 		"relatedrecipes": [],
 		"inspirationlink": "",
 		"additionalImages": []
+	},
+	{
+		"name": "Porretærte",
+		"teaser": "Basisopskrift på porretærte, som evt. kan piftes op med svampe eller kylling.",
+		"image": "porre.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "tærtebund"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "porre, skiveskåret"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "creme fraiche"
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "hytteost"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "mosarella"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "kyllingebryster, groft skåret + halvt stegt"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "soltørrede tomater, skåret i mindre stykker"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "svampe, skiveskåret"
+			},
+			{
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "skiver serrano skinke"
+			}
+		],
+		"steps": [
+			"Sæt ovnen til 200 grader ",
+			"Læg tærtebunden i et fad og stik i den med en gaffel. Kom den i ovnen, når den er varm. Den skal kun lige have 5 minutter, tag den derefter ud igen. Lad ovnen stå tændt.",
+			"Skær porre og svits denne på medium/høj varme til den får en glasagtig overflade. Stil den derefter til side",
+			"Bland creme fraiche, æg, fløde og hytteost i en skål og tilføj derefter salt og peber.",
+			"Samling",
+			"Fordel porren i tærtefadet. Tilføj derefter æggeblandingen og top af med mosarella.",
+			"Bag tærten ved 200 grader i ca. 40 minutter.",
+			"Hvis du vil give tærten ildt ekstra indhold kan du vælge en af de to varianter tilføjet i opskrfiten eller finde inspiration i billederne nedenunder."
+		],
+		"path": "description",
+		"servings": "4",
+		"additionalImages": [
+			"porre_basic.jpg",
+			"porre_groent.jpg",
+			"porre_serrano.jpg",
+			"porre_kylling.jpg"
+		],
+		"preparationtime": "30min",
+		"categories": [],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
