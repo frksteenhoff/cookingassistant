@@ -26,8 +26,6 @@
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
 
-import { helloWorld } from "@frksteenhoff/my-first-package"
-
 const AppProps = Vue.extend({
 	props: {
 		fromUnit: {
@@ -47,7 +45,6 @@ const AppProps = Vue.extend({
 
 @Component({})
 export default class Conversion extends AppProps {
-	helloWorld: Function = helloWorld;
 	unit = 0
 
 	conversionRate = {
@@ -64,10 +61,6 @@ export default class Conversion extends AppProps {
 		milliliter: "ml",
 		gram: "g"
 	};
-
-	created() {
-		console.log(helloWorld())
-	}
 
 	conversion(from: string, to: string) {
 		let result = 0
