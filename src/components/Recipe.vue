@@ -42,6 +42,7 @@
 			<b-col cols="12" md="8" order-md="2" lg="6" order-lg="2" class="pb-3">
 				<RecipeProcedure
 					:recipe="recipe"
+					class="sticky-column"
 				/>
 			</b-col>
 		</b-row>
