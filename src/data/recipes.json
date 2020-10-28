@@ -2338,5 +2338,110 @@
 		"categories": [],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Rodfrugtmos",
+		"teaser": "En grov mos med kartofler, pastinak, jordskokker og blomkål.",
+		"image": "rodfrugtmos.jpg",
+		"ingredients": [
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "kartofler"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "jordskokker"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "pastinak"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "blomkål"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "blomkål"
+			}
+		],
+		"steps": [
+			"Skræl pastinak, vask og skrub kartofler og jordskokker. Del derefter i mindre stykker.",
+			"Skær blomkålen halvt over og snit i grove stykker. Tag ca. 50 g blåmkål fra, som du snitter meget fint og lægger til side.",
+			"Fyld en gryde med vand, tilsæt lidt salt og brIng vandet i kog. I alt skal grøntsagerne koge i 40 min, start med at komme kartoflerne i og lad disse koge i 20 min inden du kommer pastinak, jordskokker og blomkål i. Lad derefter grøntsagerne koge de sidste 20 minutter. Jeg gør det på denne måde, da det tager længere tid for kartoflerne at blive møre ifht. de andre grøntsager. ",
+			"Mens grøntsagerne koger, kom da de fintskårne stykker blomkål på en pande med olie, hvidløg salt og peber. Steg blomkålsstykkerne gyldne og sæt dem til side.",
+			"Når grøntsagerne har kogt færdig, find da en skål frem og hæld vandet fra grøntsagerne heri. Lad en lille sjat blive tilbage i gryden. Tilføj derefter fløde og smør og blend med en stavblender til du får en konsistens som du godt kan lide. Hvis mosen er for tyk kan du hælde lidt af det varme vandf ra gryden i eller spæde til med fløde. Når du er tilfreds med konsistensen, vend da de stegte blomkålsskiver i. ",
+			"Smag til med salt og server direkte."
+		],
+		"path": "description",
+		"servings": "5",
+		"preparationtime": "30min",
+		"categories": [
+			"aftensmad",
+			"tilbehør"
+		],
+		"relatedrecipes": [
+			"Sauterede grønkålstilke med svampe"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Sauterede grønkålsstilke med svampe",
+		"teaser": "En god opskrift på let tilbehør til efterårets kødretter",
+		"image": "groenkaalsvampe.jpg",
+		"ingredients": [
+			{
+				"amount": "8",
+				"unit": "stk",
+				"ingredient": "grønkålsstilke"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "champignon"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "kantareller eller trompetsvampe"
+			}
+		],
+		"steps": [
+			"Skær enden af blomkålsstilkene og skær dem i mindre stykker. Rens og skær champignon i skiver og del evt. meget store kantareller i to.",
+			"Varm en pande op på høj varme og tilføj olie (evt. også hvidløg for lidt smag) og vend kål og svampe på panden. Steg dem i ca. 5 minutter, til vandet er dampet af svampene og kålen begynder at falde sammen.",
+			"Smag til med salt og peber og server direkte."
+		],
+		"path": "description",
+		"servings": "5",
+		"preparationtime": "20",
+		"categories": [],
+		"relatedrecipes": [],
+		"inspirationlink": "",
+		"additionalImages": ["groenkaal_prep.jpg"]
 	}
 ]
