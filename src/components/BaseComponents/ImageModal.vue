@@ -3,6 +3,7 @@
 		:id="id"
 		:title="title"
 		button-size="sm"
+		size="lg"
 		hide-footer
 		ok-title="Luk"
 		ok-only
