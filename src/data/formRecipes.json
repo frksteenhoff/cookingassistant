@@ -444,7 +444,7 @@
 		"ingredients": [
 			{
 				"amount": "2",
-				"unit": "dl",
+				"unit": "L",
 				"ingredient": "vand"
 			},
 			{
@@ -453,15 +453,26 @@
 				"ingredient": "sukker"
 			},
 			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "vanillesukker"
+			},
+			{
 				"amount": "10",
 				"unit": "spsk",
 				"ingredient": "instant kaffe"
+			},
+			{
+				"amount": "35",
+				"unit": "cl",
+				"ingredient": "vodka"
 			}
+
 		],
 		"steps": [
-			"Kog vand, sukker og instant kaffe ind til en tyk sirup, blandingen må ikke koge og skal helst ikke over medium varme.",
-			"Hvis kaffen brænder vil sirupen også smage brændt. Lad den stå på varme i 4-6 timer, til blandingen er tyk.",
-			"Køl siruppen ned til den er helt kold. Bland herfter vodka i og opbevar på køl. "
+			"Kog vand, sukker ind til en tyk sirup, blandingen må ikke koge og skal helst ikke over medium varme.",
+			"Hvis kaffen brænder vil sirupen også smage brændt, derfor venter jeg med at komme kaffen , til blandingen har kogt ind. Lad den stå på varme i 4-6 timer i alt, kom kaffen i den sidste time ved lav varme.",
+			"Køl siruppen ned til den er helt kold. Bland herfter vodka i og opbevar på køl."
 		],
 		"servings": "1-1.5L kahlua",
 		"categories": [
