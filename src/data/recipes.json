@@ -2442,6 +2442,177 @@
 		"categories": [],
 		"relatedrecipes": [],
 		"inspirationlink": "",
-		"additionalImages": ["groenkaal_prep.jpg"]
+		"additionalImages": [
+			"groenkaal_prep.jpg"
+		]
+	},
+	{
+		"name": "Cremelinser",
+		"teaser": "Mørdejskage med sprød kant og fyld af vaniljecreme ",
+		"image": "linse_bagt_closeup.jpg",
+		"ingredients": [
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "vanillestang"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "40",
+				"unit": "g",
+				"ingredient": "majsstivelse"
+			},
+			{
+				"amount": "5",
+				"unit": "dl",
+				"ingredient": "sødmælk"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "æggeblommer"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "smør, stuetempereret"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "flormelis"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			}
+		],
+		"steps": [
+			"Vaniljecreme",
+			"Udkorn vanillestangen og bland dette med et par teskeer sukker for at få separeret vaniljekornene.",
+			"Bland vaniljesukker, sukker og majsstivelse og pisk det godt med 1/5 af mælken. Tilsæt til sidst æggeblommerne.",
+			"Kog den resterende del af mælken i en gryde med den tomme vaniljestang. Når mælken koger tilsættes majsblandingen.",
+			"Pga. temperaturforskellen mellem den kolde og varme mælk vil temperaturen aftage, når mælken er ved at koge op igen, tag den da af og pisk godt i nogle sekunder, til cremen tykner. Lader du blandingen blive på voarmen for længe bliver den gele-agtig og svær at arbejde med.",
+			"Fjerne vaniljestangen og kom cremen i en kold beholder. Læg et stykke husholdningsfilm direkte ovenpå vaniljecremen, så der ikke dannes kondens.",
+			"Afkøl cremen helt i køleskabet. Cremen kan anvendes med det samme eller næste dag.",
+			"Mørdej",
+			"Bland mel og smør med en elpisker (eller ved at ælte) til det er ud som savsmul, tilsæt derefter flormelis og til sidst æg. Blandingen vil ikke blive til en samlet masse med elpiskeren. Saml derfor dejen med hænderne til en ensartet dej og stil den på køl i min. 1 time.",
+			"Rul halvdelen af den kolde mørdej ud i en tykkelse på 3 mm. Brug lidt mel til at sørge for, at deje ikke klistrer sig fast til overfladen den rulles ud på.",
+			"Udstik cirkler af dejen på 14cm i diameter (4 cm større end formene). Læg hver dejcirkel ned i en usmurt tærteform og pres den ud i kanter og bunden af formen.",
+			"Pisk den kolde creme godt igenne og kom den i en sprøjtepose. Klip et hul på ca. 2 cm og fyld hver form 3/4 op.",
+			"Rul resten af mørdejen ud som ovenfor og kom dejcirklerne ovenpå som låg.",
+			"Bag nu linserne ved 180 grader, til de er gyldne. Tjek på den efter 10-12 minutter -- giv dem lidt mere hvis de mangler farve."
+		],
+		"path": "description",
+		"servings": "8",
+		"preparationtime": "",
+		"categories": [
+			"dessert",
+			"bagning"
+		],
+		"relatedrecipes": [],
+		"additionalImages": [
+			"linse_vaniljecreme.jpg",
+			"linse_bund_raa.jpg",
+			"linse_samlet_raa.jpg",
+			"linse_pre_oven.jpg",
+			"linse_bagt.jpg"
+		],
+		"inspirationlink": "https://www.metteblomsterberg.dk/opskrifter/smoerbagte-cremelinser"
+	},
+	{
+		"name": "Chokolate Chip Cookies",
+		"teaser": "Sprøde Amerikansk-inspirerede småkager med chokolde",
+		"image": "cookies_bagt.jpg",
+		"ingredients": [
+			{
+				"amount": "120",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "140",
+				"unit": "g",
+				"ingredient": "farin"
+			},
+			{
+				"amount": "140",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "280",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "bagepulver"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "natron"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "vaniljesukker"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "chokolade, grofthakket"
+			}
+		],
+		"steps": [
+			"Pisk sukker, farin, vaniljesukker og smør luftigt.",
+			"Tilsæt æg og pisk igen.",
+			"Bland derefter de resterende ingredienser i. Bland ikke for meget, dejen skal bare samles.",
+			"Hak chokoladen og vend den i blandingen. Jeg synes chokolade med mere end 70% bliver bittert, men det er naturligvis op til den enkelte. Kom dejen på køl i 1-2 timer.",
+			"Del dejen op og lav kugler med ca. 4 cm i diameter. Kom disse på en bageplade og lad der være god plads, ikke mere end 8 stk på samme bageplade.",
+			"Bag dine cookies i ovnen ved 175 grader i 12-15 minutter. Hvor længe de skal have kommer an på, om de skal være bløde (tættere på de 12 min), eller hårde (omkring 15 min). Sæt dem til at køle af på en rist, når de er færdige."
+		],
+		"path": "description",
+		"servings": "",
+		"preparationtime": "",
+		"categories": [],
+		"relatedrecipes": [],
+		"additionalImages": [
+			"cookie_dough.jpg",
+			"cookies_raa.jpg"
+		],
+		"inspirationlink": "https://www.louiogbearnaisen.dk/2014/02/the-best-chocolate-chip-cookies.html"
 	}
 ]
