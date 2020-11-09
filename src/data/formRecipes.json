@@ -3529,18 +3529,24 @@
 				"amount": "1",
 				"unit": "L",
 				"ingredient": "grøntsagsbuillion"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "hvidvin"
 			}
 		],
 		"steps": [
-			"Kom risene i en si og skyl dem under koldt vand og lad dem dryppe af.",
-			"Hak og svits løg og hvidløg i en gryde med risene og smør.",
-			"TIlsæt bouillon og kog op, lad risene simre i 10 min.",
-			"Skær asparges i 4 og kom dem i gryden med risottoen og bring i kog igen. Skru ned på svag varme og lad simre i yderligere 10 min.",
-			"Smag til med salt og peber. Pynt med persille og parmasan"
+			"Kom risene i en si, skyl dem under koldt vand og lad dem dryppe af.",
+			"Hak og svits løg og hvidløg og kom dem i en gryde med ris og smør.",
+			"TIlsæt bouillon og kog op, lad risene simre i 10 min. Du kan sagtens lave retten uden buillon, hvis du helelre vil det.",
+			"Skær asparges i 4 og kom dem i gryden med risottoen og hvidvin.",
+			"Bring risottoen i kog igen og skru derefter ned på svag varme og lad simre i yderligere 10 min.",
+			"Smag til med salt og peber. Pynt med persille og parmesan"
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "30min",
+		"preparationtime": "30 min",
 		"categories": [
 			"frokost",
 			"aftensmad",
