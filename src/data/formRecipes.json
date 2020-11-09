@@ -3529,11 +3529,6 @@
 				"amount": "1",
 				"unit": "L",
 				"ingredient": "grøntsagsbuillion"
-			},
-			{
-				"amount": "1",
-				"unit": "dl",
-				"ingredient": "hvidvin"
 			}
 		],
 		"steps": [
@@ -3605,6 +3600,12 @@
 				"amount": "1",
 				"unit": "L",
 				"ingredient": "hønsebuillion"
+			},
+			,
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "hvidvin"
 			}
 		],
 		"steps": [
