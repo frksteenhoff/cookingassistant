@@ -2614,5 +2614,59 @@
 			"cookies_raa.jpg"
 		],
 		"inspirationlink": "https://www.louiogbearnaisen.dk/2014/02/the-best-chocolate-chip-cookies.html"
+	},
+	{
+		"name": "Creme brulée",
+		"teaser": "Cremet dessert med knasende karameliseret sukker.",
+		"image": "creme_brulee_eat.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "vaniljestang"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "5",
+				"unit": "stk",
+				"ingredient": "æggeblommer"
+			},
+			{
+				"amount": "5",
+				"unit": "dl",
+				"ingredient": "piskefløde"
+			},
+			{
+				"amount": "1.5",
+				"unit": "dl",
+				"ingredient": "sødmælk"
+			}
+		],
+		"steps": [
+			"Flæk vaniljestangen på langs og krab nænsomt kornene ud med en kniv. Bland kornene med en lille smule sukker for at få en mere jævn fordeling",
+			"Rør vaniljesukker, sukker og æggeblommer godt sammen. Der må gerne være ekstra plads i skålen, da fløden og mælken skal hældes i senere.",
+			"Kom piskefløde, sødmælk og den tomme vaniljestang i en gryde og varm den til 90 grader (brug et termometer) og tag den herefter af blusset.",
+			"Kom dine ramekiner i køleskabet inden du går igang.",
+			"Tilsæt den varme piskefløde til æggeblandngen lidt ad gangen mens der piskes, så blommerne legeres let. Hæld blandinen tilbage i gryden, pisk konstant. Når temperaturen på indholdet når 80 grader, tag da gryden af blusset og lad den afkøle i 30 min på køkkenbænken. ",
+			"Fjern det øverste skum fra blandingen og kom derefter blandingen i dine ramekiner. Spred skålene ud på en bageplads og bag dem ved 110 grader i ca. 50 minutter.",
+			"Cremen skal have sat sig, men stadig være skælvende. Kom herefter skålene i køleskabet i minimum 3 timer inden servering.",
+			"Når det er tid til servering, drys da et tyndt, ensartet lag sukker over hver enkelt skål og kramelliser det med en brænder. Serveres direkte."
+		],
+		"path": "description",
+		"servings": "6",
+		"preparationtime": "",
+		"categories": [],
+		"relatedrecipes": [],
+		"additionalImages": [
+			"creme_brulee_raa_varm.jpg",
+			"creme_brulee_afkolet.jpg",
+			"creme_brulee_sukker.jpg",
+			"creme_brulee_klar.jpg"
+		],
+		"inspirationlink": "https://www.metteblomsterberg.dk/opskrifter/creme-brulee"
 	}
 ]
