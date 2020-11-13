@@ -2462,7 +2462,7 @@
 	{
 		"name": "Panang Curry",
 		"teaser": "Spicy, cremet sauce med grøntsager og kød.",
-		"image": "",
+		"image": "panang_ready.jpg",
 		"ingredients": [
 			{
 				"amount": "500",
@@ -2568,6 +2568,10 @@
 		"categories": [
 			"aftensmad"
 		],
+		"additionalImages": [
+			"panang_curry.jpg",
+			"panang_greens.jpg"
+		],
 		"inspirationlink": "https://cookieandkate.com/thai-panang-curry-recipe/"
 	},
 	{
@@ -2581,19 +2585,24 @@
 				"ingredient": "riseddike"
 			},
 			{
-				"amount": "0.5",
+				"amount": "1",
 				"unit": "dl",
 				"ingredient": "soya"
 			},
 			{
-				"amount": "2",
+				"amount": "3",
 				"unit": "fed",
 				"ingredient": "hvidløg, finthakket"
 			},
 			{
-				"amount": "0.5",
-				"unit": "dl",
+				"amount": "2",
+				"unit": "spsk",
 				"ingredient": "ingefær, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rød chili, finthakket"
 			},
 			{
 				"amount": "1",
@@ -2602,18 +2611,18 @@
 			},
 			{
 				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "sesamolie"
+				"unit": "spsk",
+				"ingredient": "koriander, finthakket"
 			},
 			{
 				"amount": "1",
 				"unit": "tsk",
-				"ingredient": "sriracha/chili flager"
+				"ingredient": "sesamolie"
 			}
 		],
 		"steps": [
-			"Hak hvidløg og ingefær fint og skær forårsløget i tynde skiver.",
-			"Bland alle ingredienser i en skål og lad dem stå i 15 minutter inden brug."
+			"Hak hvidløg, chili og ingefær fint og skær forårsløget i tynde skiver.",
+			"Bland alle ingredienser i en skål og lad dem stå i 1 time inden brug."
 		],
 		"path": "description",
 		"servings": "",

@@ -28,7 +28,7 @@
 				"ingredient": "sesamolie"
 			}
 		],
-		"image": "dumplings.jpg",
+		"image": "gyoza_raw.jpg",
 		"inspirationlink": "https://www.chopstickchronicles.com/homemade-japanese-gyoza-wrappers/",
 		"teaser": "Sm\u00e5 hvedemelspandekager med fars af svin og for\u00e5rsl\u00f8g",
 		"steps": [
@@ -47,6 +47,9 @@
 		"relatedrecipes": [
 			"dumpling fars",
 			"Gyoza dipping sauce"
+		],
+		"additionalImages": [
+			"dumplings.jpg"
 		],
 		"categories": [
 			"aftensmad",
@@ -1330,7 +1333,7 @@
 	{
 		"name": "Dumpling fars",
 		"teaser": "Fars til dumplings eller gyoza med kål og ingefær",
-		"image": "",
+		"image": "gyoza_fried.jpg",
 		"ingredients": [
 			{
 				"amount": "200",
@@ -1395,7 +1398,10 @@
 		"relatedrecipes": [
 			"dumpling wrappers"
 		],
-		"inspirationlink": ""
+		"inspirationlink": "",
+		"additionalImages": [
+			"gyoza_raw.jpg"
+		]
 	},
 	{
 		"name": "Hummus",
