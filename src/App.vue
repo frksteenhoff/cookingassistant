@@ -110,7 +110,7 @@ body {
 	font-family: "Roboto Light", "Roboto", "Arial", Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #bf988f;
+	color: #641E16;
 }
 
 #content {
@@ -127,7 +127,7 @@ nav {
 }
 
 a {
-	color: #bf988f !important;
+	color: #641E16 !important;
 	text-decoration: none !important;
 }
 
