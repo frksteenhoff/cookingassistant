@@ -10,8 +10,9 @@
 			img-height="360"
 		>
 			<b-carousel-slide caption="Jordbærtærte" text="Opskrifter til alle anledninger" :img-src="require('@/assets/carousel/jordbaertaerte.jpg')"></b-carousel-slide>
+			<b-carousel-slide caption="Stegte dumplings" text="Find insspiration fra det Asiatiske køkken" :img-src="require('@/assets/carousel/dumpling_dip.jpg')"></b-carousel-slide>
 			<b-carousel-slide caption="Lemon meringue pie" text="Find både brød, kager og andre søde sager" :img-src="require('@/assets/carousel/front.jpg')"></b-carousel-slide>
-			<b-carousel-slide caption="Lemon meringue pie" text="Prøv kræfter med lækre, asiatiske retter" :img-src="require('@/assets/carousel/bao_fyldt2.jpg')"></b-carousel-slide>
+			<b-carousel-slide caption="Bao" text="Prøv kræfter med lækre, asiatiske retter" :img-src="require('@/assets/carousel/bao_fyldt2.jpg')"></b-carousel-slide>
 			<b-carousel-slide caption="Pasta" text="Prøv noget nyt, eller lav en kending" :img-src="require('@/assets/carousel/pasta_sliced.jpg')"></b-carousel-slide>
 			<b-carousel-slide caption="Gulerodsmuffins" text="Svampede muffins med en lækker ostecreme" :img-src="require('@/assets/carousel/gulerodsmuffins.jpg')"></b-carousel-slide>
 			<b-carousel-slide caption="Ciabatta" text="Prøv noget nyt, eller lav en kending" :img-src="require('@/assets/carousel/ciabatta.jpg')"></b-carousel-slide>

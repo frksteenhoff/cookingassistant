@@ -32,6 +32,7 @@
 		"inspirationlink": "https://www.chopstickchronicles.com/homemade-japanese-gyoza-wrappers/",
 		"teaser": "Sm\u00e5 hvedemelspandekager med fars af svin og for\u00e5rsl\u00f8g",
 		"steps": [
+			"Wrappers",
 			"Bland de to typer mel i en stor skål",
 			"Tilføj kogende vand og rør til blandingen bliver som savsmul",
 			"TIlføj sesamolie og fortsæt med at røre. Når blandingen er som savsmul kan du beguunde at samle dejen med hænderne, så det bliver en bold",
@@ -40,7 +41,11 @@
 			"Del dejen i to lige store stykker. Rul den flat ud på en meldrysset overflade til en tykkelse på ca. 1mm med en kagerulle.",
 			"Brug nu et glas, eller en kagering (ca. 10-11 cm i diameter) til at skære dejen ud i cirkler.",
 			"Bliv ved indtil al dejen er brugt",
-			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling pandekager kan sagtens fryses ned."
+			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling pandekager, med eller uden fyld, kan sagtens fryses ned.",
+			"Fyld dine wrappers med fars, smør vand langs hele kanten og fold for at lukke -- der er mange metoder, jeg går med en simpel foldning fra midten.",
+			"Stegning",
+			"Kom lidt olie på en pande og steg dine dumplings ved høj varme på én side. Når de er blevet gyldne og har fået lidt skorpe, tilsæt da vand, kom et låg på panden, skru ned på medium varme og lad dine dumplings dampe i 4-5 minutter.",
+			"Server f.eks. med chili olie eller Gyoza dipping sauce."
 		],
 		"servings": "30 dumplings",
 		"path": "description",
@@ -49,7 +54,10 @@
 			"Gyoza dipping sauce"
 		],
 		"additionalImages": [
-			"dumplings.jpg"
+			"dumplings.jpg",
+			"gyoza_raw.jpg",
+			"dumpling_dip.jpg",
+			"dumpling_done.jpg"
 		],
 		"categories": [
 			"aftensmad",
@@ -1269,7 +1277,7 @@
 	{
 		"name": "Dumpling fars",
 		"teaser": "Fars til dumplings eller gyoza med kål og ingefær",
-		"image": "gyoza_fried.jpg",
+		"image": "dumpling_fars.jpg",
 		"ingredients": [
 			{
 				"amount": "200",
@@ -1321,7 +1329,8 @@
 			"Halvér denne opskrift, hvis du bruger denne opskrift sammen med dumpling wrappers",
 			"Hak kål, hvidløg og ingefær fint.",
 			"Bland alle ingredienser godt i en skål og sæt på køl i 30 min.",
-			"Brug farsen som dumplings fyld, eller for at afprøve en ny frikadelle."
+			"Brug farsen som dumplings fyld, eller for at afprøve en ny frikadelle.",
+			"Læs mere om, hvordan farsen anvendes til dumplings (gyoza) under Dumpling wrappers."
 		],
 		"path": "description",
 		"servings": "1kg",
@@ -1335,9 +1344,7 @@
 			"dumpling wrappers"
 		],
 		"inspirationlink": "",
-		"additionalImages": [
-			"gyoza_raw.jpg"
-		]
+		"additionalImages": []
 	},
 	{
 		"name": "Hummus",

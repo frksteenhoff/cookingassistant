@@ -439,8 +439,8 @@
 	},
 	{
 		"name": "Kahlua",
-		"teaser": "Lækker kaffedrink med vodka",
-		"image": "",
+		"teaser": "Kaffelikør med vodka",
+		"image": "espresso_martini.jpg",
 		"ingredients": [
 			{
 				"amount": "2",
@@ -472,7 +472,8 @@
 		"steps": [
 			"Kog vand, sukker ind til en tyk sirup, blandingen må ikke koge og skal helst ikke over medium varme.",
 			"Hvis kaffen brænder vil sirupen også smage brændt, derfor venter jeg med at komme kaffen , til blandingen har kogt ind. Lad den stå på varme i 4-6 timer i alt, kom kaffen i den sidste time ved lav varme.",
-			"Køl siruppen ned til den er helt kold. Bland herfter vodka i og opbevar på køl."
+			"Køl siruppen ned til den er helt kold. Bland herfter vodka i og opbevar på køl.",
+			"Brug f.eks. til en espresso martini (tilføj lidt vand, shake or servér med et par kaffebønner) eller i en white russian -- bare tilsæt mælk."
 		],
 		"servings": "1-1.5L kahlua",
 		"categories": [
