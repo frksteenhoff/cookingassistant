@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<hr>
-		<h3>{{ title }}</h3>
+		<h4>{{ title }}</h4>
 	</div>
 </template>
 

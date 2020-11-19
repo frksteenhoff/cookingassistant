@@ -1,12 +1,14 @@
 <template>
-	<div class="mt-3">
+	<div itemscope itemtype="http://schema.org/Recipe" class="mt-3">
 		<b-row class="mb-4">
 			<b-col cols="12">
-				<h1 class="ml-0">{{ recipe.name }}</h1>
+				<h1 itemprop="name" class="ml-0">{{ recipe.name }}</h1>
 			</b-col>
 		</b-row>
 		<b-row>
-			<b-col cols="12" class="mt-2 mb-3 font-italic"><p class="pl-0 m-0">{{ recipe.teaser }}</p></b-col>
+			<b-col cols="12" class="mt-2 mb-3 font-italic">
+				<p itemprop="description" class="pl-0 m-0">{{ recipe.teaser }}</p>
+				</b-col>
 		</b-row>
 		<b-row>
 			<b-col v-if="'categories' in recipe" cols="12" class="pl-0">
@@ -25,11 +27,11 @@
 		<b-row class="mt-lg-1 mb-sm-3">
 			<b-col cols=12 md="3" order-md="3" lg="3">
 				<div class="sticky-column">
-				<img v-b-modal.show-image-modal v-if="recipe.image" class="recipe-top-image d-md-none d-lg-block mt-3 opacity-change" :src="getImage()" />
-				<RelatedRecipeList
-					:recipe="recipe"
-					class="d-sm-none d-md-block"
-				/>
+					<img v-b-modal.show-image-modal v-if="recipe.image" class="recipe-top-image d-md-none d-lg-block mt-3 opacity-change" :src="getImage()" />
+					<RelatedRecipeList
+						:recipe="recipe"
+						class="d-sm-none d-md-block"
+					/>
 				</div>
 			</b-col>
 			<b-col cols="12" md="4" order-md="1" lg="3" order-lg="1" class="pt-sm-3">

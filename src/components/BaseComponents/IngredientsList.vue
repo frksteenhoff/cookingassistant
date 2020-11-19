@@ -2,7 +2,7 @@
 	<div class="ingredients pl-3 pt-3 pb-2 pr-3">
 		<h3 class="ingredients-header">Ingredienser</h3>
 		<ul v-for="(item, index) in recipe.ingredients" :key="item.amount + item.unit + item.ingredient + index" class="mt-4">
-			<li>
+			<li itemprop="recipeIngredient">
 				{{ !item.amount ? "" : (Number(item.amount) * numberOfPortions) + " " + item.unit + " " + item.ingredient }}
 			</li>
 		</ul>
@@ -33,6 +33,7 @@ p, li {
 
 .ingredients-header {
 	color: #000 !important;
+	font-family: "Permanent Marker";
 }
 
 </style>
