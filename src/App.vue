@@ -31,7 +31,7 @@
 		</div>
 		<footer>
 			<div class="footerinfo">
-				<p class="font-bold m-0" style="font-size: 1rem; font-family: 'Permanent Marker'">
+				<p class="font-weight-bold m-0" style="font-size: 1rem; font-family: 'Permanent Marker'">
 					Henriette Steenhoff
 					<!-- Adding logo inline -->
 					<span id="insta_logo">
@@ -94,6 +94,7 @@ export default class App extends AppProps {
 <style>
 @import url("//fonts.googleapis.com/css?family=Permanent+Marker:300,400,600,700&amp;lang=en");
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=en");
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&amp;lang=eng');
 
 body {
 	margin: 0;
