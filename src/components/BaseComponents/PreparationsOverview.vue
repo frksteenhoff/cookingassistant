@@ -5,9 +5,9 @@
 				<b-icon icon="person"></b-icon> Antal: <span itemprop="recipeYield">{{ parseInt(recipe.servings) * numberOfPortions }}</span>
 			</b-col>
 			<b-col cols="auto" :class="[hasPrepTime ? 'mr-md-auto': '']" v-if="hasPrepTime">
-				<b-icon icon="clock"></b-icon>  Tilberedningstid <span v-if="!hasOnlyActivePrepTime">- aktiv</span>: <span itemprop="prepTime">{{ activePrepTime }}</span>
-				<span v-if="!hasOnlyActivePrepTime" itemprop="cookTime" class="ml-3">passiv: {{ passivePrepTime }}</span>
-				<span v-if="!hasOnlyActivePrepTime" class="ml-3">samlet: {{ totalCookTime }}</span>
+				<b-icon icon="clock"></b-icon>  Tilberedningstid <span v-if="!hasOnlyActivePrepTime" v-b-tooltip.hover title="Hvor lang tid du aktivt skal bruge på retten">- aktiv</span>: <span itemprop="prepTime">{{ activePrepTime }}</span>
+				<span v-if="!hasOnlyActivePrepTime" itemprop="cookTime" class="ml-3"><span v-b-tooltip.hover title="Tid der går til hævning, kogning, bagning etc.">passiv:</span> {{ passivePrepTime }}</span>
+				<span v-if="!hasOnlyActivePrepTime" class="ml-3" v-b-tooltip.hover title="Den samlede tid det tager før du kan nyde det, du har lavet.">samlet: {{ totalCookTime }}</span>
 				<br>
 			</b-col>
 		</b-row>
