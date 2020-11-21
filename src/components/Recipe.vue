@@ -32,6 +32,11 @@
 						:recipe="recipe"
 						class="d-sm-none d-md-block"
 					/>
+					<TextBox v-if="('protip' in recipe)" :background="true">
+						<template v-slot:body>
+							{{ recipe.proptip }}
+						</template>
+					</TextBox>
 				</div>
 			</b-col>
 			<b-col cols="12" md="4" order-md="1" lg="3" order-lg="1" class="pt-sm-3">
@@ -76,6 +81,7 @@ import RecipeProcedure from "@/components/RecipeProcedure.vue"
 import RecipeImages from "@/components/RecipeImages.vue"
 import RelatedRecipeList from "@/components/BaseComponents/RelatedRecipeList.vue"
 import ImageModal from "@/components/BaseComponents/ImageModal.vue"
+import TextBox from "@/components/BaseComponents/TextBox.vue"
 
 import LoadImage from "@/plugin/mixin/loadImage"
 
@@ -92,7 +98,8 @@ const AppProps = Vue.extend({
 		RecipeProcedure,
 		RecipeImages,
 		RelatedRecipeList,
-		ImageModal
+		ImageModal,
+		TextBox
 	},
 	mixins: [
 		LoadImage
