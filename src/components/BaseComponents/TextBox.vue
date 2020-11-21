@@ -1,8 +1,12 @@
 <template>
 	<div :class="[background ? 'pro-tip-box' : '']">
-		<h5 class="font-weight-bold p-0 ">Tips til opskriften</h5>
+		<h5 class="font-weight-bold p-0 ">
+			<slot name="header">
+				Tips til opskriften
+			</slot>
+		</h5>
 		<hr>
-		<slot></slot>
+		<slot name="body"></slot>
 	</div>
 </template>
 
