@@ -2,10 +2,13 @@
 	<div>
 		<b-row>
 			<b-col cols="auto" :class="[hasServings && hasPrepTime ? 'ml-md-auto': '']" v-if="hasServings">
-				<b-icon icon="person"></b-icon> Antal: {{ parseInt(recipe.servings) * numberOfPortions }}
+				<b-icon icon="person"></b-icon> Antal: <span itemprop="recipeYield">{{ parseInt(recipe.servings) * numberOfPortions }}</span>
 			</b-col>
-			<b-col cols="auto" :class="[hasServings && hasPrepTime ? 'mr-md-auto': '']" v-if="hasPrepTime">
-				<b-icon icon="clock"></b-icon>  Tilberedningstid: {{ recipe.preparationtime }}
+			<b-col cols="auto" :class="[hasPrepTime ? 'mr-md-auto': '']" v-if="hasPrepTime">
+				<b-icon icon="clock"></b-icon>  Tilberedningstid <span v-if="!hasOnlyActivePrepTime">- aktiv</span>: <span itemprop="prepTime">{{ activePrepTime }}</span>
+				<span v-if="!hasOnlyActivePrepTime" itemprop="cookTime" class="ml-3">passiv: {{ passivePrepTime }}</span>
+				<span v-if="!hasOnlyActivePrepTime" class="ml-3">samlet: {{ totalCookTime }}</span>
+				<br>
 			</b-col>
 		</b-row>
 		<b-row class="mt-2 mb-xs-3">
@@ -37,6 +40,35 @@ import RecipeHeader from "@/components/BaseComponents/RecipeHeader.vue"
 export default class PreparationsOverview extends Vue {
 	@Prop({ required: true }) recipe!: RecipeObject;
 	numberOfPortions = 1;
+
+	toHoursAndMinutes(minutes: number) {
+		if (minutes % 60 === 0) {
+			return (minutes / 60) + " timer "
+		} else if ((minutes / 60) < 1) {
+			return (minutes % 60) + " min"
+		}
+		return Math.floor((minutes / 60)) + " timer " + (minutes % 60) + " min"
+	}
+
+	get hasOnlyActivePrepTime() {
+		// @ts-ignore
+		return !this.recipe.preparationtime.passive === ""
+	}
+
+	get totalCookTime() {
+		// @ts-ignore
+		return this.toHoursAndMinutes(Number(this.recipe.preparationtime.active) + Number(this.recipe.preparationtime.passive))
+	}
+
+	get activePrepTime() {
+		// @ts-ignore
+		return this.toHoursAndMinutes(Number(this.recipe.preparationtime.active))
+	}
+
+	get passivePrepTime() {
+		// @ts-ignore
+		return this.toHoursAndMinutes(Number(this.recipe.preparationtime.passive))
+	}
 
 	get hasServings() {
 		return "servings" in this.recipe && this.recipe.servings

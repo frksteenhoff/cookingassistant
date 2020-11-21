@@ -30,7 +30,7 @@
 		],
 		"image": "gyoza_raw.jpg",
 		"inspirationlink": "https://www.chopstickchronicles.com/homemade-japanese-gyoza-wrappers/",
-		"teaser": "Sm\u00e5 hvedemelspandekager med fars af svin og for\u00e5rsl\u00f8g",
+		"teaser": "Sm\u00e5 hvedemelspandekager som kan tilberedes med f.eks. fars af svin og for\u00e5rsl\u00f8g",
 		"steps": [
 			"Wrappers",
 			"Bland de to typer mel i en stor skål",
@@ -64,7 +64,10 @@
 			"snack",
 			"forret"
 		],
-		"preparationtime": "1.5 timer"
+		"preparationtime": {
+			"active": "20",
+			"passive": "70"
+		}
 	},
 	{
 		"name": "Ciabatta",
@@ -111,6 +114,10 @@
 			"Del dejen op i 4 dele og flyt den over p\u00e5 en bageplade",
 			"Bagetid: 20min."
 		],
+		"preparationtime": {
+			"active": "20",
+			"passive": "320"
+		},
 		"servings": "4 br\u00f8d",
 		"path": "description",
 		"relatedrecipes": [],
@@ -626,6 +633,10 @@
 			"sicilienske kødboller",
 			"tomatsauce"
 		],
+		"preparationtime": {
+			"active": "30",
+			"passive": "60"
+		},
 		"additionalImages": [
 			"pasta_rolled.jpg",
 			"pasta_sliced.jpg"
@@ -1019,6 +1030,10 @@
 		"servings": "6-8 personer",
 		"path": "description",
 		"relatedrecipes": [],
+		"preparationtime": {
+			"active": "15",
+			"passive": "30"
+		},
 		"additionalImages": [],
 		"categories": [
 			"dessert",
@@ -1334,7 +1349,10 @@
 		],
 		"path": "description",
 		"servings": "1kg",
-		"preparationtime": "10min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "" 
+		},
 		"categories": [
 			"aftensmad",
 			"snack",
@@ -1415,7 +1433,10 @@
 		],
 		"path": "description",
 		"servings": "5 personer",
-		"preparationtime": "10 min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "" 
+		},
 		"categories": [
 			"dip",
 			"snack",
@@ -1511,7 +1532,10 @@
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "30 min",
+		"preparationtime": {
+			"active": "30",
+			"passive": "30" 
+		},
 		"categories": [
 			"dip",
 			"snack",
@@ -1566,7 +1590,10 @@
 		],
 		"path": "description",
 		"servings": "5 personer",
-		"preparationtime": "2.5 timer + 1 dag på køl",
+		"preparationtime": {
+			"active": "150",
+			"passive": "1440" 
+		},
 		"categories": [
 			"tilbehør",
 			"snack"
@@ -1642,7 +1669,10 @@
 		],
 		"path": "description",
 		"servings": "",
-		"preparationtime": "",
+		"preparationtime": {
+			"active": "10",
+			"passive": "20" 
+		},
 		"categories": [
 			"snack",
 			"morgenmad"
@@ -1694,13 +1724,17 @@
 		"steps": [
 			"Hak løg, svampe, tranebær og pinjekerne fint. Svits først pinjekernene på en pande til de let gyldne og derefter løg og svampe.",
 			"",
+			"Las massen køle helt af inden du fortsætter og hæld evt. resterende cand fra.",
 			"Når svampemassen har kølet af, bland den med pinjekerner og tranebær og tilsæt til sidst rasp og æg.",
 			"Form massen som 10x20 bøf og ba den derefter i 20 min ved 200 grader.",
 			"Serveres f.eks. med rodfruget og en sovs."
 		],
 		"path": "description",
 		"servings": "3",
-		"preparationtime": "15min",
+		"preparationtime": {
+			"active": "30",
+			"passive": "50" 
+		},
 		"categories": [],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -1917,7 +1951,10 @@
 		],
 		"path": "description",
 		"servings": "6 tærter",
-		"preparationtime": "2.5 timer",
+		"preparationtime": {
+			"active": "150",
+			"passive": "1440" 
+		},
 		"categories": [
 			"dessert"
 		],
@@ -2013,7 +2050,10 @@
 		],
 		"path": "description",
 		"servings": "16 stk",
-		"preparationtime": "30min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "20" 
+		},
 		"categories": [
 			"snack",
 			"dessert"
@@ -2083,7 +2123,10 @@
 		],
 		"path": "description",
 		"servings": "2dl",
-		"preparationtime": "10min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "180" 
+		},
 		"categories": [
 			"dressing",
 			"marinade"
@@ -2171,7 +2214,10 @@
 		],
 		"path": "description",
 		"servings": "10 personer",
-		"preparationtime": "2 timer",
+		"preparationtime": {
+			"active": "20",
+			"passive": "120" 
+		},
 		"categories": [
 			"dessert"
 		],
@@ -2283,7 +2329,10 @@
 			"porre_serrano.jpg",
 			"porre_kylling.jpg"
 		],
-		"preparationtime": "30min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "40" 
+		},
 		"categories": [],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -2341,7 +2390,7 @@
 		],
 		"steps": [
 			"Skræl pastinak, vask og skrub kartofler og jordskokker. Del derefter i mindre stykker.",
-			"Skær blomkålen halvt over og snit i grove stykker. Tag ca. 50 g blåmkål fra, som du snitter meget fint og lægger til side.",
+			"Skær blomkålen halvt over og snit i grove stykker. Tag ca. 50 g blomkål fra, som du snitter meget fint og lægger til side.",
 			"Fyld en gryde med vand, tilsæt lidt salt og brIng vandet i kog. I alt skal grøntsagerne koge i 40 min, start med at komme kartoflerne i og lad disse koge i 20 min inden du kommer pastinak, jordskokker og blomkål i. Lad derefter grøntsagerne koge de sidste 20 minutter. Jeg gør det på denne måde, da det tager længere tid for kartoflerne at blive møre ifht. de andre grøntsager. ",
 			"Mens grøntsagerne koger, kom da de fintskårne stykker blomkål på en pande med olie, hvidløg salt og peber. Steg blomkålsstykkerne gyldne og sæt dem til side.",
 			"Når grøntsagerne har kogt færdig, find da en skål frem og hæld vandet fra grøntsagerne heri. Lad en lille sjat blive tilbage i gryden. Tilføj derefter fløde og smør og blend med en stavblender til du får en konsistens som du godt kan lide. Hvis mosen er for tyk kan du hælde lidt af det varme vandf ra gryden i eller spæde til med fløde. Når du er tilfreds med konsistensen, vend da de stegte blomkålsskiver i. ",
@@ -2349,7 +2398,10 @@
 		],
 		"path": "description",
 		"servings": "5",
-		"preparationtime": "30min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "30" 
+		},
 		"categories": [
 			"aftensmad",
 			"tilbehør"
@@ -2387,7 +2439,10 @@
 		],
 		"path": "description",
 		"servings": "5",
-		"preparationtime": "20",
+		"preparationtime": {
+			"active": "10",
+			"passive": "5" 
+		},
 		"categories": [],
 		"relatedrecipes": [],
 		"inspirationlink": "",
@@ -2474,7 +2529,10 @@
 		],
 		"path": "description",
 		"servings": "8",
-		"preparationtime": "",
+		"preparationtime": {
+			"active": "30",
+			"passive": "110" 
+		},
 		"categories": [
 			"dessert",
 			"bagning"
@@ -2555,7 +2613,10 @@
 		],
 		"path": "description",
 		"servings": "",
-		"preparationtime": "",
+		"preparationtime": {
+			"active": "10",
+			"passive": "15" 
+		},
 		"categories": [],
 		"relatedrecipes": [],
 		"additionalImages": [
@@ -2607,7 +2668,10 @@
 		],
 		"path": "description",
 		"servings": "6",
-		"preparationtime": "",
+		"preparationtime": {
+			"active": "30",
+			"passive": "80" 
+		},
 		"categories": [],
 		"relatedrecipes": [],
 		"additionalImages": [

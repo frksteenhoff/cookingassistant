@@ -92,7 +92,10 @@ export default class CreateRecipeForm extends Vue {
 		steps: ["", "", ""],
 		path: "description", // default
 		servings: "",
-		preparationtime: "",
+		preparationtime: {
+			active: "",
+			passive: ""
+		},
 		categories: [],
 		relatedrecipes: [],
 		inspirationlink: ""

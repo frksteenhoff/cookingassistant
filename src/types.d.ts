@@ -7,10 +7,15 @@ declare type RecipeObject = {
 	steps: string[],
 	servings: string
 	categories: string[],
-	preparationtime?: string,
+	preparationtime?: PreparationTimeObject,
 	inspirationlink?: string,
 	path: string,
 	relatedrecipes?: string[]
+}
+
+declare type PreparationTimeObject = {
+	active: string, // minutes
+	passive: string // minutes
 }
 
 declare type IngredientObject = {

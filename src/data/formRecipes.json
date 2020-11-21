@@ -49,11 +49,15 @@
 			"Hak løg og hvidløg fint.",
 			"Udsten avocadoen og kom det i en skål med løg og hvidløg. Mos godt. Du kan sagtens bruge en stavblender/food processor, men jeg kan godt lide at massen er lidt grov)",
 			"Pres saften af limen ned i skålen med avocadoen og tilsæt paprika.",
-			"Smag til med salt og peber."
+			"Smag til med salt og peber.",
+			"Guacamolen kan sagtens stilles på køl, hvis du laver den i god tid. Selv ville jeg ikke anbefale at den stod på køl i mere end et døgn."
 		],
 		"path": "description",
 		"servings": "Kan man have for meget?",
-		"preparationtime": "10 min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "" 
+		},
 		"categories": [
 			"dip",
 			"snack",
@@ -134,7 +138,10 @@
 		"categories": [
 			"marinade"
 		],
-		"preparationtime": "1.5 time",
+		"preparationtime": {
+			"active": "60",
+			"passive": "720" 
+		},
 		"relatedrecipes": [
 			"bao boller",
 			"misomayo",
@@ -206,14 +213,18 @@
 		"steps": [
 			"Skræl og riv gulerødder og hvidkål",
 			"Bland honning, dijon, ælbecidereddike, salt, sukker, spidskommen og peber og bland med gulerod/kål-blandingen",
-			"Bland creme fraiche, mayo sukker og salt og hæld det over coleslawen."
+			"Bland creme fraiche, mayo sukker og salt og hæld det over coleslawen.",
+			"Lad blandingen stå på køl i 1 time inden servering."
 		],
 		"servings": "8 personer",
 		"categories": [
 			"marinade",
 			"aftensmad"
 		],
-		"preparationtime": "30 min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "60" 
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"pulled pork"
@@ -275,7 +286,7 @@
 			"Rør mel, bagepulver og salt sammen og sæt det til side.",
 			"Pisk sukker og smør sammen til det er lyst -- tilsæt æggene et af gangen. ",
 			"Bland vanille og mælk i og vend melblandingen og bærrene i.",
-			"Hæld blandingen i forme og bag i ca. 15-7 minutter -- til de er gyldne.",
+			"Hæld blandingen i forme og bag i ca. 15-17 minutter -- til de er gyldne.",
 			"Server alene eller med vanilleis"
 		],
 		"servings": "12 stk",
@@ -283,7 +294,10 @@
 			"dessert",
 			"specielle anledninger"
 		],
-		"preparationtime": "30 min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "20" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -325,7 +339,10 @@
 		"categories": [
 			"dip"
 		],
-		"preparationtime": "10 min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "" 
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"bao boller",
@@ -382,7 +399,10 @@
 		"categories": [
 			"dip"
 		],
-		"preparationtime": "25 min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "15" 
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"dumpling wrappers",
@@ -433,7 +453,10 @@
 		"categories": [
 			"dressing"
 		],
-		"preparationtime": "15 min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -480,7 +503,10 @@
 			"drink",
 			"dessert"
 		],
-		"preparationtime": "6-7 timer",
+		"preparationtime": {
+			"active": "5",
+			"passive": "360" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -519,7 +545,10 @@
 		"categories": [
 			"tilbehør"
 		],
-		"preparationtime": "20 min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "" 
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"svampetacos",
@@ -575,7 +604,10 @@
 		"categories": [
 			"marinade"
 		],
-		"preparationtime": "25 min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "15" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -638,13 +670,17 @@
 		"steps": [
 			"Pil hvidløg",
 			"Bland olivenolie, ketchup, brun farin, soya, worchestershire sauce og peber",
-			"Tilføj hvidløgene til blandingen og smag til med salt, peber og chili."
+			"Tilføj hvidløgene til blandingen og smag til med salt, peber og chili.",
+			"Lad marinaden trække 15 minutter inden brug"
 		],
 		"servings": "3-4 dl",
 		"categories": [
 			"marinade"
 		],
-		"preparationtime": "20 min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "15" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -656,7 +692,7 @@
 			{
 				"amount": "3",
 				"unit": "spsk",
-				"ingredient": "fermenterede sorte bønner (blødgjort i vand i en time og derefter drænet for vand"
+				"ingredient": "fermenterede sorte bønner (blødgjort i vand i en time og derefter drænet for vand)."
 			},
 			{
 				"amount": "2",
@@ -718,7 +754,10 @@
 		"categories": [
 			"sauce"
 		],
-		"preparationtime": "1.5 time",
+		"preparationtime": {
+			"active": "30",
+			"passive": "60" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -823,7 +862,10 @@
 			"aftensmad",
 			"tilbehør"
 		],
-		"preparationtime": "35 min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "15" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -925,7 +967,10 @@
 		"categories": [
 			"aftensmad"
 		],
-		"preparationtime": "1 time",
+		"preparationtime": {
+			"active": "20",
+			"passive": "75" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -979,7 +1024,10 @@
 		"categories": [
 			"sause"
 		],
-		"preparationtime": "40 min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "30" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -1035,7 +1083,7 @@
 			}
 		],
 		"steps": [
-			"Tilberedning af kyllingen",
+			"Tilberedning",
 			"Kog de to kyllingebryster i ca. 15 min (til de er gennemkogt) ",
 			"Tag kyllingen af blusset og riv kødet fra hinanden med to gafler",
 			"Marinade",
@@ -1049,7 +1097,10 @@
 			"tilbehør",
 			"marinade"
 		],
-		"preparationtime": "35 min",
+		"preparationtime": {
+			"active": "30",
+			"passive": "" 
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"mangosalsa"
@@ -1108,7 +1159,10 @@
 		"categories": [
 			"tilbehør"
 		],
-		"preparationtime": "30 min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -1150,15 +1204,18 @@
 		],
 		"steps": [
 			"Lad bønnerne dryppe godt af og blend alle ingredienser til det bliver en ensartet masse.",
-			"Smag til med salt",
-			"Drys evt. med kokos"
+			"Smag til med salt. Drys evt. med kokos",
+			"Lad kuglerne køle af i minimum 1 time inden servering."
 		],
 		"servings": "20 kugler",
 		"categories": [
 			"dessert",
 			"snack"
 		],
-		"preparationtime": "30 min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "60" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -1227,7 +1284,10 @@
 		"categories": [
 			"aftensmad"
 		],
-		"preparationtime": "30 min",
+		"preparationtime": {
+			"active": "30",
+			"passive": "" 
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"mangosalsa",
@@ -1297,7 +1357,10 @@
 			"tilbehør",
 			"dressing"
 		],
-		"preparationtime": "40 min",
+		"preparationtime": {
+			"active": "30",
+			"passive": "120" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -1347,7 +1410,10 @@
 		"categories": [
 			"aftensmad"
 		],
-		"preparationtime": "45 min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "10" 
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"syltede rødløg",
@@ -1436,7 +1502,10 @@
 		"categories": [
 			"aftensmad"
 		],
-		"preparationtime": "1.5 time",
+		"preparationtime": {
+			"active": "20",
+			"passive": "60" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -1528,7 +1597,10 @@
 		"categories": [
 			"aftensmad"
 		],
-		"preparationtime": "2 timer",
+		"preparationtime": {
+			"active": "30",
+			"passive": "60" 
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"syltede rødløg"
@@ -1601,14 +1673,17 @@
 			"Når massen er karameliseret, hældes den ud over bunden og bager 10-15 min til karamellem bliver fast og gylden. Lad den derefter køle af",
 			"Chokoladeovertræk",
 			"Hak og smelt chokolade og smør",
-			"Når chokoladen er helt opløst overtrækkes den afkølede kage med chokoladen og kagen sættes igen på køl. "
+			"Når chokoladen er helt opløst overtrækkes den afkølede kage med chokoladen og kagen sættes igen på køl i minimum 30 min."
 		],
 		"servings": "1 kage",
 		"categories": [
 			"snack",
 			"bagning"
 		],
-		"preparationtime": "1.5 time",
+		"preparationtime": {
+			"active": "25",
+			"passive": "50" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -1681,7 +1756,10 @@
 			"tilbehør",
 			"bagning"
 		],
-		"preparationtime": "40 min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "45" 
+		},
 		"path": "description",
 		"relatedrecipes": []
 	},
@@ -1741,7 +1819,10 @@
 		"path": "description",
 		"relatedrecipes": [],
 		"servings": "1.5 dl",
-		"preparationtime": "15 min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "" 
+		},
 		"categories": [
 			"aftensmad",
 			"bagning"
@@ -1817,7 +1898,10 @@
 			"Gyoza dipping sauce"
 		],
 		"servings": "18 boller",
-		"preparationtime": "2.5-12 timer",
+		"preparationtime": {
+			"active": "30",
+			"passive": "1440" 
+		},
 		"categories": [
 			"aftensmad",
 			"bagning"
@@ -1930,7 +2014,10 @@
 		"path": "description",
 		"relatedrecipes": [],
 		"servings": "8 personer",
-		"preparationtime": "1.5 time",
+		"preparationtime": {
+			"active": "30",
+			"passive": "40" 
+		},
 		"categories": [
 			"dessert",
 			"specielle anledninger"
@@ -2003,11 +2090,15 @@
 			"Pisk vanille, æggeblommer og sukker til en lluftig æggesnaps.",
 			"Pisk fløden til flødeskum og vend den sammen med æggeblandingen.",
 			"Frugtsalat",
-			"Rens og skær alle frugter i munrette stykker og server med råcreme og et drys finthakket chokolade."
+			"Rens og skær alle frugter i munrette stykker og server med råcreme og et drys finthakket chokolade.",
+			"Frugtsalaten kan sagtens opbevares på køl inden servering og et par dage efter."
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "20min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "" 
+		},
 		"categories": [
 			"dessert",
 			"sommer"
@@ -2112,7 +2203,10 @@
 		],
 		"path": "description",
 		"servings": "30 stk",
-		"preparationtime": "45min",
+		"preparationtime": {
+			"active": "45",
+			"passive": "" 
+		},
 		"categories": [
 			"snack",
 			"aftensmad",
@@ -2166,7 +2260,10 @@
 		],
 		"path": "description",
 		"servings": "1 lille bøtte",
-		"preparationtime": "5 min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "" 
+		},
 		"categories": [
 			"krydderier"
 		]
@@ -2275,7 +2372,10 @@
 		],
 		"inspirationlink": "https://dinnerthendessert.com/indian-chicken-korma/",
 		"servings": "4 personer",
-		"preparationtime": "1  time og 45 min",
+		"preparationtime": {
+			"active": "40",
+			"passive": "120" 
+		},
 		"categories": [
 			"aftensmad"
 		]
@@ -2366,7 +2466,10 @@
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "40min",
+		"preparationtime": {
+			"active": "30",
+			"passive": "15" 
+		},
 		"categories": [
 			"aftensmad"
 		],
@@ -2436,7 +2539,7 @@
 			}
 		],
 		"steps": [
-			"Dej\n",
+			"Dej",
 			"Opløs gæren i det lunkne vand og tilsæt derefter sukker, yoghurt, salt og groft mel. ",
 			"Tilsæt hvedemel lidt efter lidt. Ælt dejen til den er glat.",
 			"Lad dejen hæve til dobbelt størrelse, ca 1 time.",
@@ -2448,7 +2551,10 @@
 		],
 		"path": "description",
 		"servings": "6 store brød",
-		"preparationtime": "1.5time",
+		"preparationtime": {
+			"active": "30",
+			"passive": "60" 
+		},
 		"categories": [
 			"aftensmad",
 			"tilbehør",
@@ -2565,7 +2671,10 @@
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "40min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "30" 
+		},
 		"categories": [
 			"aftensmad"
 		],
@@ -2627,7 +2736,10 @@
 		],
 		"path": "description",
 		"servings": "",
-		"preparationtime": "10 min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "60" 
+		},
 		"categories": [
 			"sauce",
 			"dip",
@@ -2704,7 +2816,10 @@
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "30min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "15" 
+		},
 		"categories": [
 			"forret",
 			"vegetarisk",
@@ -2804,7 +2919,10 @@
 		],
 		"path": "description",
 		"servings": "3 personer",
-		"preparationtime": "25min",
+		"preparationtime": {
+			"active": "25",
+			"passive": "" 
+		},
 		"categories": [
 			"aftensmad"
 		],
@@ -2849,7 +2967,10 @@
 		],
 		"path": "description",
 		"servings": "",
-		"preparationtime": "10min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "" 
+		},
 		"categories": [
 			"krydderier"
 		],
@@ -2914,7 +3035,10 @@
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "20min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "120" 
+		},
 		"categories": [
 			"forret"
 		],
@@ -3033,7 +3157,10 @@
 		],
 		"path": "description",
 		"servings": "6-8 personer",
-		"preparationtime": "50min",
+		"preparationtime": {
+			"active": "35",
+			"passive": "30" 
+		},
 		"categories": [
 			"forret",
 			"aftensmad",
@@ -3093,7 +3220,10 @@
 		],
 		"path": "description",
 		"servings": "12 stk",
-		"preparationtime": "12 timer",
+		"preparationtime": {
+			"active": "20",
+			"passive": "1440" 
+		},
 		"categories": [
 			"morgenmad",
 			"brød",
@@ -3187,7 +3317,10 @@
 		],
 		"path": "description",
 		"servings": "2-3 personer",
-		"preparationtime": "10 min forberedelse, 30 min i ovnen",
+		"preparationtime": {
+			"active": "15",
+			"passive": "30" 
+		},
 		"categories": [
 			"frokost",
 			"aftensmad"
@@ -3241,7 +3374,10 @@
 		],
 		"path": "description",
 		"servings": "",
-		"preparationtime": "2.5 time, koldhævning 24 timer",
+		"preparationtime": {
+			"active": "150",
+			"passive": "1440" 
+		},
 		"categories": [
 			"snack",
 			"tilbehør",
@@ -3315,76 +3451,22 @@
 		"steps": [
 			"Kog kyllingen i ca. 12 minutter, eller indtil den er gennemkogt. Skær den herefter i tern.",
 			"Hak løg fint, skær asparges i mindre stykker og halvér vindruerne.",
-			"Bland creme fraiche og mayonnaise og bland med de resterende ingredienser.",
+			"Rør creme fraiche og mayonnaise sammen og bland med de resterende ingredienser.",
+			"Lad kyllingesalaten stå en time på køl inden servering",
 			"Vindruer kan udelades eller erstattes med tomater. Karry kan ligeledes udelades.",
 			"Hvis du vil kræse lidt ekstra for hønsesalaten kan du med fordel lave kyllingen i sous vide."
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "25min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "60" 
+		},
 		"categories": [
 			"frokost"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
-	},
-	{
-		"name": "Keto pizzabund",
-		"teaser": "En pizzabund der er lav på kylhydrater og høj på fedt.",
-		"image": "",
-		"ingredients": [
-			{
-				"amount": "5",
-				"unit": "dl",
-				"ingredient": "revet mosarella"
-			},
-			{
-				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "flødeost, neutral"
-			},
-			{
-				"amount": "2.5",
-				"unit": "dl",
-				"ingredient": "mandelmel"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "æg"
-			},
-			{
-				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "bagepulver"
-			},
-			{
-				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "oregano"
-			},
-			{
-				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "hvidløgspulver"
-			}
-		],
-		"steps": [
-			"Forvarm ovnen til 230 grader",
-			"Tilføj mosarella og flødeost i en stor skål. Put disse ingredienser i mokroovnen i ca. 45 sekunder.",
-			"Tag skålen ud af mikroovnen og tilsæt æg, mandelmel, bagepulver og krydderier. Bland til det er blevet en ensartet masse.",
-			"Rul dejen ud på et stykke bagepapir og bag den derefter i ca. 10 minutter.",
-			"Tag dejen ud og tilføj det fyld, du gerne vil have på.",
-			"Bag pizzaen i 5-8 minutter, eller inditl osten er smeltet."
-		],
-		"path": "description",
-		"servings": "1 pizzabund",
-		"preparationtime": "25 minutter",
-		"categories": [
-			"aftensmad"
-		],
-		"relatedrecipes": [],
-		"inspirationlink": "https://gimmedelicious.com/keto-pizza/"
 	},
 	{
 		"name": "Koldhævede boller",
@@ -3419,13 +3501,17 @@
 		],
 		"steps": [
 			"Rør vand og gær sammen i en skål",
-			"Tilsæt grahamsmel og havregryn. Tilsæt 3 dl hvedemel og salt. Dejen skal vær til at røre i, men ikke for flydende.",
+			"Tilsæt grahamsmel og havregryn. Tilføj 3 dl hvedemel og salt.",
+			"Dejen skal vær til at røre i, men ikke for flydende.",
 			"Sæt på køl natten over.",
 			"Bag ved 225 grader i 15 minutter"
 		],
 		"path": "description",
 		"servings": "12 stk",
-		"preparationtime": "15 min",
+		"preparationtime": {
+			"active": "15",
+			"passive": "1440" 
+		},
 		"categories": [
 			"morgenmad"
 		],
@@ -3477,7 +3563,10 @@
 		],
 		"path": "description",
 		"servings": "8 stykker",
-		"preparationtime": "15min",
+		"preparationtime": {
+			"active": "10",
+			"passive": "20" 
+		},
 		"categories": [
 			"morgenmad",
 			"vegetarisk"
@@ -3551,7 +3640,10 @@
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "30 min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "20" 
+		},
 		"categories": [
 			"frokost",
 			"aftensmad",
@@ -3629,7 +3721,10 @@
 		],
 		"path": "description",
 		"servings": "4 personer",
-		"preparationtime": "30min",
+		"preparationtime": {
+			"active": "20",
+			"passive": "20" 
+		},
 		"categories": [
 			"aftensmad",
 			"frokost"
@@ -3768,7 +3863,10 @@
 		],
 		"path": "description",
 		"servings": "10 personer",
-		"preparationtime": "1 time",
+		"preparationtime": {
+			"active": "30",
+			"passive": "40" 
+		},
 		"categories": [
 			"aftensmad"
 		],
