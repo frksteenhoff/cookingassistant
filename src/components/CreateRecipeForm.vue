@@ -96,6 +96,7 @@ export default class CreateRecipeForm extends Vue {
 			active: "",
 			passive: ""
 		},
+		protip: "",
 		categories: [],
 		relatedrecipes: [],
 		inspirationlink: ""
