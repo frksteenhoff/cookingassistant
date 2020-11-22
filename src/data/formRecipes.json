@@ -1887,9 +1887,9 @@
 			"Når alle bolde er rullet ud, tag da en spisepind og smør med olie. For hver af dine boller, læg spisepinden på midten og fold dejen hen over spisepinden. Træk herefter spisepinden ud.",
 			"Læg bollerne på individuelle stykker bagepapir og lad dem hvile i 1.5 time (indtil de er blevet dobbelt så store)",
 			"Varm derefter vand op til en steamer på medium varme og damp bollerne i ca. 8 minutter (til de puffer op). Med dette antal boller kræver det, at du damper dem af flere omgange.",
-			"Åbn bollerne på midten og fyld med kød, svampe, koriander og gulerod. (Se opskrift på pulled pork)",
-			"Tip: lad være med at tjekke til bollerne mens de damper -- dette vil ændre temperaturen og få bollerne til at falde sammen."
+			"Åbn bollerne på midten og fyld med kød, svampe, koriander og gulerod. (Se opskrift på pulled pork)"
 		],
+		"protip": "Lad være med at tjekke til bollerne mens de damper -- dette vil ændre temperaturen og få bollerne til at falde sammen.",
 		"path": "description",
 		"relatedrecipes": [
 			"pulled pork",

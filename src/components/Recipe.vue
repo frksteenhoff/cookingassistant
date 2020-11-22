@@ -34,7 +34,7 @@
 					/>
 					<TextBox v-if="('protip' in recipe)" :background="true">
 						<template v-slot:body>
-							{{ recipe.proptip }}
+							{{ recipe.protip }}
 						</template>
 					</TextBox>
 				</div>

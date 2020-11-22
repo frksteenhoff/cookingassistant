@@ -8,6 +8,7 @@ declare type RecipeObject = {
 	servings: string
 	categories: string[],
 	preparationtime?: PreparationTimeObject,
+	protip: string,
 	inspirationlink?: string,
 	path: string,
 	relatedrecipes?: string[]
