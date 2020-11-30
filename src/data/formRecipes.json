@@ -2356,7 +2356,7 @@
 		],
 		"steps": [
 			"Skær kyllingen i mundrette stykker og put dem i en stor skål.",
-			"Kom tompasta, ingefær, hvidløg, garam masala, rød peber, paprika, kerdemomme, salt, gurkemeje og mandler i en food processor og blend indtil blandingen er ensartet ",
+			"Kom tompasta, ingefær, hvidløg, garam masala, rød peber, paprika, kardemomme, salt, gurkemeje og mandler i en food processor og blend indtil blandingen er ensartet ",
 			"Tilføj blandingen til skålen med kylling sammen med yoghurt og bland godt.",
 			"Stil på køl i 1-2 timer.",
 			"Tilføj olie og smør til en stor pande ved medium varme.",
@@ -2687,7 +2687,7 @@
 	{
 		"name": "Gyoza dipping sauce",
 		"teaser": "Dyppelse til dumplings, friske eller stegte forårsruller o.lign.",
-		"image": "",
+		"image": "gyoza_dipping.jpg",
 		"ingredients": [
 			{
 				"amount": "0.5",

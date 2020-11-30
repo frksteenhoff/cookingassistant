@@ -392,9 +392,9 @@
 				"ingredient": "hakkede tomater"
 			}
 		],
-		"image": "",
+		"image": "tomatsauce.jpg",
 		"inspirationlink": "",
-		"teaser": "En l\u00e6kker tomatsauce til pastaretter.",
+		"teaser": "En lækker tomatsauce til pastaretter.",
 		"steps": [
 			"Hak hvidløg fint",
 			"Bland alle ingredienser og varm dem op i en gryde.",
@@ -571,14 +571,14 @@
 				"ingredient": "hakkede traneb\u00e6r"
 			}
 		],
-		"image": "sicilienske_koedboller.jpg",
+		"image": "koedboller_done.jpg",
 		"inspirationlink": "https://www.ciaoitalia.com/seasons/18/1812/sicilian-meatballs",
 		"teaser": "Perfekte sammen med hjemmelavet pasta og tomatsauce, eller som en variation til frikadeller.",
 		"steps": [
 			"L\u00e6g raspen i bl\u00f8d med m\u00e6lken og lad blandingen st\u00e5 i nogle minutter. Bland de resterende ingredienser i, i r\u00e6kkef\u00f8lgen de er angivet i.",
 			"G\u00f8r dine h\u00e6nder v\u00e5de (for at undg\u00e5 at bollerne klistrer for meget til dine h\u00e6nder) og form sm\u00e5 k\u00f8dboller af farsen.",
 			"Plac\u00e9r alle k\u00f8dbollerne p\u00e5 en bageplade og bag dem ved 180 grader til de er brunede.",
-			"Server gerne med en tomatsauce eller som de er."
+			"Server gerne med en tomatsauce og hjemmellavet pasta eller som de er."
 		],
 		"servings": "25 k\u00f8dboller",
 		"path": "description",
@@ -586,9 +586,14 @@
 			"hjemmelavet pasta",
 			"tomatsauce"
 		],
+		"additionalImages": [
+			"koedboller_fars.jpg",
+			"koedboller_bradepande.jpg",
+			"sicilienske_koedboller.jpg"
+		],
 		"categories": [
 			"aftensmad",
-			" frokost"
+			"frokost"
 		]
 	},
 	{
