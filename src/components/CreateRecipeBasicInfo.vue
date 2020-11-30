@@ -21,8 +21,12 @@
 		</b-row>
 		<b-row class="mb-4">
 			<b-col cols="6">
-				<small>Tilberedningstid</small>
-				<b-form-input v-model="recipe.preparationtime" type="text" size="sm" />
+				<small>Tilberedningstid - Aktiv</small>
+				<b-form-input v-model="recipe.preparationtime.active" placeholder="minutter" type="number" size="sm" />
+			</b-col>
+			<b-col cols="6">
+			<small>Passiv</small>
+				<b-form-input v-model="recipe.preparationtime.active" placeholder="minutter" type="number" size="sm" />
 			</b-col>
 			<b-col cols="6">
 				<small>Antal serveringer</small>
