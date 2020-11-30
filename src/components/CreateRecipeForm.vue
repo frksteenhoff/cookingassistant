@@ -147,6 +147,8 @@ export default class CreateRecipeForm extends Vue {
 	beforeDestroy() {
 		this.$off("delete-ingredient")
 		this.$off("delete-step")
+		this.$off("add-step")
+		this.$off("add-ingredient")
 	}
 
 	addStep() {
