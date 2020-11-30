@@ -26,7 +26,7 @@
 				<small>Ingrediens</small>
 				<b-form-input v-model="ing.ingredient" type="text" />
 			</b-col>
-			<b-col cols="1" class="mt-4 ml-0 pl-0 pt-2" @click="deleteIngredient(index[0])">
+			<b-col cols="1" class="mt-4 ml-0 pl-0 pt-2" @click="deleteIngredient(index)">
 				<b-icon v-b-tooltip.hover title="Slet linje" icon="x-circle"></b-icon>
 			</b-col>
 		</b-row>
