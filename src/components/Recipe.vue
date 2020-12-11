@@ -32,7 +32,7 @@
 						:recipe="recipe"
 						class="d-sm-none d-md-block"
 					/>
-					<TextBox v-if="('protip' in recipe)" :background="true">
+					<TextBox v-if="('protip' in recipe && recipe.protip)" :background="true">
 						<template v-slot:body>
 							{{ recipe.protip }}
 						</template>
