@@ -152,7 +152,7 @@
 	{
 		"name": "Coleslaw",
 		"teaser": "Kål- og gulerodsslaw bruges som tilbehør til blandt andet brugere og fish tacos.",
-		"image": "",
+		"image": "coleslaw_blandet.jpg",
 		"ingredients": [
 			{
 				"amount": "500",
@@ -162,7 +162,7 @@
 			{
 				"amount": "500",
 				"unit": "g",
-				"ingredient": "hvidkål"
+				"ingredient": "hvidkål/rødkål"
 			},
 			{
 				"amount": "1",
@@ -211,7 +211,7 @@
 			}
 		],
 		"steps": [
-			"Skræl og riv gulerødder og hvidkål",
+			"Skær kålen i tynde skiver og skræl gulerødderne med en gulerodsskræller (kan selvfølgelig også rives)",
 			"Bland honning, dijon, ælbecidereddike, salt, sukker, spidskommen og peber og bland med gulerod/kål-blandingen",
 			"Bland creme fraiche, mayo sukker og salt og hæld det over coleslawen.",
 			"Lad blandingen stå på køl i 1 time inden servering."
@@ -228,6 +228,9 @@
 		"path": "description",
 		"relatedrecipes": [
 			"pulled pork"
+		],
+		"additionalImages": [
+			"coleslaw_roedkaal.jpg"
 		]
 	},
 	{
