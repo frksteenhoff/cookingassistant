@@ -977,7 +977,7 @@
 	{
 		"name": "Mangosalsa",
 		"teaser": "Den perfekte salsa til alle former for tacos",
-		"image": "",
+		"image": "mangosalsa.jpg",
 		"ingredients": [
 			{
 				"amount": "1",
@@ -1029,7 +1029,10 @@
 			"passive": "30" 
 		},
 		"path": "description",
-		"relatedrecipes": []
+		"relatedrecipes": [],
+		"additionalImages": [
+			"mango_sliced.jpg"
+		]
 	},
 	{
 		"name": "Pulled chicken",

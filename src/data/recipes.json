@@ -1356,7 +1356,7 @@
 		"servings": "1kg",
 		"preparationtime": {
 			"active": "10",
-			"passive": "" 
+			"passive": ""
 		},
 		"categories": [
 			"aftensmad",
@@ -1440,7 +1440,7 @@
 		"servings": "5 personer",
 		"preparationtime": {
 			"active": "15",
-			"passive": "" 
+			"passive": ""
 		},
 		"categories": [
 			"dip",
@@ -1539,7 +1539,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "30",
-			"passive": "30" 
+			"passive": "30"
 		},
 		"categories": [
 			"dip",
@@ -1597,7 +1597,7 @@
 		"servings": "5 personer",
 		"preparationtime": {
 			"active": "150",
-			"passive": "1440" 
+			"passive": "1440"
 		},
 		"categories": [
 			"tilbehør",
@@ -1676,7 +1676,7 @@
 		"servings": "",
 		"preparationtime": {
 			"active": "10",
-			"passive": "20" 
+			"passive": "20"
 		},
 		"categories": [
 			"snack",
@@ -1738,7 +1738,7 @@
 		"servings": "3",
 		"preparationtime": {
 			"active": "30",
-			"passive": "50" 
+			"passive": "50"
 		},
 		"categories": [],
 		"relatedrecipes": [],
@@ -1958,7 +1958,7 @@
 		"servings": "6 tærter",
 		"preparationtime": {
 			"active": "150",
-			"passive": "1440" 
+			"passive": "1440"
 		},
 		"categories": [
 			"dessert"
@@ -2057,7 +2057,7 @@
 		"servings": "16 stk",
 		"preparationtime": {
 			"active": "20",
-			"passive": "20" 
+			"passive": "20"
 		},
 		"categories": [
 			"snack",
@@ -2130,7 +2130,7 @@
 		"servings": "2dl",
 		"preparationtime": {
 			"active": "15",
-			"passive": "180" 
+			"passive": "180"
 		},
 		"categories": [
 			"dressing",
@@ -2221,7 +2221,7 @@
 		"servings": "10 personer",
 		"preparationtime": {
 			"active": "20",
-			"passive": "120" 
+			"passive": "120"
 		},
 		"categories": [
 			"dessert"
@@ -2336,7 +2336,7 @@
 		],
 		"preparationtime": {
 			"active": "20",
-			"passive": "40" 
+			"passive": "40"
 		},
 		"categories": [],
 		"relatedrecipes": [],
@@ -2405,7 +2405,7 @@
 		"servings": "5",
 		"preparationtime": {
 			"active": "20",
-			"passive": "30" 
+			"passive": "30"
 		},
 		"categories": [
 			"aftensmad",
@@ -2446,7 +2446,7 @@
 		"servings": "5",
 		"preparationtime": {
 			"active": "10",
-			"passive": "5" 
+			"passive": "5"
 		},
 		"categories": [],
 		"relatedrecipes": [],
@@ -2536,7 +2536,7 @@
 		"servings": "8",
 		"preparationtime": {
 			"active": "30",
-			"passive": "110" 
+			"passive": "110"
 		},
 		"categories": [
 			"dessert",
@@ -2620,7 +2620,7 @@
 		"servings": "",
 		"preparationtime": {
 			"active": "10",
-			"passive": "15" 
+			"passive": "15"
 		},
 		"categories": [],
 		"relatedrecipes": [],
@@ -2675,7 +2675,7 @@
 		"servings": "6",
 		"preparationtime": {
 			"active": "30",
-			"passive": "80" 
+			"passive": "80"
 		},
 		"categories": [],
 		"relatedrecipes": [],
@@ -2686,5 +2686,74 @@
 			"creme_brulee_klar.jpg"
 		],
 		"inspirationlink": "https://www.metteblomsterberg.dk/opskrifter/creme-brulee"
+	},
+	{
+		"name": "Fudgy brownies",
+		"teaser": "Lækker, let underbagt brownie med masser af god smag af chokolade.",
+		"image": "fudgy_brownie.jpg",
+		"ingredients": [
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "60% mørk chokolade"
+			},
+			{
+				"amount": "115",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "1.25",
+				"unit": "dl",
+				"ingredient": "brun farin"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "vaniljepulver"
+			},
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "hvedemel"
+			}
+		],
+		"steps": [
+			"Klargør en bradepande af en størrelse på 15 x 15 cm",
+			"Forvarm ovnen til 180 grader.",
+			"Bland chokolade og smør i et vandbad, når det er blevet ensartet og al chokoladen er smeltet, tag den da af varmen og lad massen køle af.",
+			"Bland begge former for sukker og tilføj derefter æggene et af gangen.",
+			"Når blandingen bliver luftig, tilsæt salt, vanillepulver og chokolade/smør blandingen.",
+			"Si hvedemel over blandingen og vend det let i.",
+			"Bag i ca. 30 minutter og lad den derefter hvile i 15 minutter."
+		],
+		"path": "description",
+		"servings": "",
+		"preparationtime": {
+			"active": "25",
+			"passive": "30"
+		},
+		"protip": "",
+		"categories": [
+			"dessert",
+			"snack"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
