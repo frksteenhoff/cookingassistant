@@ -519,7 +519,7 @@
 		"image": "rodlog.jpg",
 		"ingredients": [
 			{
-				"amount": "4",
+				"amount": "6",
 				"unit": "stk",
 				"ingredient": "rødløg"
 			},
@@ -529,20 +529,33 @@
 				"ingredient": "æblecidereddike"
 			},
 			{
-				"amount": "1",
+				"amount": "4",
 				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
 				"ingredient": "sukker"
 			},
 			{
 				"amount": "1",
 				"unit": "tsk",
 				"ingredient": "hele peberkorn"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "laurbærblade"
 			}
 		],
 		"steps": [
-			"Skær løgene i tynde skiver og kom den i en beholder.",
-			"Kog eddike og sukker op i en gryde sammen med peberkornene og lad stå over varme indtil sukkeret er opløst.",
-			"Hæld den kogende lage over løgene, lad det køle af på køkkenbordet og opbevar derefter i køleskabet."
+			"Kog eddike og sukker op i en gryde, hvor der er godt med plads." ,
+			"Mens eddikeblandingen varmes op, skær rødløgene i tynde skiver.",
+			"Når blandingen koger og sukkeret er opløst, tilsæt da peberkorn og laurbærblade og lade koge et par minutter.",
+			"Kom ca. halvdelen af rødløgene i gryden og lad dem koge i nogle minutter inden du tager dem af og kommer dem i et sylteglas. Gentag processen med næste omgang rødløg.",
+			"Når alle rødløg er kogte, lad da eddikeblandingen koge et par minutter for sig og hæld derefter lagen i dit sylteglas sammen med rødløgene.",
+			"Lad det hele køle af på køkkenbordet og opbevar derefter i køleskabet."
 		],
 		"servings": "1 stort sylteglas",
 		"categories": [
