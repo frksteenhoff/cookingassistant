@@ -550,7 +550,7 @@
 			}
 		],
 		"steps": [
-			"Kog eddike og sukker op i en gryde, hvor der er godt med plads." ,
+			"Kog eddike og sukker op i en gryde, hvor der er godt med plads.",
 			"Mens eddikeblandingen varmes op, skær rødløgene i tynde skiver.",
 			"Når blandingen koger og sukkeret er opløst, tilsæt da peberkorn og laurbærblade og lade koge et par minutter.",
 			"Kom ca. halvdelen af rødløgene i gryden og lad dem koge i nogle minutter inden du tager dem af og kommer dem i et sylteglas. Gentag processen med næste omgang rødløg.",
@@ -3957,7 +3957,51 @@
 		"additionalImages": [
 			"baked_alaska.jpg"
 		],
-		"relatedrecipes": ["Fudgy brownie"],
+		"relatedrecipes": [
+			"Fudgy brownie"
+		],
 		"inspirationlink": "https://sallysbakingaddiction.com/brownie-baked-alaska/"
+	},
+	{
+		"name": "Chokoladeovertrunke dadler med mandelmidte",
+		"teaser": "Mørk syrlig chokolade, søde dadler og bagte mandler. En lækkert konfekt. ",
+		"image": "chokodadler_choko.jpg",
+		"ingredients": [
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "mandler"
+			},
+			{
+				"amount": "1",
+				"unit": "pakke(r)",
+				"ingredient": "dadler, ca 20 stk"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "mørk chokolade"
+			}
+		],
+		"steps": [
+			"Bred mandlerne ud på en bageplade og bag dem i 12-15 minutter.",
+			"Mens mandlerne bager, udsten da dine dadler. Jeg plejer at benytte en spisepind, men bagsiden af en ske fungerer også. Kom derefter chokoladen i et vandbad.",
+			"Når mandlerne er færdige og har kølet af. Kom da 1-2 mandler i hver dadel og luk dem til i enderne. Hvis der er for mange mandler kan de resterende sagtens gemmes til næste gang du skal lave en omgang.",
+			"Dyp derefter dadlerne i chokoladen. Sørg for at de alle får et godt, men ikke for tykt lag. Ellers ender du med at skulle bruge meget mere chokolade for at dække dem alle. ",
+			"Stil de chokoladeovertrukne dadler på køl til chokoladen har sat sig, jeg giver dem som minimum 30 minutter. Servér med det samme eller kom dem på et glas og opbevar dem i køleskabet eller et køligere sted."
+		],
+		"path": "description",
+		"servings": "20",
+		"preparationtime": {
+			"active": "30",
+			"passive": "12"
+		},
+		"protip": "Jeg køber en mørk chokolade fra Lindt med havsalt. Den giver et rigtig godt modspil til det søde.",
+		"categories": [],
+		"relatedrecipes": [],
+		"additionalImages": [
+			"chokodadler_plain.jpg"
+		],
+		"inspirationlink": ""
 	}
 ]
