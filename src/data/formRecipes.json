@@ -56,7 +56,7 @@
 		"servings": "Kan man have for meget?",
 		"preparationtime": {
 			"active": "15",
-			"passive": "" 
+			"passive": ""
 		},
 		"categories": [
 			"dip",
@@ -140,7 +140,7 @@
 		],
 		"preparationtime": {
 			"active": "60",
-			"passive": "720" 
+			"passive": "720"
 		},
 		"relatedrecipes": [
 			"bao boller",
@@ -223,7 +223,7 @@
 		],
 		"preparationtime": {
 			"active": "20",
-			"passive": "60" 
+			"passive": "60"
 		},
 		"path": "description",
 		"relatedrecipes": [
@@ -299,7 +299,7 @@
 		],
 		"preparationtime": {
 			"active": "15",
-			"passive": "20" 
+			"passive": "20"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -344,7 +344,7 @@
 		],
 		"preparationtime": {
 			"active": "10",
-			"passive": "" 
+			"passive": ""
 		},
 		"path": "description",
 		"relatedrecipes": [
@@ -404,7 +404,7 @@
 		],
 		"preparationtime": {
 			"active": "10",
-			"passive": "15" 
+			"passive": "15"
 		},
 		"path": "description",
 		"relatedrecipes": [
@@ -458,7 +458,7 @@
 		],
 		"preparationtime": {
 			"active": "15",
-			"passive": "" 
+			"passive": ""
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -493,7 +493,6 @@
 				"unit": "cl",
 				"ingredient": "vodka"
 			}
-
 		],
 		"steps": [
 			"Kog vand, sukker ind til en tyk sirup, blandingen må ikke koge og skal helst ikke over medium varme.",
@@ -508,7 +507,7 @@
 		],
 		"preparationtime": {
 			"active": "5",
-			"passive": "360" 
+			"passive": "360"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -550,7 +549,7 @@
 		],
 		"preparationtime": {
 			"active": "20",
-			"passive": "" 
+			"passive": ""
 		},
 		"path": "description",
 		"relatedrecipes": [
@@ -609,7 +608,7 @@
 		],
 		"preparationtime": {
 			"active": "10",
-			"passive": "15" 
+			"passive": "15"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -682,7 +681,7 @@
 		],
 		"preparationtime": {
 			"active": "10",
-			"passive": "15" 
+			"passive": "15"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -759,7 +758,7 @@
 		],
 		"preparationtime": {
 			"active": "30",
-			"passive": "60" 
+			"passive": "60"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -867,7 +866,7 @@
 		],
 		"preparationtime": {
 			"active": "20",
-			"passive": "15" 
+			"passive": "15"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -972,7 +971,7 @@
 		],
 		"preparationtime": {
 			"active": "20",
-			"passive": "75" 
+			"passive": "75"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -1029,7 +1028,7 @@
 		],
 		"preparationtime": {
 			"active": "15",
-			"passive": "30" 
+			"passive": "30"
 		},
 		"path": "description",
 		"relatedrecipes": [],
@@ -1105,7 +1104,7 @@
 		],
 		"preparationtime": {
 			"active": "30",
-			"passive": "" 
+			"passive": ""
 		},
 		"path": "description",
 		"relatedrecipes": [
@@ -1167,7 +1166,7 @@
 		],
 		"preparationtime": {
 			"active": "15",
-			"passive": "" 
+			"passive": ""
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -1220,7 +1219,7 @@
 		],
 		"preparationtime": {
 			"active": "15",
-			"passive": "60" 
+			"passive": "60"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -1292,7 +1291,7 @@
 		],
 		"preparationtime": {
 			"active": "30",
-			"passive": "" 
+			"passive": ""
 		},
 		"path": "description",
 		"relatedrecipes": [
@@ -1365,7 +1364,7 @@
 		],
 		"preparationtime": {
 			"active": "30",
-			"passive": "120" 
+			"passive": "120"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -1418,7 +1417,7 @@
 		],
 		"preparationtime": {
 			"active": "20",
-			"passive": "10" 
+			"passive": "10"
 		},
 		"path": "description",
 		"relatedrecipes": [
@@ -1510,7 +1509,7 @@
 		],
 		"preparationtime": {
 			"active": "20",
-			"passive": "60" 
+			"passive": "60"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -1605,7 +1604,7 @@
 		],
 		"preparationtime": {
 			"active": "30",
-			"passive": "60" 
+			"passive": "60"
 		},
 		"path": "description",
 		"relatedrecipes": [
@@ -1688,7 +1687,7 @@
 		],
 		"preparationtime": {
 			"active": "25",
-			"passive": "50" 
+			"passive": "50"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -1764,7 +1763,7 @@
 		],
 		"preparationtime": {
 			"active": "10",
-			"passive": "45" 
+			"passive": "45"
 		},
 		"path": "description",
 		"relatedrecipes": []
@@ -1827,7 +1826,7 @@
 		"servings": "1.5 dl",
 		"preparationtime": {
 			"active": "15",
-			"passive": "" 
+			"passive": ""
 		},
 		"categories": [
 			"aftensmad",
@@ -1839,7 +1838,13 @@
 		"name": "Bao boller",
 		"teaser": "Lette og luftige hvedeboller, der fyldes med grøntsager og/eller kød. ",
 		"image": "bao_dampet.jpg",
-		"additionalImages": ["bao_haevning.jpg", "bao_dampning.jpg", "bao_damper.jpg", "bao_gao.jpg", "bao_fyldt.jpg"],
+		"additionalImages": [
+			"bao_haevning.jpg",
+			"bao_dampning.jpg",
+			"bao_damper.jpg",
+			"bao_gao.jpg",
+			"bao_fyldt.jpg"
+		],
 		"ingredients": [
 			{
 				"amount": "525",
@@ -1906,7 +1911,7 @@
 		"servings": "18 boller",
 		"preparationtime": {
 			"active": "30",
-			"passive": "1440" 
+			"passive": "1440"
 		},
 		"categories": [
 			"aftensmad",
@@ -2022,7 +2027,7 @@
 		"servings": "8 personer",
 		"preparationtime": {
 			"active": "30",
-			"passive": "40" 
+			"passive": "40"
 		},
 		"categories": [
 			"dessert",
@@ -2103,7 +2108,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "20",
-			"passive": "" 
+			"passive": ""
 		},
 		"categories": [
 			"dessert",
@@ -2211,7 +2216,7 @@
 		"servings": "30 stk",
 		"preparationtime": {
 			"active": "45",
-			"passive": "" 
+			"passive": ""
 		},
 		"categories": [
 			"snack",
@@ -2268,7 +2273,7 @@
 		"servings": "1 lille bøtte",
 		"preparationtime": {
 			"active": "10",
-			"passive": "" 
+			"passive": ""
 		},
 		"categories": [
 			"krydderier"
@@ -2380,7 +2385,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "40",
-			"passive": "120" 
+			"passive": "120"
 		},
 		"categories": [
 			"aftensmad"
@@ -2474,7 +2479,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "30",
-			"passive": "15" 
+			"passive": "15"
 		},
 		"categories": [
 			"aftensmad"
@@ -2559,7 +2564,7 @@
 		"servings": "6 store brød",
 		"preparationtime": {
 			"active": "30",
-			"passive": "60" 
+			"passive": "60"
 		},
 		"categories": [
 			"aftensmad",
@@ -2679,7 +2684,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "15",
-			"passive": "30" 
+			"passive": "30"
 		},
 		"categories": [
 			"aftensmad"
@@ -2744,7 +2749,7 @@
 		"servings": "",
 		"preparationtime": {
 			"active": "10",
-			"passive": "60" 
+			"passive": "60"
 		},
 		"categories": [
 			"sauce",
@@ -2824,7 +2829,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "15",
-			"passive": "15" 
+			"passive": "15"
 		},
 		"categories": [
 			"forret",
@@ -2927,7 +2932,7 @@
 		"servings": "3 personer",
 		"preparationtime": {
 			"active": "25",
-			"passive": "" 
+			"passive": ""
 		},
 		"categories": [
 			"aftensmad"
@@ -2975,7 +2980,7 @@
 		"servings": "",
 		"preparationtime": {
 			"active": "10",
-			"passive": "" 
+			"passive": ""
 		},
 		"categories": [
 			"krydderier"
@@ -3043,7 +3048,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "15",
-			"passive": "120" 
+			"passive": "120"
 		},
 		"categories": [
 			"forret"
@@ -3165,7 +3170,7 @@
 		"servings": "6-8 personer",
 		"preparationtime": {
 			"active": "35",
-			"passive": "30" 
+			"passive": "30"
 		},
 		"categories": [
 			"forret",
@@ -3228,7 +3233,7 @@
 		"servings": "12 stk",
 		"preparationtime": {
 			"active": "20",
-			"passive": "1440" 
+			"passive": "1440"
 		},
 		"categories": [
 			"morgenmad",
@@ -3325,7 +3330,7 @@
 		"servings": "2-3 personer",
 		"preparationtime": {
 			"active": "15",
-			"passive": "30" 
+			"passive": "30"
 		},
 		"categories": [
 			"frokost",
@@ -3382,7 +3387,7 @@
 		"servings": "",
 		"preparationtime": {
 			"active": "150",
-			"passive": "1440" 
+			"passive": "1440"
 		},
 		"categories": [
 			"snack",
@@ -3466,7 +3471,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "15",
-			"passive": "60" 
+			"passive": "60"
 		},
 		"categories": [
 			"frokost"
@@ -3516,7 +3521,7 @@
 		"servings": "12 stk",
 		"preparationtime": {
 			"active": "15",
-			"passive": "1440" 
+			"passive": "1440"
 		},
 		"categories": [
 			"morgenmad"
@@ -3528,7 +3533,10 @@
 		"name": "Blomkålsbrød",
 		"teaser": "En erstatning til brød lavet med blomkål, æg og cheddar",
 		"image": "cauliflower_bread.jpg",
-		"additionalImages": ["blomkaal.jpg", "blomkaal_avo.jpg"],
+		"additionalImages": [
+			"blomkaal.jpg",
+			"blomkaal_avo.jpg"
+		],
 		"ingredients": [
 			{
 				"amount": "1",
@@ -3571,7 +3579,7 @@
 		"servings": "8 stykker",
 		"preparationtime": {
 			"active": "10",
-			"passive": "20" 
+			"passive": "20"
 		},
 		"categories": [
 			"morgenmad",
@@ -3648,7 +3656,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "20",
-			"passive": "20" 
+			"passive": "20"
 		},
 		"categories": [
 			"frokost",
@@ -3729,7 +3737,7 @@
 		"servings": "4 personer",
 		"preparationtime": {
 			"active": "20",
-			"passive": "20" 
+			"passive": "20"
 		},
 		"categories": [
 			"aftensmad",
@@ -3871,12 +3879,71 @@
 		"servings": "10 personer",
 		"preparationtime": {
 			"active": "30",
-			"passive": "40" 
+			"passive": "40"
 		},
 		"categories": [
 			"aftensmad"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://studiestartswiki.pf.dk/da:hyttebumser:opskrifter:svin_i_bbq?s[]=svin&s[]=bbq"
+	},
+	{
+		"name": "Baked Alaska",
+		"teaser": "\"Norsk omelet\" -- kært barn har mange navne. En dessert med brownie, is og marengs. En sikker vinder!",
+		"image": "baked_alaska_served.jpg",
+		"ingredients": [
+			{
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "æggehvider"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "flormelis"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "vaniljesukker"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "0.5",
+				"unit": "L",
+				"ingredient": "citronsorbet"
+			}
+		],
+		"steps": [
+			"Baked alaska består af 3 komponenter: brownie som bund, is i midten og marengs udenom, der bliver let flamberet. Jeg bruger en citronsorbet for at bryde de søde elementer i desserten, men du kan vælge lige netop den is, som du bedst kan lide.",
+			"Brownie",
+			"Start med at følge opskriften på fudgy brownie, som der er linket til. Brownien kan sagtens laves på forhånd og tages frem når du er klar til at servere. ",
+			"Brug et glas, eller anden form til at udstikke brownien i portionsstørrelser (jeg plejer at bruge en kagering der er 8cm i diameter)",
+			"Marengs",
+			"Tag isen ud af fryseren som du går igang med at lave marengsen, så den er klar til at benyttes, når marengsen er færdig. ",
+			"Pisk æggehviderne med en elpisker til de luftige (2 min), tilsæt derefter flormelis og pisk til der begynder at dannes luftige toppe, der holder formen, ca. 10 min.",
+			"Samling",
+			"Kom marengsen i en sprøjtepose og anbring derefter en kugle is på hver stykke brownie. Pynt/dæk isen med marengs og flambér derefter marengsen let med en brænder. Servér med det samme."
+		],
+		"path": "description",
+		"servings": "8",
+		"preparationtime": {
+			"active": "40",
+			"passive": "30"
+		},
+		"protip": "Hvis du synes det er nemmere kan du sagtens vælge at pre-lave dine iskugler og fryse dem enkeltvis. På den måde er du sikker på, at isen ikke når at smelte mens du pynter med og brænder marengsen.",
+		"categories": [
+			"dessert",
+			"specielle anledninger"
+		],
+		"additionalImages": [
+			"baked_alaska.jpg"
+		],
+		"relatedrecipes": ["Fudgy brownie"],
+		"inspirationlink": "https://sallysbakingaddiction.com/brownie-baked-alaska/"
 	}
 ]
