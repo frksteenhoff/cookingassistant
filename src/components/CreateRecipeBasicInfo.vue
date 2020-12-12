@@ -26,7 +26,7 @@
 			</b-col>
 			<b-col cols="6">
 			<small>Passiv</small>
-				<b-form-input v-model="recipe.preparationtime.active" placeholder="minutter" type="number" size="sm" />
+				<b-form-input v-model="recipe.preparationtime.passive" placeholder="minutter" type="number" size="sm" />
 			</b-col>
 			<b-col cols="6">
 				<small>Antal serveringer</small>
