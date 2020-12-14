@@ -3966,7 +3966,7 @@
 	{
 		"name": "Chokoladeovertrunke dadler med mandelmidte",
 		"teaser": "Mørk syrlig chokolade, søde dadler og bagte mandler. En lækkert konfekt. ",
-		"image": "chokodadler_choko.jpg",
+		"image": "choko_dadler.jpg",
 		"ingredients": [
 			{
 				"amount": "100",
@@ -4001,7 +4001,8 @@
 		"categories": [],
 		"relatedrecipes": [],
 		"additionalImages": [
-			"chokodadler_plain.jpg"
+			"chokodadler_plain.jpg",
+			"chokodadler_choko.jpg"
 		],
 		"inspirationlink": ""
 	}
