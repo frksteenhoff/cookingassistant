@@ -516,7 +516,7 @@
 	{
 		"name": "Syltede rødløg",
 		"teaser": "Til tacos, åbne sandwiches, salater etc.",
-		"image": "rodlog.jpg",
+		"image": "rodlog_serveret.jpg",
 		"ingredients": [
 			{
 				"amount": "6",
@@ -566,6 +566,9 @@
 			"passive": ""
 		},
 		"path": "description",
+		"additionalImages": [
+			"rodlog.jpg"
+		],
 		"relatedrecipes": [
 			"svampetacos",
 			"bao boller"
@@ -1053,7 +1056,7 @@
 	{
 		"name": "Pulled chicken",
 		"teaser": "Frisk og spicy marinade til pulled chicken",
-		"image": "",
+		"image": "pulled_chicken.jpg",
 		"ingredients": [
 			{
 				"amount": "2",
