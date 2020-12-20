@@ -1,16 +1,24 @@
 <template>
-	<b-container class="mt-3">
-		<b-row class="mb-3">
-			<h1>Opskrifter</h1>
-		</b-row>
-		<b-row>
+	<b-container class="mt-4">
+		<b-row class="mb-3 text-center">
+			<b-col cols="12 mb-4">
+				<h1 class="bigger">- Opskrifter -</h1>
+			</b-col>
 			<b-col cols="12">
+				Her kan du finde alle mine opskrifter.
+			</b-col>
+		</b-row>
+		<b-row class="text-center">
+			<b-col cols="6" class="mr-auto ml-auto align-self-center">
 				<DropdownForm
 					:availableTags="tags"
 				/>
 			</b-col>
+		</b-row>
+		<hr>
+		<b-row class="mt-4 mb-2">
 			<b-col cols="12">
-				{{ recipesInAlphabeticalOrder.length }} resultater
+				{{ recipesInAlphabeticalOrder.length }} opskrifter
 			</b-col>
 		</b-row>
 		<b-row>

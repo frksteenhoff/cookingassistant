@@ -15,7 +15,7 @@
 				/>
 				{{ fromUnit }}
 			</b-col>
-			<b-col cols="12" md="7" class="mt-1 p-0 pl-3">
+			<b-col cols="12" md="7" class="mt-1 p-0 pl-3 align-self-start">
 				<p class="mb-1 ml-0 p-0 text-center text-md-left" v-html="conversion(fromUnit, toUnit) + ' ' + unitSymbol[toUnit]" />
 				{{ toUnit }}
 			</b-col>

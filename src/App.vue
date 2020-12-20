@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<b-navbar sticky toggleable="md" type="dark" variant="hest">
+		<b-navbar sticky toggleable="md" type="dark" variant="hest" class="shadow">
 			<b-navbar-brand href="/" class="mb-0 pb-0 pt-0">
 				<img src="./assets/logo_cropped.png" style="width: 50px;" />
 			</b-navbar-brand>
@@ -193,7 +193,14 @@ h1 {
 	color: #ffffff;
 	display: inline;
 	margin: 0.75rem 41px;
-	font-size: 1.75rem !important;
+	font-size: 2.75rem !important;
+}
+
+h1.bigger {
+	background-color: white;
+	color: black;
+	margin: 0;
+	font-size: 3.5rem !important;
 }
 
 h2 {
