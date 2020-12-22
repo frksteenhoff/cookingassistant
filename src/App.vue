@@ -200,7 +200,7 @@ h1.bigger {
 	background-color: white;
 	color: black;
 	margin: 0;
-	font-size: 3.5rem !important;
+	font-size: 3.125rem !important;
 }
 
 h2 {

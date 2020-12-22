@@ -4008,5 +4008,239 @@
 			"chokodadler_choko.jpg"
 		],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Krebsehalesalat",
+		"teaser": "Hjemmelavet krebsehalesalat med creme fraiche, mayonnaise og en lille smule dild",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "creme fraiche, 18%"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "cayennepeber"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "dijonsennep"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "citronsaft, efter smag"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "170",
+				"unit": "g",
+				"ingredient": "krebsehaler, drænet"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dåse(r)",
+				"ingredient": "asparges"
+			},
+			{
+				"amount": "0.25",
+				"unit": "bundt",
+				"ingredient": "dild, finthakket"
+			}
+		],
+		"steps": [
+			"Dryp krebsehaler og asparges af, bland dressingen mens du venter.",
+			"Bland mayo, creme fraiche og krydderier.",
+			"Vend krebsehalerne og asparges i dressingen.",
+			"Lad gerne krebsehalesalaten stå 30 min på køl inden servering"
+		],
+		"path": "description",
+		"servings": "4",
+		"preparationtime": {
+			"active": "10",
+			"passive": "30"
+		},
+		"protip": "",
+		"categories": [
+			"frokost"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Bestas berlinerkranse",
+		"teaser": "Lette og luftige småkager toppet med perlesukker.",
+		"image": "berlinerkranse_glas.jpg",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "æggeblommer, kogte"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "æggeblommer, rå"
+			},
+			{
+				"amount": "125",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "smør, blødt"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æggehvide, til pensling"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "perlesukker"
+			}
+		],
+		"steps": [
+			"Kog 2 æg i 8 min. Lad æggene køle af i 5 min.",
+			"Adskil æggehviden og blommen i hver af de to æg. Gnid de kogte æggeblommer ud og pisk dem med de rå til en ensartet masse.",
+			"Bland æg og sukker godt. Tilsæt hvedemel og blødt smør vækselvis. Smørret må ikke være smeltet. Stil dejen på køl natten over.",
+			"Tril tynde pølser og form dine kranse. Pensl kransene og dyp oversiden i perlesukker",
+			"For at få en pæn facon på dine kranse kan du med fordel afkøle dem inden du pensler og kommer perlesukker på. De bliver sævre at arbejde med, hvis der er for varmt i køkkenet.",
+			"Bag kransene ved 175 grader i ca. 10 minutter. Afkøles på en rist."
+		],
+		"path": "description",
+		"servings": "",
+		"preparationtime": {
+			"active": "30",
+			"passive": "1450"
+		},
+		"protip": "Hvis du har svært ved at rulle dejen kan du i stedet vælge at forme den med fingerene. Det kræver lidt arbejde med teknikken, men resultatet bliver lige godt.",
+		"categories": [
+			"bagning",
+			"specielle anledninger"
+		],
+		"additionalImages": [
+			"berlinerkranse_eggs.jpg",
+			"berlinerkranse_dej.jpg",
+			"berlinerkranse_dej_cool.jpg",
+			"berlinerkranse_raw_folded.jpg",
+			"berlinerkranse_sukker_2.jpg",
+			"berlinerkranse_done_closeup.jpg",
+			"berlinerkranse_done.jpg"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Hvid gløgg",
+		"teaser": "Et lettere alternativ til den traditionalle røde, mættende gløgg. ",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "5",
+				"unit": "stk",
+				"ingredient": "kardemomme, kapsler"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "stjerneanis, hele"
+			},
+			{
+				"amount": "5",
+				"unit": "stk",
+				"ingredient": "nelikker, hele"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "kanelstænger"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "ingefær, skiveskåret"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "citronskiver"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "hyldeblomstsaft"
+			},
+			{
+				"amount": "0.75",
+				"unit": "L",
+				"ingredient": "hvidvin (en flaske)"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "vaniljesukker"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "hvid rom"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "mandelflager, pynt"
+			}
+		],
+		"steps": [
+			"Gløggekstrakt",
+			"Kom kardemomme, stjerneanis, nelliker og kanel i en gryde og svits i 1-2 minutter ved høj varme. Man skal kunne mærke, at duftene frigives fra krydderierne. Tilsæt derefter ingefær, citron og hyldelomstsaft.",
+			"Bring blandingen i kog oglad dem koge ved svag varme under låg i ca. 20 min. Lad derefter blandingen trække under låg i 10 minutter.",
+			"Fjern krydderier (ingefør og citronskal) - gem kanel og stjerneanis til pynt.",
+			"Gløgg",
+			"Tilsæt hvidvin og varm gløggen godt igennem uden at den koger. Hvis den begynder at koge fordamper alkoholen -- and who would want that?",
+			"Hæld den værme gløgg i glas og pynt med mandler, kanel og stjerneanis. Serveres med det samme."
+		],
+		"path": "description",
+		"servings": "6",
+		"preparationtime": {
+			"active": "",
+			"passive": ""
+		},
+		"protip": "Gløggekstrakten kan sagtens stilles på køl et paar dage, eller indtil den kan bruges. Varm den blot op med vin og rom.",
+		"categories": [
+			"varme drikke"
+		],
+		"additionalImages": [
+			"hvid_glogg_spices.jpg",
+			"hvid_glogg_ekstrakt.jpg"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
