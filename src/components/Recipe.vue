@@ -17,6 +17,7 @@
 				</b-badge>
 			</b-col>
 		</b-row>
+		<hr>
 		<b-row class="text-md-center">
 			<b-col cols="12" class="mt-2 mb-0">
 				<PreparationsOverview
@@ -28,15 +29,15 @@
 			<b-col cols=12 md="3" order-md="3" lg="3">
 				<div class="sticky-column">
 					<img itemprop="image" v-b-modal.show-image-modal v-if="recipe.image" class="recipe-top-image d-md-none d-lg-block mt-3 opacity-change" :src="getImage()" />
-					<RelatedRecipeList
-						:recipe="recipe"
-						class="d-sm-none d-md-block"
-					/>
-					<TextBox v-if="('protip' in recipe && recipe.protip)" :background="true" class="mt-2">
+					<TextBox v-if="('protip' in recipe && recipe.protip)" :background="true" class="mt-3 mb-4">
 						<template v-slot:body>
 							{{ recipe.protip }}
 						</template>
 					</TextBox>
+					<RelatedRecipeList
+						:recipe="recipe"
+						class="d-sm-none d-md-block"
+					/>
 				</div>
 			</b-col>
 			<b-col cols="12" md="4" order-md="1" lg="3" order-lg="1" class="pt-sm-3">
