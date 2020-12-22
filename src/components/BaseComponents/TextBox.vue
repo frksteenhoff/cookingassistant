@@ -24,6 +24,8 @@ export default class TextBox extends Vue {
 		background-color: #E8E8E8;
 		color: black;
 		padding: 1.5rem;
+		border: 1px #E8E8E8;
+		border-radius: 4px;
 	}
 
 	.pro-tip-box h5 {
