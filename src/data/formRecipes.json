@@ -4242,5 +4242,85 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Hjemmelavet rødkål",
+		"teaser": "Sødlig kål, god til juleretter som and og flæskesteg.",
+		"image": "roedkaal_done.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "kg",
+				"ingredient": "rødkål"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "ribsgele"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "kanelstang"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "laurbærblade"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "honning"
+			}
+		],
+		"steps": [
+			"Snit rødkålen fint.",
+			"Sauter kålen i smør i et par minutter under omrøring indtil det bliver varmt og falder lidt sammen.",
+			"Kom æblecidereddike, laurbærblade, kanelstænger og sukker ved.",
+			"Lad det simre i 25-30 minutter og smag derefter godt til med honning, ribsgele, salt og peber inden servering."
+		],
+		"path": "description",
+		"servings": "6",
+		"preparationtime": {
+			"active": "",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"tilbehør",
+			"specielle anledninger"
+		],
+		"additionalImages": [
+			"roedkaal.jpg",
+			"roedkaal_start.jpgd"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
