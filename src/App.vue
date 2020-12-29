@@ -95,6 +95,7 @@ export default class App extends AppProps {
 @import url("//fonts.googleapis.com/css?family=Permanent+Marker:300,400,600,700&amp;lang=en");
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=en");
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&amp;lang=eng');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&amp;lang=eng');
 
 body {
 	margin: 0;
@@ -188,19 +189,11 @@ p, h1, h2 {
 }
 
 h1 {
-	font-family: "Permanent Marker";
-	background-color: #8FBFB0;
-	color: #ffffff;
-	display: inline;
-	margin: 0.75rem 41px;
-	font-size: 2.75rem !important;
-}
-
-h1.bigger {
+	font-family: "Homemade Apple";
 	background-color: white;
 	color: black;
 	margin: 0;
-	font-size: 3.125rem !important;
+	font-size: 3rem !important;
 }
 
 h2 {

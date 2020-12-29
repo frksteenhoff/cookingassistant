@@ -19,6 +19,7 @@
 			<b-carousel-slide caption="Kanelsnurrer" text="Hvis der er noget der mangler, så sig endelig til" :img-src="require('@/assets/carousel/kanelsnurrer.jpg')"></b-carousel-slide>
 		</b-carousel>
 	<Section
+		class="mt-5"
 		header="Madglæde"
 		:content="welcomList.join('*')"
 	/>

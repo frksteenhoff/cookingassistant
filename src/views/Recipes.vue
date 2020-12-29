@@ -1,8 +1,8 @@
 <template>
-	<b-container class="mt-4">
+	<b-container class="mt-5">
 		<b-row class="mb-3 text-center">
-			<b-col cols="12 mb-4">
-				<h1 class="bigger">- Opskrifter -</h1>
+			<b-col cols="12 mt-3 mb-4">
+				<h1>- Opskrifter -</h1>
 			</b-col>
 			<b-col cols="12">
 				Her kan du finde alle mine opskrifter.
