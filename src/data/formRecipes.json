@@ -4012,7 +4012,7 @@
 	{
 		"name": "Krebsehalesalat",
 		"teaser": "Hjemmelavet krebsehalesalat med creme fraiche, mayonnaise og en lille smule dild",
-		"image": "",
+		"image": "krebsehalesalat.jpg",
 		"ingredients": [
 			{
 				"amount": "2",
@@ -4080,6 +4080,9 @@
 		"protip": "",
 		"categories": [
 			"frokost"
+		],
+		"additionalImages": [
+			"krebsehalesalat_ingredients.jpg"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -4322,5 +4325,111 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Jordskokkesuppe med torsk og syrlige æbler",
+		"teaser": "En fyldig og cremet efterårssuppe med torsk på en seng af syrlige æbler.",
+		"image": "jordskokkesuppe.jpg",
+		"ingredients": [
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "jordskokker, i grove tern"
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "kartofler, i grove tern"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "timian, stængler"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "smør, til sautering"
+			},
+			{
+				"amount": "1",
+				"unit": "L",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "piskefløde"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "muskatnød"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "æbler, tern"
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "torskefillet"
+			}
+		],
+		"steps": [
+			"Suppen",
+			"Skræl og hak jordskokker og kartofler i grove tern. Jeg plejer at fjerne 'de værste pletter' og ellers bruge grønstagerne som de er.",
+			"Sauter løg, kartofler, jordskokker, timian og hvidløg i en gryde med smør i et par minutter.",
+			"Tilsæt derefter vand og kom et låg på. Lad det simre i 25 minutter ved middel varme.",
+			"Tilbehør",
+			"Skær æblerne i små tern. Bland æblecidereddike, honning og citron i en skål og tilsæt æbleternene.",
+			"Steg torsken i smør på en pande i 2-3 minutter med et låg på. Den er færdig når kødet har taget en mere hvid farve og begynder at falde fra hinanden. Pas på at det ikke får for meget.",
+			"Blend suppen med en stavblender og tilsæt fløde. Smag til med muskatnød, salt og peber. Jeg plejer at kunne lide, at suppen er lidt tyk/cremet. Kom lidt ekstra vand i hvis du synes at den skal være tyndere.",
+			"Anretning",
+			"I nogle dye skåle, placér nogle æbletern i en lille bunke og hæld suppe ved til æblerne næsten er dækker. Placér derefter torsken (ca. 50 gram til pr. portion) ovenpå æbleternene og pynt evt. med lidt timian."
+		],
+		"path": "description",
+		"servings": "3",
+		"preparationtime": {
+			"active": "45",
+			"passive": "20"
+		},
+		"protip": "",
+		"categories": [
+			"vegetarisk"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.valdemarsro.dk/jordskokkesuppe/"
 	}
 ]
