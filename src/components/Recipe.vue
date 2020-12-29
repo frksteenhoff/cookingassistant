@@ -55,14 +55,6 @@
 			</b-col>
 		</b-row>
 		<RecipeImages />
-		<b-row class="mb-4">
-			<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
-				<hr>
-				<p class="pl-3 m-0">
-					Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a>
-				</p>
-			</b-col>
-		</b-row>
 		<!-- modal for enlarging image -->
 		<ImageModal
 			id="show-image-modal"
@@ -70,6 +62,14 @@
 		>
 			<b-img :src="getImage()"></b-img>
 		</ImageModal>
+		<b-row class="mb-5">
+			<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
+				<hr>
+				<p class="pl-3 m-0 mb-5">
+					Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a>
+				</p>
+			</b-col>
+		</b-row>
 	</div>
 </template>
 
