@@ -1896,19 +1896,14 @@
 				"ingredient": "citronsaft"
 			},
 			{
-				"amount": "30",
+				"amount": "40",
 				"unit": "g",
-				"ingredient": "brun farin (1)"
+				"ingredient": "brun farin"
 			},
 			{
-				"amount": "12",
-				"unit": "g",
-				"ingredient": "brun farin (2)"
-			},
-			{
-				"amount": "3.8",
-				"unit": "g",
-				"ingredient": "Pectin NH"
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "husblads, blade"
 			},
 			{
 				"amount": "",
@@ -1950,13 +1945,15 @@
 			"Tag ud af ovnen, og tilføj pistaciekrem på bunden og pres to halve hindbær ned i cremen. Pas på ikke at tilføje for meget (der skal også være plads til Namelaka-cremen og hindbærkompottet). Namelakacremen vil hæve en lille smule når den bliver varmet op.",
 			"Bag tærterne i yderligere 10 minutter, og tag det derefter ud af ovnen. Kanterne på tærten skal være gyldenbrune og pistaciekremen skal stadig være blød.",
 			"Hindbærkompot",
-			"Kom hindbær, citronsaft og den større mængde brunt sukker (1) i en gryde og kog på svag varme i ca. 4 minutter.",
-			"Tilsæt den lille mængde brunt sukker (2) godt blandet med NH-pektinet (for at undgå klumper under tilberedningen), kog det, og lad det simre i ca. 10 sekunder, inden det tages af varmen og blandes med en stavblender.",
+			"Læg de 2 blade husblads i vand i 10 minutter",
+			"Kom hindbær, citronsaft og brunt sukker i en gryde og kog på svag varme i ca. 4 minutter.",
+			"Tilsæt husblads under omrøring og rør til husbladsen er opløst.",
 			"Anbring i en bredbundet skål ved at hælde kompottet gennem en si for at filtrere hindbærfrøene og dæk med film før afkøling i køleskabet (ca. 3 timer).",
 			"Samling",
 			"Saml tærteskaller bagt med pistaciekrem. Læg Namelaka cremen i en konditorpose og påfør i en spiral (0,5 cm tyk) Namelaka på pistaciencremen. Fordel det jævnt over hele overfladen. Anbring tærterne 10 minutter i fryseren før næste trin (eller 30 minutter i køleskabet).",
-			"Hæld hindbærkompotten i en skål og løsn den med en piskeris. Kom derefter hindbærkompottet i en pose, og fordel det over Namelaka-cremen og glat med en spatel, der næsten flugter med kanterne af tærten. Anbring i køleskabet i 5 minutter, før hindbærene arrangeres.",
-			"Vask hindbærene, anbrig dem derefter på tærten for at dække hindbærkompottet. Pynt derefter med små pistacienødder."
+			"Hæld hindbærkompotten i en skål og løsn den med en piskeris. Kom derefter hindbærkompottet i en pose, og fordel det over Namelaka-cremen og glat med en spatel så kompottet flugter med kanterne af tærten. Anbring i køleskabet i køleskabe i 3 timer, før hindbærene arrangeres.",
+			"Vask hindbærene, anbrig dem derefter på tærten for at dække hindbærkompottet. Pynt derefter med små pistacienødder.",
+			"Servér med det samme eller hav tærtere stående på køl. De kan sagtens holde sig i 2-3 dage."
 		],
 		"path": "description",
 		"servings": "6 tærter",
