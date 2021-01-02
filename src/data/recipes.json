@@ -1747,8 +1747,8 @@
 	},
 	{
 		"name": "Minitærter med hindbær og pistacie",
-		"teaser": "",
-		"image": "",
+		"teaser": "Namelaka og pistaciecreme toppet med friske hindbær og kompot.",
+		"image": "framboise_done_closeup.jpg",
 		"ingredients": [
 			{
 				"amount": "75",
@@ -1818,7 +1818,7 @@
 			{
 				"amount": "125",
 				"unit": "g",
-				"ingredient": "sukker"
+				"ingredient": "mel"
 			},
 			{
 				"amount": "1",
@@ -1848,7 +1848,7 @@
 			{
 				"amount": "50",
 				"unit": "g",
-				"ingredient": "sukker"
+				"ingredient": "fint sukker"
 			},
 			{
 				"amount": "25",
@@ -1858,7 +1858,7 @@
 			{
 				"amount": "25",
 				"unit": "g",
-				"ingredient": "pistaciekerne, finthakket (blendet)"
+				"ingredient": "pistaciepasta"
 			},
 			{
 				"amount": "1",
@@ -1922,17 +1922,19 @@
 			}
 		],
 		"steps": [
-			"Pistachiebund",
+			"Pistachiepasta",
+			"Denne pistaciepasta bliver mere på pulverform, end en faktisk pasta.",
 			"Bag pistaciekernerne (1) i 15 min ved 150 grader, celcius. ",
 			"Kom de bagte og de rå kerner (2) med flormelis og salt i en blender til det er en lind masse. Sæt til side.",
+			"Husk at denne skal benyttes i to af de individuelle tærtekomponenter nedenunder",
 			"Namelaka-Pistacie",
 			"Kom husbladsen i en skål med vand i ca. 10 min.",
-			"Smelt chokoladen i et vandbad, eller i mikrobølgeovnen. Sæt til side ",
+			"Smelt den hvide chokolade i et vandbad, eller i mikrobølgeovnen. Sæt til side ",
 			"Kog mælken i en gryde. Når den koger, tilsæt da husbladsen og bland derefter for at smelte husbladsen.",
 			"Hæld den varme mælk over den smeltede chokolade og rør for at emulgere blandingen.",
 			"Tilsæt kold fløde og pistaciepasta og bland med en stavblender.",
 			"Hæld i en bredbundet skål og dæk til. Lad det krystallisere i køleskabet i mindst 8 timer inden brug.",
-			"Mandelbund",
+			"Mandelmørdej",
 			"Bland smør, flormelis, mandelmel, og salt i en blender. Tilsæt ægget og bland igen. Stop så snart det hele er homogent.",
 			"På en melet arbejdsflade ælt dejen med håndfladen for at homogenisere dejen.",
 			"Rul dejen ud (ca. 2.5 mm tyk) mellem to ark bagepapir. Anbring dejen på en bageplade. Anbring i fryseren i 20 minutter.",
@@ -1942,10 +1944,11 @@
 			"Bland alle ingredienserne en efter en med en mixer eller spatel. Start med det bløde smør med sukkeret.",
 			"Når blandingen er homogen, tilsættes pistahcen og mandelmel og der blandes igen. Tilsæt derefter ægget og afslut blandingen.",
 			"Overfør til en skål og pak den i kontakt med pistaciekremen med madpapir. Sæt på køl i køleskabet i 1 time.",
-			"Bag tærskallerne blanke i 15 minutter ved 160 ° C.",
-			"Tag tærterne ud af formen. Derefter, med en børste, børst de ydre kanter af tærterne med forgyldningen (æggeblomme/piskefløde). Bag tærterne i yderligere 5 min.",
-			"Tag ud af ovnen, og tilføj pistaciekrem på bunden. Pas på ikke at tilføje for meget (der skal også være plads til Namelaka-cremen og hindbærkompottet). Tilsæt 2 halve hindbær i pistaciecremen.",
-			"Bag i yderligere 10 minutter, og tag det derefter ud af ovnen. Kanterne på tærten skal være gyldenbrune og pistaciekremen skal stadig være blød.",
+			"Bagning",
+			"Tærteskallerne skal bages af flere omgange. Start med at bage dem blanke i 15 minutter ved 160 ° C.",
+			"Tag tærterne ud af formen. Derefter, med en børste, pensl de ydre kanter af tærterne med forgyldningen (æggeblomme/piskefløde). Bag tærterne i yderligere 5 min.",
+			"Tag ud af ovnen, og tilføj pistaciekrem på bunden og pres to halve hindbær ned i cremen. Pas på ikke at tilføje for meget (der skal også være plads til Namelaka-cremen og hindbærkompottet). Namelakacremen vil hæve en lille smule når den bliver varmet op.",
+			"Bag tærterne i yderligere 10 minutter, og tag det derefter ud af ovnen. Kanterne på tærten skal være gyldenbrune og pistaciekremen skal stadig være blød.",
 			"Hindbærkompot",
 			"Kom hindbær, citronsaft og den større mængde brunt sukker (1) i en gryde og kog på svag varme i ca. 4 minutter.",
 			"Tilsæt den lille mængde brunt sukker (2) godt blandet med NH-pektinet (for at undgå klumper under tilberedningen), kog det, og lad det simre i ca. 10 sekunder, inden det tages af varmen og blandes med en stavblender.",
@@ -1963,6 +1966,15 @@
 		},
 		"categories": [
 			"dessert"
+		],
+		"additionalImages": [
+			"framboise_shell_cooked.jpg",
+			"framboise_namelaka.jpg",
+			"framboise_namelaka_cooked.jpg",
+			"framboise_creme.jpg",
+			"framboise_creme_closeup.jpg",
+			"framboise_done.jpg",
+			"framboise_snit_2.jpg"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -2753,6 +2765,76 @@
 		"categories": [
 			"dessert",
 			"snack"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Kransekage",
+		"teaser": "En marcipanbaseret kage pyntet med flormelis og dyppet i chokolade. Til nytår og andre festlige lejligheder",
+		"image": "kransekage.jpg",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "rå marcipan, ca. 50% marcipan"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "rørsukker"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "æggehvide"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "mandelmel"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "flormelis"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "æggehvide, pasteuriserede"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "mørk chokolade"
+			}
+		],
+		"steps": [
+			"Kransekagemasse",
+			"Rør rørsukker og æggehvide sammen. Lad denne masse træke i ca. 1 time for at opløse sukkeret. Ælt derefter massen in i marcipanen til den er ensartet.",
+			"Kransekagemassen kommes i en sprøjtepose og spørjtes derefter ud på en bageplade beklædt med bagepapis i lange kagestykker. Hvis du har lavet kransekagemassen dagen i forvejen og lige har taget den ud af køleskabet kan den være sværere at arbejde med. Fordel i dette tilfælde dejen med hænderne, med lidt vand på, eller lad massen trække i 30-1 time før brug.",
+			"Bagning",
+			"Lad dine kransekagestykker trække i 30 minutter inden du former dem. Form dem herefter og bag den ved 200 grader på varmluft til de er gyldne, ca. 10 minutter.",
+			"Glasur",
+			"Sigt flormelist i en skål og tilsæt derefter æggehvidde under omrøring. Det kan være du skal bruge lidt mere eller mindre ifht. hvad opskriften angiver. Det vigtigste er, at massen virker hård og ikke flydende, da den ellers vil flyde sammen når du benytter den. Kom glasuren i en sprøjtepose og klip et meget lille hul. Pynt derefter som ønsket og servér. ",
+			"Kan holde sig på køl i 3-4 dage."
+		],
+		"path": "description",
+		"servings": "8",
+		"preparationtime": {
+			"active": "20",
+			"passive": "160"
+		},
+		"protip": "",
+		"categories": [
+			"dessert",
+			"specielle anledninger"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
