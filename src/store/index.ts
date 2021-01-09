@@ -52,7 +52,8 @@ export default new Vuex.Store<AppState>({
 			"vegetarisk",
 			"tapas",
 			"forret",
-			"varme drikke"
+			"varme drikke",
+			"salat"
 		],
 		createTags: []
 	},
