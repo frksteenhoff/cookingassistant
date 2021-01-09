@@ -1972,6 +1972,11 @@
 				"ingredient": "vand, koldt"
 			},
 			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
 				"amount": "2",
 				"unit": "spsk",
 				"ingredient": "citronskal, fintrevet"
@@ -2028,7 +2033,7 @@
 			"Skær smørret i mindre stykker og smuldr det i melet.",
 			"Saml dejen med æggeblomme og vand og tryk derefter dejen ud i en tærteform.",
 			"Prik huller i bunden med en gaffel og stil tærteformen tildækket i fryseren i 0.5 time.",
-			"Bag herefter tærtebunden i 20-25 min ved 180 grader i en forvarmet ovn.",
+			"Bag herefter tærtebunden i 25-30 min ved 180 grader i en forvarmet ovn.",
 			"Citronmasse",
 			"Kom citronskal, -saft og vand i en gryde. ",
 			"Tilsæt majsstivelse og pisk blandingen jævn. Pisk herefter sukker og æggeblommer i.",
@@ -4431,5 +4436,214 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://www.valdemarsro.dk/jordskokkesuppe/"
+	},
+	{
+		"name": "Coleslaw med lynsyltede agurker og radiser",
+		"teaser": "Knasende coleslaw som du kender den med et syrligt twist. Brug den som salat eller tilbehør i f.eks en kyllingeburger.",
+		"image": "cucumberslaw.jpg",
+		"ingredients": [
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "agurk, revet på mandolinjern"
+			},
+			{
+				"amount": "6",
+				"unit": "stk",
+				"ingredient": "radiser, revet på mandolinjern"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "spidskål, revet på mandolinjern"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "forårsløg, , finthakket"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "mayo"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt, smag til"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt"
+			}
+		],
+		"steps": [
+			"Sylteagurker",
+			"Riv agurken på et mandolinjern og stil den til side -- gerne i en bredbundet beholder.",
+			"Kom vand, æblecidereddike og sukker i en gryde og bring det i kog. Lad det koge udner omrøring til sukkeret er opløst. Tag derefter blandingen af blusset og hæld det over agurkene. ",
+			"Lad agurkene trække på køkkenbænken i minimum 30 minutter.",
+			"Coleslaw",
+			"Riv radiser, kål og forårsløg og kom disse i en skål. Sørg for at vælge en skål hvor der også er plads til agurkene.",
+			"Når agurkene er klar, fjern lagen og kom derefter de syltede agurker i skålen med de resterende grøntsager. Tilæt mayo og salt og bland godt.",
+			"Servér direkte, eller stil slawen på køl til den skal bruges."
+		],
+		"path": "description",
+		"servings": "4",
+		"preparationtime": {
+			"active": "15",
+			"passive": "30"
+		},
+		"protip": "",
+		"categories": [
+			"salat"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.theoriginaldish.com/2018/02/04/buffalo-blue-cheese-fried-chicken-sliders-with-sweet-pickle-slaw/"
+	},
+	{
+		"name": "Bluecheese burgers med kylling",
+		"teaser": "Friturestegt kylling, agurkeslaw og blåskimmel ost ",
+		"image": "chickenburger.jpg",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "kyllingebryster, i tykke strimler"
+			},
+			{
+				"amount": "4",
+				"unit": "dl",
+				"ingredient": "kernemælk"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "mel"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "rasp"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "paprika"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "oregano"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "hvidløgspulver"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "80",
+				"unit": "g",
+				"ingredient": "blåskimmelost"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "grovkornet sennep"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "mayo"
+			},
+			{
+				"amount": "6",
+				"unit": "stk",
+				"ingredient": "briocheboller"
+			},
+			{
+				"amount": "6",
+				"unit": "dl",
+				"ingredient": "solsikkeolie"
+			}
+		],
+		"steps": [
+			"Lav agurkeslaw som angivet i den opskrift der er linket til i opskriften til højre.",
+			"Marinade",
+			"Skær de to kyllingefilleter i grove stykker (ca. 5 snit på filletens korte side) og kom dem i en bredbundet skål. Tilføj kernemælk så alle kyllingestykkerne er dækket. ",
+			"Stil kyllingen på køl i 3 timer inden brug. Den kan sagtens stå længere, hvis du gerne vil lave det tidligere.",
+			"Panering",
+			"Find to skåle frem. En til æg og en til panering. Kom de tre æg i en af skålene og bland dem godt. I den anden skål, bland mel, rasp og alle krydderier godt.",
+			"Når kyllingen er færdig med at trække, tag alle stykker op af skålen og lad dem dryppe af. Derefter skal alle kyllingestykker først dyppes og i æggeblandingen og derefter dækkes med paneringsmiksen. Dette gentages to gange for alle kyllingestykker.",
+			"Stegning",
+			"Kom olien i en gryde og bring den op til 80 grader. Afhængig af størrelsen af din gryde, kom ca. 3 stykker kylling i olien og steg den i 4-5 minutter. Paneringen udenpå skal gerne tage farve og hvis du skærer kyllingen over skal den se gennemstegt ud, altså ikke rosa, men stadig saftig.",
+			"Tag derefter stykkerne ud, jeg plejer at gøre dette med en hulske, og lad dem hvile på en rist -- evt. med lidt køkkenrulle nedenunder til at samle den overskydende olie der måtte komme med.",
+			"Samling",
+			"Rist eller varm dine briocheboller i en ovn efter anvisningen på pakken.",
+			"Smør den ene af siderne med sennep og den anden med mayonnaise.",
+			"Kom agurkeslaw og kylling på den ene af siderne og skær nogle tynde skiver blåskimmelost og læg ovenpå kyllingen. Saml herefter burgeren og værs'go!"
+		],
+		"path": "description",
+		"servings": "3",
+		"preparationtime": {
+			"active": "30",
+			"passive": "180"
+		},
+		"protip": "",
+		"categories": [
+			"aftensmad"
+		],
+		"additionalImages": [
+			"friedchicken.jpg"
+		],
+		"relatedrecipes": [
+			"Coleslaw med lynsyltede agurker og radiser"
+		],
+		"inspirationlink": ""
 	}
 ]
