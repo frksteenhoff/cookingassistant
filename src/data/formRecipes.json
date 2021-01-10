@@ -1939,7 +1939,7 @@
 	{
 		"name": "Lemon meringue pie",
 		"teaser": "Syrlig citrontærte med marengs",
-		"image": "lemon_meringue_pie.jpg",
+		"image": "lemon_meringue_pie_cut.jpg",
 		"ingredients": [
 			{
 				"amount": "225",
@@ -2051,6 +2051,11 @@
 			"active": "30",
 			"passive": "40"
 		},
+		"additionalImages": [
+			"lemon_meringue_pie.jpg",
+			"lemon_meringue_pie_filling.jpg",
+			"lemon_meringue_pie_filling_closeup.jpg"
+		],
 		"categories": [
 			"dessert",
 			"specielle anledninger"
@@ -4644,6 +4649,124 @@
 		"relatedrecipes": [
 			"Coleslaw med lynsyltede agurker og radiser"
 		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Æbletærte med mandelremonce",
+		"teaser": "En klassisk æbletærte med mandelremonce",
+		"image": "apple_pie_baked_closeup.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "vaniljestang"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "smør, blødt"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "flormelis"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "mandelmel"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "rørsukker"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1.5",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "æbler, revet på mandolinjern"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "rørsukker"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "kanel,stødt"
+			},
+			{
+				"amount": "1",
+				"unit": "dåse(r)",
+				"ingredient": "creme fraiche"
+			}
+		],
+		"steps": [
+			"Mørdej",
+			"Flæk vaniljestangen og fjern vaniljekornene nænsomt.. Bland disse med smør, flormelis og salt og hvedemel lidt efter lidt. Rør til sidst ægget i for at samle dejen..Kom den på køl i 15 minutter. Den kan sagtens være på køl i længere tid, så skal den bare tages ud lidt tid inden den skal benyttes for ikke at være for hård at arbejde med,",
+			"Rul dejen ud på et meldrysset bord og og beklæd en tærteform med den. Fjern overskydende dej.",
+			"Remonce", 
+			"Bland det bløde smør med rørsukker og tilsæt mandelmelet. Tilsæt æg og rør blandingen til en ensartet masse.",
+			"Fordel remoncen ovenpå tærtebunden.",
+			"Tænd ovnen på 180 grader",
+			"Skær dine æbler i to og fjern kernehus og kerner. Riv æblerne på mandolinjern og arranger dem på tærten. Jeg plejer at \"fane\" skiverne ud ovenpå hinanden i et tyndt lag og trykke dem lidt ned i remoncen.",
+			"Bag tærten i ca. 30 minutter, til den er blevet gylden.",
+			"Servering",
+			"Servér tærten mens den stadig er lun med lidt creme fraiche."
+		],
+		"path": "description",
+		"servings": "8",
+		"preparationtime": {
+			"active": "20",
+			"passive": "30"
+		},
+		"protip": "",
+		"categories": [
+			"dessert",
+			"bagning"
+		],
+		"additionalImages": [
+			"apple_pie.jpg",
+			"apple_pie_sugar_cinnamon.jpg",
+			"apple_pie_baked.jpg"
+		],
+		"relatedrecipes": [],
 		"inspirationlink": ""
 	}
 ]
