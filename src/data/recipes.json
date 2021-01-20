@@ -367,45 +367,76 @@
 		"name": "Tomatsauce",
 		"ingredients": [
 			{
-				"amount": "3",
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "smør"
+			},			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "olivenolie"
+			},			{
+				"amount": "8",
 				"unit": "fed",
 				"ingredient": "hvidl\u00f8g"
 			},
 			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "laurbærblad"
+				"amount": "3",
+				"unit": "stilk(e)",
+				"ingredient": "basilikum, frisk"
 			},
 			{
-				"amount": "0.5",
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "gulerødder, skåret i to"
+			},			
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, skåret halvt over"
+			},
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "tomater, groft hakkede"
+			},
+			{
+				"amount": "2",
+				"unit": "dåse(r)",
+				"ingredient": "hakkede tomater"
+			},
+			{
+				"amount": "1",
 				"unit": "tsk",
 				"ingredient": "peber"
 			},
 			{
 				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "olivenolie"
-			},
-			{
-				"amount": "1",
-				"unit": "d\u00e5se",
-				"ingredient": "hakkede tomater"
+				"unit": "tsk",
+				"ingredient": "salt"
 			}
 		],
-		"image": "tomatsauce.jpg",
+		"image": "tomatsauce_new.jpg",
 		"inspirationlink": "",
 		"teaser": "En lækker tomatsauce til pastaretter.",
 		"steps": [
-			"Hak hvidløg fint",
-			"Bland alle ingredienser og varm dem op i en gryde.",
-			"Lad saucen simre i mindst 30 minutter. Jo l\u00e6ngere den st\u00e5r jo mere frmetr\u00e6dende bliver tomatsmagen."
+			"Hak hvidløg fint.",
+			"Kom smør og olivenolie i en gryde ved middel varme. Når smørret er smeltet (ikke brunet) kom da hvidløg ved og svits det let.",
+			"Hak tomater og skær gulerødder og løg i to. Kom grøntsagerne, samt frisk basilikum i gryden og læg låg på. Lad retten koge ind i 2-3 timer ved lav varme, under jævnlig omrøring.",
+			"Inden servering, fjern gulerod og løg og smag til med salt og peber.",
+			"Servér som sauce til pasta, eller sammen med sicilienske kødboller."
+
 		],
-		"servings": "2 personer",
+		"servings": "4 personer",
 		"path": "description",
-		"relatedrecipes": [],
+		"relatedrecipes": [
+			"sicilienske kødboller"
+		],
+		"additionalImages": [
+			"tomatsauce_new_in_dutch_oven.jpg"
+		],
 		"categories": [
 			"aftensmad",
-			" frokost"
+			"frokost"
 		]
 	},
 	{
