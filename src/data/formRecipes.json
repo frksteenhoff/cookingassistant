@@ -218,7 +218,7 @@
 		],
 		"servings_w_type": {
 			"servings": 8,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"categories": [
 			"marinade",
@@ -1017,7 +1017,7 @@
 		],
 		"servings_w_type": {
 			"servings": 3,
-			"type": "personer"
+			"type": "person(er)"
 		},	
 		"categories": [
 			"aftensmad"
@@ -1077,7 +1077,7 @@
 		],
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"categories": [
 			"sause"
@@ -1154,7 +1154,7 @@
 		],
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"categories": [
 			"aftensmad",
@@ -1427,7 +1427,7 @@
 		],
 		"servings_w_type": {
 			"servings": 10,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"categories": [
 			"tilbehør",
@@ -1579,7 +1579,7 @@
 		],
 		"servings_w_type": {
 			"servings": 3,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"categories": [
 			"aftensmad"
@@ -2123,7 +2123,7 @@
 		"relatedrecipes": [],
 		"servings_w_type": {
 			"servings": 8,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "30",
@@ -2212,7 +2212,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "20",
@@ -2495,7 +2495,7 @@
 		"inspirationlink": "https://dinnerthendessert.com/indian-chicken-korma/",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "40",
@@ -2592,7 +2592,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "30",
@@ -2803,7 +2803,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 6,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "15",
@@ -2954,7 +2954,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "15",
@@ -3060,7 +3060,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 3,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "25",
@@ -3179,7 +3179,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "15",
@@ -3304,7 +3304,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 6,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "35",
@@ -3470,7 +3470,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 3,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "15",
@@ -3614,7 +3614,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "15",
@@ -3809,7 +3809,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "20",
@@ -3893,7 +3893,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "20",
@@ -4038,7 +4038,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 10,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "30",
@@ -4225,7 +4225,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "10",
@@ -4386,7 +4386,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 6,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "",
@@ -4468,7 +4468,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings":10,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "",
@@ -4582,7 +4582,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 3,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "45",
@@ -4669,7 +4669,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 4,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "15",
@@ -4912,7 +4912,7 @@
 		"path": "description",
 		"servings_w_type": {
 			"servings": 8,
-			"type": "personer"
+			"type": "person(er)"
 		},
 		"preparationtime": {
 			"active": "20",

@@ -47,7 +47,10 @@
 			"Kom lidt olie på en pande og steg dine dumplings ved høj varme på én side. Når de er blevet gyldne og har fået lidt skorpe, tilsæt da vand, kom et låg på panden, skru ned på medium varme og lad dine dumplings dampe i 4-5 minutter.",
 			"Server f.eks. med chili olie eller Gyoza dipping sauce."
 		],
-		"servings": "30 dumplings",
+		"servings_w_type": {
+			"servings": 30,
+			"type": "stk"
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"dumpling fars",
@@ -118,7 +121,10 @@
 			"active": "20",
 			"passive": "320"
 		},
-		"servings": "4 br\u00f8d",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "stk"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -165,7 +171,10 @@
 			"Tilføj tomatsauce og det fyld du ønsker (champignon og chorizo eller mosarella og parmaskinke fungerer rigtig godt).",
 			"Bag ved 200 grader i 10-12 minutter --  til skorpen er gylden og osten let brændt."
 		],
-		"servings": "2 pizzadeje",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "stk"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -205,7 +214,10 @@
 			"L\u00e6g en tortilla p\u00e5 panden og vend den efter 10 sekunder. Lad den derefter f\u00e5 1-2 minutter \u00e5 hver siden til sm\u00e5 sorte pletter former sig p\u00e5 den side, der er vendt mod panden.",
 			"Server med det samme."
 		],
-		"servings": "20 tortillas",
+		"servings_w_type": {
+			"servings": 20,
+			"type": "stk"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -252,7 +264,10 @@
 			"Bag ved 190 grader i 1.5-2 timer",
 			"Lad br\u00f8dene afk\u00f8le p\u00e5 rist"
 		],
-		"servings": "2 rugbr\u00f8d",
+		"servings_w_type": {
+			"servings": 2,
+			"type": "stk"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -311,7 +326,10 @@
 			"Bag bollerne ved 200 grader i 15-20 min.",
 			"Lad dem hvile p\u00e5 en rist."
 		],
-		"servings": "8-10 boller",
+		"servings_w_type": {
+			"servings":8,
+			"type": "stk"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -426,7 +444,10 @@
 			"Servér som sauce til pasta, eller sammen med sicilienske kødboller."
 
 		],
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "person(er)"
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"sicilienske kødboller"
@@ -485,7 +506,10 @@
 			"Hak ingefær fint",
 			"Bland ingredienserne og lad dressingen st\u00e5 i 10-15 min inden brug"
 		],
-		"servings": "ca. 200 ml",
+		"servings_w_type": {
+			"servings": 2,
+			"type": "dl"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -529,7 +553,10 @@
 			"Tilføj alle ingredienser i en blender og blend til massen er ensartet",
 			"Brug som spread på brød, eller som sauce til en pastaret"
 		],
-		"servings": "3-4 dl",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "dl"
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"hjemmelavet pasta"
@@ -611,7 +638,10 @@
 			"Plac\u00e9r alle k\u00f8dbollerne p\u00e5 en bageplade og bag dem ved 180 grader til de er brunede.",
 			"Server gerne med en tomatsauce og hjemmellavet pasta eller som de er."
 		],
-		"servings": "25 k\u00f8dboller",
+		"servings_w_type": {
+			"servings": 25,
+			"type": "stk"
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"hjemmelavet pasta",
@@ -662,7 +692,10 @@
 			"Brug en kniv til at sk\u00e6re pastastrimlerne ud.",
 			"Kog pastaen i 3-4 minutter, eller smag dig til, at den har f\u00e5et den konsistens du kan lide."
 		],
-		"servings": "5 personer",
+		"servings_w_type": {
+			"servings": 5,
+			"type": "person(er)"
+		},
 		"path": "description",
 		"relatedrecipes": [
 			"ramsløgspesto",
@@ -822,7 +855,10 @@
 			"Smelt chokoladen og pensl tærten. Stil herefter tærten på køl, så chokoladen kan sætte sig.",
 			"Smør vanillecremen jævn ud over tærten og pynt den med hele eller halve jordbær."
 		],
-		"servings": "8 personer",
+		"servings_w_type": {
+			"servings": 8,
+			"type": "person(er)"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -924,7 +960,10 @@
 			"Lad snurrene efterhæve i 20 min mens ovnen varmes op til 200 grader",
 			"Bag snurrene i 15 minutter."
 		],
-		"servings": "12 stk",
+		"servings_w_type": {
+			"servings": 12,
+			"type": "stk"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -986,7 +1025,10 @@
 		"steps": [
 			""
 		],
-		"servings": "20 stk",
+		"servings_w_type": {
+			"servings": 20,
+			"type": "stk"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -1064,7 +1106,10 @@
 			"Fordel frangipane på mørdejsbunden og drys alle blåbærene over (tryk dem lidt ned i cremen).",
 			"Bag tærten i en forvarmet ovn ved 175 grader varmludt i ca. 30 minutter."
 		],
-		"servings": "6-8 personer",
+		"servings_w_type": {
+			"servings": 8,
+			"type": "person(er)"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"preparationtime": {
@@ -1165,7 +1210,10 @@
 			"Vend forsigtigt resten  af pur\u00e9en i fl\u00f8deostecremen - bland det ikke helt, men lad det v\u00e6re marmoreret.",
 			"Fordel cremen ovenp\u00e5 kiksebunden brug den sidste del hindb\u00e6rpur\u00e9e til at dekorere toppen af cheesecaken. D\u00e6k cheesecaken med film og lad den st\u00e5 til dagen efter. Pynt kagen med hindb\u00e6r inden servering."
 		],
-		"servings": "1 cheesecake",
+		"servings_w_type": {
+			"servings": 1,
+			"type": "kage"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"additionalImages": [
@@ -1241,7 +1289,10 @@
 			"Lav huller i dejen med dine fingre og fordel fyldet ud over kagen.",
 			"Bag brunsvigeren i 25 min. ved 180 grader varmluft."
 		],
-		"servings": "1 brunsviger",
+		"servings_w_type": {
+			"servings": 1,
+			"type": "kage(r)"
+		},
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -1315,7 +1366,10 @@
 			"Tils\u00e6t sm\u00f8r og steg vaflerne.",
 			"Jeg serverer mine vafler med brunost (myseost), syltetøj og en lille klat creme fraiche -- på ægte norsk manér. Det lyder måske lidt underligt, men prøv det. Det er en perfekt kombination."
 		],
-		"servings": "12 stk",
+		"servings_w_type": {
+			"servings": 12,
+			"type": "stk"
+		},
 		"path": "description",
 		"additionalImages": [
 			"vafler_zoom.jpg",
@@ -1385,7 +1439,10 @@
 			"Læs mere om, hvordan farsen anvendes til dumplings (gyoza) under Dumpling wrappers."
 		],
 		"path": "description",
-		"servings": "1kg",
+		"servings_w_type": {
+			"servings": 1.2,
+			"type": "kg"
+		},
 		"preparationtime": {
 			"active": "10",
 			"passive": ""
@@ -1469,7 +1526,10 @@
 			"Hæld lidt olivenolie over den færdige masse og stil på køl, eller servér direkte."
 		],
 		"path": "description",
-		"servings": "5 personer",
+		"servings_w_type": {
+			"servings": 5,
+			"type": "person(er)"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": ""
@@ -1568,7 +1628,10 @@
 			"Top gerne med ristede græskarkerner og creme fraiche."
 		],
 		"path": "description",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "person(er)"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "30"
@@ -1627,7 +1690,10 @@
 			"Bag i ca. 22 min."
 		],
 		"path": "description",
-		"servings": "5 personer",
+		"servings_w_type": {
+			"servings": 5,
+			"type": "person(er)"
+		},
 		"preparationtime": {
 			"active": "150",
 			"passive": "1440"
@@ -1768,7 +1834,10 @@
 			"Serveres f.eks. med rodfruget og en sovs."
 		],
 		"path": "description",
-		"servings": "3",
+		"servings_w_type": {
+			"servings": 3,
+			"type": "person(er)"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "50"
@@ -1988,7 +2057,10 @@
 			"Servér med det samme eller hav tærtere stående på køl. De kan sagtens holde sig i 2-3 dage."
 		],
 		"path": "description",
-		"servings": "6 tærter",
+		"servings_w_type": {
+			"servings": 6,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "150",
 			"passive": "1440"
@@ -2096,7 +2168,10 @@
 			"Top evt. med hakkede mandler, pistacie eller pekannødder."
 		],
 		"path": "description",
-		"servings": "16 stk",
+		"servings_w_type": {
+			"servings": 16,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "20",
 			"passive": "20"
@@ -2169,7 +2244,10 @@
 			"Skal helst stå i 3 timer inden brug"
 		],
 		"path": "description",
-		"servings": "2dl",
+		"servings_w_type": {
+			"servings": 2,
+			"type": "dl"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": "180"
@@ -2260,7 +2338,10 @@
 			"Fordel bærene på toppen og drys derefter med den mørke finthakkede, eller revede chokolade. Servér med det samme. Opbevar rester i køleskabet."
 		],
 		"path": "description",
-		"servings": "10 personer",
+		"servings_w_type": {
+			"servings": 10,
+			"type": "person(er)"
+		},
 		"preparationtime": {
 			"active": "20",
 			"passive": "120"
@@ -2369,7 +2450,10 @@
 			"Hvis du vil give tærten ildt ekstra indhold kan du vælge en af de to varianter tilføjet i opskrfiten eller finde inspiration i billederne nedenunder."
 		],
 		"path": "description",
-		"servings": "4",
+		"servings_w_type": {
+			"servings": 3,
+			"type": "person(er)"
+		},
 		"additionalImages": [
 			"porre_basic.jpg",
 			"porre_groent.jpg",
@@ -2444,7 +2528,10 @@
 			"Smag til med salt og server direkte."
 		],
 		"path": "description",
-		"servings": "5",
+		"servings_w_type": {
+			"servings": 5,
+			"type": "person(er)"
+		},
 		"preparationtime": {
 			"active": "20",
 			"passive": "30"
@@ -2480,12 +2567,15 @@
 			}
 		],
 		"steps": [
-			"Skær enden af blomkålsstilkene og skær dem i mindre stykker. Rens og skær champignon i skiver og del evt. meget store kantareller i to.",
+			"Skær enden af gørnkålsstilkene og skær dem i mindre stykker. Rens og skær champignon i skiver og del evt. meget store kantareller i to.",
 			"Varm en pande op på høj varme og tilføj olie (evt. også hvidløg for lidt smag) og vend kål og svampe på panden. Steg dem i ca. 5 minutter, til vandet er dampet af svampene og kålen begynder at falde sammen.",
 			"Smag til med salt og peber og server direkte."
 		],
 		"path": "description",
-		"servings": "5",
+		"servings_w_type": {
+			"servings": 5,
+			"type": "person(er)"
+		},
 		"preparationtime": {
 			"active": "10",
 			"passive": "5"
@@ -2575,7 +2665,10 @@
 			"Bag nu linserne ved 180 grader, til de er gyldne. Tjek på den efter 10-12 minutter -- giv dem lidt mere hvis de mangler farve."
 		],
 		"path": "description",
-		"servings": "8",
+		"servings_w_type": {
+			"servings": 8,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "110"
@@ -2659,7 +2752,10 @@
 			"Bag dine cookies i ovnen ved 175 grader i 12-15 minutter. Hvor længe de skal have kommer an på, om de skal være bløde (tættere på de 12 min), eller hårde (omkring 15 min). Sæt dem til at køle af på en rist, når de er færdige."
 		],
 		"path": "description",
-		"servings": "",
+		"servings_w_type": {
+			"servings": 16,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "10",
 			"passive": "15"
@@ -2714,7 +2810,10 @@
 			"Når det er tid til servering, drys da et tyndt, ensartet lag sukker over hver enkelt skål og kramelliser det med en brænder. Serveres direkte."
 		],
 		"path": "description",
-		"servings": "6",
+		"servings_w_type": {
+			"servings": 6,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "80"
@@ -2785,7 +2884,10 @@
 			"Bag i ca. 30 minutter og lad den derefter hvile i 15 minutter."
 		],
 		"path": "description",
-		"servings": "",
+		"servings_w_type": {
+			"servings": 6,
+			"type": "person(er)"
+		},
 		"preparationtime": {
 			"active": "25",
 			"passive": "30"
@@ -2857,7 +2959,10 @@
 			"Kan holde sig på køl i 3-4 dage."
 		],
 		"path": "description",
-		"servings": "8",
+		"servings_w_type": {
+			"servings": 20,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "20",
 			"passive": "160"
