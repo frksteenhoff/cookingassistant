@@ -58,12 +58,13 @@ export default new Vuex.Store<AppState>({
 			"salat"
 		],
 		servingsType: [
-			"personer",
-			"portioner",
+			"person(er)",
+			"portion(er)",
 			"stk",
-			"boller",
+			"kage(r)",
 			"L",
-			"dl"
+			"dl",
+			"kg"
 		],
 		createTags: []
 	},
