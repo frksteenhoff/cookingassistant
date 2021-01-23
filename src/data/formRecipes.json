@@ -216,7 +216,10 @@
 			"Bland creme fraiche, mayo sukker og salt og hæld det over coleslawen.",
 			"Lad blandingen stå på køl i 1 time inden servering."
 		],
-		"servings": "8 personer",
+		"servings_w_type": {
+			"servings": 8,
+			"type": "personer"
+		},
 		"categories": [
 			"marinade",
 			"aftensmad"
@@ -293,7 +296,10 @@
 			"Hæld blandingen i forme og bag i ca. 15-17 minutter -- til de er gyldne.",
 			"Server alene eller med vanilleis"
 		],
-		"servings": "12 stk",
+		"servings_w_type": {
+			"servings": 12,
+			"type": "stk"
+		},
 		"categories": [
 			"dessert",
 			"specielle anledninger"
@@ -339,7 +345,10 @@
 		"steps": [
 			"Bland alle ingredienser og spis som dip eller toppings til tacos, sushi, rå fisk eller lignende."
 		],
-		"servings": "2 dl",
+		"servings_w_type": {
+			"servings": 2,
+			"type": "dl"
+		},
 		"categories": [
 			"dip"
 		],
@@ -399,7 +408,10 @@
 			"Pres saften af limen og bland alle ingredienser i en lille skål",
 			"Lad stå 15 min inden brug."
 		],
-		"servings": "2 dl",
+		"servings_w_type": {
+			"servings": 2,
+			"type": "dl"
+		},
 		"categories": [
 			"dip"
 		],
@@ -453,7 +465,10 @@
 			"Hak skalotteløg fint",
 			"Bland alle ingredienser og lad stå minimum 15 min inden brug."
 		],
-		"servings": "2dl",
+		"servings_w_type": {
+			"servings": 2,
+			"type": "dl"
+		},
 		"categories": [
 			"dressing"
 		],
@@ -501,7 +516,10 @@
 			"Køl siruppen ned til den er helt kold. Bland herfter vodka i og opbevar på køl.",
 			"Brug f.eks. til en espresso martini (tilføj lidt vand, shake or servér med et par kaffebønner) eller i en white russian -- bare tilsæt mælk."
 		],
-		"servings": "1-1.5L kahlua",
+		"servings_w_type": {
+			"servings": 1.5,
+			"type": "L"
+		},
 		"categories": [
 			"drink",
 			"dessert"
@@ -557,7 +575,10 @@
 			"Når alle rødløg er kogte, lad da eddikeblandingen koge et par minutter for sig og hæld derefter lagen i dit sylteglas sammen med rødløgene.",
 			"Lad det hele køle af på køkkenbordet og opbevar derefter i køleskabet."
 		],
-		"servings": "1 stort sylteglas",
+		"servings_w_type": {
+			"servings": 1,
+			"type": "L"
+		},
 		"categories": [
 			"tilbehør"
 		],
@@ -619,7 +640,10 @@
 			"Hak hvidløg fint og bland med resterende ingredienser",
 			"Lad mariaden trække 15 minutter før den påføres kødet."
 		],
-		"servings": "5 dl",
+		"servings_w_type": {
+			"servings": 5,
+			"type": "dl"
+		},
 		"categories": [
 			"marinade"
 		],
@@ -692,7 +716,10 @@
 			"Tilføj hvidløgene til blandingen og smag til med salt, peber og chili.",
 			"Lad marinaden trække 15 minutter inden brug"
 		],
-		"servings": "3-4 dl",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "dl"
+		},		
 		"categories": [
 			"marinade"
 		],
@@ -769,7 +796,10 @@
 			"Kom alle ingredienser i en blender og blend indtil du får en ensartet puré.",
 			"Brug med det samme,  eller opbevar i en lukket beholder i køleskabet."
 		],
-		"servings": "4 dl",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "dl"
+		},		
 		"categories": [
 			"sauce"
 		],
@@ -876,7 +906,10 @@
 			"Smag til med salt og peber.",
 			"Steg gyldne/til de har fået en god skorpe på begge sider."
 		],
-		"servings": "30 deller",
+		"servings_w_type": {
+			"servings": 30,
+			"type": "stk"
+		},
 		"categories": [
 			"aftensmad",
 			"tilbehør"
@@ -982,7 +1015,10 @@
 			"Skru derefter op for varmen og tilsæt peberfrugtstrimlerne og fløde og lad stå på varmen i 2-3 min. Smag til med salt og peber.",
 			"Server med ris og evt. frisk basilikum."
 		],
-		"servings": "3 personer",
+		"servings_w_type": {
+			"servings": 3,
+			"type": "personer"
+		},	
 		"categories": [
 			"aftensmad"
 		],
@@ -1039,7 +1075,10 @@
 			"Pres saften af limen og bland alle ingredienser i en lille skål",
 			"Lad salsaen stå på køl i 30 min inden brug. Smag til med lime"
 		],
-		"servings": "3-4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"categories": [
 			"sause"
 		],
@@ -1113,7 +1152,10 @@
 			"Hæld blandingen ud over det revede kylling.",
 			"Server f.eks. til madpandekager eller tacos."
 		],
-		"servings": "3-4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"categories": [
 			"aftensmad",
 			"tilbehør",
@@ -1177,7 +1219,10 @@
 			"Tilføj sovsekulør til det ser godt ud",
 			"Smag til med salt."
 		],
-		"servings": "3 dl",
+		"servings_w_type": {
+			"servings": 3,
+			"type": "dl"
+		},
 		"categories": [
 			"tilbehør"
 		],
@@ -1229,7 +1274,10 @@
 			"Smag til med salt. Drys evt. med kokos",
 			"Lad kuglerne køle af i minimum 1 time inden servering."
 		],
-		"servings": "20 kugler",
+		"servings_w_type": {
+			"servings": 20,
+			"type": "stk"
+		},
 		"categories": [
 			"dessert",
 			"snack"
@@ -1302,7 +1350,10 @@
 			"Når peberfrugterne begynder at blive bløde tilsættes alle krydderier og lime, som steges godt af.",
 			"Serveres som tilbehør til tacoes sammen med creme fraiche, lime, koriander, oliven, ost, løg, tomat, salsa og avocado"
 		],
-		"servings": "fyld til 10 tacos",
+		"servings_w_type": {
+			"servings": 10,
+			"type": "stk"
+		},
 		"categories": [
 			"aftensmad"
 		],
@@ -1374,7 +1425,10 @@
 			"Hæld blandingen over de kolde kartofler og opbevar kartoffelsalaten på køl inden de skal bruges.",
 			"Kartoffelsalaten er bedst hvis den har fået minimum 2-3 timer på køl inden servering."
 		],
-		"servings": "10 personer",
+		"servings_w_type": {
+			"servings": 10,
+			"type": "personer"
+		},
 		"categories": [
 			"tilbehør",
 			"dressing"
@@ -1428,7 +1482,10 @@
 			"Steg evt. lidt bacon og bland i pandekagen dejen",
 			"Steg pandekagerne og server med det samme."
 		],
-		"servings": "8-10 pandekager",
+		"servings_w_type": {
+			"servings": 10,
+			"type": "stk"
+		},
 		"categories": [
 			"aftensmad"
 		],
@@ -1520,7 +1577,10 @@
 			"Lad retten stå på lavt blus i 1 time med hyppig omrøring, så linserne ikke brænder fast",
 			"Server med creme fraiche, lime og koriander."
 		],
-		"servings": "3 personer",
+		"servings_w_type": {
+			"servings": 3,
+			"type": "personer"
+		},
 		"categories": [
 			"aftensmad"
 		],
@@ -1615,7 +1675,10 @@
 			"Varm olien op og steg falaflerne til de begynder at tage farve.",
 			"Server med tortillas og grønt, som en variation til pitabrød."
 		],
-		"servings": "20-30 falafler",
+		"servings_w_type": {
+			"servings": 25,
+			"type": "stk"
+		},
 		"categories": [
 			"aftensmad"
 		],
@@ -1697,7 +1760,10 @@
 			"Hak og smelt chokolade og smør",
 			"Når chokoladen er helt opløst overtrækkes den afkølede kage med chokoladen og kagen sættes igen på køl i minimum 30 min."
 		],
-		"servings": "1 kage",
+		"servings_w_type": {
+			"servings": 1,
+			"type": "stk"
+		},
 		"categories": [
 			"snack",
 			"bagning"
@@ -1773,7 +1839,10 @@
 			"Bag i 15 min ved 200 grader varmluft.",
 			"Super lækkert med gulerod/rødbede bøffer, aioli og hummus som spread, syltede rødløg, blandet salat"
 		],
-		"servings": "10-12 boller",
+		"servings_w_type": {
+			"servings": 12,
+			"type": "stk"
+		},
 		"categories": [
 			"tilbehør",
 			"bagning"
@@ -1840,7 +1909,10 @@
 		],
 		"path": "description",
 		"relatedrecipes": [],
-		"servings": "1.5 dl",
+		"servings_w_type": {
+			"servings": 1.5,
+			"type": "dl"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": ""
@@ -1925,7 +1997,10 @@
 			"misomayo",
 			"Gyoza dipping sauce"
 		],
-		"servings": "18 boller",
+		"servings_w_type": {
+			"servings": 18,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "1440"
@@ -2046,7 +2121,10 @@
 		],
 		"path": "description",
 		"relatedrecipes": [],
-		"servings": "8 personer",
+		"servings_w_type": {
+			"servings": 8,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "40"
@@ -2125,14 +2203,17 @@
 		],
 		"steps": [
 			"Råcreme",
-			"Pisk vanille, æggeblommer og sukker til en lluftig æggesnaps.",
+			"Pisk vanille, æggeblommer og sukker til en luftig æggesnaps.",
 			"Pisk fløden til flødeskum og vend den sammen med æggeblandingen.",
 			"Frugtsalat",
-			"Rens og skær alle frugter i munrette stykker og server med råcreme og et drys finthakket chokolade.",
+			"Rens og skær alle frugter i mundrette stykker og server med råcreme og et drys finthakket chokolade.",
 			"Frugtsalaten kan sagtens opbevares på køl inden servering og et par dage efter."
 		],
 		"path": "description",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "20",
 			"passive": ""
@@ -2240,7 +2321,10 @@
 			"Server gerne med sursødsauce eller spicy chili dip."
 		],
 		"path": "description",
-		"servings": "30 stk",
+		"servings_w_type": {
+			"servings": 30,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "45",
 			"passive": ""
@@ -2409,7 +2493,10 @@
 			"Naan brød"
 		],
 		"inspirationlink": "https://dinnerthendessert.com/indian-chicken-korma/",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "40",
 			"passive": "120"
@@ -2503,7 +2590,10 @@
 			"Servér med ris og naan. Pynt med lime og koriander"
 		],
 		"path": "description",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "15"
@@ -2588,7 +2678,10 @@
 			"Serves med det samme."
 		],
 		"path": "description",
-		"servings": "6 store brød",
+		"servings_w_type": {
+			"servings": 6,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "60"
@@ -2708,7 +2801,10 @@
 			"Server med ris og pynt med koriander."
 		],
 		"path": "description",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 6,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": "30"
@@ -2773,7 +2869,10 @@
 			"Bland alle ingredienser i en skål og lad dem stå i 1 time inden brug."
 		],
 		"path": "description",
-		"servings": "",
+		"servings_w_type": {
+			"servings": 3,
+			"type": "dl"
+		},
 		"preparationtime": {
 			"active": "10",
 			"passive": "60"
@@ -2853,7 +2952,10 @@
 			"Lav alle ruller klar på forhånd, eller lad dine gæster lave deres egne ved bordet."
 		],
 		"path": "description",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": "15"
@@ -2956,7 +3058,10 @@
 			"Sluk nu for panden og lad kyllingen hvile i minimum 5 minutter. Drys sesam og finthakket forårsløg over og server med ris."
 		],
 		"path": "description",
-		"servings": "3 personer",
+		"servings_w_type": {
+			"servings": 3,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "25",
 			"passive": ""
@@ -3072,7 +3177,10 @@
 			"Lad tartaren stå på køl 1 time eller 2."
 		],
 		"path": "description",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": "120"
@@ -3194,7 +3302,10 @@
 			"Server med ris."
 		],
 		"path": "description",
-		"servings": "6-8 personer",
+		"servings_w_type": {
+			"servings": 6,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "35",
 			"passive": "30"
@@ -3257,7 +3368,10 @@
 			"Lad bollerne køle på en rist. Server mens de er lune."
 		],
 		"path": "description",
-		"servings": "12 stk",
+		"servings_w_type": {
+			"servings": 12,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "20",
 			"passive": "1440"
@@ -3354,7 +3468,10 @@
 			"Fungerer også rigtig godt med svampe."
 		],
 		"path": "description",
-		"servings": "2-3 personer",
+		"servings_w_type": {
+			"servings": 3,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": "30"
@@ -3495,7 +3612,10 @@
 			"Hvis du vil kræse lidt ekstra for hønsesalaten kan du med fordel lave kyllingen i sous vide."
 		],
 		"path": "description",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": "60"
@@ -3546,7 +3666,10 @@
 			"Bag ved 225 grader i 15 minutter"
 		],
 		"path": "description",
-		"servings": "12 stk",
+		"servings_w_type": {
+			"servings": 12,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": "1440"
@@ -3604,7 +3727,10 @@
 			"Bag i ca. 20 minutter, eller indtil gyldne. Servér med f.eks. avocado, serrano og æg eller lignende."
 		],
 		"path": "description",
-		"servings": "8 stykker",
+		"servings_w_type": {
+			"servings": 8,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "10",
 			"passive": "20"
@@ -3681,7 +3807,10 @@
 			"Smag til med salt og peber. Pynt med persille og parmesan"
 		],
 		"path": "description",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "20",
 			"passive": "20"
@@ -3762,7 +3891,10 @@
 			""
 		],
 		"path": "description",
-		"servings": "4 personer",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "20",
 			"passive": "20"
@@ -3904,7 +4036,10 @@
 			"Smag til, justér og servér."
 		],
 		"path": "description",
-		"servings": "10 personer",
+		"servings_w_type": {
+			"servings": 10,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "40"
@@ -3958,7 +4093,10 @@
 			"Kom marengsen i en sprøjtepose og anbring derefter en kugle is på hver stykke brownie. Pynt/dæk isen med marengs og flambér derefter marengsen let med en brænder. Servér med det samme."
 		],
 		"path": "description",
-		"servings": "8",
+		"servings_w_type": {
+			"servings": 8,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "40",
 			"passive": "30"
@@ -4005,7 +4143,10 @@
 			"Stil de chokoladeovertrukne dadler på køl til chokoladen har sat sig, jeg giver dem som minimum 30 minutter. Servér med det samme eller kom dem på et glas og opbevar dem i køleskabet eller et køligere sted."
 		],
 		"path": "description",
-		"servings": "20",
+		"servings_w_type": {
+			"servings": 20,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "12"
@@ -4082,7 +4223,10 @@
 			"Lad gerne krebsehalesalaten stå 30 min på køl inden servering"
 		],
 		"path": "description",
-		"servings": "4",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "10",
 			"passive": "30"
@@ -4240,7 +4384,10 @@
 			"Hæld den værme gløgg i glas og pynt med mandler, kanel og stjerneanis. Serveres med det samme."
 		],
 		"path": "description",
-		"servings": "6",
+		"servings_w_type": {
+			"servings": 6,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "",
 			"passive": ""
@@ -4319,7 +4466,10 @@
 			"Lad det simre i 25-30 minutter og smag derefter godt til med honning, ribsgele, salt og peber inden servering."
 		],
 		"path": "description",
-		"servings": "6",
+		"servings_w_type": {
+			"servings":10,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "",
 			"passive": ""
@@ -4430,7 +4580,10 @@
 			"I nogle dye skåle, placér nogle æbletern i en lille bunke og hæld suppe ved til æblerne næsten er dækker. Placér derefter torsken (ca. 50 gram til pr. portion) ovenpå æbleternene og pynt evt. med lidt timian."
 		],
 		"path": "description",
-		"servings": "3",
+		"servings_w_type": {
+			"servings": 3,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "45",
 			"passive": "20"
@@ -4514,7 +4667,10 @@
 			"Servér direkte, eller stil slawen på køl til den skal bruges."
 		],
 		"path": "description",
-		"servings": "4",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "15",
 			"passive": "30"
@@ -4607,7 +4763,7 @@
 				"ingredient": "mayo"
 			},
 			{
-				"amount": "6",
+				"amount": "4",
 				"unit": "stk",
 				"ingredient": "briocheboller"
 			},
@@ -4634,7 +4790,10 @@
 			"Kom agurkeslaw og kylling på den ene af siderne og skær nogle tynde skiver blåskimmelost og læg ovenpå kyllingen. Saml herefter burgeren og værs'go!"
 		],
 		"path": "description",
-		"servings": "3",
+		"servings_w_type": {
+			"servings": 4,
+			"type": "stk"
+		},
 		"preparationtime": {
 			"active": "30",
 			"passive": "180"
@@ -4751,7 +4910,10 @@
 			"Servér tærten mens den stadig er lun med lidt creme fraiche."
 		],
 		"path": "description",
-		"servings": "8",
+		"servings_w_type": {
+			"servings": 8,
+			"type": "personer"
+		},
 		"preparationtime": {
 			"active": "20",
 			"passive": "30"
