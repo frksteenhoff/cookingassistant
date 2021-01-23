@@ -1,5 +1,5 @@
 <template>
-	<div v-if="'relatedrecipes' in recipe && recipe.relatedrecipes.length > 0">
+	<div v-if="'relatedrecipes' in recipe && recipe.relatedrecipes.length > 0" class="pb-3">
 		<h6 class="font-weight-bold pl-0 mt-3">Relaterede opskrifter</h6>
 		<p v-for="recipe in recipe.relatedrecipes" :key="recipe" class="pl-0 mt-3">
 			<router-link :to="{ path: `${recipe}` }"> {{'&#x2022; ' + recipe }}</router-link>

@@ -1,5 +1,5 @@
 <template>
-	<div itemscope itemtype="http://schema.org/Recipe" class="mt-5">
+	<div itemscope itemtype="http://schema.org/Recipe" class="mt-3 slightly-colored">
 		<b-row class="mb-4">
 			<b-col cols="12" class="text-center">
 				<h1 itemprop="name" class="pl-0 ml-0">{{ recipe.name }}</h1>
@@ -25,29 +25,29 @@
 				/>
 			</b-col>
 		</b-row>
-		<b-row class="mt-lg-1 mb-sm-3">
-			<b-col cols=12 md="3" order-md="3" lg="3">
+		<b-row class="mb-sm-3">
+			<b-col cols=12 md="5" order="3" lg="3">
 				<div class="sticky-column">
-					<img itemprop="image" v-b-modal.show-image-modal v-if="recipe.image" class="recipe-top-image d-md-none d-lg-block mt-3 opacity-change" :src="getImage()" />
-					<TextBox v-if="('protip' in recipe && recipe.protip)" :background="true" class="mt-3 mb-4">
+					<img itemprop="image" v-b-modal.show-image-modal v-if="recipe.image" class="recipe-top-image d-none d-md-block mt-3 opacity-change" :src="getImage()" />
+					<TextBox v-if="('protip' in recipe && recipe.protip)" :background="true" class="mt-3 mb-3">
 						<template v-slot:body>
 							{{ recipe.protip }}
 						</template>
 					</TextBox>
 					<RelatedRecipeList
 						:recipe="recipe"
-						class="d-sm-none d-md-block"
+						class="d-md-block"
 					/>
 				</div>
 			</b-col>
-			<b-col cols="12" md="4" order-md="1" lg="3" order-lg="1" class="pt-sm-3">
+			<b-col cols="12" md="4" order-md="1" lg="3" class="mt-3 mt-sm-0 pt-sm-3">
 				<IngredientsList
 					:recipe="recipe"
 					:number-of-portions="numberOfPortions"
 					class="sticky-column"
 				/>
 			</b-col>
-			<b-col cols="12" md="8" order-md="2" lg="6" order-lg="2" class="pb-3">
+			<b-col cols="12" md="8" order-md="2" lg="6" class="pb-3">
 				<RecipeProcedure
 					:recipe="recipe"
 					class="sticky-column"
@@ -65,7 +65,7 @@
 		<b-row class="mb-5">
 			<b-col v-if="recipe.inspirationlink" class="p-0 font-italic">
 				<hr>
-				<p class="pl-3 m-0 mb-5">
+				<p class="pl-3 m-0">
 					Jeg har fået inspiration til min opskrift fra <a class="pl-0" :href="recipe.inspirationlink">denne opskrift</a>
 				</p>
 			</b-col>
@@ -142,5 +142,12 @@ p, li {
 	position: -webkit-sticky !important;
 	position: sticky !important;
 	top: 65px !important; /* height of navbar + 5px */
+}
+
+.slightly-colored {
+	background-color: #f6f6f6;
+	padding: 1rem 2rem;
+	padding-top: 2rem;
+	margin-bottom: 1rem;
 }
 </style>

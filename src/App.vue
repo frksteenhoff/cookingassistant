@@ -190,7 +190,6 @@ p, h1, h2 {
 
 h1 {
 	font-family: "Homemade Apple";
-	background-color: white;
 	color: black;
 	margin: 0;
 	font-size: 3rem !important;
