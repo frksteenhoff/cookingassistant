@@ -8,6 +8,7 @@ export interface AppState {
 	recipes: RecipeObject[];
 	units: string[];
 	tags: string[];
+	servingsType: string[];
 	createTags: string[];
   }
 
@@ -55,6 +56,14 @@ export default new Vuex.Store<AppState>({
 			"forret",
 			"varme drikke",
 			"salat"
+		],
+		servingsType: [
+			"personer",
+			"portioner",
+			"stk",
+			"boller",
+			"L",
+			"dl"
 		],
 		createTags: []
 	},

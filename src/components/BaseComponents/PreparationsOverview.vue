@@ -1,8 +1,12 @@
 <template>
 	<div>
 		<b-row>
+			<!-- Should only have servings or servings_w_type - otherwise something went wrong -->
 			<b-col cols="auto" :class="[hasServings && hasPrepTime ? 'ml-md-auto': '']" v-if="hasServings">
 				<b-icon icon="person"></b-icon> Antal: <span itemprop="recipeYield">{{ parseInt(recipe.servings) * numberOfPortions }}</span>
+			</b-col>
+			<b-col cols="auto" :class="[hasServings && hasPrepTime ? 'ml-md-auto': '']" v-if="hasServingsWithType">
+				<b-icon icon="person"></b-icon> Antal: <span itemprop="recipeYield">{{ recipe.servings_w_type.servings * numberOfPortions }} {{ recipe.servings_w_type.type }}</span>
 			</b-col>
 			<b-col cols="auto" :class="[hasPrepTime ? 'mr-md-auto': '']" v-if="hasPrepTime">
 				<b-icon icon="clock"></b-icon>  Tilberedningstid <span v-if="!hasOnlyActivePrepTime" v-b-tooltip.hover title="Hvor lang tid du aktivt skal bruge på retten">- aktiv</span>: <span itemprop="prepTime">{{ activePrepTime }}</span>
@@ -72,6 +76,10 @@ export default class PreparationsOverview extends Vue {
 
 	get hasServings() {
 		return "servings" in this.recipe && this.recipe.servings
+	}
+
+	get hasServingsWithType() {
+		return "servings_w_type" in this.recipe && this.recipe.servings_w_type
 	}
 
 	get hasPrepTime() {

@@ -30,7 +30,11 @@
 			</b-col>
 			<b-col cols="6">
 				<small>Antal serveringer</small>
-				<b-form-input v-model="recipe.servings" type="text" size="sm" />
+				<b-form-input v-model="recipe.servings_w_type.servings" type="number" size="sm" />
+			</b-col>
+			<b-col cols="6">
+				<small>Serveringstype</small>
+				<b-form-select v-model="recipe.servings_w_type.type" :options="$store.state.servingsType" size="sm" />
 			</b-col>
 		</b-row>
 	</div>

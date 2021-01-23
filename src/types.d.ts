@@ -5,7 +5,8 @@ declare type RecipeObject = {
 	additionalImages?: string[], 
 	ingredients: IngredientObject[],
 	steps: string[],
-	servings: string
+	servings: string,
+	servings_w_type?: ServingsObject,
 	categories: string[],
 	preparationtime?: PreparationTimeObject,
 	protip: string,
@@ -44,4 +45,9 @@ declare type MailToObject = {
 	email: string,
 	subject: string, 
 	body: string
+}
+
+declare type ServingsObject = {
+	servings: string,
+	type: string
 }
