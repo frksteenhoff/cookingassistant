@@ -87,7 +87,7 @@ export default class PreparationsOverview extends Vue {
 	}
 
 	get portionScaling(): number [] {
-		return [0.25, 0.5, 0.75].concat(Array(10).fill(1).map((x, y) => x + y))
+		return [0.25, 0.5, 0.75, 1, 1.5].concat(Array(10).fill(2).map((x, y) => x + y))
 	}
 }
 </script>
