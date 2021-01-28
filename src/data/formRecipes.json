@@ -136,7 +136,8 @@
 		],
 		"servings": "",
 		"categories": [
-			"marinade"
+			"marinade",
+			"aftensmad"
 		],
 		"preparationtime": {
 			"active": "60",
@@ -222,7 +223,8 @@
 		},
 		"categories": [
 			"marinade",
-			"aftensmad"
+			"aftensmad",
+			"salat"
 		],
 		"protip": "Hvis jeg benytter denne opskrift til fish taos, tilføjer jeg oftest lidt lime saft og finthakket koriander.",
 		"preparationtime": {
@@ -413,7 +415,8 @@
 			"type": "dl"
 		},
 		"categories": [
-			"dip"
+			"dip",
+			"tilbehør"
 		],
 		"preparationtime": {
 			"active": "10",
@@ -470,7 +473,8 @@
 			"type": "dl"
 		},
 		"categories": [
-			"dressing"
+			"tilbehør",
+			"dip"
 		],
 		"preparationtime": {
 			"active": "15",
@@ -719,7 +723,7 @@
 		"servings_w_type": {
 			"servings": 4,
 			"type": "dl"
-		},		
+		},
 		"categories": [
 			"marinade"
 		],
@@ -799,9 +803,10 @@
 		"servings_w_type": {
 			"servings": 4,
 			"type": "dl"
-		},		
+		},
 		"categories": [
-			"sauce"
+			"sauce",
+			"marinade"
 		],
 		"preparationtime": {
 			"active": "30",
@@ -912,7 +917,8 @@
 		},
 		"categories": [
 			"aftensmad",
-			"tilbehør"
+			"tilbehør",
+			"vegetarisk"
 		],
 		"preparationtime": {
 			"active": "20",
@@ -1018,9 +1024,10 @@
 		"servings_w_type": {
 			"servings": 3,
 			"type": "person(er)"
-		},	
+		},
 		"categories": [
-			"aftensmad"
+			"aftensmad",
+			"simreretter"
 		],
 		"preparationtime": {
 			"active": "20",
@@ -1080,7 +1087,8 @@
 			"type": "person(er)"
 		},
 		"categories": [
-			"sause"
+			"tilbehør",
+			"marinade"
 		],
 		"preparationtime": {
 			"active": "15",
@@ -1224,7 +1232,8 @@
 			"type": "dl"
 		},
 		"categories": [
-			"tilbehør"
+			"tilbehør",
+			"sauce"
 		],
 		"preparationtime": {
 			"active": "15",
@@ -1431,7 +1440,8 @@
 		},
 		"categories": [
 			"tilbehør",
-			"dressing"
+			"dressing",
+			"marinade"
 		],
 		"preparationtime": {
 			"active": "30",
@@ -1582,7 +1592,9 @@
 			"type": "person(er)"
 		},
 		"categories": [
-			"aftensmad"
+			"aftensmad",
+			"vegetarisk",
+			"simreretter"
 		],
 		"preparationtime": {
 			"active": "20",
@@ -1680,7 +1692,9 @@
 			"type": "stk"
 		},
 		"categories": [
-			"aftensmad"
+			"aftensmad",
+			"friture",
+			"vegetarisk"
 		],
 		"preparationtime": {
 			"active": "30",
@@ -1766,7 +1780,8 @@
 		},
 		"categories": [
 			"snack",
-			"bagning"
+			"bagning",
+			"dessert"
 		],
 		"preparationtime": {
 			"active": "25",
@@ -1918,8 +1933,7 @@
 			"passive": ""
 		},
 		"categories": [
-			"aftensmad",
-			"bagning"
+			"sauce"
 		],
 		"inspirationlink": "https://www.tasteandtellblog.com/teriyaki-chicken/"
 	},
@@ -2136,7 +2150,8 @@
 		],
 		"categories": [
 			"dessert",
-			"specielle anledninger"
+			"specielle anledninger",
+			"bagning"
 		],
 		"inspirationlink": "https://www.lurpak.com/da-dk/opskrifter-med-lurpak/lemon-meringue-taerte/"
 	},
@@ -2502,7 +2517,8 @@
 			"passive": "120"
 		},
 		"categories": [
-			"aftensmad"
+			"aftensmad",
+			"simreretter"
 		]
 	},
 	{
@@ -2599,7 +2615,8 @@
 			"passive": "15"
 		},
 		"categories": [
-			"aftensmad"
+			"aftensmad",
+			"simreretter"
 		],
 		"relatedrecipes": [
 			"Naan brød"
@@ -2810,7 +2827,8 @@
 			"passive": "30"
 		},
 		"categories": [
-			"aftensmad"
+			"aftensmad",
+			"simreretter"
 		],
 		"additionalImages": [
 			"panang_curry.jpg",
@@ -3186,7 +3204,8 @@
 			"passive": "120"
 		},
 		"categories": [
-			"forret"
+			"forret",
+			"specielle anledninger"
 		],
 		"inspirationlink": "https://kreamorskoekken.dk/roeget-laksetatar/"
 	},
@@ -3537,14 +3556,17 @@
 			"snack",
 			"tilbehør",
 			"aftensmad",
-			"vegetarisk"
+			"vegetarisk",
+			"surdej"
 		],
-		"relatedrecipes": [],
+		"relatedrecipes": [
+			"Hokkaidosuppe"
+		],
 		"inspirationlink": ""
 	},
 	{
 		"name": "Hønsesalat med karry og vindruer",
-		"teaser": "",
+		"teaser": "En variant af den klassiske hønsesalat",
 		"image": "",
 		"ingredients": [
 			{
@@ -3621,7 +3643,8 @@
 			"passive": "60"
 		},
 		"categories": [
-			"frokost"
+			"frokost",
+			"specielle anledninger"
 		],
 		"protip": "Kan snildt toppes med bacon, hvis man vil inkorporere et salt element.",
 		"relatedrecipes": [],
@@ -3675,7 +3698,8 @@
 			"passive": "1440"
 		},
 		"categories": [
-			"morgenmad"
+			"morgenmad",
+			"bagning"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -3901,7 +3925,8 @@
 		},
 		"categories": [
 			"aftensmad",
-			"frokost"
+			"frokost", 
+			"simreretter"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -4045,7 +4070,8 @@
 			"passive": "40"
 		},
 		"categories": [
-			"aftensmad"
+			"aftensmad",
+			"simreretter"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://studiestartswiki.pf.dk/da:hyttebumser:opskrifter:svin_i_bbq?s[]=svin&s[]=bbq"
@@ -4104,7 +4130,8 @@
 		"protip": "Hvis du synes det er nemmere kan du sagtens vælge at pre-lave dine iskugler og fryse dem enkeltvis. På den måde er du sikker på, at isen ikke når at smelte mens du pynter med og brænder marengsen.",
 		"categories": [
 			"dessert",
-			"specielle anledninger"
+			"specielle anledninger",
+			"flambering"
 		],
 		"additionalImages": [
 			"baked_alaska.jpg"
@@ -4152,7 +4179,10 @@
 			"passive": "12"
 		},
 		"protip": "Jeg køber en mørk chokolade fra Lindt med havsalt. Den giver et rigtig godt modspil til det søde.",
-		"categories": [],
+		"categories": [
+			"snack",
+			"dessert"
+		],
 		"relatedrecipes": [],
 		"additionalImages": [
 			"chokodadler_plain.jpg",
@@ -4233,7 +4263,8 @@
 		},
 		"protip": "",
 		"categories": [
-			"frokost"
+			"frokost",
+			"specielle anledninger"
 		],
 		"additionalImages": [
 			"krebsehalesalat_ingredients.jpg"
@@ -4299,6 +4330,7 @@
 		"protip": "Hvis du har svært ved at rulle dejen kan du i stedet vælge at forme den med fingerene. Det kræver lidt arbejde med teknikken, men resultatet bliver lige godt.",
 		"categories": [
 			"bagning",
+			"dessert",
 			"specielle anledninger"
 		],
 		"additionalImages": [
@@ -4316,7 +4348,7 @@
 	{
 		"name": "Hvid gløgg",
 		"teaser": "Et lettere alternativ til den traditionalle røde, mættende gløgg. ",
-		"image": "",
+		"image": "glogg.jpg",
 		"ingredients": [
 			{
 				"amount": "5",
@@ -4467,7 +4499,7 @@
 		],
 		"path": "description",
 		"servings_w_type": {
-			"servings":10,
+			"servings": 10,
 			"type": "person(er)"
 		},
 		"preparationtime": {
@@ -4477,6 +4509,7 @@
 		"protip": "",
 		"categories": [
 			"tilbehør",
+			"simreretter",
 			"specielle anledninger"
 		],
 		"additionalImages": [
@@ -4590,7 +4623,8 @@
 		},
 		"protip": "",
 		"categories": [
-			"vegetarisk"
+			"simreretter",
+			"aftensmad"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://www.valdemarsro.dk/jordskokkesuppe/"
@@ -4677,7 +4711,8 @@
 		},
 		"protip": "",
 		"categories": [
-			"salat"
+			"salat",
+			"syltning"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://www.theoriginaldish.com/2018/02/04/buffalo-blue-cheese-fried-chicken-sliders-with-sweet-pickle-slaw/"
@@ -4800,7 +4835,8 @@
 		},
 		"protip": "",
 		"categories": [
-			"aftensmad"
+			"aftensmad",
+			"friture"
 		],
 		"additionalImages": [
 			"friedchicken.jpg"
@@ -4900,7 +4936,7 @@
 			"Mørdej",
 			"Flæk vaniljestangen og fjern vaniljekornene nænsomt.. Bland disse med smør, flormelis og salt og hvedemel lidt efter lidt. Rør til sidst ægget i for at samle dejen..Kom den på køl i 15 minutter. Den kan sagtens være på køl i længere tid, så skal den bare tages ud lidt tid inden den skal benyttes for ikke at være for hård at arbejde med,",
 			"Rul dejen ud på et meldrysset bord og og beklæd en tærteform med den. Fjern overskydende dej.",
-			"Remonce", 
+			"Remonce",
 			"Bland det bløde smør med rørsukker og tilsæt mandelmelet. Tilsæt æg og rør blandingen til en ensartet masse.",
 			"Fordel remoncen ovenpå tærtebunden.",
 			"Tænd ovnen på 180 grader",
@@ -4928,6 +4964,176 @@
 			"apple_pie_remonce.jpg",
 			"apple_pie_sugar_cinnamon.jpg",
 			"apple_pie_baked.jpg"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Pasta i flødesauce",
+		"teaser": "Pasta og svampe i en flødesauce med gorgonzola.",
+		"image": "svampe_pasta.jpg",
+		"ingredients": [
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "svampe"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "10",
+				"unit": "g",
+				"ingredient": "smør, til stegning"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "muskatnød"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "gorgonzola/blåskimmelost"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "persille, finthakket til pynt"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			}
+		],
+		"steps": [
+			"Hak løg, hvidløg og svampe. Sæt vand over til pasta. Salt vandet let. Kom pastaen i, når vandet koger.",
+			"Smelt smørret på panden og tilsæt derefter løg. Brun disse let og tilsæt derefter champignon og steg dem brune. Krydr med salt og peber og muskatnød.",
+			"Når champignonene er færdige, tilsæt da fløde og kog op. Skru derefter ned på medium varme og tilsæt blåskimmelosten.",
+			"Når din pasta er færdig, hæld vandet fra og kom derefter pastaen ned i flødesaucen og bland godt. Tag panden af varmen og lad retten køle en lille smule af inden du serverer. ",
+			"Kom gerne lidt persille på som pynt og/eller lidt parmesan."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "3",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "15",
+			"passive": ""
+		},
+		"protip": "Denne ret har rigtig godt af peber, så vær gerne generøs med det.",
+		"additionalImages": [],
+		"categories": [
+			"frokost",
+			"aftensmad",
+			"vegetarisk"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Poké bowl",
+		"teaser": "Hawaiiask rissalat -- forskellige grøntsager på en bund af ris ",
+		"image": "poke2.jpg",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "ris"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "gulerødder, julienne eller skrællet"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "agurk, i tern"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "avocado"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "syltede rødløg"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "blomkål"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "broccoli"
+			},
+			{
+				"amount": "0.25",
+				"unit": "dl",
+				"ingredient": "gomadressing"
+			},
+			{
+				"amount": "0.15",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sesamfrø, hele"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "laks, i tern"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "peanuts, finthakkede"
+			}
+		],
+		"steps": [
+			"Skær alle grøntsager og kog ris",
+			"Kom de kogte ris i en skål og hæld derefter goma dressing ud over. ",
+			"Placér alle grøntsagerne ovenpå risene og strø peanuts og sesam over top af med goma og soya. Tilføj laks på toppen og servér."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "2",
+			"type": "person(er)"
+		},
+		"additionalImages": [
+			"poke.jpg"
+		],
+		"preparationtime": {
+			"active": "30",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"aftensmad",
+			"frokost"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""

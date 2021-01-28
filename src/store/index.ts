@@ -55,7 +55,15 @@ export default new Vuex.Store<AppState>({
 			"tapas",
 			"forret",
 			"varme drikke",
-			"salat"
+			"salat",
+			"simreretter",
+			"friture",
+			"flambering",
+			"syltning",
+			"surdej",
+			"spread",
+			"raw",
+			"suppe"
 		],
 		servingsType: [
 			"person(er)",

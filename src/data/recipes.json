@@ -65,7 +65,8 @@
 		"categories": [
 			"aftensmad",
 			"snack",
-			"forret"
+			"forret",
+			"bagning"
 		],
 		"preparationtime": {
 			"active": "20",
@@ -133,7 +134,7 @@
 		]
 	},
 	{
-		"name": "Pizzadej",
+		"name": "Surdejs pizzadej",
 		"ingredients": [
 			{
 				"amount": "25",
@@ -161,7 +162,7 @@
 				"ingredient": "hvedemel"
 			}
 		],
-		"image": "",
+		"image": "pizza_dough_plain.jpg",
 		"inspirationlink": "https://www.valdemarsro.dk/hjemmelavet-pizza/",
 		"teaser": "Pizzadej",
 		"steps": [
@@ -176,9 +177,17 @@
 			"type": "stk"
 		},
 		"path": "description",
+		"additionalImages": [
+			"pizza_tomato_sauce.jpg",
+			"pizza_white.jpg",
+			"pizza_goat_cheese.jpg",
+			"pizza_chorizo.jpg",
+			"pizza_chorizo_done_2.jpg"
+		],
 		"relatedrecipes": [],
 		"categories": [
 			"bagning",
+			"surdej",
 			"aftensmad"
 		]
 	},
@@ -222,7 +231,7 @@
 		"relatedrecipes": [],
 		"categories": [
 			"bagning",
-			" aftensmad"
+			"aftensmad"
 		]
 	},
 	{
@@ -273,7 +282,9 @@
 		"categories": [
 			"bagning",
 			"frokost",
-			"brød"
+			"morgenmad",
+			"brød",
+			"surdej"
 		]
 	},
 	{
@@ -378,7 +389,8 @@
 		"relatedrecipes": [],
 		"categories": [
 			"bagning",
-			"brød"
+			"brød",
+			"surdej"
 		]
 	},
 	{
@@ -457,7 +469,8 @@
 		],
 		"categories": [
 			"aftensmad",
-			"frokost"
+			"frokost",
+			"tilbehør"
 		]
 	},
 	{
@@ -513,7 +526,8 @@
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
-			"sauce"
+			"sauce",
+			"tilbehør"
 		]
 	},
 	{
@@ -562,7 +576,8 @@
 			"hjemmelavet pasta"
 		],
 		"categories": [
-			"sauce"
+			"sauce",
+			"spread"
 		]
 	},
 	{
@@ -713,7 +728,8 @@
 		],
 		"categories": [
 			"aftensmad",
-			" frokost"
+			"frokost",
+			"bagning"
 		]
 	},
 	{
@@ -863,7 +879,8 @@
 		"relatedrecipes": [],
 		"categories": [
 			"dessert",
-			"specielle anledninger"
+			"specielle anledninger",
+			"bagning"
 		]
 	},
 	{
@@ -968,7 +985,8 @@
 		"relatedrecipes": [],
 		"categories": [
 			"dessert",
-			"specielle anledninger"
+			"specielle anledninger",
+			"bagning"
 		]
 	},
 	{
@@ -1034,7 +1052,8 @@
 		"categories": [
 			"frokost",
 			"morgenmad",
-			"brunch"
+			"brunch",
+			"bagning"
 		]
 	},
 	{
@@ -1119,7 +1138,8 @@
 		"additionalImages": [],
 		"categories": [
 			"dessert",
-			" specielle anledninger"
+			"bagning",
+			"specielle anledninger"
 		]
 	},
 	{
@@ -1221,7 +1241,8 @@
 		],
 		"categories": [
 			"dessert",
-			" specielle anledninger"
+			"specielle anledninger",
+			"raw"
 		]
 	},
 	{
@@ -1273,7 +1294,7 @@
 				"ingredient": "kanel"
 			}
 		],
-		"image": "",
+		"image": "brunsviger.jpg",
 		"inspirationlink": "https://www.valdemarsro.dk/brunsviger/",
 		"teaser": "Snasket kage",
 		"steps": [
@@ -1296,8 +1317,9 @@
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
+			"bagning",
 			"dessert",
-			" specielle anledninger"
+			"specielle anledninger"
 		]
 	},
 	{
@@ -1377,6 +1399,8 @@
 		],
 		"relatedrecipes": [],
 		"categories": [
+			"bagning",
+			"snack",
 			"dessert"
 		]
 	},
@@ -1537,7 +1561,10 @@
 		"categories": [
 			"dip",
 			"snack",
-			"forret"
+			"forret",
+			"tilbehør",
+			"spread",
+			"tapas"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://www.valdemarsro.dk/humus/"
@@ -1637,9 +1664,9 @@
 			"passive": "30"
 		},
 		"categories": [
-			"dip",
-			"snack",
-			"forret"
+			"suppe",
+			"forret",
+			"simreretter"
 		],
 		"relatedrecipes": [
 			"Focaccia (den bedste)"
@@ -1700,7 +1727,10 @@
 		},
 		"categories": [
 			"tilbehør",
-			"snack"
+			"snack",
+			"bagning",
+			"brød",
+			"surdej"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://www.instagram.com/memoirsofabaker"
@@ -1779,7 +1809,8 @@
 		},
 		"categories": [
 			"snack",
-			"morgenmad"
+			"morgenmad",
+			"bagning"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -1820,9 +1851,9 @@
 				"ingredient": "pinjekerner, finthakket, ristet"
 			},
 			{
-				"amount": "",
-				"unit": "",
-				"ingredient": ""
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "butterdej"
 			}
 		],
 		"steps": [
@@ -1830,8 +1861,8 @@
 			"",
 			"Las massen køle helt af inden du fortsætter og hæld evt. resterende cand fra.",
 			"Når svampemassen har kølet af, bland den med pinjekerner og tranebær og tilsæt til sidst rasp og æg.",
-			"Form massen som 10x20 bøf og ba den derefter i 20 min ved 200 grader.",
-			"Serveres f.eks. med rodfruget og en sovs."
+			"Form massen som 10x20 bøf og pak den derefter ind i butterdejen. Bag den i 20 min ved 200 grader.",
+			"Serveres f.eks. med rodfrugter, en salat og eventuelt en sovs."
 		],
 		"path": "description",
 		"servings_w_type": {
@@ -1842,7 +1873,10 @@
 			"active": "30",
 			"passive": "50"
 		},
-		"categories": [],
+		"categories": [
+			"vegetarisk",
+			"aftensmad"
+		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
 	},
@@ -2066,7 +2100,8 @@
 			"passive": "1440"
 		},
 		"categories": [
-			"dessert"
+			"dessert",
+			"bagning"
 		],
 		"additionalImages": [
 			"framboise_shell_cooked.jpg",
@@ -2178,7 +2213,9 @@
 		},
 		"categories": [
 			"snack",
-			"dessert"
+			"dessert",
+			"bagning",
+			"vegetarisk"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "",
@@ -2254,7 +2291,8 @@
 		},
 		"categories": [
 			"dressing",
-			"marinade"
+			"marinade",
+			"tilbehør"
 		],
 		"relatedrecipes": [],
 		"relatedImages": [],
@@ -2464,7 +2502,10 @@
 			"active": "20",
 			"passive": "40"
 		},
-		"categories": [],
+		"categories": [
+			"frokost",
+			"aftensmad"
+		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
 	},
@@ -2538,7 +2579,8 @@
 		},
 		"categories": [
 			"aftensmad",
-			"tilbehør"
+			"tilbehør",
+			"vegetarisk"
 		],
 		"relatedrecipes": [
 			"Sauterede grønkålstilke med svampe"
@@ -2580,7 +2622,9 @@
 			"active": "10",
 			"passive": "5"
 		},
-		"categories": [],
+		"categories": [
+			"tilbehør"
+		],
 		"relatedrecipes": [],
 		"inspirationlink": "",
 		"additionalImages": [
@@ -2760,7 +2804,11 @@
 			"active": "10",
 			"passive": "15"
 		},
-		"categories": [],
+		"categories": [
+			"bagning",
+			"dessert",
+			"snack"
+		],
 		"relatedrecipes": [],
 		"additionalImages": [
 			"cookie_dough.jpg",
@@ -2818,7 +2866,10 @@
 			"active": "30",
 			"passive": "80"
 		},
-		"categories": [],
+		"categories": [
+			"dessert",
+			"specielle anledninger"
+		],
 		"relatedrecipes": [],
 		"additionalImages": [
 			"creme_brulee_raa_varm.jpg",
