@@ -371,18 +371,46 @@
 				"amount": "1",
 				"unit": "dl",
 				"ingredient": "rugmel"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "del(e)",
+				"ingredient": "surdej (gammel)"
+			},
+			{
+				"amount": "1",
+				"unit": "del(e)",
+				"ingredient": "fuldkornshvedemel"
+			},
+			{
+				"amount": "4",
+				"unit": "del(e)",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "4",
+				"unit": "del(e)",
+				"ingredient": "vand, 27 grader"
 			}
 		],
 		"image": "",
 		"inspirationlink": "https://meyers.dk/opskrifter/surdej/p/71506/",
 		"teaser": "Til alle dine br\u00f8d og g\u00e6rdeje, brug en surdej som giver ekstra smag og bid.",
 		"steps": [
+			"Starterdej",
 			"Bland alle ingredienser og lad dejen st\u00e5 i en beholder med et l\u00e5g lagt l\u00f8st p\u00e5.",
 			"Lad surdejen st\u00e5 p\u00e5 k\u00f8kkenbordet i 4 dage, eller indtil den er blevet sur.",
 			"N\u00e5r du har brugt af surdejen, skal den friskes op (1 del surdej, 2 dele vand, 1 del hvedemel, 1 del fuldkornshvedemel)",
 			"Hvis surdejen ikke skal bruges i en periode, stil den p\u00e5 k\u00f8l.",
-			"F\u00f8r dejen bruges friskes den op.",
-			"Surdejen er bedst 8-24 timer efter opfriskning -- jo l\u00e6ngere du venter, jo mere syrlig bliver den."
+			"F\u00f8r dejen bruges, friskes den op og lad den modne.",
+			"Surdejen er bedst 8-12 timer efter fodrning -- jo l\u00e6ngere du venter, jo mere syrlig bliver den.",
+			"Fodring",
+			"Hver morgen tag den mængde surdej du skal bruge og fodre den efter den nederste opskrift. Smid resten ud eller brug den i en opskrift med det samme."
 		],
 		"servings": "",
 		"path": "description",
@@ -952,10 +980,10 @@
 				"ingredient": "æg (pensling)"
 			}
 		],
-		"image": "kanelsnurrer.jpg",
+		"image": "kanelsnurrer2.jpg",
 		"additionalImages": [
 			"kanelsnurrer_haev.jpg",
-			"kanelsnurrer2.jpg"
+			"kanelsnurrer.jpg"
 		],
 		"inspirationlink": "https://juliebruun.com/2020/04/kanelsnurrer/",
 		"teaser": "Kanelsnurrer med sukker, kanel og kardemomme, snurret for en fin lagdeling.",

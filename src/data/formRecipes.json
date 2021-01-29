@@ -139,6 +139,11 @@
 			"marinade",
 			"aftensmad"
 		],
+		"additionalImages": [
+			"pulled_pork_marinade.jpg",
+			"pulled_pork_fridge.jpg",
+			"pulled_pork_raw_w_marinade.jpg"
+		],
 		"preparationtime": {
 			"active": "60",
 			"passive": "720"
@@ -3341,7 +3346,7 @@
 	{
 		"name": "Langtidshævede hvedeboller",
 		"teaser": "Luftige boller der er sprøde udenpå og luftige med store huller indeni.",
-		"image": "",
+		"image": "boller.jpg",
 		"ingredients": [
 			{
 				"amount": "5",
@@ -3925,7 +3930,7 @@
 		},
 		"categories": [
 			"aftensmad",
-			"frokost", 
+			"frokost",
 			"simreretter"
 		],
 		"relatedrecipes": [],
@@ -5136,6 +5141,217 @@
 			"frokost"
 		],
 		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Æg-avo-lakse-mad",
+		"teaser": "En lille frokostret med spejlæg, avocado og varmrøget laks.",
+		"image": "eggs_salmon_avo.jpg",
+		"ingredients": [
+			{
+				"amount": "4",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "avocado"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "syltede rødløg"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "varmrøget laks"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "boller, brød eller lign."
+			}
+		],
+		"steps": [
+			"Rist dine brød eller boller og steg eller kog dit æg som du bedst kan lide det.",
+			"Når dine boller er færdige, smør dem med et tyndt lag mayonnaise og kom derefter skiveskåret avocado ovenpå. Kom derefter syltede rødløg og ca. 50g laks oven på hver af bollerne. ",
+			"Til sidst, arranger ægget på toppen af din bolle og krydr med salt og peber. Server direkte.",
+			"Hvis du er mere til parmaskinke, kan du f.eks. skifte laksen ud med parmaskinke. Ost gør sig også rigtig godt til."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "2",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "20",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"morgenmad",
+			"frokost"
+		],
+		"additionalImages": [
+			"eggs_salmon_avo_side.jpg",
+			"eggs-parma.jpg"
+		],
+		"relatedrecipes": [
+			"syltede rødløg"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Field blend surdejsbrød",
+		"teaser": "Surdejsbrød med rug-, fuldkorn- og tipo OO mel",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "85",
+				"unit": "g",
+				"ingredient": "rugmel"
+			},
+			{
+				"amount": "175",
+				"unit": "g",
+				"ingredient": "fuldkornshvedemel"
+			},
+			{
+				"amount": "540",
+				"unit": "g",
+				"ingredient": "tipo OO"
+			},
+			{
+				"amount": "360",
+				"unit": "g",
+				"ingredient": "surdej"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			}
+		],
+		"steps": [
+			"Autolyse",
+			"Bland færdig dej",
+			"Hævning",
+			"Formning",
+			"Hævning (køleskab)"
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "1",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"brød",
+			"bagning",
+			"frokost",
+			"morgenmad"
+		],
+		"additionalImages": [
+			"field_blend_dough.jpg",
+			"field_blend.jpg"
+		],
+		"relatedrecipes": [
+			"Surdej"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Chili olie",
+		"teaser": "En stærk olie, god til mange asiatiske retter som sauce eller dressing.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "10",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "sichuan peberkorn"
+			},
+			{
+				"amount": "10",
+				"unit": "spsk",
+				"ingredient": "hele røde chili, tørret"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "5",
+				"unit": "dl",
+				"ingredient": "solsikkeolie"
+			},
+			{
+				"amount": "1.5",
+				"unit": "spsk",
+				"ingredient": "koreanske chiliflager"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "laurbærblade"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "five spice"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "salt"
+			}
+		],
+		"steps": [
+			"Rist alle chilivarianter på en pande indtil de begynder at afgive dufte.",
+			"Kom olien i en gryde og tilsæt laurbærblade.",
+			"I en stor glasbeholder, tilsæt alle de ristede krydderier og hvidløg og hæld derefter den varme olie over.",
+			"Lad olien stå i minimum 30 minutter inden brug."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "6",
+			"type": "dl"
+		},
+		"preparationtime": {
+			"active": "20",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"dressing",
+			"sauce",
+			"tilbehør"
+		],
+		"additionalImages": [
+
+		],
+		"relatedrecipes": [
+			"Dumplings"
+		],
 		"inspirationlink": ""
 	}
 ]

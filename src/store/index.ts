@@ -34,7 +34,8 @@ export default new Vuex.Store<AppState>({
 			"dåse(r)",
 			"pakke(r)",
 			"glas",
-			"stilk(e)"
+			"stilk(e)",
+			"del"
 		],
 		tags: [
 			"aftensmad",
@@ -63,7 +64,8 @@ export default new Vuex.Store<AppState>({
 			"surdej",
 			"spread",
 			"raw",
-			"suppe"
+			"suppe",
+			"olier"
 		],
 		servingsType: [
 			"person(er)",
