@@ -67,7 +67,7 @@
 	{
 		"name": "Pulled pork",
 		"teaser": "Langtidsstegt nakkefilet i stærk marinade. Brug det til pulled pork burgere eller som fyld til bao.",
-		"image": "pulled_pork.jpg",
+		"image": "pulled_pork_pulled.jpg",
 		"ingredients": [
 			{
 				"amount": "1",
@@ -142,7 +142,8 @@
 		"additionalImages": [
 			"pulled_pork_marinade.jpg",
 			"pulled_pork_fridge.jpg",
-			"pulled_pork_raw_w_marinade.jpg"
+			"pulled_pork_raw_w_marinade.jpg",
+			"pulled_pork.jpg"
 		],
 		"preparationtime": {
 			"active": "60",
@@ -321,7 +322,7 @@
 	{
 		"name": "Misomayo",
 		"teaser": "Lækker mayonnaise med et japansk twist",
-		"image": "",
+		"image": "miso_mayo.jpg",
 		"ingredients": [
 			{
 				"amount": "1",
