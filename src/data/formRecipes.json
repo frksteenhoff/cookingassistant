@@ -5347,12 +5347,113 @@
 			"sauce",
 			"tilbehør"
 		],
-		"additionalImages": [
-
-		],
+		"additionalImages": [],
 		"relatedrecipes": [
 			"Dumplings"
 		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Anne-Maries Chèvre Chaud",
+		"teaser": "Grønkålssalat med gedeost og bagte godter",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "søde kartofler, i mundrette stykker"
+			},
+			{
+				"amount": "1",
+				"unit": "dåse(r)",
+				"ingredient": "kikærter, drænede"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "grønkål"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rødløg"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "gedeost, i tykke skiver"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},	
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "olie"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "chilipulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "peber"
+			}
+		],
+		"steps": [
+			"Forberedelse",
+			"Skræl og skær de søde kartofler i tern. ak derefter hvidløg fint, bland det med olien og hæld det over de søde kartofler. Dræn derefter kikærterne og bland dem med spidskommen, chilipulver, salt og peber.",
+			"Kom et stykke bagepapir på en bradepande og fordel derefter de søde kartofler og kikærterne ud. Bag i 15 min ved 200 grader. ",
+			"Skyld og hak grønkålen og rødløg fint og kom det derefter på en pande med æblecidereddike. Steg kålen til den begynder at falde sammen og smag evt. til med lidt salt. ",
+			"Skær gedeosten i ca. 1 cm tykke skiver og læg til side.",
+			"Samling",
+			"Kom grønkål og rødløg på en tallerken og bred derefter et let lag søde kartofler og kikærter ovenpå. Kom derefter 3-4 stykker gedeost på toppen og flambér dem evt. med en gasbrænder.",
+			"Servér direkte."
+		],
+		"path": "description",
+		"servings_w_type": {
+			"servings": "3",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"aftensmad",
+			"salat"
+		],
+		"relatedrecipes": [],
 		"inspirationlink": ""
 	}
 ]
