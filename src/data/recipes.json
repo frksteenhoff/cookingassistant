@@ -30,7 +30,7 @@
 		],
 		"image": "gyoza_raw.jpg",
 		"inspirationlink": "https://www.chopstickchronicles.com/homemade-japanese-gyoza-wrappers/",
-		"teaser": "Sm\u00e5 hvedemelspandekager som kan tilberedes med f.eks. fars af svin og for\u00e5rsl\u00f8g",
+		"teaser": "Sm\u00e5 hvedemelspandekager som kan tilberedes med f.eks. fars af svin og for\u00e5rsløg",
 		"steps": [
 			"Wrappers",
 			"Bland de to typer mel i en stor skål",
@@ -107,11 +107,11 @@
 			"ciabatta_haev.jpg"
 		],
 		"inspirationlink": "https://madensverden.dk/ciabattabroed/",
-		"teaser": "Let og luftigt br\u00f8d til sandwiches eller tapas -- dejen kan ogs\u00e5 bruges til boller.",
+		"teaser": "Let og luftigt brød til sandwiches eller tapas -- dejen kan ogs\u00e5 bruges til boller.",
 		"steps": [
-			"Opl\u00f8s gæren i vandet sammen med sukkeret -- vandet m\u00e5 gerne være lunkent",
-			"N\u00e5r sukkeret er opl\u00f8st  helt tilsæt da hvedemel og salt",
-			"R\u00f8r dejen sammen, men r\u00f8r ikke for meget.",
+			"Opløs gæren i vandet sammen med sukkeret -- vandet m\u00e5 gerne være lunkent",
+			"N\u00e5r sukkeret er opløst  helt tilsæt da hvedemel og salt",
+			"Rør dejen sammen, men rør ikke for meget.",
 			"Lad dejen hæve i sk\u00e5len i 5 timer",
 			"Forvarm ovnen til 275 grader",
 			"Hæld dejen ud p\u00e5 bordet (godt belagt med mel) og fold dejen et par gange over sig selv fra side til side --ælt ikke dejen",
@@ -129,7 +129,7 @@
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
-			"br\u00f8d",
+			"brød",
 			"bagning"
 		]
 	},
@@ -166,9 +166,9 @@
 		"inspirationlink": "https://www.valdemarsro.dk/hjemmelavet-pizza/",
 		"teaser": "Pizzadej",
 		"steps": [
-			"Opl\u00f8s gæren i vandet -- vandet m\u00e5 gerne være lunkent.",
-			"Tilsæt alle v\u00e5de ingredienser og derefter de t\u00f8rre.",
-			"Melet m\u00e5 gerne tilf\u00f8jes lidt efter lidt.",
+			"Opløs gæren i vandet -- vandet m\u00e5 gerne være lunkent.",
+			"Tilsæt alle v\u00e5de ingredienser og derefter de tørre.",
+			"Melet m\u00e5 gerne tilføjes lidt efter lidt.",
 			"Tilføj tomatsauce og det fyld du ønsker (champignon og chorizo eller mosarella og parmaskinke fungerer rigtig godt).",
 			"Bag ved 200 grader i 10-12 minutter --  til skorpen er gylden og osten let brændt."
 		],
@@ -214,10 +214,10 @@
 		"inspirationlink": "https://www.mexicanplease.com/homemade-corn-tortillas/",
 		"teaser": "De sm\u00e5 wraps der bruges til al mexikansk mad, hjemmelavet.",
 		"steps": [
-			"Tilf\u00f8j majsmel og salt i en sk\u00e5l",
-			"Tilf\u00f8j ca. en tredjedel af det varme vand til blandingen og r\u00f8r til vandet er optaget.",
+			"Tilføj majsmel og salt i en sk\u00e5l",
+			"Tilføj ca. en tredjedel af det varme vand til blandingen og rør til vandet er optaget.",
 			"Fortsæt indtil melet samler sig til en dej.",
-			"Del dejen i golf-bold-st\u00f8rrelse bolde.",
+			"Del dejen i golf-bold-størrelse bolde.",
 			"Mas eller pres boldene flade med et spækbræt eller et fladt fadt (eller en tortillapresser).",
 			"Varm en pande til medium varme.",
 			"Læg en tortilla p\u00e5 panden og vend den efter 10 sekunder. Lad den derefter f\u00e5 1-2 minutter \u00e5 hver siden til sm\u00e5 sorte pletter former sig p\u00e5 den side, der er vendt mod panden.",
@@ -235,12 +235,12 @@
 		]
 	},
 	{
-		"name": "Rugbr\u00f8d",
+		"name": "Rugbrød",
 		"ingredients": [
 			{
 				"amount": "33",
 				"unit": "cl",
-				"ingredient": "\u00f8l (\u00e9n \u00f8l)"
+				"ingredient": "øl (\u00e9n øl)"
 			},
 			{
 				"amount": "2",
@@ -255,23 +255,23 @@
 			{
 				"amount": "2",
 				"unit": "dl",
-				"ingredient": "fr\u00f8 og kerner (solsikke eller h\u00f8rfr\u00f8 -- det du f\u00f8ler for)"
+				"ingredient": "frø og kerner (solsikke eller hørfrø -- det du føler for)"
 			},
 			{
 				"amount": "1",
 				"unit": "spsk",
-				"ingredient": "olie til at sm\u00f8re formene"
+				"ingredient": "olie til at smøre formene"
 			}
 		],
 		"image": "",
 		"inspirationlink": "https://groedgrisen.dk/rugbroed-med-surdej/",
-		"teaser": "Rugbr\u00f8d med kerner lavet med surdej.",
+		"teaser": "Rugbrød med kerner lavet med surdej.",
 		"steps": [
-			"Bland \u00f8l sirup knækkede rugkerner fr\u00f8 og kerner",
-			"Sm\u00f8r dine forme og hæld rugbr\u00f8dsdejen i",
+			"Bland øl sirup knækkede rugkerner frø og kerner",
+			"Smør dine forme og hæld rugbrødsdejen i",
 			"Lad dejen hæver under et viskestykke i 3-4 timer",
 			"Bag ved 190 grader i 1.5-2 timer",
-			"Lad br\u00f8dene afk\u00f8le p\u00e5 rist"
+			"Lad brødene afkøle p\u00e5 rist"
 		],
 		"servings_w_type": {
 			"servings": 2,
@@ -318,7 +318,7 @@
 			{
 				"amount": "50",
 				"unit": "g",
-				"ingredient": "sm\u00f8r"
+				"ingredient": "smør"
 			},
 			{
 				"amount": "450",
@@ -330,8 +330,8 @@
 		"inspirationlink": "https://madenimitliv.dk/2017/06/brusebadsboller-laekre-lynhurtige/",
 		"teaser": "Boller til de dage, hvor du har mindre tid, men stadig vil have noget nybagt.",
 		"steps": [
-			"Opl\u00f8s gæren i det lunke vand",
-			"Tilsæt sukker, salt og smeltet sm\u00f8r.",
+			"Opløs gæren i det lunke vand",
+			"Tilsæt sukker, salt og smeltet smør.",
 			"Tilsæt melet lidt ad gangen -- ælt til den er smidig og ensartet",
 			"Form bollerne og lad dem hæve i 20-25 min.",
 			"Bag bollerne ved 200 grader i 15-20 min.",
@@ -415,7 +415,7 @@
 		],
 		"image": "",
 		"inspirationlink": "https://meyers.dk/opskrifter/surdej/p/71506/",
-		"teaser": "Til alle dine br\u00f8d og gærdeje, brug en surdej som giver ekstra smag og bid.",
+		"teaser": "Til alle dine brød og gærdeje, brug en surdej som giver ekstra smag og bid.",
 		"steps": [
 			"Denne opskrift beskriver opbygning, vedligeeholdelse og pause/restart af surdej.",
 			"I alt tager det 5 dage før din surdej er klar. Husk at beregne tid til at starte den hvis du vil bruge surdejen til en speciel anledning.",
@@ -474,7 +474,7 @@
 			},			{
 				"amount": "8",
 				"unit": "fed",
-				"ingredient": "hvidl\u00f8g"
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "3",
@@ -598,12 +598,12 @@
 		]
 	},
 	{
-		"name": "Ramsl\u00f8gspesto",
+		"name": "Ramsløgspesto",
 		"ingredients": [
 			{
 				"amount": "150",
 				"unit": "g",
-				"ingredient": "ramsl\u00f8g (skyllede)"
+				"ingredient": "ramsløg (skyllede)"
 			},
 			{
 				"amount": "2.5",
@@ -648,7 +648,7 @@
 		]
 	},
 	{
-		"name": "Sicilienske k\u00f8dboller",
+		"name": "Sicilienske kødboller",
 		"ingredients": [
 			{
 				"amount": "1.5",
@@ -668,7 +668,7 @@
 			{
 				"amount": "1",
 				"unit": "stk",
-				"ingredient": "l\u00f8g (finthakket)"
+				"ingredient": "løg (finthakket)"
 			},
 			{
 				"amount": "1",
@@ -683,7 +683,7 @@
 			{
 				"amount": "3",
 				"unit": "fed",
-				"ingredient": "hvidl\u00f8g"
+				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "0.5",
@@ -698,7 +698,7 @@
 			{
 				"amount": "250",
 				"unit": "g",
-				"ingredient": "kalvek\u00f8d"
+				"ingredient": "kalvekød"
 			},
 			{
 				"amount": "2",
@@ -715,9 +715,9 @@
 		"inspirationlink": "https://www.ciaoitalia.com/seasons/18/1812/sicilian-meatballs",
 		"teaser": "Perfekte sammen med hjemmelavet pasta og tomatsauce, eller som en variation til frikadeller.",
 		"steps": [
-			"Læg raspen i bl\u00f8d med mælken og lad blandingen st\u00e5 i nogle minutter. Bland de resterende ingredienser i, i rækkef\u00f8lgen de er angivet i.",
-			"G\u00f8r dine hænder v\u00e5de (for at undg\u00e5 at bollerne klistrer for meget til dine hænder) og form sm\u00e5 k\u00f8dboller af farsen.",
-			"Plac\u00e9r alle k\u00f8dbollerne p\u00e5 en bageplade og bag dem ved 180 grader til de er brunede.",
+			"Læg raspen i blød med mælken og lad blandingen st\u00e5 i nogle minutter. Bland de resterende ingredienser i, i rækkefølgen de er angivet i.",
+			"Gør dine hænder v\u00e5de (for at undg\u00e5 at bollerne klistrer for meget til dine hænder) og form sm\u00e5 kødboller af farsen.",
+			"Plac\u00e9r alle kødbollerne p\u00e5 en bageplade og bag dem ved 180 grader til de er brunede.",
 			"Server gerne med en tomatsauce og hjemmellavet pasta eller som de er."
 		],
 		"servings_w_type": {
@@ -767,9 +767,9 @@
 		"inspirationlink": "",
 		"teaser": "N\u00e5r du lige skal spice din hverdagsret lidt op.",
 		"steps": [
-			"Læg melet i en bunke p\u00e5 k\u00f8kkenbordet og grav en udhulning i midten, hvori du sl\u00e5r æggene ud. Tilf\u00f8j saltet med æggene og olivenolien og r\u00f8r stille og roligt æggene sammen med melet.",
+			"Læg melet i en bunke p\u00e5 køkkenbordet og grav en udhulning i midten, hvori du sl\u00e5r æggene ud. Tilføj saltet med æggene og olivenolien og rør stille og roligt æggene sammen med melet.",
 			"Fortsæt indtil du har en samlet dej, som du derefter ælter til den er ensartet.",
-			"Pak dejen ind i plasticfolie og læg den p\u00e5 k\u00f8l i minimum en time.",
+			"Pak dejen ind i plasticfolie og læg den p\u00e5 køl i minimum en time.",
 			"Tag dejen ud og rul den flad (ca. 0.5 mm)",
 			"Brug en kniv til at skære pastastrimlerne ud.",
 			"Kog pastaen i 3-4 minutter, eller smag dig til, at den har f\u00e5et den konsistens du kan lide."
@@ -835,12 +835,12 @@
 			{
 				"amount": "100",
 				"unit": "g",
-				"ingredient": "r\u00f8rsukker"
+				"ingredient": "rørsukker"
 			},
 			{
 				"amount": "50",
 				"unit": "g",
-				"ingredient": "bl\u00f8dt sm\u00f8r"
+				"ingredient": "blødt smør"
 			},
 			{
 				"amount": "1",
@@ -870,7 +870,7 @@
 			{
 				"amount": "3",
 				"unit": "dl",
-				"ingredient": "s\u00f8dmælk"
+				"ingredient": "sødmælk"
 			},
 			{
 				"amount": "3",
@@ -885,12 +885,12 @@
 			{
 				"amount": "80",
 				"unit": "g",
-				"ingredient": "r\u00f8rsukker"
+				"ingredient": "rørsukker"
 			},
 			{
 				"amount": "1",
 				"unit": "dl",
-				"ingredient": "piskefl\u00f8de"
+				"ingredient": "piskefløde"
 			},
 			{
 				"amount": "",
@@ -913,7 +913,7 @@
 			"jordbaertaerte_skaaret.jpg"
 		],
 		"inspirationlink": "https://dittejulie.dk/2015/07/jordbaertaerte/",
-		"teaser": "Jordbærtærte med m\u00f8rdejsbund, vanillecreme, chokolade og masser af friske jordbær",
+		"teaser": "Jordbærtærte med mørdejsbund, vanillecreme, chokolade og masser af friske jordbær",
 		"steps": [
 			"Mørdej",
 			"Sigt mel og flormelis i en stor skål. Smuldr smørret heri med hænderne til det ligner savsmul/revet ost.",
@@ -961,7 +961,7 @@
 			{
 				"amount": "65",
 				"unit": "g",
-				"ingredient": "sm\u00f8r"
+				"ingredient": "smør"
 			},
 			{
 				"amount": "20",
@@ -1087,7 +1087,7 @@
 			{
 				"amount": "400",
 				"unit": "g",
-				"ingredient": "sm\u00f8r (koldt)"
+				"ingredient": "smør (koldt)"
 			},
 			{
 				"amount": "2",
@@ -1106,7 +1106,7 @@
 			"croissant_2.jpg"
 		],
 		"inspirationlink": "https://www.gastrofun.dk/opskrift/laekre-nemme-hjemmelavet-croissanter",
-		"teaser": "Let og luftigt bagværk. Sp\u00f8rdt udenp\u00e5 og bl\u00f8dt indeni.",
+		"teaser": "Let og luftigt bagværk. Spørdt udenp\u00e5 og blødt indeni.",
 		"steps": [
 			""
 		],
@@ -1134,7 +1134,7 @@
 			{
 				"amount": "40",
 				"unit": "g",
-				"ingredient": "r\u00f8rsukker eller flormelis"
+				"ingredient": "rørsukker eller flormelis"
 			},
 			{
 				"amount": "1",
@@ -1144,7 +1144,7 @@
 			{
 				"amount": "100",
 				"unit": "g",
-				"ingredient": "sm\u00f8r"
+				"ingredient": "smør"
 			},
 			{
 				"amount": "1",
@@ -1154,7 +1154,7 @@
 			{
 				"amount": "100",
 				"unit": "g",
-				"ingredient": "sm\u00f8r"
+				"ingredient": "smør"
 			},
 			{
 				"amount": "100",
@@ -1230,7 +1230,7 @@
 			{
 				"amount": "75",
 				"unit": "g",
-				"ingredient": "sm\u00f8r"
+				"ingredient": "smør"
 			},
 			{
 				"amount": "150",
@@ -1250,7 +1250,7 @@
 			{
 				"amount": "300",
 				"unit": "g",
-				"ingredient": "fl\u00f8deost"
+				"ingredient": "flødeost"
 			},
 			{
 				"amount": "150",
@@ -1260,7 +1260,7 @@
 			{
 				"amount": "1.5",
 				"unit": "dl",
-				"ingredient": "piskefl\u00f8de"
+				"ingredient": "piskefløde"
 			},
 			{
 				"amount": "200",
@@ -1275,26 +1275,26 @@
 		],
 		"image": "hindbaer_cheesecake_zoom.jpg",
 		"inspirationlink": "https://www.kaere-hjem.dk/opskrifter/kager/cheesecake-med-hindbaer-og-kiksebund",
-		"teaser": "Flot , frisk, lyser\u00f8d, marmoreret hindbærcheesecake.",
+		"teaser": "Flot , frisk, lyserød, marmoreret hindbærcheesecake.",
 		"steps": [
 			"Hindbærpur\u00e9",
 			"Pres saften af citronen og blend hindbær, citronsaft og flormelis til en fin pur\u00e9.",
-			"Si pur\u00e9en for at fjerne hindbærfrøene og sæt den i k\u00f8leskabet.",
+			"Si pur\u00e9en for at fjerne hindbærfrøene og sæt den i køleskabet.",
 			"Kiksebund",
 			"Beklæd bunden af springformen med bagepapir",
-			"Smelt sm\u00f8rret ved svag varme .",
-			"Knus kiksene fint og bland dem med det slemtede sm\u00f8r",
-			"Pres kiksemassen sammen i bunden af springformen i et jævnt lag og sæt formen i k\u00f8leskabet.",
-			"Fl\u00f8deostcreme",
-			"Læg husbladsen i bl\u00f8d i en sk\u00e5l med koldt vand i 5 minutter",
+			"Smelt smørret ved svag varme .",
+			"Knus kiksene fint og bland dem med det slemtede smør",
+			"Pres kiksemassen sammen i bunden af springformen i et jævnt lag og sæt formen i køleskabet.",
+			"Flødeostcreme",
+			"Læg husbladsen i blød i en sk\u00e5l med koldt vand i 5 minutter",
 			"Riv skallen af citronen fint og pres saften af den.",
 			"Lun citronsaften i en gryde",
 			"Klem vandet af husbladsen og smelt den i citronsaften",
-			"Pisk citronskal sammen med fl\u00f8deost og sukker med en elpisker.",
-			"Pisk fl\u00f8de og creme fraiche i.",
-			"Pisk æggehviderne stive med elpiskeren og vend dem forsigtig i fl\u00f8deostecremen.",
+			"Pisk citronskal sammen med flødeost og sukker med en elpisker.",
+			"Pisk fløde og creme fraiche i.",
+			"Pisk æggehviderne stive med elpiskeren og vend dem forsigtig i flødeostecremen.",
 			"Tag 2-3 spsk af hindbærpur\u00e9en til side",
-			"Vend forsigtigt resten  af pur\u00e9en i fl\u00f8deostecremen - bland det ikke helt, men lad det være marmoreret.",
+			"Vend forsigtigt resten  af pur\u00e9en i flødeostecremen - bland det ikke helt, men lad det være marmoreret.",
 			"Fordel cremen ovenp\u00e5 kiksebunden brug den sidste del hindbærpur\u00e9e til at dekorere toppen af cheesecaken. Dæk cheesecaken med film og lad den st\u00e5 til dagen efter. Pynt kagen med hindbær inden servering."
 		],
 		"servings_w_type": {
@@ -1318,7 +1318,7 @@
 			{
 				"amount": "40",
 				"unit": "g",
-				"ingredient": "sm\u00f8r"
+				"ingredient": "smør"
 			},
 			{
 				"amount": "1",
@@ -1348,12 +1348,12 @@
 			{
 				"amount": "1",
 				"unit": "knivspids",
-				"ingredient": "st\u00f8dt kardemomme"
+				"ingredient": "stødt kardemomme"
 			},
 			{
 				"amount": "150",
 				"unit": "g",
-				"ingredient": "sm\u00f8r (bl\u00f8dt)"
+				"ingredient": "smør (blødt)"
 			},
 			{
 				"amount": "1",
@@ -1366,13 +1366,13 @@
 		"teaser": "Snasket kage",
 		"steps": [
 			"Fyld",
-			"Kom brun farin, kanel og sm\u00f8r i en gryde og smelt det langsomt ved lav varme",
-			"R\u00f8r det sammen til en homogen masse.",
-			"Lad blandingen k\u00f8le af til stuetemperatur og s\u00f8rg for at r\u00f8re det godt igennem inden du kommer det p\u00e5 kagen.",
+			"Kom brun farin, kanel og smør i en gryde og smelt det langsomt ved lav varme",
+			"Rør det sammen til en homogen masse.",
+			"Lad blandingen køle af til stuetemperatur og sørg for at røre det godt igennem inden du kommer det p\u00e5 kagen.",
 			"Dejen",
-			"Smelt sm\u00f8rret i en gryde og tag gryden af varmen",
-			"Tilsæt mælk og gær og r\u00f8r godt rundt s\u00e5 gæren opl\u00f8ses",
-			"Tilsæt æg, salt, sukker, kardemomme og mel og r\u00f8r dejen sammen.",
+			"Smelt smørret i en gryde og tag gryden af varmen",
+			"Tilsæt mælk og gær og rør godt rundt s\u00e5 gæren opløses",
+			"Tilsæt æg, salt, sukker, kardemomme og mel og rør dejen sammen.",
 			"Kom dejen i en springform eller lille kageform med bagepapir og lade den hæve i 45 min, overdækket.",
 			"Lav huller i dejen med dine fingre og fordel fyldet ud over kagen.",
 			"Bag brunsvigeren i 25 min. ved 180 grader varmluft."
@@ -1405,7 +1405,7 @@
 			{
 				"amount": "2",
 				"unit": "dl",
-				"ingredient": "fl\u00f8de"
+				"ingredient": "fløde"
 			},
 			{
 				"amount": "2.5",
@@ -1440,19 +1440,19 @@
 			{
 				"amount": "125",
 				"unit": "g",
-				"ingredient": "sm\u00f8r"
+				"ingredient": "smør"
 			}
 		],
 		"image": "vafler.jpg",
 		"inspirationlink": "https://www.tine.no/oppskrifter/kaker/vafler-og-smakaker/verdens-beste-vafler",
-		"teaser": "Den bedste vaffelr\u00f8re til bl\u00f8de og lækre vafler.",
+		"teaser": "Den bedste vaffelrøre til bløde og lækre vafler.",
 		"steps": [
 			"Pisk æg og sukker godt sammen",
-			"Tilsæt fl\u00f8de, mælk og vand.",
-			"Bland alle de t\u00f8rre ingredienser i or r\u00f8r til du f\u00e5r en ensartet masse.",
+			"Tilsæt fløde, mælk og vand.",
+			"Bland alle de tørre ingredienser i or rør til du f\u00e5r en ensartet masse.",
 			"Vaffelrøren skal virke let, men  fyldig at røre rundt i. Den skal ikke have alt for svært ved at hældes fra en øse, men skal heller ikke være vandig.",
-			"Lad vaffelr\u00f8ren st\u00e5 i minimum 15 min",
-			"Tilsæt sm\u00f8r og steg vaflerne.",
+			"Lad vaffelrøren st\u00e5 i minimum 15 min",
+			"Tilsæt smør og steg vaflerne.",
 			"Jeg serverer mine vafler med brunost (myseost), syltetøj og en lille klat creme fraiche -- på ægte norsk manér. Det lyder måske lidt underligt, men prøv det. Det er en perfekt kombination."
 		],
 		"servings_w_type": {
