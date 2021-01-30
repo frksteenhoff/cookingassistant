@@ -240,7 +240,7 @@
 			{
 				"amount": "33",
 				"unit": "cl",
-				"ingredient": "øl (\u00e9n øl)"
+				"ingredient": "øl (én øl)"
 			},
 			{
 				"amount": "2",
@@ -293,7 +293,7 @@
 			{
 				"amount": "50",
 				"unit": "g",
-				"ingredient": "gær (\u00e9n pakke)"
+				"ingredient": "gær (én pakke)"
 			},
 			{
 				"amount": "0.5",
@@ -717,7 +717,7 @@
 		"steps": [
 			"Læg raspen i blød med mælken og lad blandingen stå i nogle minutter. Bland de resterende ingredienser i, i rækkefølgen de er angivet i.",
 			"Gør dine hænder våde (for at undgå at bollerne klistrer for meget til dine hænder) og form små kødboller af farsen.",
-			"Plac\u00e9r alle kødbollerne på en bageplade og bag dem ved 180 grader til de er brunede.",
+			"Placér alle kødbollerne på en bageplade og bag dem ved 180 grader til de er brunede.",
 			"Server gerne med en tomatsauce og hjemmellavet pasta eller som de er."
 		],
 		"servings_w_type": {
@@ -1277,9 +1277,9 @@
 		"inspirationlink": "https://www.kaere-hjem.dk/opskrifter/kager/cheesecake-med-hindbaer-og-kiksebund",
 		"teaser": "Flot , frisk, lyserød, marmoreret hindbærcheesecake.",
 		"steps": [
-			"Hindbærpur\u00e9",
-			"Pres saften af citronen og blend hindbær, citronsaft og flormelis til en fin pur\u00e9.",
-			"Si pur\u00e9en for at fjerne hindbærfrøene og sæt den i køleskabet.",
+			"Hindbærpuré",
+			"Pres saften af citronen og blend hindbær, citronsaft og flormelis til en fin puré.",
+			"Si puréen for at fjerne hindbærfrøene og sæt den i køleskabet.",
 			"Kiksebund",
 			"Beklæd bunden af springformen med bagepapir",
 			"Smelt smørret ved svag varme .",
@@ -1293,9 +1293,9 @@
 			"Pisk citronskal sammen med flødeost og sukker med en elpisker.",
 			"Pisk fløde og creme fraiche i.",
 			"Pisk æggehviderne stive med elpiskeren og vend dem forsigtig i flødeostecremen.",
-			"Tag 2-3 spsk af hindbærpur\u00e9en til side",
-			"Vend forsigtigt resten  af pur\u00e9en i flødeostecremen - bland det ikke helt, men lad det være marmoreret.",
-			"Fordel cremen ovenpå kiksebunden brug den sidste del hindbærpur\u00e9e til at dekorere toppen af cheesecaken. Dæk cheesecaken med film og lad den stå til dagen efter. Pynt kagen med hindbær inden servering."
+			"Tag 2-3 spsk af hindbærpuréen til side",
+			"Vend forsigtigt resten  af puréen i flødeostecremen - bland det ikke helt, men lad det være marmoreret.",
+			"Fordel cremen ovenpå kiksebunden brug den sidste del hindbærpurée til at dekorere toppen af cheesecaken. Dæk cheesecaken med film og lad den stå til dagen efter. Pynt kagen med hindbær inden servering."
 		],
 		"servings_w_type": {
 			"servings": 1,
