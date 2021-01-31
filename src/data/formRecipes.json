@@ -5267,6 +5267,7 @@
 		],
 		"additionalImages": [
 			"field_blend_dough.jpg",
+			"bread_proof.jpg",
 			"field_blend.jpg"
 		],
 		"relatedrecipes": [
@@ -5459,7 +5460,7 @@
 	{
 		"name": "Tomatsauce til pizza",
 		"teaser": "Hvis du gerne vil lave en pizzasuace fra bunden, prøv denne!",
-		"image": "pizza_tomato_sauce.jpg",
+		"image": "tomato_sauce_done.jpg",
 		"ingredients": [
 			{
 				"amount": "1",
@@ -5536,10 +5537,61 @@
 			"vegetarisk"
 		],
 		"additionalImages": [
-			"tomat_sauce_start.jpg"
+			"tomat_sauce_start.jpg",
+			"pizza_tomato_sauce.jpg"
 		],
 		"relatedrecipes": [
-			"Surdejs pizzadej"
+			"Pizzadej"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Hvid pizzasauce",
+		"teaser": "Et alternativ til den klassiske tomatsauce på din pizza",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "creme fraiche"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "ricotta"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "stilk(e)",
+				"ingredient": "frisk basilikum, finthakket"
+			}
+		],
+		"steps": [
+			"Snit hvidløg og basilikum fint og bland derefter alle ingredienser sammen.",
+			"Kom saucen på din pizzabund og top med mosarella og f.eks. kartofler og basilikum eller gedeost og svampe."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "2",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"sauce",
+			"tilbehør"
+		],
+		"relatedrecipes": [
+			"Pizzadej"
 		],
 		"inspirationlink": ""
 	}
