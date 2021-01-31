@@ -5392,7 +5392,7 @@
 				"amount": "",
 				"unit": "",
 				"ingredient": ""
-			},	
+			},
 			{
 				"amount": "2",
 				"unit": "fed",
@@ -5454,6 +5454,93 @@
 			"salat"
 		],
 		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Tomatsauce til pizza",
+		"teaser": "Hvis du gerne vil lave en pizzasuace fra bunden, prøv denne!",
+		"image": "pizza_tomato_sauce.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "dåse(r)",
+				"ingredient": "hakkede tomater"
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "friske tomater, f.eks. cherrytomater"
+			},
+			{
+				"amount": "4",
+				"unit": "stilk(e)",
+				"ingredient": "frisk basilikum"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "oregano"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "løg"
+			}
+		],
+		"steps": [
+			"Snit løg og hvidløg fint og skær dine tomater i kvarte.",
+			"Kom smør og olivenolie på en pande ved medium varme og tilsæt løg og hvidløg, når denne er varm. Lad den stege til de får en glasagtig overflade, tilsæt derefter de friske tomater og basilikum og lad dem simre i 5 minutter.",
+			"Tilsæt de hakkede tomater, oregano, salt og peber og lad saucen koge ind i 20 minutter, uden låg, ved medium-lav varme.",
+			"Saucen er færdig når det meste af vandet er dampet af og det der er tilbage er en semi-fast masse, som dog stadig vil kunne smøres på pizzaerne. Smag til med salt og peber, men lad ikke smagen blive for gennemtrængende -- man skal stadig kunne smage det topping du vælger at komme på",
+			"Denne opskrift kan sagtens laves uden de friske tomater dog bliver saucen en smule mere sur, hvilket er grunden til at jeg plejer at tilføje friske tomater også."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "2",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "10",
+			"passive": "30"
+		},
+		"protip": "",
+		"categories": [
+			"sauce",
+			"tilbehør",
+			"vegetarisk"
+		],
+		"additionalImages": [
+			"tomat_sauce_start.jpg"
+		],
+		"relatedrecipes": [
+			"Surdejs pizzadej"
+		],
 		"inspirationlink": ""
 	}
 ]

@@ -134,43 +134,39 @@
 		]
 	},
 	{
-		"name": "Surdejs pizzadej",
+		"name": "Pizzadej",
 		"ingredients": [
 			{
-				"amount": "25",
+				"amount": "2",
 				"unit": "g",
-				"ingredient": "gær"
+				"ingredient": "tørgær"
 			},
 			{
-				"amount": "2.5",
-				"unit": "dl",
-				"ingredient": "vand"
+				"amount": "1000",
+				"unit": "g",
+				"ingredient": "tipo OO hvedemel"
 			},
 			{
-				"amount": "3",
-				"unit": "spsk",
-				"ingredient": "olivenolie"
+				"amount": "700",
+				"unit": "g",
+				"ingredient": "vand, 35 grader"
 			},
 			{
-				"amount": "1",
-				"unit": "tsk",
+				"amount": "20",
+				"unit": "g",
 				"ingredient": "salt"
-			},
-			{
-				"amount": "500",
-				"unit": "g",
-				"ingredient": "hvedemel"
 			}
 		],
 		"image": "pizza_dough_plain.jpg",
-		"inspirationlink": "https://www.valdemarsro.dk/hjemmelavet-pizza/",
-		"teaser": "Pizzadej",
+		"inspirationlink": "",
+		"teaser": "Let og luftig pizzadej med en sprød skorpe og et godt bid.",
 		"steps": [
-			"Opløs gæren i vandet -- vandet må gerne være lunkent.",
-			"Tilsæt alle våde ingredienser og derefter de tørre.",
-			"Melet må gerne tilføjes lidt efter lidt.",
-			"Tilføj tomatsauce og det fyld du ønsker (champignon og chorizo eller mosarella og parmaskinke fungerer rigtig godt).",
-			"Bag ved 200 grader i 10-12 minutter --  til skorpen er gylden og osten let brændt."
+			"Afmål de 2g tørgær og kom dem i en lille beholder hvor der er lidt ekstra plads. Jeg plejer at bruge et æggebæger.",
+			"Tilsæt 2-3 tsk vand til at opløse gæren i, rør godt rundt og stil til side.",
+			"Afmål mel og tilsæt vandet. Bland mel og vand sammen og lad dejen stå (autolyse) i 30 minutter inden du fortsætter.",
+			"Efter de 30 minutter, tilsæt da salt og den lille gærblanding og ælt godt. Lad derefter dejen hæve i 6 timer på køkkenbænken. Herefter er den klar til brug.",
+			"Tilføj tomatsauce og det fyld du ønsker. Champignon og chorizo eller mosarella og parmaskinke fungerer rigtig godt.",
+			"Bag ved 250 grader, gerne på et bagestål, i 10-12 minutter --  til skorpen er gylden og osten let brændt."
 		],
 		"servings_w_type": {
 			"servings": 4,
@@ -178,16 +174,20 @@
 		},
 		"path": "description",
 		"additionalImages": [
+			"pizza_dough_ingredients.jpg",
+			"pizza_dough_fold.jpg",
 			"pizza_tomato_sauce.jpg",
 			"pizza_white.jpg",
 			"pizza_goat_cheese.jpg",
 			"pizza_chorizo.jpg",
 			"pizza_chorizo_done_2.jpg"
 		],
-		"relatedrecipes": [],
+		"protip": "Bland gerne forskellige typer mel i din pizzadej. Jeg plejer at bruge grahamsmel eller ølandshvedemel som et supplement til hvedemelet.",
+		"relatedrecipes": [
+			"Tomatsauce til pizza"
+		],
 		"categories": [
 			"bagning",
-			"surdej",
 			"aftensmad"
 		]
 	},
