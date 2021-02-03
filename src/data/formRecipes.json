@@ -5218,12 +5218,12 @@
 			{
 				"amount": "85",
 				"unit": "g",
-				"ingredient": "rugmel"
+				"ingredient": "fuldkornshvedemel"
 			},
 			{
 				"amount": "175",
 				"unit": "g",
-				"ingredient": "fuldkornshvedemel"
+				"ingredient": "rugmel"
 			},
 			{
 				"amount": "540",
@@ -5236,29 +5236,53 @@
 				"ingredient": "surdej"
 			},
 			{
-				"amount": "",
-				"unit": "",
-				"ingredient": ""
+				"amount": "2",
+				"unit": "g",
+				"ingredient": "tørgær"
+			},
+			{
+				"amount": "21",
+				"unit": "g",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "620",
+				"unit": "g",
+				"ingredient": "vand, 32-35 grader"
 			}
 		],
 		"steps": [
+			"Dette brød kræver en del tid. Dejen skal både hæve (bulk fermentation) og efterhæve (proofing). Deruover kræver dette brød også surdej. Se linket til relaterede opskrifter for at lære hvordan du kan lave din surdej. Surdejen du bruger her skal helst være fodret 6-8 timer inden du går igang med denne opskrift.",
 			"Autolyse",
-			"Bland færdig dej",
+			"Autolyse er processen hvori du lader glutennetværket udvikle sig i dit brød.",
+			"Bland alle meltyper og vand i en stor skål og lad blandingen hvile i 30 minutter inden du fortsætter.",
+			"Dejen",
+			"Bland den færdige dej ved at drysse de 21 gram salt og de to gram tørgær ud over din melblanding.",
+			"Derefter afmål og tilsæt surdejen til massen og ælt godt. Jeg plejer at bruge pincer-metoden.",
+			"For at undgå at dejen sætter sig alt for godt fast på den hånd du ælter med, gør den våd med vand, inden du går igang.",
 			"Hævning",
+			"Lad dejen hæve i 5 timer, eller til den er blevet ca. dobbel størrelse ifht. udgangspunktet.",
 			"Formning",
-			"Hævning (køleskab)"
+			"Hjælp dejen ud af din beholder på en medrysset overflade. Del den herefter i to og giv hver del et par folder, så de bliver faste. Kom herefter dejene i hver sin beholder og dæk dem med et hviskestykke.",
+			"Lad dejene hæve i køleskabet i 12 timer. Brødene behøver ikke at 'varmes' op efter de er kommet ud af køleskabet. Du kan bage dem direkte.",
+			"Bagning",
+			"Dette brød bages ved meget høj varme.",
+			"30 minutter inden du vil bage dine brød, kom da en støbejernsgryde i ovnen og varm den oop til 250 grader. Stil den gerne på et bagestål, hvis du har sådan et.",
+			"Når ovnen er klar, tag et af dine brød ud og kom det i støbejernsgryden.",
+			"Kom derefter låg på og stil gryden tilbage i ovnen.",
+			"Bag brødet i 20 minutter inden du tager låget af støbejernsgryden og bager brødet i yderligere 25 minutter."
 		],
 		"path": "description",
 		"servings": "",
 		"servings_w_type": {
-			"servings": "1",
+			"servings": "2",
 			"type": "stk"
 		},
 		"preparationtime": {
-			"active": "",
-			"passive": ""
+			"active": "30",
+			"passive": "1140"
 		},
-		"protip": "",
+		"protip": "Giv dejen et par fold i løbet af den første time efter dejen er blandet. Så bliver dejen mere elastisk og brødet mere svampet.",
 		"categories": [
 			"brød",
 			"bagning",
@@ -5592,6 +5616,98 @@
 		],
 		"relatedrecipes": [
 			"Pizzadej"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Pain de Campagne",
+		"teaser": "Surdejsbrød med sprød skorpe og en svampet, syrligt bid.",
+		"image": "pain_campagne_sliced.jpg",
+		"ingredients": [
+			{
+				"amount": "60",
+				"unit": "g",
+				"ingredient": "fuldkornshvedemel"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "tipo OO"
+			},
+			{
+				"amount": "340",
+				"unit": "g",
+				"ingredient": "ølandshvedemel"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "surdej"
+			},
+			{
+				"amount": "2",
+				"unit": "g",
+				"ingredient": "tørgær"
+			},
+			{
+				"amount": "21",
+				"unit": "g",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "620",
+				"unit": "g",
+				"ingredient": "vand, 32-35 grader"
+			}
+		],
+		"steps": [
+			"Dette brød kræver en del tid. Dejen skal både hæve (bulk fermentation) og efterhæve (proofing). Deruover kræver dette brød også surdej. Se linket til relaterede opskrifter for at lære hvordan du kan lave din surdej. Surdejen du bruger her skal helst være fodret 6-8 timer inden du går igang med denne opskrift.",
+			"Autolyse",
+			"Autolyse er processen hvori du lader glutennetværket udvikle sig i dit brød.",
+			"Bland alle meltyper og vand i en stor skål og lad blandingen hvile i 30 minutter inden du fortsætter.",
+			"Dejen",
+			"Bland den færdige dej ved at drysse de 21 gram salt og de to gram tørgær ud over din melblanding.",
+			"Derefter afmål og tilsæt surdejen til massen og ælt godt. Jeg plejer at bruge pincer-metoden.",
+			"For at undgå at dejen sætter sig alt for godt fast på den hånd du ælter med, gør den våd med vand, inden du går igang.",
+			"Hævning",
+			"Lad dejen hæve i 5 timer, eller til den er blevet ca. dobbel størrelse ifht. udgangspunktet.",
+			"Formning",
+			"Hjælp dejen ud af din beholder på en medrysset overflade. Del den herefter i to og giv hver del et par folder, så de bliver faste. Kom et let lag mel udover begge dele og kom herefter dejene i hver sin beholder. Dæk dem med et hviskestykke og kom dem på køl.",
+			"Lad dejene hæve i køleskabet i 12 timer. Brødene behøver ikke at 'varmes' op efter de er kommet ud af køleskabet. Du kan bage dem direkte.",
+			"Bagning",
+			"Dette brød bages ved meget høj varme.",
+			"30 minutter inden du vil bage dine brød, kom da en støbejernsgryde i ovnen og varm den oop til 250 grader. Stil den gerne på et bagestål, hvis du har sådan et.",
+			"Når ovnen er klar, tag et af dine brød ud og kom det i støbejernsgryden.",
+			"Kom derefter låg på og stil gryden tilbage i ovnen.",
+			"Kom en bradepande under gryden og hæld vand i. Dampen giver brødet en god skorpe og hjælper det med at hæve i ovnen.",
+			"Bag brødet i 30 minutter inden du tager låget af støbejernsgryden og bager brødet i yderligere 20 minutter.",
+			"Jeg kan godt lide at brødet bliver let brændt. Dette frigiver nogle estere fra alkoholen og giver brødet en bredere smagsprofil. Hvis du ønsker et andet resultat, så hold øje med dit brød efter du har taget låget af gryden og tage det ud når det har fået den farve, som du gerne vil have.",
+			"Lad brødet køle af i 30 minutter inden du skærer det."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "2",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": "1140"
+		},
+		"protip": "Giv dejen et par fold i løbet af den første time efter dejen er blandet. Så bliver dejen mere elastisk og brødet mere svampet.",
+		"categories": [
+			"brød",
+			"bagning",
+			"frokost",
+			"morgenmad"
+		],
+		"additionalImages": [
+			"pain_campagne_whole_done.jpg",
+			"pain_campagne_crumb_shot.jpg",
+			"pain_campagne_half.jpg"
+		],
+		"relatedrecipes": [
+			"Surdej"
 		],
 		"inspirationlink": ""
 	}
