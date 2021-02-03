@@ -310,7 +310,8 @@
 		},
 		"categories": [
 			"dessert",
-			"specielle anledninger"
+			"specielle anledninger",
+			"bagning"
 		],
 		"preparationtime": {
 			"active": "15",
@@ -4137,7 +4138,8 @@
 		"categories": [
 			"dessert",
 			"specielle anledninger",
-			"flambering"
+			"flambering",
+			"bagning"
 		],
 		"additionalImages": [
 			"baked_alaska.jpg"

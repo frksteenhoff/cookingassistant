@@ -161,13 +161,17 @@
 		"inspirationlink": "",
 		"teaser": "Let og luftig pizzadej med en sprød skorpe og et godt bid.",
 		"steps": [
-			"Afmål de 2g tørgær og kom dem i en lille beholder hvor der er lidt ekstra plads. Jeg plejer at bruge et æggebæger.",
-			"Tilsæt 2-3 tsk vand til at opløse gæren i, rør godt rundt og stil til side.",
-			"Afmål mel og tilsæt vandet. Bland mel og vand sammen og lad dejen stå (autolyse) i 30 minutter inden du fortsætter.",
+			"Afmål tørgær og kom det i en lille beholder hvor der er lidt ekstra plads. Jeg plejer at bruge et æggebæger.",
+			"Tilsæt 2-3 tsk vand til at opløse gæren i. Rør godt rundt og stil til side.",
+			"Afmål mel og tilsæt vandet i en beholder. Bland mel og vand sammen og lad dejen stå (autolyse) i 30 minutter inden du fortsætter.",
 			"Efter de 30 minutter, tilsæt da salt og den lille gærblanding og ælt godt. Lad derefter dejen hæve i 6 timer på køkkenbænken. Herefter er den klar til brug.",
 			"Tilføj tomatsauce og det fyld du ønsker. Champignon og chorizo eller mosarella og parmaskinke fungerer rigtig godt.",
 			"Bag ved 250 grader, gerne på et bagestål, i 10-12 minutter --  til skorpen er gylden og osten let brændt."
 		],
+		"preparationtime": {
+			"active": "20",
+			"passive": "390"
+		},
 		"servings_w_type": {
 			"servings": 4,
 			"type": "stk"
@@ -3013,7 +3017,8 @@
 		"protip": "",
 		"categories": [
 			"dessert",
-			"snack"
+			"snack",
+			"bagning"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
