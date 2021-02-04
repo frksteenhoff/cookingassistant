@@ -372,70 +372,6 @@
 		]
 	},
 	{
-		"name": "Spicy chili dip",
-		"teaser": "Til japanske retter som friske rispapirsruller, forårsruller, sushi, sashimi, bao og lign.",
-		"image": "",
-		"ingredients": [
-			{
-				"amount": "1",
-				"unit": "dl",
-				"ingredient": "soya"
-			},
-			{
-				"amount": "1",
-				"unit": "spsk",
-				"ingredient": "olivenolie"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "chili (hel)"
-			},
-			{
-				"amount": "1",
-				"unit": "fed",
-				"ingredient": "hvidløg"
-			},
-			{
-				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "spidskommen"
-			},
-			{
-				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "koriander (eller frisk)"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "lime, saften"
-			}
-		],
-		"steps": [
-			"Hak chili og hvidløg fint",
-			"Pres saften af limen og bland alle ingredienser i en lille skål",
-			"Lad stå 15 min inden brug."
-		],
-		"servings_w_type": {
-			"servings": 2,
-			"type": "dl"
-		},
-		"categories": [
-			"dip",
-			"tilbehør"
-		],
-		"preparationtime": {
-			"active": "10",
-			"passive": "15"
-		},
-		"path": "description",
-		"relatedrecipes": [
-			"dumpling wrappers",
-			"dumpling fars"
-		]
-	},
-	{
 		"name": "Soyadressing",
 		"teaser": "Til japanske retter",
 		"image": "",
@@ -2340,7 +2276,7 @@
 			"Gør dette indtil al dejen er brugt.",
 			"Varm olien op i en gryde og tjek at den er blevet varm med et grillspyd i træ. Når olien bruser op om træet, er den klar.",
 			"Steg forårsrullerne af flere omgange og læg de færdige forårsruller på et stykke køkkenrulle.",
-			"Server gerne med sursødsauce eller spicy chili dip."
+			"Server gerne med sursødsauce eller gyoza dipping sauce."
 		],
 		"path": "description",
 		"servings_w_type": {
@@ -2351,6 +2287,9 @@
 			"active": "45",
 			"passive": ""
 		},
+		"relatedrecipes": [
+			"Gyoza dipping sauce"
+		],
 		"categories": [
 			"snack",
 			"aftensmad",
@@ -2359,7 +2298,7 @@
 	},
 	{
 		"name": "Garam Masala",
-		"teaser": "Lækker indisk krydderi der bruges i mange gryderetter",
+		"teaser": "Lækker indisk krydderiblanding der bruges i mange gryderetter",
 		"image": "",
 		"ingredients": [
 			{
@@ -2992,8 +2931,7 @@
 		],
 		"relatedrecipes": [
 			"Peanutbutter sauce",
-			"Gyoza dipping sauce",
-			"Spicy chili dip"
+			"Gyoza dipping sauce"
 		]
 	},
 	{
