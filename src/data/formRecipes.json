@@ -4666,7 +4666,7 @@
 	{
 		"name": "Bluecheese burgers med kylling",
 		"teaser": "Friturestegt kylling, agurkeslaw og blåskimmel ost ",
-		"image": "chickenburger.jpg",
+		"image": "chickenburger2.jpg",
 		"ingredients": [
 			{
 				"amount": "2",
@@ -4785,10 +4785,14 @@
 			"friture"
 		],
 		"additionalImages": [
-			"friedchicken.jpg"
+			"friedchicken.jpg",
+			"chickenburger.jpg",
+			"chickenburger_bite.jpg"
 		],
 		"relatedrecipes": [
-			"Coleslaw med lynsyltede agurker og radiser"
+			"Coleslaw med lynsyltede agurker og radiser",
+			"Syltede rødløg",
+			"Burgerboller"
 		],
 		"inspirationlink": ""
 	},
@@ -5651,5 +5655,85 @@
 			"Surdej"
 		],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Burgerboller",
+		"teaser": "Lette og luftige boller til burgere",
+		"image": "burger_boller_done.jpg",
+		"ingredients": [
+			{
+				"amount": "3",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "gær"
+			},
+			{
+				"amount": "450",
+				"unit": "g",
+				"ingredient": "hvedemel"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "smør, blødt"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg, til pensling"
+			}
+		],
+		"steps": [
+			"Lun mælken og opløs gæren heri. Når gæren er opløst, tilsæt da ægget og herefter hvedemel lidt efter lidt. Ælt den til du har en ensartet dej.",
+			"Kom sukker, salt og blødt smør ved og ælt dette godt ind i dejen. Brug f.eks. pincer metoden. Sørg for at der ikke er nogen smørklumper.",
+			"Dæk dejen med et viskestykke og lade den hæve i 30-45 minutter.",
+			"Del dejen i 8 stykker, eller form dem i en størrelse du finder passende og lad dem derefter hæve i yderligere 15 minutter.",
+			"Pensl bollerne med æg og bag dem ved 220 grader ved alm ovn med under og overvarme i ca. 10 minutter.",
+			"Bollerne kan evt. toppes med f.eks sesamfrø."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "8",
+			"type": "stk"
+		},
+		"additionalImages": [
+			"burger_boller_haevning.jpg"
+		],
+		"preparationtime": {
+			"active": "20",
+			"passive": "60"
+		},
+		"protip": "Hvis du gerne vil have nogle grovere boller, erstat dele af eller alt hvedemel med f.eks. fuldkornshvedemel.",
+		"categories": [
+			"bagning",
+			"tilbehør",
+			"brød"
+		],
+		"relatedrecipes": [
+			"Bluecheese burgers med kylling",
+			"Syltede rødløg",
+			"Coleslaw med lynsyltede agurker og radiser"
+		],
+		"inspirationlink": "https://madensverden.dk/burgerboller/"
 	}
 ]
