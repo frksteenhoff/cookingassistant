@@ -2342,7 +2342,10 @@
 			"Lad dem køle af og put dem i en lille beholder -- brug helst indenfor 2 måneder."
 		],
 		"path": "description",
-		"servings": "1 lille bøtte",
+		"servings_w_type": {
+			"servings": 1.5,
+			"type": "dl"
+		},
 		"preparationtime": {
 			"active": "10",
 			"passive": ""
@@ -2354,7 +2357,7 @@
 	{
 		"name": "Chicken Korma",
 		"teaser": "Traditionel indisk ret der er let og krydret med en cremet sauce.",
-		"image": "",
+		"image": "korma.jpg",
 		"ingredients": [
 			{
 				"amount": "6",
@@ -2432,25 +2435,26 @@
 				"ingredient": "løg, finthakket"
 			},
 			{
-				"amount": "0.5",
+				"amount": "1.5",
 				"unit": "dl",
 				"ingredient": "fløde"
 			}
 		],
 		"steps": [
+			"Forberedelse",
 			"Skær kyllingen i mundrette stykker og put dem i en stor skål.",
 			"Kom tompasta, ingefær, hvidløg, garam masala, rød peber, paprika, kardemomme, salt, gurkemeje og mandler i en food processor og blend indtil blandingen er ensartet ",
-			"Tilføj blandingen til skålen med kylling sammen med yoghurt og bland godt.",
-			"Stil på køl i 1-2 timer.",
-			"Tilføj olie og smør til en stor pande ved medium varme.",
+			"Tilføj blandingen til skålen med kylling sammen med yoghurt og bland godt. Stil på køl i minimum 1-2 timer.",
+			"Tilberedning",
+			"Tilføj olie og smør på en stor pande ved medium varme og lade det varme op.",
 			"Tilføj de hakkede løg og brun dem af.",
 			"Tilføj kyllingen og lad blandingen stå i 12-15 minutter (til kyllingen er gennemkogt).",
-			"Tilføj fløden og bland godt. Lad blandingen stå i 5 minutter.",
+			"Tilføj fløden og bland godt. Lad blandingen stå i 5 minutter. Jeg kan godt lide at saucen er lidt tyk, hvis du gerne vil have den mere flydende, tilføj lidt ekstra fløde.",
 			"Server med ris og naan."
 		],
 		"path": "description",
 		"relatedrecipes": [
-			"garam masala",
+			"Garam masala",
 			"Naan brød"
 		],
 		"inspirationlink": "https://dinnerthendessert.com/indian-chicken-korma/",
@@ -2571,7 +2575,7 @@
 	{
 		"name": "Naan brød",
 		"teaser": "Indisk madbrød, super lækkert til sammenkogte retter.",
-		"image": "",
+		"image": "naan.jpg",
 		"ingredients": [
 			{
 				"amount": "40",
@@ -2621,7 +2625,7 @@
 			{
 				"amount": "3",
 				"unit": "fed",
-				"ingredient": "hvidløg, kan fravælges"
+				"ingredient": "hvidløg, kan undlades"
 			},
 			{
 				"amount": "10",
@@ -2630,15 +2634,21 @@
 			}
 		],
 		"steps": [
+			"Denne opskrift giver ret meget naan, hvis du/I er 2 personer ville jeg anbefale at skalere ned til halvdelen.",
 			"Dej",
 			"Opløs gæren i det lunkne vand og tilsæt derefter sukker, yoghurt, salt og groft mel. ",
 			"Tilsæt hvedemel lidt efter lidt. Ælt dejen til den er glat.",
-			"Lad dejen hæve til dobbelt størrelse, ca 1 time.",
+			"Lad dejen hæve til dobbelt størrelse, ca 1 time. Den kan sagtens stå i 2-3 timer hvis du gerne vil lave dejen lidt på forhånd.",
 			"Topping",
 			"Pil og hak hvidløgene fint og bland dem med det bløde smør. Stil et til side i en lille skål.",
-			"Når dejen er hævet, del den da i 8 stykker og rul hver af dem ud til de er ca. 0.5cm tykke.",
-			"Pensl brødene med hvidløgssmørret på den ene side, drys lidt sesamfrø udover og giv den en stilk koriander eller to. Kom dem på en varm påande i ca. 2 minutter på hver side. Pensl den side der mangler hvidløgssmør mens brødet er på panden.",
+			"Når dejen er hævet, del den da i 6 stykker og rul hver af dem ud til de er ca. 0.5cm tykke.",
+			"Pensl brødene med hvidløgssmørret på den ene side, drys lidt sesamfrø udover og giv den en stilk koriander eller to.", 
+			"Stegning",
+			"Kom hvert naan brød på en varm pande i ca. 2 minutter på hver side ved medium varme. Pensl den side der mangler hvidløgssmør, inden du vender det, mens brødet er på panden.",
 			"Serves med det samme."
+		],
+		"additionalImages": [
+			"naan_fry.jpg"
 		],
 		"path": "description",
 		"servings_w_type": {
