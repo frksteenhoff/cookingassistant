@@ -3855,8 +3855,8 @@
 			},
 			{
 				"amount": "1",
-				"unit": "dl",
-				"ingredient": "hvidvin"
+				"unit": "bundt",
+				"ingredient": "persille"
 			}
 		],
 		"steps": [
