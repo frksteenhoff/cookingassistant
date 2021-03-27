@@ -3824,8 +3824,8 @@
 				"ingredient": "smør"
 			},
 			{
-				"amount": "1",
-				"unit": "dl",
+				"amount": "100",
+				"unit": "g",
 				"ingredient": "parmasan, revet"
 			},
 			{
@@ -3846,7 +3846,12 @@
 			{
 				"amount": "1",
 				"unit": "L",
-				"ingredient": "hønsebuillion"
+				"ingredient": "vand"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "hvidvin"
 			},
 			{
 				"amount": "1",
@@ -3856,13 +3861,14 @@
 		],
 		"steps": [
 			"Kom risene i en si og skyl dem under koldt vand og lad dem dryppe af.",
-			"Hak og svits løg og hvidløg i en gryde med risene og smør.",
-			"TIlsæt bouillon og kog op, lad risene simre i 10 min.",
-			"Skær champignon i skiver og svits dem let på panden.",
-			"Skær kylling i mundrette stykker og kom dem i gryden med risottoen og bring den i kog igen. Når retten har nået kogepunktet, skru da ned på lav varme, bland champignon i og lad simre i 10 minutter. ",
-			"Skær de soltørrede tomater i mindre stykker og bland ind i risottoen.",
-			"Smag til med salt og peber. Pynt med persille og parmasan",
-			""
+			"Hak og svits løg og hvidløg i en gryde.",
+			"Når løgene har fået en glasagtig overflade, tilsæt da ris risene, hvidvin og smør.",
+			"Tilsæt vand lidt efter lidt og kog op. Lad risene simre i 10 min.",
+			"Mens risene simrer, skær champignon i skiver og kylling i mundrette stykker og svits dem let på en pande.",
+			"Når risene er ve dat koge, skru da ned på lav varme, bland champignon i og lad simre i 10 minutter. ",
+			"Riv og tilsæt 60g parmasan til risottoen og bland godt.", 
+			"Skær de soltørrede tomater i mindre stykker og tilføj til gryden sammen med kyllingen og smag til med salt og peber",
+			"Pynt med persille samt den resterende parmasan og servér."
 		],
 		"path": "description",
 		"servings_w_type": {
