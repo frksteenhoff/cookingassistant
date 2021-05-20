@@ -5168,7 +5168,7 @@
 	{
 		"name": "Field blend surdejsbrød",
 		"teaser": "Surdejsbrød med rug-, fuldkorn- og tipo OO mel",
-		"image": "",
+		"image": "field_blend_done.jpg",
 		"ingredients": [
 			{
 				"amount": "85",
@@ -5218,13 +5218,13 @@
 			"Hævning",
 			"Lad dejen hæve i 5 timer, eller til den er blevet ca. dobbel størrelse ifht. udgangspunktet.",
 			"Formning",
-			"Hjælp dejen ud af din beholder på en medrysset overflade. Del den herefter i to og giv hver del et par folder, så de bliver faste. Kom herefter dejene i hver sin beholder og dæk dem med et hviskestykke.",
+			"Hjælp dejen ud af din beholder på en medrysset overflade. Del den herefter i to (eller hvor mange dele du har skaleret til) og giv hver del et par folder, så de bliver faste. Kom herefter dejene i hver sin beholder og dæk dem med et hviskestykke.",
 			"Lad dejene hæve i køleskabet i 12 timer. Brødene behøver ikke at 'varmes' op efter de er kommet ud af køleskabet. Du kan bage dem direkte.",
 			"Bagning",
 			"Dette brød bages ved meget høj varme.",
 			"30 minutter inden du vil bage dine brød, kom da en støbejernsgryde i ovnen og varm den oop til 250 grader. Stil den gerne på et bagestål, hvis du har sådan et.",
 			"Når ovnen er klar, tag et af dine brød ud og kom det i støbejernsgryden.",
-			"Kom derefter låg på og stil gryden tilbage i ovnen.",
+			"Kom derefter låg på og stil gryden tilbage i ovnen. Hvis du har en dampovn, så brug den funktion og lad der være damp under hele bagningen.s",
 			"Bag brødet i 20 minutter inden du tager låget af støbejernsgryden og bager brødet i yderligere 25 minutter."
 		],
 		"path": "description",
@@ -5247,7 +5247,8 @@
 		"additionalImages": [
 			"field_blend_dough.jpg",
 			"bread_proof.jpg",
-			"field_blend.jpg"
+			"field_blend.jpg",
+			"field_blend_done_closeup.jpg"
 		],
 		"relatedrecipes": [
 			"Surdej"
