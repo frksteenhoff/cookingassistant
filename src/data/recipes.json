@@ -1562,8 +1562,8 @@
 	},
 	{
 		"name": "Hummus",
-		"teaser": "Lækker spread til en sandwich eller dip til dine grøntsager",
-		"image": "",
+		"teaser": "En lækker spread til sandwiches og wraps, eller dip til grøntsager.",
+		"image": "hummus.jpg",
 		"ingredients": [
 			{
 				"amount": "4",
