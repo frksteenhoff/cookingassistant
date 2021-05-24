@@ -456,6 +456,7 @@
 			"2) Fodr din surdej som almindeligt. Herefter kan du bruge din surdej igen efter 6-8 timer, som du plejer."
 		],
 		"servings": "",
+		"protip": "Hvis du bare stiller din surdej på køl et par dage, kan du opfriske den om morgenen (1 del vand, 1 del mel) og bruge den som almindeligt om eftermiddagen. Hvis den ikke er hævet til dobbelt størrelse indenfor 8 timer, har den stået for længe.",
 		"path": "description",
 		"relatedrecipes": [],
 		"categories": [
@@ -630,19 +631,24 @@
 				"ingredient": "salt"
 			}
 		],
-		"image": "",
+		"image": "pesto_done.jpg",
 		"inspirationlink": "",
 		"teaser": "Til sandwiches, pastaretter etc.",
 		"steps": [
 			"Skyl ramsløgene og hak parmasanen i nogle grove stykker",
-			"Tilføj alle ingredienser i en blender og blend til massen er ensartet",
-			"Brug som spread på brød, eller som sauce til en pastaret"
+			"Tilføj alle ingredienser i en blender og blend til massen er ensartet.",
+			"Hvis du har plukket ramsløgene lidt sent og du synes de mangler lidt smag, tilsæt et fed hvidløg.",
+			"Brug som spread på brød, til en salat, eller som sauce til en pastaret"
 		],
 		"servings_w_type": {
 			"servings": 4,
 			"type": "dl"
 		},
 		"path": "description",
+		"additionalImages": [
+			"ramsons_pre_wash.jpg",
+			"ramsons_washed.jpg"
+		],
 		"relatedrecipes": [
 			"hjemmelavet pasta"
 		],
