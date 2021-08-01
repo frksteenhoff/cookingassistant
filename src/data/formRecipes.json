@@ -2642,7 +2642,7 @@
 			"Topping",
 			"Pil og hak hvidløgene fint og bland dem med det bløde smør. Stil et til side i en lille skål.",
 			"Når dejen er hævet, del den da i 6 stykker og rul hver af dem ud til de er ca. 0.5cm tykke.",
-			"Pensl brødene med hvidløgssmørret på den ene side, drys lidt sesamfrø udover og giv den en stilk koriander eller to.", 
+			"Pensl brødene med hvidløgssmørret på den ene side, drys lidt sesamfrø udover og giv den en stilk koriander eller to.",
 			"Stegning",
 			"Kom hvert naan brød på en varm pande i ca. 2 minutter på hver side ved medium varme. Pensl den side der mangler hvidløgssmør, inden du vender det, mens brødet er på panden.",
 			"Serves med det samme."
@@ -3866,7 +3866,7 @@
 			"Tilsæt vand lidt efter lidt og kog op. Lad risene simre i 10 min.",
 			"Mens risene simrer, skær champignon i skiver og kylling i mundrette stykker og svits dem let på en pande.",
 			"Når risene er har kogt op, skru da ned på lav varme, tilsæt champignon og lad det simre i 10 minutter. ",
-			"Riv og tilsæt 60g parmasan til risottoen og bland godt.", 
+			"Riv og tilsæt 60g parmasan til risottoen og bland godt.",
 			"Skær de soltørrede tomater i mindre stykker og tilføj til gryden sammen med kyllingen og smag til med salt og peber",
 			"Pynt med persille samt den resterende parmasan og servér."
 		],
@@ -5731,7 +5731,7 @@
 		"additionalImages": [
 			"burger_boller_haevning.jpg"
 		],
-		"preparationtime": {
+		"preparationtime": {	
 			"active": "20",
 			"passive": "60"
 		},
@@ -5747,5 +5747,137 @@
 			"Coleslaw med lynsyltede agurker og radiser"
 		],
 		"inspirationlink": "https://madensverden.dk/burgerboller/"
+	},
+	{
+		"name": "Vietnamesisk nudelsalat",
+		"teaser": "Edamamebønner, bønnespirer, gulerod og kål vendt i en let sojedressing toppet med krydderurter",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "edamamebønner, fra frost"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "gulerødder, fintskrællet"
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "hvidkål, spidskål eller rødkål, finthakket (strimler)"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rød chili, skiveskåret"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "bønnespirer, hele"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "avocado, skiveskåret"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "soja"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "sesamolie"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "chiliolie"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime, saften"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "sort sesam, let ristet"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "10",
+				"unit": "stilk(e)",
+				"ingredient": "koriander, i strimler"
+			},
+			{
+				"amount": "5",
+				"unit": "stilk(e)",
+				"ingredient": "mynte, i strimler"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "peanuts, groft hakket"
+			}
+		],
+		"steps": [
+			"Dressing",
+			"Bland soja, sesamolie, honning, chiliolie, finthakket hvidløg og lime og lad det trække mens du laver resten af retten.",
+			"Salat",
+			"Vask gulerødder og skræl dem med en gulerodsskræller ned i en skål.",
+			"Udsten avocado og skær den i skiver, hak kålen fint og kom det hele i skålen med gulerødderne.",
+			"Tilsæt bønnespirer direkte i skålen.",
+			"Skær chilien i skiver og kom ved.",
+			"Kog dine yndlingsnudler og bland dem med salaten, når de har kølet lidt af.",
+			"Topping",
+			"Hak peanuts og skær mynte or koriander groft.",
+			"Kom sesamfrøene på en pande og rist dem let.",
+			"Kom toppingen på salaten og servér.",
+			"Hvis du vil have kød til passer oksekød, rejer eller lign. rigtig godt til."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "3",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"marinade",
+			"salat",
+			"vegetarisk"
+		],
+		"relatedrecipes": [
+			"Chili olie"
+		],
+		"inspirationlink": "https://spisbedre.dk/opskrifter/nudelsalat-med-oksekod-og-spicy-dressing"
 	}
 ]
