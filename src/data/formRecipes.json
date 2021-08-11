@@ -5750,44 +5750,9 @@
 	},
 	{
 		"name": "Vietnamesisk nudelsalat",
-		"teaser": "Edamamebønner, bønnespirer, gulerod og kål vendt i en let sojedressing toppet med krydderurter",
-		"image": "",
+		"teaser": "Knasende grøntsager vendt i en sød og spicy sojadressing toppet med krydderurter",
+		"image": "nudelsalat.jpg",
 		"ingredients": [
-			{
-				"amount": "300",
-				"unit": "g",
-				"ingredient": "edamamebønner, fra frost"
-			},
-			{
-				"amount": "3",
-				"unit": "stk",
-				"ingredient": "gulerødder, fintskrællet"
-			},
-			{
-				"amount": "300",
-				"unit": "g",
-				"ingredient": "hvidkål, spidskål eller rødkål, finthakket (strimler)"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "rød chili, skiveskåret"
-			},
-			{
-				"amount": "100",
-				"unit": "g",
-				"ingredient": "bønnespirer, hele"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "avocado, skiveskåret"
-			},
-			{
-				"amount": "",
-				"unit": "",
-				"ingredient": ""
-			},
 			{
 				"amount": "1",
 				"unit": "dl",
@@ -5819,14 +5784,58 @@
 				"ingredient": "lime, saften"
 			},
 			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "edamamebønner, fra frost"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "ærter i belg, groft hakket"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "gulerødder, fintskrællet"
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "hvidkål, spidskål eller rødkål, finthakket (strimler)"
+			},
+			{
 				"amount": "1",
-				"unit": "spsk",
-				"ingredient": "sort sesam, let ristet"
+				"unit": "stk",
+				"ingredient": "rød chili, skiveskåret"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "bønnespirer, hele"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "agurk, skiveskåret"
+			},			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "avocado, skiveskåret"
 			},
 			{
 				"amount": "",
 				"unit": "",
 				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "sort sesam, let ristet"
 			},
 			{
 				"amount": "10",
@@ -5848,7 +5857,7 @@
 			"Dressing",
 			"Bland soja, sesamolie, honning, chiliolie, finthakket hvidløg og lime og lad det trække mens du laver resten af retten.",
 			"Salat",
-			"Vask gulerødder og skræl dem med en gulerodsskræller ned i en skål.",
+			"Vask grøntsagerne. Skræl gulerødderne med en gulerodsskræller og skær agurk or ærter. Kom det hele i en skål",
 			"Udsten avocado og skær den i skiver, hak kålen fint og kom det hele i skålen med gulerødderne.",
 			"Tilsæt bønnespirer direkte i skålen.",
 			"Skær chilien i skiver og kom ved.",
@@ -5862,7 +5871,7 @@
 		"path": "description",
 		"servings": "",
 		"servings_w_type": {
-			"servings": "3",
+			"servings": "4",
 			"type": "person(er)"
 		},
 		"preparationtime": {
@@ -5873,7 +5882,8 @@
 		"categories": [
 			"marinade",
 			"salat",
-			"vegetarisk"
+			"aftensmad",
+			"frokost"
 		],
 		"relatedrecipes": [
 			"Chili olie"
