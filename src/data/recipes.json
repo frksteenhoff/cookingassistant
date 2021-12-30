@@ -1336,6 +1336,11 @@
 				"ingredient": "mælk"
 			},
 			{
+				"amount": "40",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
 				"amount": "25",
 				"unit": "g",
 				"ingredient": "gær"
@@ -1346,8 +1351,8 @@
 				"ingredient": "æg"
 			},
 			{
-				"amount": "1",
-				"unit": "knivspids",
+				"amount": "0.5",
+				"unit": "tsk",
 				"ingredient": "salt"
 			},
 			{
@@ -1359,6 +1364,16 @@
 				"amount": "1",
 				"unit": "knivspids",
 				"ingredient": "stødt kardemomme"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "brun farin"
 			},
 			{
 				"amount": "150",
@@ -1980,7 +1995,7 @@
 			},
 			{
 				"amount": "1",
-				"unit": "knivspis",
+				"unit": "knivspids",
 				"ingredient": "salt"
 			},
 			{

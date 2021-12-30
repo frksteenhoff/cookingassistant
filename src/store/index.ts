@@ -25,7 +25,7 @@ export default new Vuex.Store<AppState>({
 			"K",
 			"tsk",
 			"spsk",
-			"knivspis",
+			"knivspids",
 			"g",
 			"kg",
 			"stk",
