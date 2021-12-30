@@ -1964,7 +1964,8 @@
 		},
 		"categories": [
 			"aftensmad",
-			"bagning"
+			"bagning",
+			"brød"
 		],
 		"inspirationlink": "https://www.bbcgoodfood.com/recipes/steamed-bao-buns"
 	},
@@ -5892,7 +5893,7 @@
 	},
 	{ 
 		"name": "Parmigiana di Melanzane", 
-		"teaser": "Aubergine i tyk tomatsauce med masser af parmesan.", 
+		"teaser": "Auberginer i tyk tomatsauce med masser af parmesan.", 
 		"image": "", 
 		"ingredients": [ 
 			{ 
@@ -5969,7 +5970,7 @@
 			"passive": "20" 
 		}, 
 		"protip": "Hvis du har lavet for meget, så fungerer resterne rigtig godt med pasta. Skær det evt. ud i mindre bidder, varm det på en pande og tilsæt din yndlings pasta .. værsgo'!", 
-		"categories": [], 
+		"categories": ["aftensmad", "vegetarisk"], 
 		"relatedrecipes": [], 
 		"inspirationlink": "https://www.saggieassaggi.it/la-parmigiana-di-melanzane-regina-della-tavola-siciliana/" 
 	}
