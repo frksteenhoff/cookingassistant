@@ -5889,5 +5889,88 @@
 			"Chili olie"
 		],
 		"inspirationlink": "https://spisbedre.dk/opskrifter/nudelsalat-med-oksekod-og-spicy-dressing"
+	},
+	{ 
+		"name": "Parmigiana di Melanzane", 
+		"teaser": "Aubergine i tyk tomatsauce med masser af parmesan.", 
+		"image": "", 
+		"ingredients": [ 
+			{ 
+				"amount": "2", 
+				"unit": "stk", 
+				"ingredient": "auberginer, medium"
+			}, 
+			{ 
+				"amount": "2", 
+				"unit": "dl", 
+				"ingredient": "ekstra jomfru oliven olie" 
+			}, 
+			{ 
+				"amount": "1", 
+				"unit": "dåse(r)", 
+				"ingredient": "hakkede tomater" 
+			}, 
+			{ 
+				"amount": "1", 
+				"unit": "dåse(r)", 
+				"ingredient": "tomatpuré" 
+			},  
+			{ 
+				"amount": "1", 
+				"unit": "knivspis", 
+				"ingredient": "kanel" 
+			}, 
+			{ 
+				"amount": "1", 
+				"unit": "knivspis", 
+				"ingredient": "muskatnød" 
+			}, 
+			{ 
+				"amount": "1", 
+				"unit": "tsk", 
+				"ingredient": "salt" 
+			},
+			{ 
+				"amount": "1",
+				"unit": "stk", 
+				"ingredient": "løg, finthakket" 
+			},
+			{ 
+				"amount": "200", 
+				"unit": "g", 
+				"ingredient": "mosarella" 
+			}, 
+			{ 
+				"amount": "100", 
+				"unit": "g", 
+				"ingredient": "parmesan"
+			}
+			 
+		], 
+		"steps": [ 
+			"Forberedelse",
+			"Skyld og skær auberginerne i ca. 0.5 cm tykke skiver. Kom godt med olivenolie på en pande og steg auberginerne på begge sider indtil de bliver let brunede og auberginerne begynder at falde sammen. ", 
+			"Sauce", 
+			"Kom tomatpuré og hakkede tomater i en skål og gør massen lind med en stavblender.",
+			"Tilsæt herefter salt, muskatnød og kanel.", 
+			"Snit løget fint og kom det på en pande ved medium varme. Svits løget og tilsæt derefter tomatmassen og lad saucen koge ind.", 
+			"Samling", 
+			"Kom et tyndt lag tomatsauce i bunden af en ildfast form og læg herefter lag af aubergine, ost og tomatsauce til der ikke er mere. Tilsæt parmasanen på toppen og bag derefter i ovnen ved 200 grader i 20 minutter.", 
+			"Server alene, til tapas eller som tilbehør." 
+		], 
+		"path": "description", 
+		"servings": "", 
+		"servings_w_type": { 
+			"servings": "4", 
+			"type": "person(er)" 
+		}, 
+		"preparationtime": { 
+			"active": "20",
+			"passive": "20" 
+		}, 
+		"protip": "Hvis du har lavet for meget, så fungerer resterne rigtig godt med pasta. Skær det evt. ud i mindre bidder, varm det på en pande og tilsæt din yndlings pasta .. værsgo'!", 
+		"categories": [], 
+		"relatedrecipes": [], 
+		"inspirationlink": "https://www.saggieassaggi.it/la-parmigiana-di-melanzane-regina-della-tavola-siciliana/" 
 	}
 ]
