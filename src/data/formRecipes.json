@@ -164,22 +164,22 @@
 			{
 				"amount": "500",
 				"unit": "g",
-				"ingredient": "gulerødder"
+				"ingredient": "hvidkål/rødkål"
 			},
 			{
 				"amount": "500",
 				"unit": "g",
-				"ingredient": "hvidkål/rødkål"
-			},
-			{
-				"amount": "1",
-				"unit": "spsk",
-				"ingredient": "dijon sennep"
+				"ingredient": "gulerødder"
 			},
 			{
 				"amount": "1",
 				"unit": "spsk",
 				"ingredient": "honning"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "dijon sennep"
 			},
 			{
 				"amount": "100",
@@ -215,13 +215,18 @@
 				"amount": "0.5",
 				"unit": "tsk",
 				"ingredient": "sukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
 			}
 		],
 		"steps": [
 			"Skær kålen i tynde skiver og skræl gulerødderne med en gulerodsskræller (kan selvfølgelig også rives)",
-			"Bland honning, dijon, ælbecidereddike, salt, sukker, spidskommen og peber og bland med gulerod/kål-blandingen",
-			"Bland creme fraiche, mayo sukker og salt og hæld det over coleslawen.",
-			"Lad blandingen stå på køl i 1 time inden servering."
+			"Bland honning, dijon, ælbecidereddike, salt, spidskommen og peber og bland med gulerod/kål-blandingen",
+			"Bland creme fraiche, mayo, sukker og salt og hæld det over coleslawen.",
+			"Lad blandingen stå på køl i minimum 1 time inden servering."
 		],
 		"servings_w_type": {
 			"servings": 8,
@@ -232,7 +237,7 @@
 			"aftensmad",
 			"salat"
 		],
-		"protip": "Hvis jeg benytter denne opskrift til fish taos, tilføjer jeg oftest lidt lime saft og finthakket koriander.",
+		"protip": "Hvis jeg benytter denne opskrift til fish tacos, tilføjer jeg oftest lidt lime saft og finthakket koriander.",
 		"preparationtime": {
 			"active": "20",
 			"passive": "60"
@@ -1903,9 +1908,19 @@
 				"ingredient": "sukker"
 			},
 			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
 				"amount": "10",
 				"unit": "g",
 				"ingredient": "gær"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand"
 			},
 			{
 				"amount": "50",
@@ -1926,11 +1941,6 @@
 				"amount": "1",
 				"unit": "tsk",
 				"ingredient": "bagepulver"
-			},
-			{
-				"amount": "2",
-				"unit": "dl",
-				"ingredient": "vand"
 			}
 		],
 		"steps": [
