@@ -6072,7 +6072,8 @@
 		"categories": [
 			"dip",
 			"sauce",
-			"tilbehør"
+			"tilbehør",
+			"vegetarisk"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://www.mexicanplease.com/salsa-roja/"
@@ -6088,7 +6089,7 @@
 				"ingredient": "majs"
 			},
 			{
-				"amount": "10",
+				"amount": "5",
 				"unit": "stilk(e)",
 				"ingredient": "koriander, finthakket"
 			},
@@ -6121,7 +6122,8 @@
 		"protip": "",
 		"categories": [
 			"forret",
-			"tilbehør"
+			"tilbehør",
+			"vegetarisk"
 		],
 		"relatedrecipes": [
 			"Mangosalsa"
