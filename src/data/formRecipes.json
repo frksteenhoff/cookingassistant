@@ -226,7 +226,8 @@
 			"Skær kålen i tynde skiver og skræl gulerødderne med en gulerodsskræller (kan selvfølgelig også rives)",
 			"Bland honning, dijon, ælbecidereddike, salt, spidskommen og peber og bland med gulerod/kål-blandingen",
 			"Bland creme fraiche, mayo, sukker og salt og hæld det over coleslawen.",
-			"Lad blandingen stå på køl i minimum 1 time inden servering."
+			"Lad blandingen stå på køl i minimum 1 time inden servering.",
+			"Hvis jeg bruger coleslawen til fish tacos, plejer jeg at undvære spidskommen."
 		],
 		"servings_w_type": {
 			"servings": 8,
@@ -5742,7 +5743,7 @@
 		"additionalImages": [
 			"burger_boller_haevning.jpg"
 		],
-		"preparationtime": {	
+		"preparationtime": {
 			"active": "20",
 			"passive": "60"
 		},
@@ -5833,7 +5834,8 @@
 				"amount": "0.5",
 				"unit": "stk",
 				"ingredient": "agurk, skiveskåret"
-			},			{
+			},
+			{
 				"amount": "1",
 				"unit": "stk",
 				"ingredient": "avocado, skiveskåret"
@@ -5901,87 +5903,341 @@
 		],
 		"inspirationlink": "https://spisbedre.dk/opskrifter/nudelsalat-med-oksekod-og-spicy-dressing"
 	},
-	{ 
-		"name": "Parmigiana di Melanzane", 
-		"teaser": "Auberginer i tyk tomatsauce med masser af parmesan.", 
-		"image": "", 
-		"ingredients": [ 
-			{ 
-				"amount": "2", 
-				"unit": "stk", 
+	{
+		"name": "Parmigiana di Melanzane",
+		"teaser": "Auberginer i tyk tomatsauce med masser af parmesan.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2",
+				"unit": "stk",
 				"ingredient": "auberginer, medium"
-			}, 
-			{ 
-				"amount": "2", 
-				"unit": "dl", 
-				"ingredient": "ekstra jomfru oliven olie" 
-			}, 
-			{ 
-				"amount": "1", 
-				"unit": "dåse(r)", 
-				"ingredient": "hakkede tomater" 
-			}, 
-			{ 
-				"amount": "1", 
-				"unit": "dåse(r)", 
-				"ingredient": "tomatpuré" 
-			},  
-			{ 
-				"amount": "1", 
-				"unit": "knivspids", 
-				"ingredient": "kanel" 
-			}, 
-			{ 
-				"amount": "1", 
-				"unit": "knivspids", 
-				"ingredient": "muskatnød" 
-			}, 
-			{ 
-				"amount": "1", 
-				"unit": "tsk", 
-				"ingredient": "salt" 
 			},
-			{ 
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "ekstra jomfru oliven olie"
+			},
+			{
 				"amount": "1",
-				"unit": "stk", 
-				"ingredient": "løg, finthakket" 
+				"unit": "dåse(r)",
+				"ingredient": "hakkede tomater"
 			},
-			{ 
-				"amount": "200", 
-				"unit": "g", 
-				"ingredient": "mosarella" 
-			}, 
-			{ 
-				"amount": "100", 
-				"unit": "g", 
+			{
+				"amount": "1",
+				"unit": "dåse(r)",
+				"ingredient": "tomatpuré"
+			},
+			{
+				"amount": "1",
+				"unit": "knivspids",
+				"ingredient": "kanel"
+			},
+			{
+				"amount": "1",
+				"unit": "knivspids",
+				"ingredient": "muskatnød"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "mosarella"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
 				"ingredient": "parmesan"
 			}
-			 
-		], 
-		"steps": [ 
+		],
+		"steps": [
 			"Forberedelse",
-			"Skyld og skær auberginerne i ca. 0.5 cm tykke skiver. Kom godt med olivenolie på en pande og steg auberginerne på begge sider indtil de bliver let brunede og auberginerne begynder at falde sammen. ", 
-			"Sauce", 
+			"Skyld og skær auberginerne i ca. 0.5 cm tykke skiver. Kom godt med olivenolie på en pande og steg auberginerne på begge sider indtil de bliver let brunede og auberginerne begynder at falde sammen. ",
+			"Sauce",
 			"Kom tomatpuré og hakkede tomater i en skål og gør massen lind med en stavblender.",
-			"Tilsæt herefter salt, muskatnød og kanel.", 
-			"Snit løget fint og kom det på en pande ved medium varme. Svits løget og tilsæt derefter tomatmassen og lad saucen koge ind.", 
-			"Samling", 
-			"Kom et tyndt lag tomatsauce i bunden af en ildfast form og læg herefter lag af aubergine, ost og tomatsauce til der ikke er mere. Tilsæt parmasanen på toppen og bag derefter i ovnen ved 200 grader i 20 minutter.", 
-			"Server alene, til tapas eller som tilbehør." 
-		], 
-		"path": "description", 
-		"servings": "", 
-		"servings_w_type": { 
-			"servings": "4", 
-			"type": "person(er)" 
-		}, 
-		"preparationtime": { 
+			"Tilsæt herefter salt, muskatnød og kanel.",
+			"Snit løget fint og kom det på en pande ved medium varme. Svits løget og tilsæt derefter tomatmassen og lad saucen koge ind.",
+			"Samling",
+			"Kom et tyndt lag tomatsauce i bunden af en ildfast form og læg herefter lag af aubergine, ost og tomatsauce til der ikke er mere. Tilsæt parmasanen på toppen og bag derefter i ovnen ved 200 grader i 20 minutter.",
+			"Server alene, til tapas eller som tilbehør."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "4",
+			"type": "person(er)"
+		},
+		"preparationtime": {
 			"active": "20",
-			"passive": "20" 
-		}, 
-		"protip": "Hvis du har lavet for meget, så fungerer resterne rigtig godt med pasta. Skær det evt. ud i mindre bidder, varm det på en pande og tilsæt din yndlings pasta .. værsgo'!", 
-		"categories": ["aftensmad", "vegetarisk"], 
-		"relatedrecipes": [], 
-		"inspirationlink": "https://www.saggieassaggi.it/la-parmigiana-di-melanzane-regina-della-tavola-siciliana/" 
+			"passive": "20"
+		},
+		"protip": "Hvis du har lavet for meget, så fungerer resterne rigtig godt med pasta. Skær det evt. ud i mindre bidder, varm det på en pande og tilsæt din yndlings pasta .. værsgo'!",
+		"categories": [
+			"aftensmad",
+			"vegetarisk"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.saggieassaggi.it/la-parmigiana-di-melanzane-regina-della-tavola-siciliana/"
+	},
+	{
+		"name": "Salsa Roja",
+		"teaser": "En spicy tomatsalsa til tacos og andre retter der har brug for lidt kant.",
+		"image": "salsa_roja.jpg",
+		"ingredients": [
+			{
+				"amount": "6",
+				"unit": "stk",
+				"ingredient": "tomater, hele"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "5",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "6",
+				"unit": "stk",
+				"ingredient": "tørrede chillier"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rød chili"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "tørret chipotle"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "oregano"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "eddike"
+			},
+			{
+				"amount": "4",
+				"unit": "dl",
+				"ingredient": "vand"
+			}
+		],
+		"steps": [
+			"Tænd ovnen på 200 grader. Kom tomaterne i ovnen og bag dem i ca. 15 minutter.",
+			"Mens tomaterne er i ovnen, hak løg og hvidløg og rens den røde chili og skær den i store stykker. Hak de tørrede chilier fint.",
+			"Sauter hakede løg og hvidløg med lidt olie ved medium varme. Når løgene er begyndt at blive bløde, tilsæt da chilierne.",
+			"Svits det hele af i et par minutter og kom derefter tomaterne på panden sammen med oregano, salt, peber, chipotle og vand. Tomaterne skulle gerne være så møre at du nemt kan dele dem i mindre stykker på panden.",
+			"Lad det hele simre i 5-7 minutter og kom derefter det hele i en blender. Blend til en lind masse og brug evt. en si for at fjerne tilbageværende klumper.",
+			"Smag til med eddike, salt og peber",
+			"Lad salsaen køle af og opbevar den i en lukket beholder i køleskabet."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "0.5",
+			"type": "L"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": "60"
+		},
+		"protip": "",
+		"categories": [
+			"dip",
+			"sauce",
+			"tilbehør"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.mexicanplease.com/salsa-roja/"
+	},
+	{
+		"name": "Majssalsa",
+		"teaser": "En let og syrlig salsa",
+		"image": "corn_salsa.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "dåse(r)",
+				"ingredient": "majs"
+			},
+			{
+				"amount": "10",
+				"unit": "stilk(e)",
+				"ingredient": "koriander, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rødløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime, saften"
+			}
+		],
+		"steps": [
+			"Hak løg og koriander fint",
+			"Kom majsene i en skålog tilsæt koriander og rødløg. Pres saften af limen og bland.",
+			"Server som fyld til tacos eller til nachos."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "10",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "10",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"forret",
+			"tilbehør"
+		],
+		"relatedrecipes": [
+			"Mangosalsa"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Birria Tacos",
+		"teaser": "En autentisk opskrift på det perfekte birria kød til tacos.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "kg",
+				"ingredient": "okseskank/skulder"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "chili, tørrede"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "chipotle, tørret"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "eddike"
+			},
+			{
+				"amount": "5",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "oregano"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "paprika"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "kanelstang"
+			},
+			{
+				"amount": "6",
+				"unit": "stk",
+				"ingredient": "nelliker"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "laurbær"
+			},
+			{
+				"amount": "1",
+				"unit": "L",
+				"ingredient": "fond"
+			}
+		],
+		"steps": [
+			"Marinade",
+			"Kom en halv liter vand i en gryde og brung det i kog. Når vandet koger, tilsæt da de tørrede chilier og lad dem blødgøres i 15 minutter.",
+			"Mens chilierne ligger i blød, skær da kødet id u 2x2cm stykker og krydr med salt og peber.",
+			"Kom alle marinadeingredienserne (chili, chipotle, tomater, eddike, hvidløg, oregano, paprika og spidskommen) i en blender sammen med chilierne og bland til du får en lind masse.",
+			"Kom marinaden på kødet og lad det stå i 3-4 timer eller natten over.",
+			"Birria gryderet",
+			"Når kødet er færdig med at marineres, hak da løg og sauter dem i en gryde til de er gyldne.",
+			"Tilføj kød, marinade, laurbrær, kanelstang og nelliker til gryden. Kom herefter fond ved og lad det små-koge i 15 minutter. Herefter skrues temperaturen ned og står ved lav varme de næste 6-8 timer. ",
+			"Når tiden er gået, tag da kødet ud og trevl det, som var det pulled pork.Kom lidt af væsken ved og server som kød til tacos.",
+			"Server med salsa, guacamole og godt med koriander."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "8",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "45",
+			"passive": "480"
+		},
+		"protip": "",
+		"categories": [
+			"simreretter",
+			"marinade",
+			"aftensmad"
+		],
+		"relatedrecipes": ["Mangosalsa", "Majssalsa", "Salsa roja"],
+		"inspirationlink": "https://iamafoodblog.com/birria-tacos-recipe/"
 	}
 ]
