@@ -8,7 +8,7 @@
 			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
 			<b-collapse id="nav-collapse" is-nav>
-				<b-nav-item-dropdown text="Opskrifter" right>
+				<b-nav-item-dropdown text="Quick-links" right>
 					<b-dropdown-item href="#/recipes">Alle opskrifter</b-dropdown-item>
 					<b-dropdown-item href="#/dinner">Aftensmad</b-dropdown-item>
 					<b-dropdown-item href="#/breakfast">Morgenmad</b-dropdown-item>
@@ -74,18 +74,23 @@ export default class App extends AppProps {
 	links = [
 		{
 			id: 3,
+			text: "Opskrifter",
+			page: "/recipes"
+		},
+		{
+			id: 4,
 			text: "Enhedsoversætter",
 			page: "/unitconverter"
 		},
 		{
-			id: 4,
-			text: "Andre madlinks",
-			page: "/links"
+			id: 6,
+			text: "Opret",
+			page: "/create"
 		},
 		{
 			id: 5,
-			text: "Opret",
-			page: "/create"
+			text: "Andre madlinks",
+			page: "/links"
 		}
 	];
 }
