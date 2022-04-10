@@ -1853,9 +1853,19 @@
 				"ingredient": "sukker"
 			},
 			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "vanillepulver"
+			},
+			{
 				"amount": "2",
 				"unit": "dl",
 				"ingredient": "mælk"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "vand"
 			},
 			{
 				"amount": "1",
@@ -1866,11 +1876,6 @@
 				"amount": "2",
 				"unit": "spsk",
 				"ingredient": "smør, smeltet"
-			},
-			{
-				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "vanillepulver"
 			},
 			{
 				"amount": "1",
@@ -1885,7 +1890,7 @@
 		],
 		"steps": [
 			"Forberedelse",
-			"Tilføj sukker, salt og bagepulver og vanillepulver i en skål og bland godt.",
+			"Tilføj mel, sukker, salt og bagepulver og vanillepulver i en skål og bland godt.",
 			"I en anden skål, bland æg, mælk og smør. Smørret skal være afkølet.",
 			"Bland de tørre og de våde ingredienser. Dejen skal være lidt tyk.",
 			"Skær bananen i skiver.",
