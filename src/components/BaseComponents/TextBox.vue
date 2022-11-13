@@ -21,10 +21,10 @@ export default class TextBox extends Vue {
 
 <style scoped>
 	.pro-tip-box {
-		background-color: #E8E8E8;
+		background-color: #f4efed;
 		color: black;
 		padding: 1.5rem;
-		border: 1px #E8E8E8;
+		border: 1px #f4efed;
 		border-radius: 4px;
 	}
 

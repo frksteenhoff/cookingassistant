@@ -145,7 +145,7 @@ p, li {
 }
 
 .slightly-colored {
-	background-color: #f6f6f6;
+	background-color: #f9f9f9;
 	padding: 1rem 2rem;
 	padding-top: 2rem;
 	margin-bottom: 1rem;

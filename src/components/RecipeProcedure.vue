@@ -7,7 +7,7 @@
 		</b-col>
 		<p v-if="recipe.steps.length <= 1" class="pl-0">Fremgangsmåde kommer snart!</p>
 		<ul v-for="(step, index) in recipe.steps" :key="step + index" class="mb-3">
-			<li itemprop="recipeInstructions" :class="['ml-0', (step.split(' ').length === 1) ? 'font-weight-bold' : '']">
+			<li itemprop="recipeInstructions" :class="['text-wrap', 'ml-0', (step.split(' ').length === 1) ? 'font-weight-bold' : '']">
 				{{ step }} <br/>
 			</li>
 		</ul>

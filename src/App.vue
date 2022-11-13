@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<b-navbar sticky toggleable="md" type="dark" variant="hest" class="shadow">
+		<b-navbar sticky toggleable="xl" type="dark" variant="hest" class="shadow">
 			<b-navbar-brand href="/" class="mb-0 pb-0 pt-0">
 				<img src="./assets/logo_cropped.png" style="width: 50px;" />
 			</b-navbar-brand>
@@ -23,7 +23,6 @@
 						<b-nav-item :to="link.page">{{ link.text }}</b-nav-item>
 					</div>
 				</b-navbar-nav>
-
 			</b-collapse>
 		</b-navbar>
 		<div id="content">
@@ -41,11 +40,19 @@
 					</span>
 				</p>
 				<p class="m-0">
-					<a class="pl-0" style="font-size: 0.8rem;" href="mailto:henriette.steenhoff@gmail.com?subject=CookingAssistant" target="_blank"
+					<a
+						class="pl-0"
+						style="font-size: 0.8rem;"
+						href="mailto:henriette.steenhoff@gmail.com?subject=CookingAssistant"
+						target="_blank"
 					>henriette.steenhoff@gmail.com</a>
 				</p>
 				<p class="mt-0">
-					<a class="pl-0" style="font-size: 0.8rem;" href="https://www.twitter.com/frksteehoff">@frksteenhoff</a>
+					<a
+						class="pl-0"
+						style="font-size: 0.8rem;"
+						href="https://www.twitter.com/frksteehoff"
+					>@frksteenhoff</a>
 				</p>
 			</div>
 		</footer>
@@ -65,7 +72,7 @@ const AppProps = Vue.extend({
 	components: {}
 })
 export default class App extends AppProps {
-	recipes: RecipeObject[] = excelrecipes.concat(formrecipes)
+	recipes: RecipeObject[] = excelrecipes.concat(formrecipes);
 
 	created() {
 		this.$store.dispatch("setRecipes", this.recipes)
@@ -99,8 +106,8 @@ export default class App extends AppProps {
 <style>
 @import url("//fonts.googleapis.com/css?family=Permanent+Marker:300,400,600,700&amp;lang=en");
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=en");
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&amp;lang=eng');
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&amp;lang=eng');
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&amp;lang=eng");
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&amp;lang=eng");
 
 body {
 	margin: 0;
@@ -117,7 +124,7 @@ body {
 	font-family: "Roboto Light", "Roboto", "Arial", Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #641E16;
+	color: #641e16;
 }
 
 #content {
@@ -134,7 +141,7 @@ nav {
 }
 
 a {
-	color: #641E16 !important;
+	color: #641e16 !important;
 	text-decoration: none !important;
 }
 
@@ -145,7 +152,7 @@ a:focus {
 a:hover,
 a.nav.link:hover {
 	text-decoration: none !important;
-	color:#000 !important;
+	color: #000 !important;
 }
 
 nav,
@@ -153,7 +160,7 @@ li a.nav-link {
 	color: #ffffff !important;
 	font-size: 1.25rem;
 	font-family: "Permanent Marker";
-	background-color: #bf988f !important;
+	background-color: #d6a2a2 !important;
 	text-decoration: none !important;
 	-webkit-tap-highlight-color: transparent;
 	outline: none !important;
@@ -187,7 +194,9 @@ p {
 	color: black !important;
 }
 
-p, h1, h2 {
+p,
+h1,
+h2 {
 	font-weight: normal;
 	padding-left: 21px;
 	padding-right: 21px;
@@ -221,8 +230,16 @@ li {
 }
 
 #insta_logo a:hover {
-	background-color: #bf988f;
+	background-color: #d6a2a2;
 	color: #ffffff;
+}
+
+.row {
+	margin: 0;
+}
+
+.container-fluid {
+	padding: 0;
 }
 
 footer {
@@ -231,7 +248,7 @@ footer {
 	margin: 0;
 	padding: 16px 0 16px 0;
 	padding-bottom: 40px;
-	background-color: #bf988f;
+	background-color: #d6a2a2;
 	color: #ffffff;
 }
 
