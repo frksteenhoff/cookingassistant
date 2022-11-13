@@ -1,8 +1,8 @@
 <template>
 	<div itemscope itemtype="http://schema.org/Recipe" class="mt-3 slightly-colored">
-		<b-row class="mb-4">
+		<b-row class="mb-4 text-wrap">
 			<b-col cols="12" class="text-center">
-				<h1 itemprop="name" class="pl-0 ml-0">{{ recipe.name }}</h1>
+				<h1 itemprop="name" class="text-break pl-0 ml-0" style="width:100%">{{ recipe.name }}</h1>
 			</b-col>
 		</b-row>
 		<b-row>
@@ -145,7 +145,7 @@ p, li {
 }
 
 .slightly-colored {
-	background-color: #f6f6f6;
+	background-color: #f9f9f9;
 	padding: 1rem 2rem;
 	padding-top: 2rem;
 	margin-bottom: 1rem;
