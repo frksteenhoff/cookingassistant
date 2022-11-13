@@ -7,7 +7,7 @@
 				:class="['col-md-auto', hasServings && hasPrepTime ? 'ml-md-auto': '']"
 				v-if="hasServings"
 			>
-				<b-icon icon="person"></b-icon>Antal:
+				<b-icon icon="person"></b-icon><span class="font-weight-bold">Antal: </span>
 				<span itemprop="recipeYield">{{ parseInt(recipe.servings) * numberOfPortions }}</span>
 			</b-col>
 			<b-col
@@ -15,14 +15,14 @@
 				:class="['col-md-auto', hasServings && hasPrepTime ? 'ml-md-auto': '']"
 				v-if="hasServingsWithType"
 			>
-				<b-icon icon="person" class="mr-2"></b-icon>Antal:
+				<b-icon icon="person" class="mr-2"></b-icon><span class="font-weight-bold">Antal: </span>
 				<span
 					itemprop="recipeYield"
 				>{{ recipe.servings_w_type.servings * numberOfPortions }} {{ recipe.servings_w_type.type }}</span>
 			</b-col>
 			<b-col v-if="hasPrepTime">
 				<b-row>
-					<b-col cols="12" md="auto" class="mb-xs-3">
+					<b-col cols="12" md="auto" class="mb-xs-3 font-weight-bold">
 						<b-icon icon="clock" class="mr-2"></b-icon>Tilberedningstid
 					</b-col>
 					<b-col cols="12" md="auto" class="ml-sm-3">
@@ -52,7 +52,9 @@
 			</b-col>
 		</b-row>
 		<b-row class="mt-2 mb-xs-3">
-			<b-col cols="auto">Skalering</b-col>
+			<b-col cols="auto" class="font-weight-bold">
+				<b-icon icon="bar-chart-fill" class="mr-2"></b-icon>Skalering
+			</b-col>
 			<b-col cols="auto" class="text-left">
 				<b-form-select
 					v-model="numberOfPortions"
