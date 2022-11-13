@@ -25,8 +25,8 @@
 					<b-col cols="12" md="auto" class="mb-xs-3 font-weight-bold">
 						<b-icon icon="clock" class="mr-2"></b-icon>Tilberedningstid
 					</b-col>
-					<b-col cols="12" md="auto" class="ml-sm-3">
-						<span
+					<b-col cols="12" md="auto">
+						<span class="ml-3"
 							v-if="!hasOnlyActivePrepTime"
 							v-b-tooltip.hover
 							title="Hvor lang tid du aktivt skal bruge på retten"
