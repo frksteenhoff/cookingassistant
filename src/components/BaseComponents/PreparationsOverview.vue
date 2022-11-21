@@ -20,7 +20,7 @@
 					itemprop="recipeYield"
 				>{{ recipe.servings_w_type.servings * numberOfPortions }} {{ recipe.servings_w_type.type }}</span>
 			</b-col>
-			<b-col v-if="hasPrepTime">
+			<b-col v-if="hasPrepTime" cols="12" md="8" class="mt-xs-2 mt-sm-2 mt-md-0">
 				<b-row>
 					<b-col cols="12" md="auto" class="mb-xs-3 font-weight-bold">
 						<b-icon icon="clock" class="mr-2"></b-icon>Tilberedningstid

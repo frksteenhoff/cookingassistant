@@ -2,7 +2,7 @@
 	<div class="ingredients pl-3 pt-3 pb-2 pr-3">
 		<h3 class="ingredients-header overflow-hidden">Ingredienser</h3>
 		<ul v-for="(item, index) in recipe.ingredients" :key="item.amount + item.unit + item.ingredient + index" class="mt-4">
-			<li itemprop="recipeIngredient">
+			<li itemprop="recipeIngredient" class="overflow-hidden wrap-text text-break">
 				{{ !item.amount ? "" : (Number(item.amount) * numberOfPortions) + " " + item.unit + " " + item.ingredient }}
 			</li>
 		</ul>
