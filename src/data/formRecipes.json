@@ -2056,6 +2056,11 @@
 				"ingredient": "smør (i tern)"
 			},
 			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
 				"amount": "4",
 				"unit": "stk",
 				"ingredient": "æggehvider"
