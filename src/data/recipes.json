@@ -660,6 +660,36 @@
 		"name": "Sicilienske kødboller",
 		"ingredients": [
 			{
+				"amount": "120",
+				"unit": "g",
+				"ingredient": "pecorino (fint revet)"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "persille, hakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "tranebær, groft hakkede"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "ristede pinjekerner"
+			},
+			{
 				"amount": "1.5",
 				"unit": "dl",
 				"ingredient": "rasp"
@@ -670,29 +700,9 @@
 				"ingredient": "mælk"
 			},
 			{
-				"amount": "120",
-				"unit": "g",
-				"ingredient": "pecorino (fint revet)"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "løg (finthakket)"
-			},
-			{
-				"amount": "1",
-				"unit": "dl",
-				"ingredient": "persille"
-			},
-			{
 				"amount": "1",
 				"unit": "stk",
 				"ingredient": "æg"
-			},
-			{
-				"amount": "3",
-				"unit": "fed",
-				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "0.5",
@@ -708,23 +718,19 @@
 				"amount": "250",
 				"unit": "g",
 				"ingredient": "kalvekød"
-			},
-			{
-				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "ristede pinjekerner"
-			},
-			{
-				"amount": "3",
-				"unit": "spsk",
-				"ingredient": "hakkede tranebær"
 			}
 		],
 		"image": "koedboller_done.jpg",
 		"inspirationlink": "https://www.ciaoitalia.com/seasons/18/1812/sicilian-meatballs",
 		"teaser": "Perfekte sammen med hjemmelavet pasta og tomatsauce, eller som en variation til frikadeller.",
 		"steps": [
-			"Læg raspen i blød med mælken og lad blandingen stå i nogle minutter. Bland de resterende ingredienser i, i rækkefølgen de er angivet i.",
+			"Forberedelse",
+			"Riv pecorino, hak persille, løg, hvidløg og tranebær.",
+			"Læg raspen i blød med mælken og lad blandingen stå i nogle minutter.",
+			"Mens raspen står i blød, find en pande frem og rist pinjekernerne på medium varme til de tager farve. Hak de ristede pinjekerner groft.",
+			"Når pinjekernerne er klar, bland herefter kød og de klargjorte ingredienser sammen i en stor skål.",
+			"Tilsæt herefter æg og smag til med peber.",
+			"Formning",
 			"Gør dine hænder våde (for at undgå at bollerne klistrer for meget til dine hænder) og form små kødboller af farsen.",
 			"Placér alle kødbollerne på en bageplade og bag dem ved 180 grader til de er brunede.",
 			"Server gerne med en tomatsauce og hjemmellavet pasta eller som de er."
