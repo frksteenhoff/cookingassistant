@@ -135,20 +135,28 @@
 	{ 
 		"name": "Pasta Amatriciana", 
 		"teaser": "Pastaret med tomater, pecorino og guanciale. Overraskende smagfuld uden olie og hvidløg.", 
-		"image": "", 
+		"image": "amatriciana.jpg", 
 		"ingredients": [ 
-			{ 
-				"amount": "400", 
+			{
+				"amount": "250", 
 				"unit": "g", 
-				"ingredient": "hele, pillede tomater" }, 
-			{ 
-				"amount": "50", 
-				"unit": "g", 
-				"ingredient": "pecorino, revet" }, 
+				"ingredient": "pasta, rigatoni"
+			},
 			{ 
 				"amount": "70", 
 				"unit": "g", 
-				"ingredient": "guanciale, i tern" }, 
+				"ingredient": "guanciale, i tern" 
+			}, 
+			{ 
+				"amount": "50", 
+				"unit": "g", 
+				"ingredient": "pecorino, revet" 
+			}, 
+			{ 
+				"amount": "400", 
+				"unit": "g", 
+				"ingredient": "hele, pillede pomodori tomater" 
+			}, 
 			{ 
 				"amount": "1", 
 				"unit": "knivspids", 
