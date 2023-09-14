@@ -132,6 +132,55 @@
 			"bagning"
 		]
 	},
+	{ 
+		"name": "Pasta Amatriciana", 
+		"teaser": "Pastaret med tomater, pecorino og guanciale. Overraskende smagfuld uden olie og hvidløg.", 
+		"image": "", 
+		"ingredients": [ 
+			{ 
+				"amount": "400", 
+				"unit": "g", 
+				"ingredient": "hele, pillede tomater" }, 
+			{ 
+				"amount": "50", 
+				"unit": "g", 
+				"ingredient": "pecorino, revet" }, 
+			{ 
+				"amount": "70", 
+				"unit": "g", 
+				"ingredient": "guanciale, i tern" }, 
+			{ 
+				"amount": "1", 
+				"unit": "knivspids", 
+				"ingredient": "peber" 
+			} 
+		], 
+		"steps": [ 
+			"Kog vand til pasta", 
+			"Skær guanciale i tern og riv pecorino.", 
+			"Kom pastaen i vandet og kog efter anvisning (jeg plejer at bruge rigatoni)", 
+			"Steg guancialen ved lav varme til den er crispy. Tag ternene fra og lad størstedelen af fedtet blive i panden. ", 
+			"I panden med fedt, knus tomaterne over det varme fedt og bland godt. Kom evt. lidt salt ved, men ikke for meget, da pecorinoen indenholder masser af salt.", 
+			"Når pastavandet er hældt fra, bland da pastaen med tomatsaucen og sluk for blusset. Tilsæt pecorino og bland igen. Gem lidt af pecorinoen.", 
+			"Fordel pecorinoen over pastaen og bland godt.", 
+			"Kom pastaen på en tallerken, drys guancialen ud over pastaen, kværn lidt peber over og tilsæt lidt pecorino efter behov. Servér!" 
+			], 
+		"path": "description", 
+		"servings": "", 
+		"servings_w_type": { 
+			"servings": "2", 
+			"type": "person(er)" }, 
+			"preparationtime": { 
+				"active": "20", 
+				"passive": "10" 
+			}, 
+			"protip": "", 
+			"categories": [ 
+				"aftensmad", 
+				"forret" 
+			], 
+			"relatedrecipes": [], 
+			"inspirationlink": "" },
 	{
 		"name": "Pizzadej",
 		"ingredients": [
