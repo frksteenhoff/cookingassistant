@@ -5275,7 +5275,7 @@
 	{
 		"name": "Chili olie",
 		"teaser": "En stærk olie, god til mange asiatiske retter som sauce eller dressing.",
-		"image": "",
+		"image": "chili_oil.jpg",
 		"ingredients": [
 			{
 				"amount": "10",
@@ -5324,10 +5324,13 @@
 			}
 		],
 		"steps": [
-			"Rist alle chilivarianter på en pande indtil de begynder at afgive dufte.",
+			"Hak hvidløg fint.", 
+			"Rist alle chilivarianter på en pande indtil de begynder at dufte.",
+			"Kom de ristede chilier i en blender og puls indtil blandingen er fin.",
 			"Kom olien i en gryde og tilsæt laurbærblade.",
 			"I en stor glasbeholder, tilsæt alle de ristede krydderier og hvidløg og hæld derefter den varme olie over.",
-			"Lad olien stå i minimum 30 minutter inden brug."
+			"Lad olien stå i minimum 30 minutter inden brug.", 
+			"Opbevares i køleskab op til 6 måneder."
 		],
 		"path": "description",
 		"servings": "",
@@ -5345,9 +5348,12 @@
 			"sauce",
 			"tilbehør"
 		],
-		"additionalImages": [],
+		"additionalImages": [
+			"chili_oil_deconstructed.jpg"
+		],
 		"relatedrecipes": [
-			"Dumplings"
+			"Dumplings", 
+			"Turbo Ramen"
 		],
 		"inspirationlink": ""
 	},
