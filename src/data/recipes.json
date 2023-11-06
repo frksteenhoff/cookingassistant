@@ -3266,5 +3266,119 @@
 			"Chili olie"
 		],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Benløse fugle",
+		"teaser": "Det har intet med fugle at gøre. Det er grøntsager i et svøb af bacon og oksekød, et efterårshit! Rigtig god at servere med kartoffel/rodfrugtmos",
+		"image": "benlose_fugle.jpg",
+		"ingredients": [
+			{
+				"amount": "800",
+				"unit": "g",
+				"ingredient": "okseklump, skiveskåret"
+			},
+			{
+				"amount": "12",
+				"unit": "stk",
+				"ingredient": "bacon, skiver"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "gulerødder"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "persille"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "laurbærblade"
+			},
+			{
+				"amount": "3",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "grøntsagsbuillon"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "Maizena, jævning"
+			},
+			{
+				"amount": "",
+				"unit": "tsk",
+				"ingredient": "smør, stegning"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "tomatpuré"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "ribsgele"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg"
+			}
+		],
+		"steps": [
+			"Skær gulerødder i 2 x 2mm stave, del løget i fire og giv persillen et enkelt hak på midten.",
+			"Skær kødet i tynde skiver og bank hver enkelt ud.",
+			"Dup skiverne af oksekød af med et stykke køkkenrulle.",
+			"Læg et stykke kød ud på et skærebræt og kom salt og peber på.",
+			"Læg bacon, to stave gulerødder og lidt persille på midten af kødet og rul det herefter tæt sammen.",
+			"Brug en kødnål eller kødsnor til at holde rullen lukket.",
+			"Gentag processen for alle dine kødstykker.",
+			"Brun alle \"fuglene\" på en pande med lidt smør, så de får farve hele vejen rundt. Når alle fuglene har taget farve, tilsæt da din buillon, tomatpuré, løg og fløde og lad blandingen koge op.",
+			"Læg låg på gryden og lad fuglene simre ved svag varme i ca. halvanden time.",
+			"Efter halvanden time, tag da alle fuglene nænsomt op og fjern kødsnoren/kødnålene.",
+			"Kog flødesaucen op og tilsæt ribsgele. Fjern løgstykkerne og jævn saucen med Maizena og smag til med salt og peber.",
+			"Server fuglene på en bund af rodfrugtmos. Retten fungerer rigtig godt med et godt glas fyldig rødvin eller en mørk øl."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "6",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": "90"
+		},
+		"protip": "Hvis du ikke stoler på dine egne evner til at skære kødet i tynde skiver, kan du evt. bede en slagter om at gøre det for dig -- de kan også banke det ud.",
+		"categories": [
+			"specielle anledninger",
+			"aftensmad",
+			"simreretter"
+		],
+		"relatedrecipes": [
+			"Rodfrugtmos"
+		],
+		"additionalImages": [
+			"benlose_fugle2.jpg"
+		],
+		"inspirationlink": "https://madensverden.dk/benloese-fugle-i-gryde-med-floedesauce/"
 	}
 ]
