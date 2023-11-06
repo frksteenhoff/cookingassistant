@@ -3197,16 +3197,6 @@
 		"ingredients": [
 			{
 				"amount": "1",
-				"unit": "pakke(r)",
-				"ingredient": "nudler, dem du bedst kan lide"
-			},
-			{
-				"amount": "1",
-				"unit": "spsk",
-				"ingredient": "chili olie"
-			},
-			{
-				"amount": "1",
 				"unit": "stk",
 				"ingredient": "løg/forårsløg"
 			},
@@ -3217,8 +3207,18 @@
 			},
 			{
 				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "chili olie"
+			},
+			{
+				"amount": "1",
 				"unit": "tsk",
 				"ingredient": "salt, tilsmagning"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "grøntsagsbuillon, valgfrit"
 			},
 			{
 				"amount": "5",
@@ -3227,8 +3227,8 @@
 			},
 			{
 				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "grøntsagsbuillon, valgfrit"
+				"unit": "pakke(r)",
+				"ingredient": "nudler, dem du bedst kan lide"
 			},
 			{
 				"amount": "1",
@@ -3240,8 +3240,9 @@
 			"",
 			"Hak løg og skær svampene i skiver.",
 			"Svits svampe og løg i en lille gryde.",
-			"Når løgene er blevet glatte og svampene har taget farve, tilsæt da chili olie, vand og nudler. Bring vandet i kog.",
-			"Når vandet har noget kogepunktet, skru da ned på lav varme og vent til vandet bobler (ikke bulder-koger). Så ægget ud mellem nudlerne (så ægget forbliver samlet og kan pocheres). Lad retten stå på lav varme i ca. 5 minutter, sørge for at vandet ikke koger op, det kan ødelægge ægget. ",
+			"Når løgene er blevet glatte og svampene har taget farve, tilsæt da chili olie, salt, buillon, vand og nudler. Bring vandet i kog.",
+			"Når vandet har noget kogepunktet og nudlerne er beguyndt at bløde op, skru da ned på lav varme og vent til vandet bobler (ikke bulder-koger).",
+			"Slå ægget ud mellem nudlerne (så ægget forbliver samlet og kan pocheres i 'nuddel-reden'). Lad retten stå på lav varme i ca. 5 minutter, sørge for at vandet ikke koger op, det kan ødelægge ægget. ",
 			"Serveres direkte ved at hælde alt indhold i en skål."
 		],
 		"path": "description",
