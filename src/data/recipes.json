@@ -132,6 +132,63 @@
 			"bagning"
 		]
 	},
+	{ 
+		"name": "Pasta Amatriciana", 
+		"teaser": "Pastaret med tomater, pecorino og guanciale. Overraskende smagfuld uden olie og hvidløg.", 
+		"image": "amatriciana.jpg", 
+		"ingredients": [ 
+			{
+				"amount": "250", 
+				"unit": "g", 
+				"ingredient": "pasta, rigatoni"
+			},
+			{ 
+				"amount": "70", 
+				"unit": "g", 
+				"ingredient": "guanciale, i tern" 
+			}, 
+			{ 
+				"amount": "50", 
+				"unit": "g", 
+				"ingredient": "pecorino, revet" 
+			}, 
+			{ 
+				"amount": "400", 
+				"unit": "g", 
+				"ingredient": "hele, pillede pomodori tomater" 
+			}, 
+			{ 
+				"amount": "1", 
+				"unit": "knivspids", 
+				"ingredient": "peber" 
+			} 
+		], 
+		"steps": [ 
+			"Kog vand til pasta", 
+			"Skær guanciale i tern og riv pecorino.", 
+			"Kom pastaen i vandet og kog efter anvisning (jeg plejer at bruge rigatoni)", 
+			"Steg guancialen ved lav varme til den er crispy. Tag ternene fra og lad størstedelen af fedtet blive i panden. ", 
+			"I panden med fedt, knus tomaterne over det varme fedt og bland godt. Kom evt. lidt salt ved, men ikke for meget, da pecorinoen indenholder masser af salt.", 
+			"Når pastavandet er hældt fra, bland da pastaen med tomatsaucen og sluk for blusset. Tilsæt pecorino og bland igen. Gem lidt af pecorinoen.", 
+			"Fordel pecorinoen over pastaen og bland godt.", 
+			"Kom pastaen på en tallerken, drys guancialen ud over pastaen, kværn lidt peber over og tilsæt lidt pecorino efter behov. Servér!" 
+			], 
+		"path": "description", 
+		"servings": "", 
+		"servings_w_type": { 
+			"servings": "2", 
+			"type": "person(er)" }, 
+			"preparationtime": { 
+				"active": "20", 
+				"passive": "10" 
+			}, 
+			"protip": "", 
+			"categories": [ 
+				"aftensmad", 
+				"forret" 
+			], 
+			"relatedrecipes": [], 
+			"inspirationlink": "" },
 	{
 		"name": "Pizzadej",
 		"ingredients": [
@@ -660,6 +717,36 @@
 		"name": "Sicilienske kødboller",
 		"ingredients": [
 			{
+				"amount": "120",
+				"unit": "g",
+				"ingredient": "pecorino (fint revet)"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "persille, hakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "tranebær, groft hakkede"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "ristede pinjekerner"
+			},
+			{
 				"amount": "1.5",
 				"unit": "dl",
 				"ingredient": "rasp"
@@ -670,29 +757,9 @@
 				"ingredient": "mælk"
 			},
 			{
-				"amount": "120",
-				"unit": "g",
-				"ingredient": "pecorino (fint revet)"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "løg (finthakket)"
-			},
-			{
-				"amount": "1",
-				"unit": "dl",
-				"ingredient": "persille"
-			},
-			{
 				"amount": "1",
 				"unit": "stk",
 				"ingredient": "æg"
-			},
-			{
-				"amount": "3",
-				"unit": "fed",
-				"ingredient": "hvidløg"
 			},
 			{
 				"amount": "0.5",
@@ -708,23 +775,19 @@
 				"amount": "250",
 				"unit": "g",
 				"ingredient": "kalvekød"
-			},
-			{
-				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "ristede pinjekerner"
-			},
-			{
-				"amount": "3",
-				"unit": "spsk",
-				"ingredient": "hakkede tranebær"
 			}
 		],
 		"image": "koedboller_done.jpg",
 		"inspirationlink": "https://www.ciaoitalia.com/seasons/18/1812/sicilian-meatballs",
 		"teaser": "Perfekte sammen med hjemmelavet pasta og tomatsauce, eller som en variation til frikadeller.",
 		"steps": [
-			"Læg raspen i blød med mælken og lad blandingen stå i nogle minutter. Bland de resterende ingredienser i, i rækkefølgen de er angivet i.",
+			"Forberedelse",
+			"Riv pecorino, hak persille, løg, hvidløg og tranebær.",
+			"Læg raspen i blød med mælken og lad blandingen stå i nogle minutter.",
+			"Mens raspen står i blød, find en pande frem og rist pinjekernerne på medium varme til de tager farve. Hak de ristede pinjekerner groft.",
+			"Når pinjekernerne er klar, bland herefter kød og de klargjorte ingredienser sammen i en stor skål.",
+			"Tilsæt herefter æg og smag til med peber.",
+			"Formning",
 			"Gør dine hænder våde (for at undgå at bollerne klistrer for meget til dine hænder) og form små kødboller af farsen.",
 			"Placér alle kødbollerne på en bageplade og bag dem ved 180 grader til de er brunede.",
 			"Server gerne med en tomatsauce og hjemmellavet pasta eller som de er."
@@ -1473,7 +1536,7 @@
 		"steps": [
 			"Pisk æg og sukker godt sammen",
 			"Tilsæt fløde, mælk og vand.",
-			"Bland alle de tørre ingredienser i or rør til du får en ensartet masse.",
+			"Bland alle de tørre ingredienser i og rør til du får en ensartet masse.",
 			"Vaffelrøren skal virke let, men  fyldig at røre rundt i. Den skal ikke have alt for svært ved at hældes fra en øse, men skal heller ikke være vandig.",
 			"Lad vaffelrøren stå i minimum 15 min",
 			"Tilsæt smør og steg vaflerne. Idet der er smør i dejen behøver du ikke smøre vaffeljernet med smør inden du steger vaflerne.",
@@ -1488,7 +1551,7 @@
 			"vafler_zoom.jpg",
 			"vafler_serve.jpg"
 		],
-		"protip": "Lad være med at trykke vaffeljerne sammen, når du lukker vaffeljernet for at bage dine vafler. På denne måde bliver de mere luftige.",
+		"protip": "Lad være med at trykke vaffeljernet sammen, når du lukker vaffeljernet for at bage dine vafler. På denne måde bliver vaflerne mere luftige.",
 		"relatedrecipes": [],
 		"categories": [
 			"bagning",
@@ -1636,9 +1699,9 @@
 			}
 		],
 		"steps": [
-			"Pres citronen, dræn kikærterne og hak hvidløg fint",
-			"Kom alle ingredienser i en skål",
-			"Blend alle ingredienserne med en stavblender til en ensartet masse",
+			"Pres citronen, dræn kikærterne og hak hvidløg fint.",
+			"Kom alle ingredienser i en skål.",
+			"Blend alle ingredienserne med en stavblender til en ensartet masse.",
 			"Hæld lidt olivenolie over den færdige masse og stil på køl, eller servér direkte."
 		],
 		"path": "description",
@@ -1738,10 +1801,10 @@
 		],
 		"steps": [
 			"Skyld hokkaidoen og skær den over på midten. Fjern derefter alle kerner og skær den i grove tern.",
-			"Skræl og hak alle grøntsager",
+			"Skræl og hak alle grøntsager.",
 			"Varm olie op i en gryde og sauter løg, gulerød, kartofler, pastinak og hokkaido sammen med chili, spidskommen og ingefær.",
-			"Hæld grøntsagbuillon over, så det dækker to tredjedele af grøntsagerne, hellere lidt for lidt end lidt for meget, så suppen senere ikke bliver for vandet. Det kan også hældes fra inden den blendes, hvis man kan se at der er for meget væske)",
-			"Kom et låg på og lad det kode i 20-30 min.",
+			"Hæld grøntsagbuillon over, så det dækker to tredjedele af grøntsagerne, hellere lidt for lidt end lidt for meget, så suppen senere ikke bliver for vandet. Det kan også hældes fra inden den blendes, hvis man kan se at der er for meget væske.",
+			"Kom et låg på og lad det koge i 20-30 min.",
 			"Blend suppen med en stavblender til den er glat.",
 			"Tilsæt fløde og blend igen til den er ensartet. Smag til med salt, evt. spidskommen.",
 			"Top gerne med ristede græskarkerner og creme fraiche."
@@ -1797,15 +1860,15 @@
 			}
 		],
 		"steps": [
-			"Bland surdej/gær med mel og vand (gem 5% af vandet) Lad dejen hvile 30 min.",
-			"Tilføj resten af vandet med saltet og masér det ind i dejen, dejen kan skille, men den samler sig igen. Lad den hvile 30 min.",
+			"Bland surdej/gær med mel og vand (gem 5% af vandet) og lad dejen hvile 30 min.",
+			"Tilføj resten af vandet med saltet og massér det ind i dejen, dejen kan skille, men den samler sig igen. Lad den hvile 30 min.",
 			"Vend dejen over sig selv fra alle kanter. Lad den hvile i 30 min.",
-			"Gentag forrige step, 3 gange yderligere. Lad så meget luft blive i dejen som muligt.",
+			"Gentag forrige skridt 3 gange yderligere. Lad så meget luft blive i dejen som muligt.",
 			"Put dejen i køleskabet i ca. 1 dag, her kommer smagen.",
 			"Tag dejen ud og lad den stå til den er ca. rumtemperatur, dette gør den nemmere at arbejde med og strække ud.",
 			"Opvarm ovnen til 250 grader på varmluft.",
 			"Put olivenolie i et fad og læg dejen på midten af fadet. Stræk nænsomt dejen ud så den fylder hele fadet. Fordel den ligeligt.",
-			"Oliér dejen let på toppen og pres let huller i den. Tilføj topping (salt, rosmarin, oliven eller lign.).",
+			"Oliér dejen let på toppen og pres huller i den med fingrene. Tilføj topping (salt, rosmarin, oliven eller lign.).",
 			"Bag i ca. 22 min."
 		],
 		"path": "description",
@@ -1956,9 +2019,9 @@
 		"steps": [
 			"Hak løg, svampe, tranebær og pinjekerne fint. Svits først pinjekernene på en pande til de let gyldne og derefter løg og svampe.",
 			"",
-			"Las massen køle helt af inden du fortsætter og hæld evt. resterende cand fra.",
-			"Når svampemassen har kølet af, bland den med pinjekerner og tranebær og tilsæt til sidst rasp og æg.",
-			"Form massen som 10x20 bøf og pak den derefter ind i butterdejen. Bag den i 20 min ved 200 grader.",
+			"Lad massen køle helt af inden du fortsætter og hæld evt. resterende vand fra.",
+			"Når svampemassen er afkølet, bland den med pinjekerner og tranebær og tilsæt derefter rasp og æg.",
+			"Form massen som 10 x 20 bøf og pak den derefter ind i butterdejen. Bag den i 20 min ved 200 grader.",
 			"Serveres f.eks. med rodfrugter, en salat og eventuelt en sovs."
 		],
 		"path": "description",

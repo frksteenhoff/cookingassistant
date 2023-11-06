@@ -2056,6 +2056,11 @@
 				"ingredient": "smør (i tern)"
 			},
 			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
 				"amount": "4",
 				"unit": "stk",
 				"ingredient": "æggehvider"
@@ -2693,7 +2698,7 @@
 				"ingredient": "kyllingefillet"
 			},
 			{
-				"amount": "2",
+				"amount": "4",
 				"unit": "spsk",
 				"ingredient": "panang karrypasta"
 			},
@@ -2703,7 +2708,7 @@
 				"ingredient": "kaffir limeblade, i strimler"
 			},
 			{
-				"amount": "1",
+				"amount": "2",
 				"unit": "stk",
 				"ingredient": "rød chili, finthakket"
 			},
@@ -2733,12 +2738,12 @@
 				"ingredient": "lime, saften"
 			},
 			{
-				"amount": "2",
+				"amount": "3",
 				"unit": "dåse(r)",
 				"ingredient": "kokosmælk"
 			},
 			{
-				"amount": "1",
+				"amount": "2",
 				"unit": "dl",
 				"ingredient": "vand"
 			},
@@ -6218,7 +6223,7 @@
 		],
 		"steps": [
 			"Marinade",
-			"Kom en halv liter vand i en gryde og brung det i kog. Når vandet koger, tilsæt da de tørrede chilier og lad dem blødgøres i 15 minutter.",
+			"Kom en halv liter vand i en gryde og bring det i kog. Når vandet koger, tilsæt da de tørrede chilier og lad dem blødgøres i 15 minutter.",
 			"Mens chilierne ligger i blød, skær da kødet ud i 2x2cm stykker og krydr med salt og peber.",
 			"Kom alle marinadeingredienserne (chili, chipotle, tomater, eddike, hvidløg, oregano, paprika og spidskommen) i en blender sammen med chilierne og bland til du får en lind masse.",
 			"Kom marinaden på kødet og lad det stå i 3-4 timer eller natten over.",
