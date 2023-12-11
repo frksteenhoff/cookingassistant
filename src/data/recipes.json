@@ -1905,8 +1905,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "tsk",
-				"ingredient": "bagepulver"
+				"unit": "spsk",
+				"ingredient": "sukker"
 			},
 			{
 				"amount": "1",
@@ -1915,8 +1915,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "sukker"
+				"unit": "tsk",
+				"ingredient": "bagepulver"
 			},
 			{
 				"amount": "1",
@@ -1924,14 +1924,9 @@
 				"ingredient": "vanillepulver"
 			},
 			{
-				"amount": "2",
-				"unit": "dl",
-				"ingredient": "mælk"
-			},
-			{
-				"amount": "0.5",
-				"unit": "dl",
-				"ingredient": "vand"
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
 			},
 			{
 				"amount": "1",
@@ -1940,8 +1935,23 @@
 			},
 			{
 				"amount": "2",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "2",
 				"unit": "spsk",
 				"ingredient": "smør, smeltet"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
 			},
 			{
 				"amount": "1",
@@ -1956,8 +1966,9 @@
 		],
 		"steps": [
 			"Forberedelse",
-			"Tilføj mel, sukker, salt og bagepulver og vanillepulver i en skål og bland godt.",
-			"I en anden skål, bland æg, mælk og smør. Smørret skal være afkølet.",
+			"Smelt smørret ved lav varme og skær banan i skiver.",
+			"Kom mel, sukker, salt, bagepulver og vanillepulver i en skål og bland godt.",
+			"I en anden skål, bland æg, mælk, smør og vand. Smørret skal være afkølet.",
 			"Bland de tørre og de våde ingredienser. Dejen skal være lidt tyk.",
 			"Skær bananen i skiver.",
 			"Stegning",
