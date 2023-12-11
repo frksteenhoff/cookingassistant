@@ -5368,36 +5368,6 @@
 				"ingredient": "søde kartofler, i mundrette stykker"
 			},
 			{
-				"amount": "1",
-				"unit": "dåse(r)",
-				"ingredient": "kikærter, drænede"
-			},
-			{
-				"amount": "200",
-				"unit": "g",
-				"ingredient": "grønkål"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "rødløg"
-			},
-			{
-				"amount": "0.5",
-				"unit": "dl",
-				"ingredient": "æblecidereddike"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "gedeost, i tykke skiver"
-			},
-			{
-				"amount": "",
-				"unit": "",
-				"ingredient": ""
-			},
-			{
 				"amount": "2",
 				"unit": "fed",
 				"ingredient": "hvidløg"
@@ -5411,6 +5381,11 @@
 				"amount": "",
 				"unit": "",
 				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "dåse(r)",
+				"ingredient": "kikærter, drænede"
 			},
 			{
 				"amount": "1",
@@ -5431,13 +5406,38 @@
 				"amount": "0.5",
 				"unit": "tsk",
 				"ingredient": "peber"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "grønkål"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rødløg"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "gedeost, i tykke skiver"
 			}
 		],
 		"steps": [
 			"Forberedelse",
-			"Skræl og skær de søde kartofler i tern. ak derefter hvidløg fint, bland det med olien og hæld det over de søde kartofler. Dræn derefter kikærterne og bland dem med spidskommen, chilipulver, salt og peber.",
-			"Kom et stykke bagepapir på en bradepande og fordel derefter de søde kartofler og kikærterne ud. Bag i 15 min ved 200 grader. ",
-			"Skyld og hak grønkålen og rødløg fint og kom det derefter på en pande med æblecidereddike. Steg kålen til den begynder at falde sammen og smag evt. til med lidt salt. ",
+			"Skræl og skær de søde kartofler i tern. hak derefter hvidløg fint, bland det med olien og hæld det over de søde kartofler. Dræn derefter kikærterne og bland dem med spidskommen, chilipulver, salt og peber.",
+			"Kom et stykke bagepapir på en bradepande og fordel derefter de søde kartofler og kikærterne på pladen. Bag i 15 min ved 200 grader. ",
+			"Skyld og hak grønkålen (groft) og rødløg (fint) og kom det derefter på en pande med æblecidereddike. Steg kålen til den begynder at falde sammen og smag evt. til med lidt salt. ",
 			"Skær gedeosten i ca. 1 cm tykke skiver og læg til side.",
 			"Samling",
 			"Kom grønkål og rødløg på en tallerken og bred derefter et let lag søde kartofler og kikærter ovenpå. Kom derefter 3-4 stykker gedeost på toppen og flambér dem evt. med en gasbrænder.",
@@ -6371,7 +6371,7 @@
 			{
 				"amount": "",
 				"unit": "",
-				"ingredient": "f.eks vand"
+				"ingredient": ""
 			},
 			{
 				"amount": "1",
@@ -6417,8 +6417,8 @@
 			"spread"
 		],
 		"additionalImages": [
-			"eggsalad_eggs.jpg",
-			"eggsalad_eggs_cut.jpg"
+			"eggsalad_eggs_cut.jpg",
+			"eggsalad_eggs.jpg"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
