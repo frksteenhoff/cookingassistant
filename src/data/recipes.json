@@ -132,63 +132,65 @@
 			"bagning"
 		]
 	},
-	{ 
-		"name": "Pasta Amatriciana", 
-		"teaser": "Pastaret med tomater, pecorino og guanciale. Overraskende smagfuld uden olie og hvidløg.", 
-		"image": "amatriciana.jpg", 
-		"ingredients": [ 
+	{
+		"name": "Pasta Amatriciana",
+		"teaser": "Pastaret med tomater, pecorino og guanciale. Overraskende smagfuld uden olie og hvidløg.",
+		"image": "amatriciana.jpg",
+		"ingredients": [
 			{
-				"amount": "250", 
-				"unit": "g", 
+				"amount": "250",
+				"unit": "g",
 				"ingredient": "pasta, rigatoni"
 			},
-			{ 
-				"amount": "70", 
-				"unit": "g", 
-				"ingredient": "guanciale, i tern" 
-			}, 
-			{ 
-				"amount": "50", 
-				"unit": "g", 
-				"ingredient": "pecorino, revet" 
-			}, 
-			{ 
-				"amount": "400", 
-				"unit": "g", 
-				"ingredient": "hele, pillede pomodori tomater" 
-			}, 
-			{ 
-				"amount": "1", 
-				"unit": "knivspids", 
-				"ingredient": "peber" 
-			} 
-		], 
-		"steps": [ 
-			"Kog vand til pasta", 
-			"Skær guanciale i tern og riv pecorino.", 
-			"Kom pastaen i vandet og kog efter anvisning (jeg plejer at bruge rigatoni)", 
-			"Steg guancialen ved lav varme til den er crispy. Tag ternene fra og lad størstedelen af fedtet blive i panden. ", 
-			"I panden med fedt, knus tomaterne over det varme fedt og bland godt. Kom evt. lidt salt ved, men ikke for meget, da pecorinoen indenholder masser af salt.", 
-			"Når pastavandet er hældt fra, bland da pastaen med tomatsaucen og sluk for blusset. Tilsæt pecorino og bland igen. Gem lidt af pecorinoen.", 
-			"Fordel pecorinoen over pastaen og bland godt.", 
-			"Kom pastaen på en tallerken, drys guancialen ud over pastaen, kværn lidt peber over og tilsæt lidt pecorino efter behov. Servér!" 
-			], 
-		"path": "description", 
-		"servings": "", 
-		"servings_w_type": { 
-			"servings": "2", 
-			"type": "person(er)" }, 
-			"preparationtime": { 
-				"active": "20", 
-				"passive": "10" 
-			}, 
-			"protip": "", 
-			"categories": [ 
-				"aftensmad", 
-				"forret" 
-			], 
-			"relatedrecipes": [], 
-			"inspirationlink": "" },
+			{
+				"amount": "70",
+				"unit": "g",
+				"ingredient": "guanciale, i tern"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "pecorino, revet"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "hele, pillede pomodori tomater"
+			},
+			{
+				"amount": "1",
+				"unit": "knivspids",
+				"ingredient": "peber"
+			}
+		],
+		"steps": [
+			"Kog vand til pasta",
+			"Skær guanciale i tern og riv pecorino.",
+			"Kom pastaen i vandet og kog efter anvisning (jeg plejer at bruge rigatoni)",
+			"Steg guancialen ved lav varme til den er crispy. Tag ternene fra og lad størstedelen af fedtet blive i panden. ",
+			"I panden med fedt, knus tomaterne over det varme fedt og bland godt. Kom evt. lidt salt ved, men ikke for meget, da pecorinoen indenholder masser af salt.",
+			"Når pastavandet er hældt fra, bland da pastaen med tomatsaucen og sluk for blusset. Tilsæt pecorino og bland igen. Gem lidt af pecorinoen.",
+			"Fordel pecorinoen over pastaen og bland godt.",
+			"Kom pastaen på en tallerken, drys guancialen ud over pastaen, kværn lidt peber over og tilsæt lidt pecorino efter behov. Servér!"
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "2",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "20",
+			"passive": "10"
+		},
+		"protip": "",
+		"categories": [
+			"aftensmad",
+			"forret"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
 	{
 		"name": "Pizzadej",
 		"ingredients": [
@@ -398,7 +400,7 @@
 			"Lad dem hvile på en rist."
 		],
 		"servings_w_type": {
-			"servings":8,
+			"servings": 8,
 			"type": "stk"
 		},
 		"path": "description",
@@ -528,11 +530,13 @@
 				"amount": "50",
 				"unit": "g",
 				"ingredient": "smør"
-			},			{
+			},
+			{
 				"amount": "0.5",
 				"unit": "dl",
 				"ingredient": "olivenolie"
-			},			{
+			},
+			{
 				"amount": "8",
 				"unit": "fed",
 				"ingredient": "hvidløg"
@@ -546,7 +550,7 @@
 				"amount": "2",
 				"unit": "stk",
 				"ingredient": "gulerødder, skåret i to"
-			},			
+			},
 			{
 				"amount": "1",
 				"unit": "stk",
@@ -582,7 +586,6 @@
 			"Hak tomater og skær gulerødder og løg i to. Kom grøntsagerne, samt frisk basilikum i gryden og læg låg på. Lad retten koge ind i 2-3 timer ved lav varme, under jævnlig omrøring.",
 			"Inden servering, fjern gulerod og løg og smag til med salt og peber.",
 			"Servér som sauce til pasta, eller sammen med sicilienske kødboller."
-
 		],
 		"servings_w_type": {
 			"servings": 4,
@@ -3186,5 +3189,196 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Turbo Ramen",
+		"teaser": "En hurtig opskrift på ramen, hvor du snildt kan bruge de rester du har i køleskabet, som tilbehør.",
+		"image": "turbo_ramen.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg/forårsløg"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "svampe, skiveskåret"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "chili olie"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt, tilsmagning"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "grøntsagsbuillon, valgfrit"
+			},
+			{
+				"amount": "5",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "1",
+				"unit": "pakke(r)",
+				"ingredient": "nudler, dem du bedst kan lide"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			}
+		],
+		"steps": [
+			"",
+			"Hak løg og skær svampene i skiver.",
+			"Svits svampe og løg i en lille gryde.",
+			"Når løgene er blevet glatte og svampene har taget farve, tilsæt da chili olie, salt, buillon, vand og nudler. Bring vandet i kog.",
+			"Når vandet har noget kogepunktet og nudlerne er beguyndt at bløde op, skru da ned på lav varme og vent til vandet bobler (ikke bulder-koger).",
+			"Slå ægget ud mellem nudlerne (så ægget forbliver samlet og kan pocheres i 'nuddel-reden'). Lad retten stå på lav varme i ca. 5 minutter, sørge for at vandet ikke koger op, det kan ødelægge ægget. ",
+			"Serveres direkte ved at hælde alt indhold i en skål."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "1",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": "5"
+		},
+		"protip": "Tilføj evt. andre grøntsager eller spirer for at give et personligt twist.",
+		"categories": [
+			"vegetarisk",
+			"suppe",
+			"aftensmad",
+			"frokost"
+		],
+		"relatedrecipes": [
+			"Chili olie"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Benløse fugle",
+		"teaser": "Det har intet med fugle at gøre. Det er grøntsager i et svøb af bacon og oksekød, et efterårshit! Rigtig god at servere med kartoffel/rodfrugtmos",
+		"image": "benlose_fugle.jpg",
+		"ingredients": [
+			{
+				"amount": "800",
+				"unit": "g",
+				"ingredient": "okseklump, skiveskåret"
+			},
+			{
+				"amount": "12",
+				"unit": "stk",
+				"ingredient": "bacon, skiver"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "gulerødder"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "persille"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "laurbærblade"
+			},
+			{
+				"amount": "3",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "grøntsagsbuillon"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "Maizena, jævning"
+			},
+			{
+				"amount": "",
+				"unit": "tsk",
+				"ingredient": "smør, stegning"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "tomatpuré"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "ribsgele"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg"
+			}
+		],
+		"steps": [
+			"Skær gulerødder i 2 x 2mm stave, del løget i fire og giv persillen et enkelt hak på midten.",
+			"Skær kødet i tynde skiver og bank hver enkelt ud.",
+			"Dup skiverne af oksekød af med et stykke køkkenrulle.",
+			"Læg et stykke kød ud på et skærebræt og kom salt og peber på.",
+			"Læg bacon, to stave gulerødder og lidt persille på midten af kødet og rul det herefter tæt sammen.",
+			"Brug en kødnål eller kødsnor til at holde rullen lukket.",
+			"Gentag processen for alle dine kødstykker.",
+			"Brun alle \"fuglene\" på en pande med lidt smør, så de får farve hele vejen rundt. Når alle fuglene har taget farve, tilsæt da din buillon, tomatpuré, løg og fløde og lad blandingen koge op.",
+			"Læg låg på gryden og lad fuglene simre ved svag varme i ca. halvanden time.",
+			"Efter halvanden time, tag da alle fuglene nænsomt op og fjern kødsnoren/kødnålene.",
+			"Kog flødesaucen op og tilsæt ribsgele. Fjern løgstykkerne og jævn saucen med Maizena og smag til med salt og peber.",
+			"Server fuglene på en bund af rodfrugtmos. Retten fungerer rigtig godt med et godt glas fyldig rødvin eller en mørk øl."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "6",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": "90"
+		},
+		"protip": "Hvis du ikke stoler på dine egne evner til at skære kødet i tynde skiver, kan du evt. bede en slagter om at gøre det for dig -- de kan også banke det ud.",
+		"categories": [
+			"specielle anledninger",
+			"aftensmad",
+			"simreretter"
+		],
+		"relatedrecipes": [
+			"Rodfrugtmos"
+		],
+		"additionalImages": [
+			"benlose_fugle2.jpg"
+		],
+		"inspirationlink": "https://madensverden.dk/benloese-fugle-i-gryde-med-floedesauce/"
 	}
 ]
