@@ -13,14 +13,14 @@
 				"ingredient": "tipo OO mel"
 			},
 			{
-				"amount": "100",
-				"unit": "ml",
-				"ingredient": "kogende vand"
-			},
-			{
 				"amount": "0.5",
 				"unit": "tsk",
 				"ingredient": "salt"
+			},
+			{
+				"amount": "100",
+				"unit": "ml",
+				"ingredient": "kogende vand"
 			},
 			{
 				"amount": "1",
@@ -33,15 +33,15 @@
 		"teaser": "Små hvedemelspandekager som kan tilberedes med f.eks. fars af svin og forårsløg",
 		"steps": [
 			"Wrappers",
-			"Bland de to typer mel i en stor skål",
+			"Bland de to typer mel og salt i en stor skål",
 			"Tilføj kogende vand og rør til blandingen bliver som savsmul",
-			"TIlføj sesamolie og fortsæt med at røre. Når blandingen er som savsmul kan du beguunde at samle dejen med hænderne, så det bliver en bold",
+			"TIlføj sesamolie og fortsæt med at røre. Saml dejen med hænderne, så det bliver en ensartet bold",
 			"Dæk dejen med vitawrap og lad den hvile i ca. 30 min.",
 			"Fjern herefter wrappen og ælt dejen i et par minutter på en meldrysset overflade. Når overfladen begynder at være glat, tildæk igen dejen med vitawrap og lad den afkøle i yderligere 30 min.",
 			"Del dejen i to lige store stykker. Rul den flat ud på en meldrysset overflade til en tykkelse på ca. 1mm med en kagerulle.",
 			"Brug nu et glas, eller en kagering (ca. 10-11 cm i diameter) til at skære dejen ud i cirkler.",
 			"Bliv ved indtil al dejen er brugt",
-			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling pandekager, med eller uden fyld, kan sagtens fryses ned.",
+			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling wrappers, med eller uden fyld, kan sagtens fryses ned.",
 			"Fyld dine wrappers med fars, smør vand langs hele kanten og fold for at lukke -- der er mange metoder, jeg går med en simpel foldning fra midten.",
 			"Stegning",
 			"Kom lidt olie på en pande og steg dine dumplings ved høj varme på én side. Når de er blevet gyldne og har fået lidt skorpe, tilsæt da vand, kom et låg på panden, skru ned på medium varme og lad dine dumplings dampe i 4-5 minutter.",
@@ -1202,11 +1202,6 @@
 		"name": "Blåbærtærte",
 		"ingredients": [
 			{
-				"amount": "150",
-				"unit": "g",
-				"ingredient": "hvedemel"
-			},
-			{
 				"amount": "40",
 				"unit": "g",
 				"ingredient": "rørsukker eller flormelis"
@@ -1215,6 +1210,11 @@
 				"amount": "1",
 				"unit": "knivspids",
 				"ingredient": "salt"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "hvedemel"
 			},
 			{
 				"amount": "100",
@@ -1258,8 +1258,8 @@
 		"steps": [
 			"Mørdejstærtebund",
 			"Rør sukker/flormelis, salt og mel sammen.",
-			"Skær smørret i tern og smuldr det i melet. Med en mixer eller røremaskine, kør det til det er som savsmuld.",
-			"Saml dejen med æg og form det som en kugle.",
+			"Skær smørret i tern og smuldr det i melet. Brug en mixer eller røremaskine til at blande det, til det ligner savsmuld.",
+			"Saml dejen med ægget og form det som en kugle.",
 			"Lad dejen hvile en halv time på køl.",
 			"Rul dejen ud til en tykkelse på ca. 2-3 mm og placér mørdejen i tærteformen.",
 			"Frangipane",
@@ -1391,51 +1391,6 @@
 		"name": "Brunsviger",
 		"ingredients": [
 			{
-				"amount": "40",
-				"unit": "g",
-				"ingredient": "smør"
-			},
-			{
-				"amount": "1",
-				"unit": "dl",
-				"ingredient": "mælk"
-			},
-			{
-				"amount": "40",
-				"unit": "g",
-				"ingredient": "sukker"
-			},
-			{
-				"amount": "25",
-				"unit": "g",
-				"ingredient": "gær"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "æg"
-			},
-			{
-				"amount": "0.5",
-				"unit": "tsk",
-				"ingredient": "salt"
-			},
-			{
-				"amount": "250",
-				"unit": "g",
-				"ingredient": "hvedemel"
-			},
-			{
-				"amount": "1",
-				"unit": "knivspids",
-				"ingredient": "stødt kardemomme"
-			},
-			{
-				"amount": "",
-				"unit": "",
-				"ingredient": ""
-			},
-			{
 				"amount": "150",
 				"unit": "g",
 				"ingredient": "brun farin"
@@ -1449,6 +1404,51 @@
 				"amount": "1",
 				"unit": "spsk",
 				"ingredient": "kanel"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "40",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "gær"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "40",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "knivspids",
+				"ingredient": "stødt kardemomme"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "hvedemel"
 			}
 		],
 		"image": "brunsviger2.jpg",
@@ -1905,8 +1905,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "tsk",
-				"ingredient": "bagepulver"
+				"unit": "spsk",
+				"ingredient": "sukker"
 			},
 			{
 				"amount": "1",
@@ -1915,8 +1915,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "sukker"
+				"unit": "tsk",
+				"ingredient": "bagepulver"
 			},
 			{
 				"amount": "1",
@@ -1924,14 +1924,9 @@
 				"ingredient": "vanillepulver"
 			},
 			{
-				"amount": "2",
-				"unit": "dl",
-				"ingredient": "mælk"
-			},
-			{
-				"amount": "0.5",
-				"unit": "dl",
-				"ingredient": "vand"
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
 			},
 			{
 				"amount": "1",
@@ -1940,8 +1935,23 @@
 			},
 			{
 				"amount": "2",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "2",
 				"unit": "spsk",
 				"ingredient": "smør, smeltet"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
 			},
 			{
 				"amount": "1",
@@ -1956,8 +1966,9 @@
 		],
 		"steps": [
 			"Forberedelse",
-			"Tilføj mel, sukker, salt og bagepulver og vanillepulver i en skål og bland godt.",
-			"I en anden skål, bland æg, mælk og smør. Smørret skal være afkølet.",
+			"Smelt smørret ved lav varme og skær banan i skiver.",
+			"Kom mel, sukker, salt, bagepulver og vanillepulver i en skål og bland godt.",
+			"I en anden skål, bland æg, mælk, smør og vand. Smørret skal være afkølet.",
 			"Bland de tørre og de våde ingredienser. Dejen skal være lidt tyk.",
 			"Skær bananen i skiver.",
 			"Stegning",
@@ -2895,7 +2906,7 @@
 		"inspirationlink": "https://www.metteblomsterberg.dk/opskrifter/smoerbagte-cremelinser"
 	},
 	{
-		"name": "Chokolate Chip Cookies",
+		"name": "Chocolate Chip Cookies",
 		"teaser": "Sprøde Amerikansk-inspirerede småkager med chokolde",
 		"image": "cookies_bagt.jpg",
 		"ingredients": [
