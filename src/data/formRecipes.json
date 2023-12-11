@@ -1919,11 +1919,6 @@
 				"ingredient": "gær"
 			},
 			{
-				"amount": "2",
-				"unit": "dl",
-				"ingredient": "vand"
-			},
-			{
 				"amount": "50",
 				"unit": "ml",
 				"ingredient": "mælk"
@@ -1939,21 +1934,29 @@
 				"ingredient": "riseddike"
 			},
 			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
 				"amount": "1",
 				"unit": "tsk",
 				"ingredient": "bagepulver"
 			}
 		],
 		"steps": [
+			"Dej",
 			"Bland mel, sukker og salt i en skål",
 			"Opløs gæren i 1 spsk varmt vand og lidt sukker og tilsæt det derefter til melblandingen sammen med mælk, solsikkeolie, riseddike og vand -- bland de tørre ingredienser sammen med de våde lidt efter lidt for at undgå klumper.",
-			"Saml dejen og ælt den i 10-15 min. Læg derefter dejen i en let olieret skål og hæver enten 2 timer på køkkenbordet eller på køl natten over. Den skal gerne hæve til den dobbelte størrelse.",
+			"Saml dejen og ælt den i 10-15 min. Læg derefter dejen i en let olieret skål og lad den hæve enten 2 timer på køkkenbordet eller på køl natten over. Den skal gerne hæve til den dobbelte størrelse.",
 			"Når dejen har hævet, lægger du den ud på en ren overflade, hvor du flader den ud med dine hænder og derefter drysser 1 tsk bagepulver ud over.",
+			"Formning",
 			"Rul herefter dejen til en lang pølse (ca. 3 cm tyk) og skær den i 3 cm tykke skiver -- der skal være ca. 18 stk.",
 			"Rul hver af dine skiver til en lille bold og lad dem hvile på bordet i 2-3 min.",
 			"Brug nu en kagerulle til at rulle hver bold ud til så den bliver oval, ca. 3-4mm tyk. Smør overfladen med olie.",
 			"Når alle bolde er rullet ud, tag da en spisepind og smør med olie. For hver af dine boller, læg spisepinden på midten og fold dejen hen over spisepinden. Træk herefter spisepinden ud.",
 			"Læg bollerne på individuelle stykker bagepapir og lad dem hvile i 1.5 time (indtil de er blevet dobbelt så store)",
+			"Dampning",
 			"Varm derefter vand op til en steamer på medium varme og damp bollerne i ca. 8 minutter (til de puffer op). Med dette antal boller kræver det, at du damper dem af flere omgange.",
 			"Åbn bollerne på midten og fyld med kød, svampe, koriander og gulerod. (Se opskrift på pulled pork)"
 		],
