@@ -4513,6 +4513,11 @@
 			},
 			{
 				"amount": "2",
+				"unit": "stk",
+				"ingredient": "løg, i grove tern"
+			},
+			{
+				"amount": "2",
 				"unit": "fed",
 				"ingredient": "hvidløg"
 			},
@@ -4530,6 +4535,31 @@
 				"amount": "1",
 				"unit": "L",
 				"ingredient": "vand"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "æbler, tern"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
 			},
 			{
 				"amount": "2",
@@ -4557,21 +4587,6 @@
 				"ingredient": ""
 			},
 			{
-				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "æblecidereddike"
-			},
-			{
-				"amount": "2",
-				"unit": "tsk",
-				"ingredient": "honning"
-			},
-			{
-				"amount": "2",
-				"unit": "stk",
-				"ingredient": "æbler, tern"
-			},
-			{
 				"amount": "300",
 				"unit": "g",
 				"ingredient": "torskefillet"
@@ -4580,14 +4595,16 @@
 		"steps": [
 			"Suppen",
 			"Skræl og hak jordskokker og kartofler i grove tern. Jeg plejer at fjerne 'de værste pletter' og ellers bruge grønstagerne som de er.",
-			"Sauter løg, kartofler, jordskokker, timian og hvidløg i en gryde med smør i et par minutter.",
+			"Sauter løg, hvidløg, kartofler, jordskokker og timian i en gryde med smør i et par minutter.",
 			"Tilsæt derefter vand og kom et låg på. Lad det simre i 25 minutter ved middel varme.",
 			"Tilbehør",
 			"Skær æblerne i små tern. Bland æblecidereddike, honning og citron i en skål og tilsæt æbleternene.",
 			"Steg torsken i smør på en pande i 2-3 minutter med et låg på. Den er færdig når kødet har taget en mere hvid farve og begynder at falde fra hinanden. Pas på at det ikke får for meget.",
-			"Blend suppen med en stavblender og tilsæt fløde. Smag til med muskatnød, salt og peber. Jeg plejer at kunne lide, at suppen er lidt tyk/cremet. Kom lidt ekstra vand i hvis du synes at den skal være tyndere.",
 			"Anretning",
-			"I nogle dye skåle, placér nogle æbletern i en lille bunke og hæld suppe ved til æblerne næsten er dækker. Placér derefter torsken (ca. 50 gram til pr. portion) ovenpå æbleternene og pynt evt. med lidt timian."
+			"Blend suppen med en stavblender og tilsæt fløde. Smag til med muskatnød, salt og peber. Jeg plejer at kunne lide, at suppen er lidt tyk/cremet. Kom lidt ekstra vand i hvis du synes at den skal være tyndere.",
+			"Dræn æblerne ved at hælde dem over i en si.",
+			"I nogle dye skåle, placér nogle æbletern i en lille bunke og hæld suppe ved til æblerne næsten er dækket.",
+			"Placér derefter torsken (ca. 50 gram til pr. portion) ovenpå æbleternene og pynt evt. med lidt timian."
 		],
 		"path": "description",
 		"servings_w_type": {
