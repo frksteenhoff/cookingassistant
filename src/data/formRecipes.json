@@ -5324,12 +5324,12 @@
 			}
 		],
 		"steps": [
-			"Hak hvidløg fint.", 
+			"Hak hvidløg fint.",
 			"Rist alle chilivarianter på en pande indtil de begynder at dufte.",
 			"Kom de ristede chilier i en blender og puls indtil blandingen er fin.",
 			"Kom olien i en gryde og tilsæt laurbærblade.",
 			"I en stor glasbeholder, tilsæt alle de ristede krydderier og hvidløg og hæld derefter den varme olie over.",
-			"Lad olien stå i minimum 30 minutter inden brug.", 
+			"Lad olien stå i minimum 30 minutter inden brug.",
 			"Opbevares i køleskab op til 6 måneder."
 		],
 		"path": "description",
@@ -5352,7 +5352,7 @@
 			"chili_oil_deconstructed.jpg"
 		],
 		"relatedrecipes": [
-			"Dumplings", 
+			"Dumplings",
 			"Turbo Ramen"
 		],
 		"inspirationlink": ""
@@ -6255,7 +6255,104 @@
 			"marinade",
 			"aftensmad"
 		],
-		"relatedrecipes": ["Mangosalsa", "Majssalsa", "Salsa roja"],
+		"relatedrecipes": [
+			"Mangosalsa",
+			"Majssalsa",
+			"Salsa roja"
+		],
 		"inspirationlink": "https://iamafoodblog.com/birria-tacos-recipe/"
+	},
+	{
+		"name": "Bagels",
+		"teaser": "Boller med hul i. Gode med smøreost og lige det fyld, der passer dig.",
+		"image": "bagels_done.jpg",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "mel"
+			},
+			{
+				"amount": "6",
+				"unit": "g",
+				"ingredient": "tørgær"
+			},
+			{
+				"amount": "10",
+				"unit": "g",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "vand, lunkent"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "everything bagel krydderi, i dejen"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "30",
+				"unit": "g",
+				"ingredient": "everything bagel krydderi, til topping"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			}
+		],
+		"steps": [
+			"Bland mel, gær, sukker og salt i en skål - sørg for at der er god plads.",
+			"Tilsæt vand og ælt dejen godt, gerne i et par minutter. Hvis den virker for tør, tilsæt da lidt vand.",
+			"Lad dejen hæve i en time, til den er ca. dobbelt størrelse.",
+			"Når dejen har hævet, slå da luften af dejen (du kan høre den \"trækker vejret ud\") og lad den stå i 10 minutter.",
+			"Sæt din ovn på 200 grader under og overvarme.",
+			"Fyld en bredbundet pande halvt med vand og bring det i kog (en let simren)",
+			"Mens vandet varmes op, del da dejen i 6 lige store stykker og rul delene til små bolde.",
+			"Med lidt mel, lav huller i alle boldene ved at trække forsigtigt i alle retninger. ",
+			"Når alle \"dejringe\" er færdige, kom dem da i det simrende vand i ca. 1 min pr. side. Særg for ikke at koge for mange på samme tid, de udvider sig. Jo længere du lader dem ligge, jo større bliver dine bagels.",
+			"Når alle bagels er blevet kogt, kom de da på bageplader, pensl med æg og drys med everything bagel krydderi, eller krydderi af eget valg. Giv dem god plads så de kan hæve i ovnen og bag dem i ca. 20 minutter.",
+			"Servér med smøreost og det pålæg du bedst kan lide. Jeg vil anbefale smøreost, pesto, agurk, æggesalat og kalkun."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "6",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "20",
+			"passive": "60"
+		},
+		"protip": "",
+		"categories": [
+			"morgenmad",
+			"frokost",
+			"bagning",
+			"vegetarisk"
+		],
+		"additionalImages": [
+			"bagels_formed.jpg",
+			"bagels_cooking.jpg",
+			"bagels_cooked.jpg",
+			"bagels_pre_bake.jpg",
+			"bagels_done.jpg",
+			"bagels_serving_suggestion.jpg",
+			"bagel_filled.jpg"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
