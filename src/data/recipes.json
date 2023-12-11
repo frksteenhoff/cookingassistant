@@ -13,14 +13,14 @@
 				"ingredient": "tipo OO mel"
 			},
 			{
-				"amount": "100",
-				"unit": "ml",
-				"ingredient": "kogende vand"
-			},
-			{
 				"amount": "0.5",
 				"unit": "tsk",
 				"ingredient": "salt"
+			},
+			{
+				"amount": "100",
+				"unit": "ml",
+				"ingredient": "kogende vand"
 			},
 			{
 				"amount": "1",
@@ -33,15 +33,15 @@
 		"teaser": "Små hvedemelspandekager som kan tilberedes med f.eks. fars af svin og forårsløg",
 		"steps": [
 			"Wrappers",
-			"Bland de to typer mel i en stor skål",
+			"Bland de to typer mel og salt i en stor skål",
 			"Tilføj kogende vand og rør til blandingen bliver som savsmul",
-			"TIlføj sesamolie og fortsæt med at røre. Når blandingen er som savsmul kan du beguunde at samle dejen med hænderne, så det bliver en bold",
+			"TIlføj sesamolie og fortsæt med at røre. Saml dejen med hænderne, så det bliver en ensartet bold",
 			"Dæk dejen med vitawrap og lad den hvile i ca. 30 min.",
 			"Fjern herefter wrappen og ælt dejen i et par minutter på en meldrysset overflade. Når overfladen begynder at være glat, tildæk igen dejen med vitawrap og lad den afkøle i yderligere 30 min.",
 			"Del dejen i to lige store stykker. Rul den flat ud på en meldrysset overflade til en tykkelse på ca. 1mm med en kagerulle.",
 			"Brug nu et glas, eller en kagering (ca. 10-11 cm i diameter) til at skære dejen ud i cirkler.",
 			"Bliv ved indtil al dejen er brugt",
-			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling pandekager, med eller uden fyld, kan sagtens fryses ned.",
+			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling wrappers, med eller uden fyld, kan sagtens fryses ned.",
 			"Fyld dine wrappers med fars, smør vand langs hele kanten og fold for at lukke -- der er mange metoder, jeg går med en simpel foldning fra midten.",
 			"Stegning",
 			"Kom lidt olie på en pande og steg dine dumplings ved høj varme på én side. Når de er blevet gyldne og har fået lidt skorpe, tilsæt da vand, kom et låg på panden, skru ned på medium varme og lad dine dumplings dampe i 4-5 minutter.",
