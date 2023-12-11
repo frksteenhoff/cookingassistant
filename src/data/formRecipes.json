@@ -2633,9 +2633,14 @@
 				"ingredient": "hvedemel"
 			},
 			{
-				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "sesam"
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, kan undlades"
 			},
 			{
 				"amount": "5",
@@ -2643,9 +2648,9 @@
 				"ingredient": "smør, blødt (til stegning)"
 			},
 			{
-				"amount": "3",
-				"unit": "fed",
-				"ingredient": "hvidløg, kan undlades"
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "sesam"
 			},
 			{
 				"amount": "10",
