@@ -6352,6 +6352,73 @@
 			"bagels_serving_suggestion.jpg",
 			"bagel_filled.jpg"
 		],
+		"relatedrecipes": [
+			"Æggesalat"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Æggesalat",
+		"teaser": "En god topping til rugbrød, knækbrød eller bagels.",
+		"image": "bagel_filled.jpg",
+		"ingredients": [
+			{
+				"amount": "7",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": "f.eks vand"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt, fint"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "purløg, finthakket"
+			}
+		],
+		"steps": [
+			"Kog æggene i 7 minutter. Hvis æggene er meget store, giv dem et minut mere.",
+			"Tag æggene af varmen og skyl dem i koldt vand, så de ikke koger videre.",
+			"Pil æggene og skær dem i stykker, eller brug en æggedeler. Kom dem herefter i en skål.",
+			"Hak purløg og bland dem mayo, salt og peber med æggene."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "5",
+			"type": "portion(er)"
+		},
+		"preparationtime": {
+			"active": "10",
+			"passive": "7"
+		},
+		"protip": "",
+		"categories": [
+			"morgenmad",
+			"frokost",
+			"spread"
+		],
+		"additionalImages": [
+			"eggsalad_eggs.jpg",
+			"eggsalad_eggs_cut.jpg"
+		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
 	}
