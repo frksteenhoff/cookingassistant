@@ -1202,11 +1202,6 @@
 		"name": "Blåbærtærte",
 		"ingredients": [
 			{
-				"amount": "150",
-				"unit": "g",
-				"ingredient": "hvedemel"
-			},
-			{
 				"amount": "40",
 				"unit": "g",
 				"ingredient": "rørsukker eller flormelis"
@@ -1215,6 +1210,11 @@
 				"amount": "1",
 				"unit": "knivspids",
 				"ingredient": "salt"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "hvedemel"
 			},
 			{
 				"amount": "100",
@@ -1258,8 +1258,8 @@
 		"steps": [
 			"Mørdejstærtebund",
 			"Rør sukker/flormelis, salt og mel sammen.",
-			"Skær smørret i tern og smuldr det i melet. Med en mixer eller røremaskine, kør det til det er som savsmuld.",
-			"Saml dejen med æg og form det som en kugle.",
+			"Skær smørret i tern og smuldr det i melet. Brug en mixer eller røremaskine til at blande det, til det ligner savsmuld.",
+			"Saml dejen med ægget og form det som en kugle.",
 			"Lad dejen hvile en halv time på køl.",
 			"Rul dejen ud til en tykkelse på ca. 2-3 mm og placér mørdejen i tærteformen.",
 			"Frangipane",
