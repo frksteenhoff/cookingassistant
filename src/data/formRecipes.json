@@ -6691,7 +6691,91 @@
 			"aftensmad",
 			"simreretter"
 		],
-		"relatedrecipes": ["Sauce Andalouse"],
+		"relatedrecipes": [
+			"Sauce Andalouse"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Tyrkiske æg ",
+		"teaser": "Æg tilberedt på en bund af græsk youghurt med hvidløg, chili, smør og olie. Serveres med brød.",
+		"image": "turkish_eggs_front.jpg",
+		"ingredients": [
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg, blødkogte/pocherede"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "purløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "flagesalt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "brød, skiveskåret, ristet"
+			}
+		],
+		"steps": [
+			"Tilbered dine æg efter eget valg.",
+			"Varm smørret på middel varme i en pande og steg hvidløgene deri. Når det begynder at dufte, skru op på høj varme og tilsæt chili og olivenolie. ",
+			"Mens blandingen svitses af (uden at brændes på -- tænk brunt smør) kan du komme græsk youghurt på en bredbundet tallerken og riste dit brød.",
+			"Kom dine æg ovenpå youghurten og hæld smørblandingen over.",
+			"Pynt med flagesalt, peber og purløg og server direkte."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "2",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": "10"
+		},
+		"additionalImages": [
+			"turkish_eggs_base.jpg",
+			"turkish_eggs.jpg",
+			"turkish_eggs_bread.jpg"
+		],
+		"protip": "Dild gør det også rigtig godt til denne ret.",
+		"categories": [
+			"frokost",
+			"morgenmad",
+			"vegetarisk"
+		],
+		"relatedrecipes": [],
 		"inspirationlink": ""
 	},
 	{
@@ -6766,7 +6850,9 @@
 			"sauce",
 			"dressing"
 		],
-		"relatedrecipes": ["https://foreignfork.com/fries/"],
+		"relatedrecipes": [
+			"https://foreignfork.com/fries/"
+		],
 		"inspirationlink": ""
 	}
 ]
