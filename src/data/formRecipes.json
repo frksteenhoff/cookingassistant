@@ -6447,5 +6447,326 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Hasselback Jordskokker med Chimicaesar Dip",
+		"teaser": "Et lille twist på tilberedning af jordskokker og en lækker dip",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "Jordskokker"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "timian, grene"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "rosmarin, grene"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg, pillede hele"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "citron, skallen"
+			},
+			{
+				"amount": "3",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æggeblomme"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "kapers"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "dijon"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sennep, fuldkorn"
+			},
+			{
+				"amount": "5",
+				"unit": "stk",
+				"ingredient": "sardiner"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "citron, skal og juice"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "appelsin, skal og juice"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "persille, frisk"
+			},
+			{
+				"amount": "30",
+				"unit": "g",
+				"ingredient": "basilikum, frisk"
+			},
+			{
+				"amount": "175",
+				"unit": "g",
+				"ingredient": "neutral olie"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "olivenolie"
+			}
+		],
+		"steps": [
+			"Jordskokker",
+			"Kom alle jordskokker i en gryde og dæk dem med vand. Tilføj herefter krydderurterne og hvidløg. Sørg for at jordskokkerne er renset godt.",
+			"Kom vandet i kog og lad det derefter simre ved svag varme i 20-30 minutter. Jordskokkerne skal være gennemkogt men de skal ikke falde fra hinanden.",
+			"Si vandet fra jordskokkerne og lad dem køle af. Lav derefter \"hasselback\" snit i alle jordskokkerne ved at skære dem i skiver uden at skære hele vejen igennem.",
+			"Forvarm ovnen til 200 grader og kom olie på jordskokkerne. Bag dem i ca. 10 minutter på en af de øvre riller. De skal være mørke og crispy. Krydr med flagesalt.",
+			"Chimiceaserdip",
+			"Blend alle ingredienserne -- olien til sidst i en lind strøm.",
+			""
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "",
+			"type": ""
+		},
+		"preparationtime": {
+			"active": "20",
+			"passive": "30"
+		},
+		"protip": "",
+		"categories": [],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Stoofvlees met frietjes",
+		"teaser": "Belgisk ølbaseret gryderet på okseskank med pommes fritter",
+		"image": "stoofvlees_chimay.jpg",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "okseskank"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "600",
+				"unit": "ml",
+				"ingredient": "belgisk øl (Chimay, Gouden Carolus eller lign.)"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "laurbærblade"
+			},
+			{
+				"amount": "8",
+				"unit": "stk",
+				"ingredient": "timian, grene"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "balsamicoeddike"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "tomatpure"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "pære/æble sirup"
+			},
+			{
+				"amount": "1",
+				"unit": "skive",
+				"ingredient": "mørkt brød"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "dijon sennep"
+			}
+		],
+		"steps": [
+			"Gryderet",
+			"Hak løg og hvidløg fint.",
+			"Skær din okseskank i stykker og krydr med salt og peber.",
+			"Kom smør i en bredbundet gryde og tilføj kødet, når det er smeltet.",
+			"Brun kødet på alle sider og tag det af varmen.",
+			"Kom løg i samme gryde og steg i ca. 5 minutter. Tilsæt derefter hvidløg og steg videre i ca. 1 minut.",
+			"Tilsæt øl og bring blandingen i kog. Lad det bulderkoge i ca. 5 minutter og tilsæt derefter kød, tomatpure, balsamicoeddike, laurbærblade og timian og reducér varmen til middel.",
+			"Kom sennep på det ene stykke brød og læg det på toppen af gryderetten.",
+			"Kom låg på og lad blandingen koge i 2 timer.",
+			"Fjern låget og lad gryderetten koge videre i ca. 30-45 minutter -- indtil gryderetten tykner og kødet er mørt.",
+			"Pommes",
+			"Skær kartoflerne i 'pommes frites'-størrelse og kom dem i en skål med vand.",
+			"Bland kartoflerne rundt så stivelsen kommer ud -- vandet begynder at blive hvidt.",
+			"Gentag dette indtil vandet ikke længere tager farve.",
+			"Kom godt med olie i en gryde og lad olien varmes op til 165 grader. Kom herefter kartoflerne i olien (ikke for mange af gangen) og steg dem i 4-5 minutter.",
+			"Tag kartoflerne op af olien og lad dem køle af i minumum 30 minutter. Til de er helt afkølet.",
+			"Fortsæt med de resterende kartofler.",
+			"Når alle kartofler har fået første omgang, skru temperaturen op og vent til den er nået 190 grader.",
+			"Kom salt på de stegte kartofler og kom dem herefter i olien for anden gang.",
+			"Lad kartoflerne køle af på papir og salt dem igen inden servering.",
+			"Servering",
+			"Server stoofvlees og fritter sammen på en tallerken. Fritterne kan evt. få lidt mayo on the side."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "4",
+			"type": "portion(er)"
+		},
+		"additionalImages": [
+			"stoofvlees_pre.jpg",
+			"stoofvlees_meat.jpg",
+			"stoofvlees_boil.jpg",
+			"stoofvlees_bread.jpg"
+		],
+		"preparationtime": {
+			"active": "30",
+			"passive": "150"
+		},
+		"protip": "Lad være med at salte kartoflerne før de er helt afkølet for at holde dem sprøde.",
+		"categories": [
+			"specielle anledninger",
+			"aftensmad",
+			"simreretter"
+		],
+		"relatedrecipes": ["Sauce Andalouse"],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Sauce Andalouse",
+		"teaser": "En klassiker som dyppelse til pommes fritter.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "mayo"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "tomatpure"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "grøn peber, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "rød peber, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "løgpulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "hvidløgspulver"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "citronsaft"
+			},
+			{
+				"amount": "0.25",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "skalotteløg, finthakket"
+			}
+		],
+		"steps": [
+			"Hak peber og skalotteløg",
+			"Bland alle ingredienser i en skål og sæt på køl i 2 timer inden brug.",
+			"Server til hjemmelavede fritter eller andre ovnbagte grøntsager."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "3",
+			"type": "dl"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": "120"
+		},
+		"protip": "",
+		"categories": [
+			"dip",
+			"sauce",
+			"dressing"
+		],
+		"relatedrecipes": ["https://foreignfork.com/fries/"],
+		"inspirationlink": ""
 	}
 ]
