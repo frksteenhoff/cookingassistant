@@ -3393,5 +3393,121 @@
 			"benlose_fugle2.jpg"
 		],
 		"inspirationlink": "https://madensverden.dk/benloese-fugle-i-gryde-med-floedesauce/"
+	},
+	{
+		"name": "Salmon Crudo",
+		"teaser": "Rå laks og agurk med en stærk og syrlig sauce, afbalanceret med japansk mayo og olivenolie",
+		"image": "salmon_crudo_garnished.jpg",
+		"ingredients": [
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "sushi-klasse laks"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "skallotteløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "kapers, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "chili, frisk, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "kapersvand"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "",
+				"unit": "tsk",
+				"ingredient": "dijon"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "dill, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "purløg, finthakket"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "citron, saft og skal"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "agurk"
+			},
+			{
+				"amount": "",
+				"unit": "spsk",
+				"ingredient": "japansk mayo, pynt"
+			},
+			{
+				"amount": "1",
+				"unit": "pakke(r)",
+				"ingredient": "mikrogrønt, pynt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt og peber, smag"
+			}
+		],
+		"steps": [
+			"Hak skallottløg, kapers og chili, dill og purløg fin og kom det i en skål.",
+			"I samme skål, tilsæt dijon, soya, kapersvand, sukker, citronsaft og skræl og tilsæt ca. halvdelen af olivenolien.",
+			"Skær laksen i tynde stykker og riv agurken i stykker af ca. samme størrelse på et mandolinjern.",
+			"Arrangér stykker af laks of agurk vækselvis på en tallerken (se billeder) og hæld saucen ud over. Smag til med salt og peber.",
+			"Pynt med lidt ekstra olivenolie, japansk mayo og mikrogrønt og servér med det samme eller lad det stå på køl til gæsterne ankommer."
+		],
+		"additionalImages": [
+			"salmon_crudo_topping.jpg",
+			"salmon_crudo_assemble.jpg",	
+			"salmon_crudo_garnished_straight.jpg"
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "3",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "15",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"specielle anledninger",
+			"forret"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
