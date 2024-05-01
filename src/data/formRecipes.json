@@ -6854,5 +6854,69 @@
 			"https://foreignfork.com/fries/"
 		],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Amaretto Sour",
+		"teaser": "Sød og syrlig drink med mandellikør og bourbon.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "4",
+				"unit": "cl",
+				"ingredient": "Amaretto"
+			},
+			{
+				"amount": "2",
+				"unit": "cl",
+				"ingredient": "Bourbon"
+			},
+			{
+				"amount": "3",
+				"unit": "cl",
+				"ingredient": "citronsaft"
+			},
+			{
+				"amount": "2",
+				"unit": "cl",
+				"ingredient": "æggehvide"
+			},
+			{
+				"amount": "2",
+				"unit": "cl",
+				"ingredient": "sukkersirup"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "",
+				"unit": "stk",
+				"ingredient": "1, pynt"
+			}
+		],
+		"steps": [
+			"Kom amaretto, bourbon, citronsaft, æggehvide, sukkersirup og isterninger i en shaker.",
+			"Ryst shakeren i ca. 20 sek for at blande alle ingredienserne.",
+			"Hæld drinken over isterninger i et glas. Pynt med citronskal og servér."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "1",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"drink",
+			"specielle anledninger"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.madformadelskere.dk/amaretto-sour/"
 	}
 ]
