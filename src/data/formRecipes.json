@@ -2494,17 +2494,47 @@
 	{
 		"name": "Butter chicken",
 		"teaser": "Traditionel indisk ret med kylling og en cremet sauce",
-		"image": "",
+		"image": "butter_chicken_marinade.jpg",
 		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "kg",
+				"ingredient": "benløs kylling"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "yoghurt"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "ingefær, revet"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "hvidløg, revet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt, peber, spidskommen, coriander, røde chili flager, "
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "garam masala og gurkemeje"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
 			{
 				"amount": "6",
 				"unit": "spsk",
 				"ingredient": "smør, i tern"
-			},
-			{
-				"amount": "1",
-				"unit": "kg",
-				"ingredient": "kyllingefilet"
 			},
 			{
 				"amount": "1",
@@ -2514,27 +2544,22 @@
 			{
 				"amount": "3",
 				"unit": "fed",
-				"ingredient": "hvidløg, finthakket"
+				"ingredient": "hvidløg, revet"
 			},
 			{
 				"amount": "1",
 				"unit": "spsk",
-				"ingredient": "garam masala"
+				"ingredient": "ingefær, revet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt, peber, spidskommen, coriander, røde chili flager, cayenne peber"
 			},
 			{
 				"amount": "1",
 				"unit": "tsk",
-				"ingredient": "chilipulver"
-			},
-			{
-				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "spidskommen"
-			},
-			{
-				"amount": "0.5",
-				"unit": "spsk",
-				"ingredient": "cayenne peber"
+				"ingredient": "garam masala og gurkemeje"
 			},
 			{
 				"amount": "1",
@@ -2542,9 +2567,24 @@
 				"ingredient": "hakkede tomater"
 			},
 			{
-				"amount": "5",
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "kardemomme, kapsel"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "kanelstang"
+			},
+			{
+				"amount": "3",
 				"unit": "dl",
 				"ingredient": "fløde"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand"
 			},
 			{
 				"amount": "2",
@@ -2558,6 +2598,21 @@
 			},
 			{
 				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "koriander, stængler"
+			},
+			{
+				"amount": "30",
+				"unit": "g",
+				"ingredient": "cashewnødder, grofthakket"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
 				"unit": "stk",
 				"ingredient": "lime, til pynt"
 			},
@@ -2568,12 +2623,18 @@
 			}
 		],
 		"steps": [
-			"Brun kyllingen i en pande med 2 spsk smør. De behøver ikke være gennemstegt. Lav det i omgange og tag fra på en tallerken.",
+			"Bland kylling med yoghurt og krydderier og lad den marinere i 2-3 timer.",
+			"Brun kyllingen ved høj varme i en pande med 2 spsk smør. De behøver ikke være gennemstegt. Lav det i omgange og tag fra på en tallerken.",
 			"Smelt 2 spsk smør på en pande ved medium varme, tilføj de hakkede løg og steg til de får en glasagtig overflade.",
-			"Tilføj herefter hvidløg, garam masala, finthakket ingefær, chili pulver, spidskommen og cayenne, Rør rundt så blandingen bliver ensartet og tilføj derefter hakkede tomater. Hvis du gerne vil have en sauce uden tomatstykker kan du med fordel blende tomaterne inden de kommer på panden.",
-			"Lad blandingen simre i 5 minutter og tilføj derefter fløden. Når blandingen igen smirer, tilføj da kyllingen og lad retten stå i 15 minutter. Hold varmen moderat, det skal ikke bulderkoge.",
+			"Tilføj herefter hvidløg, garam masala, finthakket ingefær, chili pulver, spidskommen, cayenne og vand. Rør rundt så blandingen bliver ensartet og tilføj derefter hakkede tomater.", 
+			"Hvis du gerne vil have en sauce uden tomatstykker kan du med fordel blende tomaterne inden de kommer på panden, eller jævne med en stavvblender.",
+			"Hak og tilføj cashewnødder.",
+			"Lad blandingen simre i 5 minutter og tilføj derefter fløden. Når blandingen igen simrer, tilføj da kyllingen og lad retten stå i 15 minutter. Hold varmen moderat, det skal ikke bulderkoge.",
 			"Tilføj det resterende smør og smag til med salt og peber.",
 			"Servér med ris og naan. Pynt med lime og koriander"
+		],
+		"additionalImages": [
+			"butter_chicken_prep.jpg"
 		],
 		"path": "description",
 		"servings_w_type": {
@@ -2595,7 +2656,7 @@
 	{
 		"name": "Naan brød",
 		"teaser": "Indisk madbrød, super lækkert til sammenkogte retter.",
-		"image": "naan.jpg",
+		"image": "naan2.jpg",
 		"ingredients": [
 			{
 				"amount": "40",
@@ -2673,7 +2734,7 @@
 			"Serves med det samme."
 		],
 		"additionalImages": [
-			"naan_fry.jpg"
+			"naan3.jpg"		
 		],
 		"path": "description",
 		"servings_w_type": {
