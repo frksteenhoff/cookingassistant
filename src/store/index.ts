@@ -22,6 +22,7 @@ export default new Vuex.Store<AppState>({
 			"dl",
 			"F",
 			"C",
+			"cl",
 			"K",
 			"tsk",
 			"spsk",
