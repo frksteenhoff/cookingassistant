@@ -7274,5 +7274,156 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Pad Thai",
+		"teaser": "Nudelret med kylling, peanuts, bønnespirer og en god sauce.",
+		"image": "pad_thai.jpg",
+		"ingredients": [
+			{
+				"amount": "600",
+				"unit": "g",
+				"ingredient": "kylling"
+			},
+			{
+				"amount": "20",
+				"unit": "ml",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "hvidløgspulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "0.75",
+				"unit": "dl",
+				"ingredient": "tamarind paste"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "fiskesauce"
+			},
+			{
+				"amount": "0.25",
+				"unit": "dl",
+				"ingredient": "sriracha"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime, saften"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "forårsløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "risnudler"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "bønnespirer"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "peanuts, groft hakket"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime"
+			}
+		],
+		"steps": [
+			"Marinade",
+			"Skær kyllingen i mundrette stykker og bland godt med soya, sort peber, hvidløgspulver, chiliflager og olivenolie.",
+			"Du kan stege kyllingen direkte eller lade den stå i marinaden før du steger den.",
+			"Sauce",
+			"Hvis du ikke har alle ingredienserne til saucen, eller ikke vil lave den selv kan du også købe \"Pad Thai sauce\" i mange asiatiske supermarkeder.",
+			"Bland soya, tamarind paste, honning, fiskesauce, sriracha og lime. Stil til side.",
+			"Bring en gryde med vand i kog og kog nudlerne efter anvisning på pakken. Når de er færdige, skyl dem med kold vand og sæt dem til side. Hak hvidløg, løg, forårsløg og peanuts.",
+			"Hak løg, hvidløg og forårsløg.",
+			"På en pande, eller i en wok svits løg til de får en glasagtig overflade. Tilføj kylling og steg den til den er færdig.",
+			"Skub kyllingen til side på panden og kom æggene på panden og steg dem som var det røræg. Når æggene er færdig, tilsæt da nudler og bønnespirer -- gem nogle af bønnespirene hvis du vil have lidt crunch at pynte med. Bland alle ingredienser godt og kom derefter pad thai saucen på. ",
+			"Server med lime, koriander og hakkede peanuts."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "4",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": ""
+		},
+		"protip": "Server gerne med agurk i strimler for at give et crunchy og friskt element.",
+		"categories": [
+			"aftensmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
