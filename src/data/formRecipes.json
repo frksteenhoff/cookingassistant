@@ -7123,5 +7123,307 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Thai spring rolls",
+		"teaser": "Forårsruller med nudler og grøntsager.",
+		"image": "springroll_done.jpg",
+		"ingredients": [
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "glasnudler"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "løg, skiveskåret"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "koriander, stilke"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "hvidkål"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "gulerødder"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "champignon"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "fiskesauce"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "østerssauce"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "hvid peber"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "mel"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "40",
+				"unit": "stk",
+				"ingredient": "forårsrullepapir"
+			},
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "olie, til stegning"
+			}
+		],
+		"steps": [
+			"Forberedelse",
+			"Kom vand i kog i en gryde. Når vandet koger, sluk for varmen og kom nudlerne i. Lad dem ligge i den rum tid som anvises på pakken. Skyl nudlerne efter med koldt vand når de er færdige med at koge og stil til side.",
+			"Hak hvidløg, løg og koriander. Riv eller skær gulerødder og kål i tynde strimler. Jeg plejer at bruge et mandolinjern.",
+			"Sauce",
+			"Bland østerssauce, fiskesauce, hvid peber, salt og soya og stil til side",
+			"Kom hvidløg og løg i en pande og steg til løgene bliver glasagtige. Tilsæt herefter gulerødder og steg i yderligere 1-2 minutter.",
+			"Hæld saucen over blandingen.",
+			"Tilføj kål og svampe og steg videre.",
+			"Steg til grøntsagerne falder sammen og meget af væden er fordampet.",
+			"Afkøling",
+			"Lad grøntsagsblandingen køle helt af inden du begynder at lave rullerne.",
+			"Spred evt. blandingen ud på en bradepande for at give mere plads.",
+			"Samling",
+			"Bland mel og vand i en lille skål. Brug blandingen som lim til at lukke forårsrullerne.",
+			"Kom fyld på et stykke forårsrullepapir i den mængde du finder passende. Rul forårsruller tæt og sørge for at siderne bliver foldet ind, så fyldet ikke ryger ud af siderne. Læg på et stykke bagepapir indtil stegning.",
+			"Fortsæt indtil alt fyldet er blevet brugt, eller til der ikke er flere stykker forårsrullepapir.",
+			"Stegning",
+			"Kom olie i en pande og varm den op til 200 grader.",
+			"Når olien er klar, kom 3-5 forårsruller i panden, sørg for at give ruller god plads mellem sig.",
+			"Lad dem stege i 3 minutter, halvandet minut på hver side.",
+			"Hold godt øje, de kan hurtigt tage farve specielt hvis du bruger en wok.",
+			"",
+			"Lad rullerne køle af 5-10 minutter inden servering.",
+			"Server med sursød sauce eller blommesauce."
+		],
+		"additionalImages": [
+			"springroll_filling.jpg",
+			"springroll_fold_0.jpg",
+			"springroll_fold_1.jpg",
+			"springroll_fold_2.jpg",
+			"springroll_fold_3.jpg",
+			"springroll_folded.jpg",
+			"springroll_done_2.jpg"
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "40",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": "60"
+		},
+		"protip": "",
+		"categories": [
+			"snack",
+			"vegetarisk",
+			"forret",
+			"aftensmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Pad Thai",
+		"teaser": "Nudelret med kylling, peanuts, bønnespirer og en god sauce.",
+		"image": "pad_thai.jpg",
+		"ingredients": [
+			{
+				"amount": "600",
+				"unit": "g",
+				"ingredient": "kylling"
+			},
+			{
+				"amount": "20",
+				"unit": "ml",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "hvidløgspulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "0.75",
+				"unit": "dl",
+				"ingredient": "tamarind paste"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "fiskesauce"
+			},
+			{
+				"amount": "0.25",
+				"unit": "dl",
+				"ingredient": "sriracha"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime, saften"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "forårsløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "risnudler"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "bønnespirer"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "peanuts, groft hakket"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime"
+			}
+		],
+		"steps": [
+			"Marinade",
+			"Skær kyllingen i mundrette stykker og bland godt med soya, sort peber, hvidløgspulver, chiliflager og olivenolie.",
+			"Du kan stege kyllingen direkte eller lade den stå i marinaden før du steger den.",
+			"Sauce",
+			"Hvis du ikke har alle ingredienserne til saucen, eller ikke vil lave den selv kan du også købe \"Pad Thai sauce\" i mange asiatiske supermarkeder.",
+			"Bland soya, tamarind paste, honning, fiskesauce, sriracha og lime. Stil til side.",
+			"Bring en gryde med vand i kog og kog nudlerne efter anvisning på pakken. Når de er færdige, skyl dem med kold vand og sæt dem til side. Hak hvidløg, løg, forårsløg og peanuts.",
+			"Hak løg, hvidløg og forårsløg.",
+			"På en pande, eller i en wok svits løg til de får en glasagtig overflade. Tilføj kylling og steg den til den er færdig.",
+			"Skub kyllingen til side på panden og kom æggene på panden og steg dem som var det røræg. Når æggene er færdig, tilsæt da nudler og bønnespirer -- gem nogle af bønnespirene hvis du vil have lidt crunch at pynte med. Bland alle ingredienser godt og kom derefter pad thai saucen på. ",
+			"Server med lime, koriander og hakkede peanuts."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "4",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": ""
+		},
+		"protip": "Server gerne med agurk i strimler for at give et crunchy og friskt element.",
+		"categories": [
+			"aftensmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
