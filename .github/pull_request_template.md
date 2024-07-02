@@ -1,4 +1,4 @@
-## :writing_hand: Description of changes
+## :wrench: Description of changes
 <!-- Briefly describe your changes/important notes related to the changes here -->
 
 ### Ticket link
