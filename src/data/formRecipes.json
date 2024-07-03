@@ -252,6 +252,101 @@
 		]
 	},
 	{
+		"name": "Coleslaw 2 -test",
+		"teaser": "Kål- og gulerodsslaw bruges som tilbehør til blandt andet brugere og fish tacos.",
+		"image": "coleslaw_blandet.jpg",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "hvidkål/rødkål"
+			},
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "gulerødder"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "dijon sennep"
+			},
+			{
+				"amount": "100",
+				"unit": "ml",
+				"ingredient": "æblecider eddike"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "spidskommen"
+			},
+			{
+				"amount": "1 ",
+				"unit": "tsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "creme fraiche"
+			},
+			{
+				"amount": "1.5",
+				"unit": "dl",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			}
+		],
+		"steps": [
+			"Skær kålen i tynde skiver og skræl gulerødderne med en gulerodsskræller (kan selvfølgelig også rives)",
+			"Bland honning, dijon, ælbecidereddike, salt, spidskommen og peber og bland med gulerod/kål-blandingen",
+			"Bland creme fraiche, mayo, sukker og salt og hæld det over coleslawen.",
+			"Lad blandingen stå på køl i minimum 1 time inden servering.",
+			"Hvis jeg bruger coleslawen til fish tacos, plejer jeg at undvære spidskommen."
+		],
+		"servings_w_type": {
+			"servings": 8,
+			"type": "person(er)"
+		},
+		"categories": [
+			"marinade",
+			"aftensmad",
+			"salat"
+		],
+		"protip": "Hvis jeg benytter denne opskrift til fish tacos, tilføjer jeg oftest lidt lime saft og finthakket koriander.",
+		"preparationtime": {
+			"active": "20",
+			"passive": "60"
+		},
+		"path": "description",
+		"relatedrecipes": [
+			"pulled pork"
+		],
+		"additionalImages": [
+			"coleslaw_roedkaal.jpg"
+		]
+	},
+	{
 		"name": "Blåbærmuffins",
 		"teaser": "Lyse muffins med blåbær",
 		"image": "blaabaermuffins.jpg",
