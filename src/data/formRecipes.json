@@ -1889,13 +1889,13 @@
 	{
 		"name": "Bao boller",
 		"teaser": "Lette og luftige hvedeboller, der fyldes med grøntsager og/eller kød. ",
-		"image": "bao_dampet.jpg",
+		"image": "bao_fyldt.jpg",
 		"additionalImages": [
 			"bao_haevning.jpg",
 			"bao_dampning.jpg",
+			"bao_dampet.jpg",
 			"bao_damper.jpg",
-			"bao_gao.jpg",
-			"bao_fyldt.jpg"
+			"bao_gao.jpg"
 		],
 		"ingredients": [
 			{
@@ -4557,7 +4557,7 @@
 		],
 		"additionalImages": [
 			"roedkaal.jpg",
-			"roedkaal_start.jpgd"
+			"roedkaal_start.jpg"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -4685,6 +4685,11 @@
 		"categories": [
 			"simreretter",
 			"aftensmad"
+		],
+		"additionalImages": [
+			"jordskokkesuppe_kog.jpg",
+			"jordskokkesuppe_prep.jpg",
+			"jerusalem_artichoke.jpg"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "https://www.valdemarsro.dk/jordskokkesuppe/"
@@ -5113,7 +5118,7 @@
 	{
 		"name": "Poké bowl",
 		"teaser": "Hawaiiansk rissalat -- forskellige grøntsager på en bund af ris ",
-		"image": "poke2.jpg",
+		"image": "poke_served.jpg",
 		"ingredients": [
 			{
 				"amount": "2",
@@ -5188,7 +5193,8 @@
 			"type": "person(er)"
 		},
 		"additionalImages": [
-			"poke.jpg"
+			"poke_prep.jpg",
+			"poke2.jpg"
 		],
 		"preparationtime": {
 			"active": "30",
@@ -7057,7 +7063,7 @@
 		"inspirationlink": ""
 	},
 	{
-		"name": "Carbonara",
+		"name": "Pasta Carbonara",
 		"teaser": "Den rigtige, med æg og ikke fløde.",
 		"image": "carbonara.jpg",
 		"ingredients": [
@@ -7422,6 +7428,243 @@
 		"protip": "Server gerne med agurk i strimler for at give et crunchy og friskt element.",
 		"categories": [
 			"aftensmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Pasta a la Vodka",
+		"teaser": "Spicy tomatsauce med rigatoni",
+		"image": "pasta_a_la_vodka.jpg",
+		"ingredients": [
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "rigatoni"
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "skalotteløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "2",
+				"unit": "cl",
+				"ingredient": "vodka"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "pastavand"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "parmasan, revet"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "tomatpuré"
+			}
+		],
+		"steps": [
+			"Sæt vand over til pastaen.",
+			"Mens vandet varmes op, snit løg og hvidløg fint og riv parmesanen.",
+			"Kom rigatonien i vand og kog efter anvisning. Hellere lidt for lidt end for meget.",
+			"Varm en pande op og svits løg og hvidløg i en god mængde olie og smør. ",
+			"Når løgene er glatte tilsæt da tomatpuré og chili og rør godt rundt.",
+			"Når tomapuréen er varmet op, hæld da vodka over og sæt ild til indholdet. Rør rundt mens alkoholen brændes af.",
+			"Skru ned for panden og tilsæt fløde. Lad det simre mens pastaen koger færdig.",
+			"Når pastaen er færdig, tag da lidt af vandet fra og kom det i panden med pastasauce.",
+			"Tag panden af varmen og tilsæt pasta og parmesan og rør godt rundt. Saucen skal være flydende men ikke vandet.",
+			"Servér direkte med lidt frisk basilikum og parmesan."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "3",
+			"type": "portion(er)"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": "15"
+		},
+		"protip": "",
+		"categories": [
+			"vegetarisk",
+			"aftensmad",
+			"frokost"
+		],
+		"additionalImages": [
+			"pasta_a_la_vodka_prep.jpg",
+			"pasta_a_la_vodka_sauce.jpg"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Laks i fritteret rispapir",
+		"teaser": "En lækker forret eller snack. ",
+		"image": "salmon_rice_paper_snack.jpg",
+		"ingredients": [
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "laks"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "mayo"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "chiliolie eller gochujang"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "avocado"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "sesamfrø"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "rispapir, plader"
+			},
+			{
+				"amount": "3",
+				"unit": "dl",
+				"ingredient": "neutral olie"
+			}
+		],
+		"steps": [
+			"Skær laksen i små tern og bland med mayo, lime og chili. Sæt på køl i minimum 15 min.",
+			"Skær avocado i tern og sæt til side.",
+			"Kom olie i en gryde, ca 1-2cm fra bunden og varm den op til ca. 150 grader",
+			"Mens olien varmes op, klip rispapiret i ca. 6 stykker og kom dem herefter enkeltvis i gryden med olie. Det tager ikke mer end et par sekunder før de er færdige, tag dem hurtigt ud af olien og læg dem på et stykke køkkenrulle til at dryppe af. Fortsæt til du har fritteret alle stykkerne af rispapir, tilsæt mere olie ved behov.",
+			"Kom nogle stykker avocado i bunden af rispapiret og top med laks og sesamfrø. Server direkte.",
+			""
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "15",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "25",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"snack",
+			"forret",
+			"raw"
+		],
+		"additionalImages": [
+			"salmon_rice_paper_prep.jpg"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Pizzette",
+		"teaser": "En lille italiensk forret, inspireret af min veninde Sara.",
+		"image": "pizzette_done.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "butterdej"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "passata pomodoro"
+			},
+			{
+				"amount": "10",
+				"unit": "stk",
+				"ingredient": "basilikumblade, friske"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "mosarellakugler"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "oregano"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			}
+		],
+		"steps": [
+			"Del butterdejen in i små kvadrater og giv dem lidt afstand til hinanden på en bageplade",
+			"Kom en lille mængde tomatsauce på hver af kvadraterne og bag dem herefter i 8 minutter, 150 grader varmluft.",
+			"Efter de 8 minutter, kom da basilikum og mosarella på hver af kvadraterne og drys til sidst med oregano.",
+			"Kom pladen i ovnen igen og bag i yderligere 8 minutter. Tag dem ud når dejen er gylden og mosarellaen er smeltet.",
+			"Kom kvadraterne på et fad, drys med lidt peber og servér. Giv dem gerne 2-3 minutter til at køle af."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "20",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "10",
+			"passive": "16"
+		},
+		"protip": "",
+		"categories": [
+			"snack",
+			"bagning",
+			"vegetarisk"
+		],
+		"additionalImages": [
+			"pizzette_prep.jpg"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
