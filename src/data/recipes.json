@@ -60,7 +60,9 @@
 			"dumpling_fars.jpg",
 			"gyoza_raw.jpg",
 			"dumpling_done.jpg",
-			"dumpling_dip.jpg"
+			"dumpling_dip.jpg",
+			"gyoza_w_sauce.jpg",
+			"gyoza_w_sauce_close-up.jpg"
 		],
 		"categories": [
 			"aftensmad",
@@ -2570,7 +2572,7 @@
 	{
 		"name": "Porretærte",
 		"teaser": "Basisopskrift på porretærte, som evt. kan piftes op med svampe eller kylling.",
-		"image": "porre.jpg",
+		"image": "porre_serrano.jpg",
 		"ingredients": [
 			{
 				"amount": "1",
@@ -2671,7 +2673,7 @@
 		"additionalImages": [
 			"porre_basic.jpg",
 			"porre_groent.jpg",
-			"porre_serrano.jpg",
+			"porre.jpg",
 			"porre_kylling.jpg"
 		],
 		"preparationtime": {
