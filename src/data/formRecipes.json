@@ -1919,11 +1919,6 @@
 				"ingredient": "gær"
 			},
 			{
-				"amount": "2",
-				"unit": "dl",
-				"ingredient": "vand"
-			},
-			{
 				"amount": "50",
 				"unit": "ml",
 				"ingredient": "mælk"
@@ -1939,21 +1934,29 @@
 				"ingredient": "riseddike"
 			},
 			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
 				"amount": "1",
 				"unit": "tsk",
 				"ingredient": "bagepulver"
 			}
 		],
 		"steps": [
+			"Dej",
 			"Bland mel, sukker og salt i en skål",
 			"Opløs gæren i 1 spsk varmt vand og lidt sukker og tilsæt det derefter til melblandingen sammen med mælk, solsikkeolie, riseddike og vand -- bland de tørre ingredienser sammen med de våde lidt efter lidt for at undgå klumper.",
-			"Saml dejen og ælt den i 10-15 min. Læg derefter dejen i en let olieret skål og hæver enten 2 timer på køkkenbordet eller på køl natten over. Den skal gerne hæve til den dobbelte størrelse.",
+			"Saml dejen og ælt den i 10-15 min. Læg derefter dejen i en let olieret skål og lad den hæve enten 2 timer på køkkenbordet eller på køl natten over. Den skal gerne hæve til den dobbelte størrelse.",
 			"Når dejen har hævet, lægger du den ud på en ren overflade, hvor du flader den ud med dine hænder og derefter drysser 1 tsk bagepulver ud over.",
+			"Formning",
 			"Rul herefter dejen til en lang pølse (ca. 3 cm tyk) og skær den i 3 cm tykke skiver -- der skal være ca. 18 stk.",
 			"Rul hver af dine skiver til en lille bold og lad dem hvile på bordet i 2-3 min.",
 			"Brug nu en kagerulle til at rulle hver bold ud til så den bliver oval, ca. 3-4mm tyk. Smør overfladen med olie.",
 			"Når alle bolde er rullet ud, tag da en spisepind og smør med olie. For hver af dine boller, læg spisepinden på midten og fold dejen hen over spisepinden. Træk herefter spisepinden ud.",
 			"Læg bollerne på individuelle stykker bagepapir og lad dem hvile i 1.5 time (indtil de er blevet dobbelt så store)",
+			"Dampning",
 			"Varm derefter vand op til en steamer på medium varme og damp bollerne i ca. 8 minutter (til de puffer op). Med dette antal boller kræver det, at du damper dem af flere omgange.",
 			"Åbn bollerne på midten og fyld med kød, svampe, koriander og gulerod. (Se opskrift på pulled pork)"
 		],
@@ -2491,17 +2494,47 @@
 	{
 		"name": "Butter chicken",
 		"teaser": "Traditionel indisk ret med kylling og en cremet sauce",
-		"image": "",
+		"image": "butter_chicken_marinade.jpg",
 		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "kg",
+				"ingredient": "benløs kylling"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "yoghurt"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "ingefær, revet"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "hvidløg, revet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt, peber, spidskommen, coriander, røde chili flager, "
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "garam masala og gurkemeje"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
 			{
 				"amount": "6",
 				"unit": "spsk",
 				"ingredient": "smør, i tern"
-			},
-			{
-				"amount": "1",
-				"unit": "kg",
-				"ingredient": "kyllingefilet"
 			},
 			{
 				"amount": "1",
@@ -2511,27 +2544,22 @@
 			{
 				"amount": "3",
 				"unit": "fed",
-				"ingredient": "hvidløg, finthakket"
+				"ingredient": "hvidløg, revet"
 			},
 			{
 				"amount": "1",
 				"unit": "spsk",
-				"ingredient": "garam masala"
+				"ingredient": "ingefær, revet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "salt, peber, spidskommen, coriander, røde chili flager, cayenne peber"
 			},
 			{
 				"amount": "1",
 				"unit": "tsk",
-				"ingredient": "chilipulver"
-			},
-			{
-				"amount": "1",
-				"unit": "tsk",
-				"ingredient": "spidskommen"
-			},
-			{
-				"amount": "0.5",
-				"unit": "spsk",
-				"ingredient": "cayenne peber"
+				"ingredient": "garam masala og gurkemeje"
 			},
 			{
 				"amount": "1",
@@ -2539,9 +2567,24 @@
 				"ingredient": "hakkede tomater"
 			},
 			{
-				"amount": "5",
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "kardemomme, kapsel"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "kanelstang"
+			},
+			{
+				"amount": "3",
 				"unit": "dl",
 				"ingredient": "fløde"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "vand"
 			},
 			{
 				"amount": "2",
@@ -2555,6 +2598,21 @@
 			},
 			{
 				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "koriander, stængler"
+			},
+			{
+				"amount": "30",
+				"unit": "g",
+				"ingredient": "cashewnødder, grofthakket"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
 				"unit": "stk",
 				"ingredient": "lime, til pynt"
 			},
@@ -2565,12 +2623,18 @@
 			}
 		],
 		"steps": [
-			"Brun kyllingen i en pande med 2 spsk smør. De behøver ikke være gennemstegt. Lav det i omgange og tag fra på en tallerken.",
+			"Bland kylling med yoghurt og krydderier og lad den marinere i 2-3 timer.",
+			"Brun kyllingen ved høj varme i en pande med 2 spsk smør. De behøver ikke være gennemstegt. Lav det i omgange og tag fra på en tallerken.",
 			"Smelt 2 spsk smør på en pande ved medium varme, tilføj de hakkede løg og steg til de får en glasagtig overflade.",
-			"Tilføj herefter hvidløg, garam masala, finthakket ingefær, chili pulver, spidskommen og cayenne, Rør rundt så blandingen bliver ensartet og tilføj derefter hakkede tomater. Hvis du gerne vil have en sauce uden tomatstykker kan du med fordel blende tomaterne inden de kommer på panden.",
-			"Lad blandingen simre i 5 minutter og tilføj derefter fløden. Når blandingen igen smirer, tilføj da kyllingen og lad retten stå i 15 minutter. Hold varmen moderat, det skal ikke bulderkoge.",
+			"Tilføj herefter hvidløg, garam masala, finthakket ingefær, chili pulver, spidskommen, cayenne og vand. Rør rundt så blandingen bliver ensartet og tilføj derefter hakkede tomater.",
+			"Hvis du gerne vil have en sauce uden tomatstykker kan du med fordel blende tomaterne inden de kommer på panden, eller jævne med en stavvblender.",
+			"Hak og tilføj cashewnødder.",
+			"Lad blandingen simre i 5 minutter og tilføj derefter fløden. Når blandingen igen simrer, tilføj da kyllingen og lad retten stå i 15 minutter. Hold varmen moderat, det skal ikke bulderkoge.",
 			"Tilføj det resterende smør og smag til med salt og peber.",
 			"Servér med ris og naan. Pynt med lime og koriander"
+		],
+		"additionalImages": [
+			"butter_chicken_prep.jpg"
 		],
 		"path": "description",
 		"servings_w_type": {
@@ -2592,7 +2656,7 @@
 	{
 		"name": "Naan brød",
 		"teaser": "Indisk madbrød, super lækkert til sammenkogte retter.",
-		"image": "naan.jpg",
+		"image": "naan2.jpg",
 		"ingredients": [
 			{
 				"amount": "40",
@@ -2630,9 +2694,14 @@
 				"ingredient": "hvedemel"
 			},
 			{
-				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "sesam"
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg, kan undlades"
 			},
 			{
 				"amount": "5",
@@ -2640,9 +2709,9 @@
 				"ingredient": "smør, blødt (til stegning)"
 			},
 			{
-				"amount": "3",
-				"unit": "fed",
-				"ingredient": "hvidløg, kan undlades"
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "sesam"
 			},
 			{
 				"amount": "10",
@@ -2665,7 +2734,7 @@
 			"Serves med det samme."
 		],
 		"additionalImages": [
-			"naan_fry.jpg"
+			"naan3.jpg"
 		],
 		"path": "description",
 		"servings_w_type": {
@@ -3378,7 +3447,7 @@
 	{
 		"name": "Porretærte med kylling",
 		"teaser": "Klassisk tærte med en cremet ægemasse og hytteost",
-		"image": "",
+		"image": "taerte.jpg",
 		"ingredients": [
 			{
 				"amount": "1",
@@ -4510,6 +4579,11 @@
 			},
 			{
 				"amount": "2",
+				"unit": "stk",
+				"ingredient": "løg, i grove tern"
+			},
+			{
+				"amount": "2",
 				"unit": "fed",
 				"ingredient": "hvidløg"
 			},
@@ -4527,6 +4601,31 @@
 				"amount": "1",
 				"unit": "L",
 				"ingredient": "vand"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "æbler, tern"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
 			},
 			{
 				"amount": "2",
@@ -4554,21 +4653,6 @@
 				"ingredient": ""
 			},
 			{
-				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "æblecidereddike"
-			},
-			{
-				"amount": "2",
-				"unit": "tsk",
-				"ingredient": "honning"
-			},
-			{
-				"amount": "2",
-				"unit": "stk",
-				"ingredient": "æbler, tern"
-			},
-			{
 				"amount": "300",
 				"unit": "g",
 				"ingredient": "torskefillet"
@@ -4577,14 +4661,16 @@
 		"steps": [
 			"Suppen",
 			"Skræl og hak jordskokker og kartofler i grove tern. Jeg plejer at fjerne 'de værste pletter' og ellers bruge grønstagerne som de er.",
-			"Sauter løg, kartofler, jordskokker, timian og hvidløg i en gryde med smør i et par minutter.",
+			"Sauter løg, hvidløg, kartofler, jordskokker og timian i en gryde med smør i et par minutter.",
 			"Tilsæt derefter vand og kom et låg på. Lad det simre i 25 minutter ved middel varme.",
 			"Tilbehør",
 			"Skær æblerne i små tern. Bland æblecidereddike, honning og citron i en skål og tilsæt æbleternene.",
 			"Steg torsken i smør på en pande i 2-3 minutter med et låg på. Den er færdig når kødet har taget en mere hvid farve og begynder at falde fra hinanden. Pas på at det ikke får for meget.",
-			"Blend suppen med en stavblender og tilsæt fløde. Smag til med muskatnød, salt og peber. Jeg plejer at kunne lide, at suppen er lidt tyk/cremet. Kom lidt ekstra vand i hvis du synes at den skal være tyndere.",
 			"Anretning",
-			"I nogle dye skåle, placér nogle æbletern i en lille bunke og hæld suppe ved til æblerne næsten er dækker. Placér derefter torsken (ca. 50 gram til pr. portion) ovenpå æbleternene og pynt evt. med lidt timian."
+			"Blend suppen med en stavblender og tilsæt fløde. Smag til med muskatnød, salt og peber. Jeg plejer at kunne lide, at suppen er lidt tyk/cremet. Kom lidt ekstra vand i hvis du synes at den skal være tyndere.",
+			"Dræn æblerne ved at hælde dem over i en si.",
+			"I nogle dye skåle, placér nogle æbletern i en lille bunke og hæld suppe ved til æblerne næsten er dækket.",
+			"Placér derefter torsken (ca. 50 gram til pr. portion) ovenpå æbleternene og pynt evt. med lidt timian."
 		],
 		"path": "description",
 		"servings_w_type": {
@@ -4789,10 +4875,10 @@
 			"Stil kyllingen på køl i 3 timer inden brug. Den kan sagtens stå længere, hvis du gerne vil lave det tidligere.",
 			"Panering",
 			"Find to skåle frem. En til æg og en til panering. Kom de tre æg i en af skålene og bland dem godt. I den anden skål, bland mel, rasp og alle krydderier godt.",
-			"Når kyllingen er færdig med at trække, tag alle stykker op af skålen og lad dem dryppe af. Derefter skal alle kyllingestykker først dyppes og i æggeblandingen og derefter dækkes med paneringsmiksen. Dette gentages to gange for alle kyllingestykker.",
+			"Når kyllingen er færdig med at trække, tag alle stykker op af skålen og lad dem dryppe af. Derefter skal alle kyllingestykker først dyppes i æggeblandingen og derefter dækkes med paneringsmixen. Gør dette to gange for hvert kyllingestykke.",
 			"Stegning",
 			"Kom olien i en gryde og bring den op til 80 grader. Afhængig af størrelsen af din gryde, kom ca. 3 stykker kylling i olien og steg den i 4-5 minutter. Paneringen udenpå skal gerne tage farve og hvis du skærer kyllingen over skal den se gennemstegt ud, altså ikke rosa, men stadig saftig.",
-			"Tag derefter stykkerne ud, jeg plejer at gøre dette med en hulske, og lad dem hvile på en rist -- evt. med lidt køkkenrulle nedenunder til at samle den overskydende olie der måtte komme med.",
+			"Tag derefter stykkerne op, jeg plejer at gøre dette med en hulske, og lad dem hvile på en rist -- evt. med lidt køkkenrulle nedenunder til at samle den overskydende olie der måtte komme med.",
 			"Samling",
 			"Rist eller varm dine briocheboller i en ovn efter anvisningen på pakken.",
 			"Smør den ene af siderne med sennep og den anden med mayonnaise.",
@@ -5275,7 +5361,7 @@
 	{
 		"name": "Chili olie",
 		"teaser": "En stærk olie, god til mange asiatiske retter som sauce eller dressing.",
-		"image": "",
+		"image": "chili_oil.jpg",
 		"ingredients": [
 			{
 				"amount": "10",
@@ -5324,10 +5410,13 @@
 			}
 		],
 		"steps": [
-			"Rist alle chilivarianter på en pande indtil de begynder at afgive dufte.",
+			"Hak hvidløg fint.",
+			"Rist alle chilivarianter på en pande indtil de begynder at dufte.",
+			"Kom de ristede chilier i en blender og puls indtil blandingen er fin.",
 			"Kom olien i en gryde og tilsæt laurbærblade.",
 			"I en stor glasbeholder, tilsæt alle de ristede krydderier og hvidløg og hæld derefter den varme olie over.",
-			"Lad olien stå i minimum 30 minutter inden brug."
+			"Lad olien stå i minimum 30 minutter inden brug.",
+			"Opbevares i køleskab op til 6 måneder."
 		],
 		"path": "description",
 		"servings": "",
@@ -5345,9 +5434,12 @@
 			"sauce",
 			"tilbehør"
 		],
-		"additionalImages": [],
+		"additionalImages": [
+			"chili_oil_deconstructed.jpg"
+		],
 		"relatedrecipes": [
-			"Dumplings"
+			"Dumplings",
+			"Turbo Ramen"
 		],
 		"inspirationlink": ""
 	},
@@ -5360,36 +5452,6 @@
 				"amount": "2",
 				"unit": "stk",
 				"ingredient": "søde kartofler, i mundrette stykker"
-			},
-			{
-				"amount": "1",
-				"unit": "dåse(r)",
-				"ingredient": "kikærter, drænede"
-			},
-			{
-				"amount": "200",
-				"unit": "g",
-				"ingredient": "grønkål"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "rødløg"
-			},
-			{
-				"amount": "0.5",
-				"unit": "dl",
-				"ingredient": "æblecidereddike"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "gedeost, i tykke skiver"
-			},
-			{
-				"amount": "",
-				"unit": "",
-				"ingredient": ""
 			},
 			{
 				"amount": "2",
@@ -5405,6 +5467,11 @@
 				"amount": "",
 				"unit": "",
 				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "dåse(r)",
+				"ingredient": "kikærter, drænede"
 			},
 			{
 				"amount": "1",
@@ -5425,13 +5492,38 @@
 				"amount": "0.5",
 				"unit": "tsk",
 				"ingredient": "peber"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "grønkål"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "rødløg"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "æblecidereddike"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "gedeost, i tykke skiver"
 			}
 		],
 		"steps": [
 			"Forberedelse",
-			"Skræl og skær de søde kartofler i tern. ak derefter hvidløg fint, bland det med olien og hæld det over de søde kartofler. Dræn derefter kikærterne og bland dem med spidskommen, chilipulver, salt og peber.",
-			"Kom et stykke bagepapir på en bradepande og fordel derefter de søde kartofler og kikærterne ud. Bag i 15 min ved 200 grader. ",
-			"Skyld og hak grønkålen og rødløg fint og kom det derefter på en pande med æblecidereddike. Steg kålen til den begynder at falde sammen og smag evt. til med lidt salt. ",
+			"Skræl og skær de søde kartofler i tern. hak derefter hvidløg fint, bland det med olien og hæld det over de søde kartofler. Dræn derefter kikærterne og bland dem med spidskommen, chilipulver, salt og peber.",
+			"Kom et stykke bagepapir på en bradepande og fordel derefter de søde kartofler og kikærterne på pladen. Bag i 15 min ved 200 grader. ",
+			"Skyld og hak grønkålen (groft) og rødløg (fint) og kom det derefter på en pande med æblecidereddike. Steg kålen til den begynder at falde sammen og smag evt. til med lidt salt. ",
 			"Skær gedeosten i ca. 1 cm tykke skiver og læg til side.",
 			"Samling",
 			"Kom grønkål og rødløg på en tallerken og bred derefter et let lag søde kartofler og kikærter ovenpå. Kom derefter 3-4 stykker gedeost på toppen og flambér dem evt. med en gasbrænder.",
@@ -6249,7 +6341,1089 @@
 			"marinade",
 			"aftensmad"
 		],
-		"relatedrecipes": ["Mangosalsa", "Majssalsa", "Salsa roja"],
+		"relatedrecipes": [
+			"Mangosalsa",
+			"Majssalsa",
+			"Salsa roja"
+		],
 		"inspirationlink": "https://iamafoodblog.com/birria-tacos-recipe/"
+	},
+	{
+		"name": "Bagels",
+		"teaser": "Boller med hul i. Gode med smøreost og lige det fyld, der passer dig.",
+		"image": "bagels_done.jpg",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "mel"
+			},
+			{
+				"amount": "6",
+				"unit": "g",
+				"ingredient": "tørgær"
+			},
+			{
+				"amount": "10",
+				"unit": "g",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "20",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "vand, lunkent"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "everything bagel krydderi, i dejen"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "30",
+				"unit": "g",
+				"ingredient": "everything bagel krydderi, til topping"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			}
+		],
+		"steps": [
+			"Bland mel, gær, salt og sukker i en skål - sørg for at der er god plads.",
+			"Tilsæt vand og ælt dejen godt, gerne i et par minutter. Hvis den virker for tør, tilsæt da lidt vand.",
+			"Lad dejen hæve i en time, til den er ca. dobbelt størrelse.",
+			"Når dejen har hævet, slå da luften af dejen (du kan høre den \"trækker vejret ud\") og lad den stå i 10 minutter.",
+			"Sæt din ovn på 220 grader under- og overvarme.",
+			"Fyld en bredbundet pande halvt med vand og bring det i kog (en let simren)",
+			"Mens vandet varmes op, del da dejen i 6 lige store stykker og rul dem til små bolde.",
+			"Med lidt mel på hænderne, lav huller i alle boldene og form dem til jævne ringe ved at trække forsigtigt i alle retninger. ",
+			"Når alle \"dejringe\" er færdige, kom dem da i det simrende vand i ca. 1 min pr. side. Sørg for ikke at koge for mange på samme tid, de udvider sig. Jo længere du lader dem ligge, jo større bliver dine bagels.",
+			"Når alle bagels er blevet kogt, kom dem da på bageplader, pensl med æg og drys med everything bagel krydderi, eller krydderi af eget valg. Giv dem god plads så de kan hæve i ovnen.",
+			"Bag dine bagels i ca. 20 minutter. Lad dem køle af på en rist.",
+			"Servér med smøreost og det pålæg du bedst kan lide. Jeg vil anbefale smøreost, pesto, agurk, æggesalat og kalkun."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "6",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "20",
+			"passive": "60"
+		},
+		"protip": "",
+		"categories": [
+			"morgenmad",
+			"frokost",
+			"bagning",
+			"vegetarisk"
+		],
+		"additionalImages": [
+			"bagels_formed.jpg",
+			"bagels_cooking.jpg",
+			"bagels_cooked.jpg",
+			"bagels_pre_bake.jpg",
+			"bagels_done.jpg",
+			"bagels_serving_suggestion.jpg",
+			"bagel_filled.jpg"
+		],
+		"relatedrecipes": [
+			"Æggesalat"
+		],
+		"inspirationlink": "https://thepracticalkitchen.com/everything-bagels/"
+	},
+	{
+		"name": "Æggesalat",
+		"teaser": "En god topping til rugbrød, knækbrød eller bagels.",
+		"image": "bagel_filled.jpg",
+		"ingredients": [
+			{
+				"amount": "7",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "mayonnaise"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt, fint"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "purløg, finthakket"
+			}
+		],
+		"steps": [
+			"Kog æggene i 7 minutter. Hvis æggene er meget store, giv dem et minut mere.",
+			"Tag æggene af varmen og skyl dem i koldt vand, så de ikke koger videre.",
+			"Pil æggene og skær dem i stykker, eller brug en æggedeler. Kom dem herefter i en skål.",
+			"Hak purløg og bland dem mayo, salt og peber med æggene."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "5",
+			"type": "portion(er)"
+		},
+		"preparationtime": {
+			"active": "10",
+			"passive": "7"
+		},
+		"protip": "",
+		"categories": [
+			"morgenmad",
+			"frokost",
+			"spread"
+		],
+		"additionalImages": [
+			"eggsalad_eggs_cut.jpg",
+			"eggsalad_eggs.jpg"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Hasselback Jordskokker med Chimicaesar Dip",
+		"teaser": "Et lille twist på tilberedning af jordskokker og en lækker dip",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "Jordskokker"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "timian, grene"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "rosmarin, grene"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg, pillede hele"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "citron, skallen"
+			},
+			{
+				"amount": "3",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æggeblomme"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "kapers"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "dijon"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sennep, fuldkorn"
+			},
+			{
+				"amount": "5",
+				"unit": "stk",
+				"ingredient": "sardiner"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "citron, skal og juice"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "appelsin, skal og juice"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "persille, frisk"
+			},
+			{
+				"amount": "30",
+				"unit": "g",
+				"ingredient": "basilikum, frisk"
+			},
+			{
+				"amount": "175",
+				"unit": "g",
+				"ingredient": "neutral olie"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "olivenolie"
+			}
+		],
+		"steps": [
+			"Jordskokker",
+			"Kom alle jordskokker i en gryde og dæk dem med vand. Tilføj herefter krydderurterne og hvidløg. Sørg for at jordskokkerne er renset godt.",
+			"Kom vandet i kog og lad det derefter simre ved svag varme i 20-30 minutter. Jordskokkerne skal være gennemkogt men de skal ikke falde fra hinanden.",
+			"Si vandet fra jordskokkerne og lad dem køle af. Lav derefter \"hasselback\" snit i alle jordskokkerne ved at skære dem i skiver uden at skære hele vejen igennem.",
+			"Forvarm ovnen til 200 grader og kom olie på jordskokkerne. Bag dem i ca. 10 minutter på en af de øvre riller. De skal være mørke og crispy. Krydr med flagesalt.",
+			"Chimiceaserdip",
+			"Blend alle ingredienserne -- olien til sidst i en lind strøm.",
+			""
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "",
+			"type": ""
+		},
+		"preparationtime": {
+			"active": "20",
+			"passive": "30"
+		},
+		"protip": "",
+		"categories": [],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Stoofvlees met frietjes",
+		"teaser": "Belgisk ølbaseret gryderet på okseskank med pommes fritter",
+		"image": "stoofvlees_chimay.jpg",
+		"ingredients": [
+			{
+				"amount": "500",
+				"unit": "g",
+				"ingredient": "okseskank"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "peber"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "600",
+				"unit": "ml",
+				"ingredient": "belgisk øl (Chimay, Gouden Carolus eller lign.)"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "laurbærblade"
+			},
+			{
+				"amount": "8",
+				"unit": "stk",
+				"ingredient": "timian, grene"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "balsamicoeddike"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "tomatpure"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "pære/æble sirup"
+			},
+			{
+				"amount": "1",
+				"unit": "skive",
+				"ingredient": "mørkt brød"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "dijon sennep"
+			}
+		],
+		"steps": [
+			"Gryderet",
+			"Hak løg og hvidløg fint.",
+			"Skær din okseskank i stykker og krydr med salt og peber.",
+			"Kom smør i en bredbundet gryde og tilføj kødet, når det er smeltet.",
+			"Brun kødet på alle sider og tag det af varmen.",
+			"Kom løg i samme gryde og steg i ca. 5 minutter. Tilsæt derefter hvidløg og steg videre i ca. 1 minut.",
+			"Tilsæt øl og bring blandingen i kog. Lad det bulderkoge i ca. 5 minutter og tilsæt derefter kød, tomatpure, balsamicoeddike, laurbærblade og timian og reducér varmen til middel.",
+			"Kom sennep på det ene stykke brød og læg det på toppen af gryderetten.",
+			"Kom låg på og lad blandingen koge i 2 timer.",
+			"Fjern låget og lad gryderetten koge videre i ca. 30-45 minutter -- indtil gryderetten tykner og kødet er mørt.",
+			"Pommes",
+			"Skær kartoflerne i 'pommes frites'-størrelse og kom dem i en skål med vand.",
+			"Bland kartoflerne rundt så stivelsen kommer ud -- vandet begynder at blive hvidt.",
+			"Gentag dette indtil vandet ikke længere tager farve.",
+			"Kom godt med olie i en gryde og lad olien varmes op til 165 grader. Kom herefter kartoflerne i olien (ikke for mange af gangen) og steg dem i 4-5 minutter.",
+			"Tag kartoflerne op af olien og lad dem køle af i minumum 30 minutter. Til de er helt afkølet.",
+			"Fortsæt med de resterende kartofler.",
+			"Når alle kartofler har fået første omgang, skru temperaturen op og vent til den er nået 190 grader.",
+			"Kom salt på de stegte kartofler og kom dem herefter i olien for anden gang.",
+			"Lad kartoflerne køle af på papir og salt dem igen inden servering.",
+			"Servering",
+			"Server stoofvlees og fritter sammen på en tallerken. Fritterne kan evt. få lidt mayo on the side."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "4",
+			"type": "portion(er)"
+		},
+		"additionalImages": [
+			"stoofvlees_pre.jpg",
+			"stoofvlees_meat.jpg",
+			"stoofvlees_boil.jpg",
+			"stoofvlees_bread.jpg"
+		],
+		"preparationtime": {
+			"active": "30",
+			"passive": "150"
+		},
+		"protip": "Lad være med at salte kartoflerne før de er helt afkølet for at holde dem sprøde.",
+		"categories": [
+			"specielle anledninger",
+			"aftensmad",
+			"simreretter"
+		],
+		"relatedrecipes": [
+			"Sauce Andalouse"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Tyrkiske æg ",
+		"teaser": "Æg tilberedt på en bund af græsk youghurt med hvidløg, chili, smør og olie. Serveres med brød.",
+		"image": "turkish_eggs_front.jpg",
+		"ingredients": [
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg, blødkogte/pocherede"
+			},
+			{
+				"amount": "3",
+				"unit": "fed",
+				"ingredient": "hvidløg"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "purløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "flagesalt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "brød, skiveskåret, ristet"
+			}
+		],
+		"steps": [
+			"Tilbered dine æg efter eget valg.",
+			"Varm smørret på middel varme i en pande og steg hvidløgene deri. Når det begynder at dufte, skru op på høj varme og tilsæt chili og olivenolie. ",
+			"Mens blandingen svitses af (uden at brændes på -- tænk brunt smør) kan du komme græsk youghurt på en bredbundet tallerken og riste dit brød.",
+			"Kom dine æg ovenpå youghurten og hæld smørblandingen over.",
+			"Pynt med flagesalt, peber og purløg og server direkte."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "2",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": "10"
+		},
+		"additionalImages": [
+			"turkish_eggs_base.jpg",
+			"turkish_eggs.jpg",
+			"turkish_eggs_bread.jpg"
+		],
+		"protip": "Dild gør det også rigtig godt til denne ret.",
+		"categories": [
+			"frokost",
+			"morgenmad",
+			"vegetarisk"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Sauce Andalouse",
+		"teaser": "En klassiker som dyppelse til pommes fritter.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "mayo"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "tomatpure"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "grøn peber, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "rød peber, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "løgpulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "hvidløgspulver"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "citronsaft"
+			},
+			{
+				"amount": "0.25",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "skalotteløg, finthakket"
+			}
+		],
+		"steps": [
+			"Hak peber og skalotteløg",
+			"Bland alle ingredienser i en skål og sæt på køl i 2 timer inden brug.",
+			"Server til hjemmelavede fritter eller andre ovnbagte grøntsager."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "3",
+			"type": "dl"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": "120"
+		},
+		"protip": "",
+		"categories": [
+			"dip",
+			"sauce",
+			"dressing"
+		],
+		"relatedrecipes": [
+			"https://foreignfork.com/fries/"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Amaretto Sour",
+		"teaser": "Sød og syrlig drink med mandellikør og bourbon.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "4",
+				"unit": "cl",
+				"ingredient": "Amaretto"
+			},
+			{
+				"amount": "2",
+				"unit": "cl",
+				"ingredient": "Bourbon"
+			},
+			{
+				"amount": "3",
+				"unit": "cl",
+				"ingredient": "citronsaft"
+			},
+			{
+				"amount": "2",
+				"unit": "cl",
+				"ingredient": "æggehvide"
+			},
+			{
+				"amount": "2",
+				"unit": "cl",
+				"ingredient": "sukkersirup"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "",
+				"unit": "stk",
+				"ingredient": "1, pynt"
+			}
+		],
+		"steps": [
+			"Kom amaretto, bourbon, citronsaft, æggehvide, sukkersirup og isterninger i en shaker.",
+			"Ryst shakeren i ca. 20 sek for at blande alle ingredienserne.",
+			"Hæld drinken over isterninger i et glas. Pynt med citronskal og servér."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "1",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"drink",
+			"specielle anledninger"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://www.madformadelskere.dk/amaretto-sour/"
+	},
+	{
+		"name": "Burrata bites",
+		"teaser": "Et twist på bruschetta.",
+		"image": "burrata_bites_side.jpg",
+		"ingredients": [
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "cherrytomater"
+			},
+			{
+				"amount": "8",
+				"unit": "stk",
+				"ingredient": "skiver brød"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg, halverede"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "burrata"
+			},
+			{
+				"amount": "0.5",
+				"unit": "bundt",
+				"ingredient": "basilikum, frisk"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkvernet"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "olivenolie"
+			}
+		],
+		"steps": [
+			"Skær brødet i skiver og tomater i kvarte og halvér hvidløg.",
+			"Rist brødet kort på en brødrister og smør det halverede hvidløg på den ristede overflade.",
+			"Skær burrataerne i 4 og smør dem forsigtigt på brødskiverne. Hvor meget burrata du vælger at bruge kommer helt an på, hvor gavmild du vil være.",
+			"Placér tomaterne overnpå burrataen i en mængde du føler passende. Afslut hver burrata bite med olivenolie, salt og friskkværnet peber.",
+			"Serveres med det samme."
+		],
+		"additionalImages": [
+			"burrata_bites.jpg"
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "8",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "10",
+			"passive": "5"
+		},
+		"protip": "",
+		"categories": [
+			"snack",
+			"vegetarisk",
+			"specielle anledninger",
+			"forret"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Carbonara",
+		"teaser": "Den rigtige, med æg og ikke fløde.",
+		"image": "carbonara.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "kg",
+				"ingredient": "pasta"
+			},
+			{
+				"amount": "6",
+				"unit": "stk",
+				"ingredient": "æggeblommer"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "pecorino, revet"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "guanicale, i tern"
+			},
+			{
+				"amount": "2",
+				"unit": "dl",
+				"ingredient": "pastavand"
+			}
+		],
+		"steps": [
+			"Bring en gryde med vand til pasta i kog.",
+			"Mens pastaen koger, skær guanciale, riv pecorino og skil æggeblommer og -hvider.",
+			"Bland æggeblommer og pecorino i en skål til en lind masse og sæt til side.",
+			"Steg guancialen på en pande til den en crispy, men ikke tør og lad den køle af på et stykke køkkenrulle.",
+			"Kom ca. halvdelen af fedtet fra guancialen i æggeblommeblandingen og rør godt rundt.",
+			"Tag 1-2dl pastavand fra når pastaen er færdigkogt og tilsæt æggeblommeblandingen. Blandingen skal være flydende men ikke vandig.",
+			"Hæld pastavandet fra pastaen og kom pastaen tilbage i gryden. Stil gryden på det slukkede blus og tilsæt herefter æggeblommeblandingen og rør godt rundt til den er fordelt på al pastaen.",
+			"Kom carbonaraen i skåle og pynt med guanciale og evt. ekstra pecorino.",
+			"Serveres med det samme."
+		],
+		"additionalImages": [
+			"carbonara_eggs.jpg",
+			"carbonara_guanciale.jpg"
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "5",
+			"type": "portion(er)"
+		},
+		"preparationtime": {
+			"active": "25",
+			"passive": ""
+		},
+		"protip": "Ved at blande pasta og carbonara sauce på det slukkede blus holder gryden sig varm, hvilket hjælper med at gøre cremen ensartet.",
+		"categories": [
+			"aftensmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Thai spring rolls",
+		"teaser": "Forårsruller med nudler og grøntsager.",
+		"image": "springroll_done.jpg",
+		"ingredients": [
+			{
+				"amount": "100",
+				"unit": "g",
+				"ingredient": "glasnudler"
+			},
+			{
+				"amount": "2",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "løg, skiveskåret"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "koriander, stilke"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "hvidkål"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "gulerødder"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "champignon"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "fiskesauce"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "østerssauce"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "hvid peber"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "mel"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "40",
+				"unit": "stk",
+				"ingredient": "forårsrullepapir"
+			},
+			{
+				"amount": "2.5",
+				"unit": "dl",
+				"ingredient": "olie, til stegning"
+			}
+		],
+		"steps": [
+			"Forberedelse",
+			"Kom vand i kog i en gryde. Når vandet koger, sluk for varmen og kom nudlerne i. Lad dem ligge i den rum tid som anvises på pakken. Skyl nudlerne efter med koldt vand når de er færdige med at koge og stil til side.",
+			"Hak hvidløg, løg og koriander. Riv eller skær gulerødder og kål i tynde strimler. Jeg plejer at bruge et mandolinjern.",
+			"Sauce",
+			"Bland østerssauce, fiskesauce, hvid peber, salt og soya og stil til side",
+			"Kom hvidløg og løg i en pande og steg til løgene bliver glasagtige. Tilsæt herefter gulerødder og steg i yderligere 1-2 minutter.",
+			"Hæld saucen over blandingen.",
+			"Tilføj kål og svampe og steg videre.",
+			"Steg til grøntsagerne falder sammen og meget af væden er fordampet.",
+			"Afkøling",
+			"Lad grøntsagsblandingen køle helt af inden du begynder at lave rullerne.",
+			"Spred evt. blandingen ud på en bradepande for at give mere plads.",
+			"Samling",
+			"Bland mel og vand i en lille skål. Brug blandingen som lim til at lukke forårsrullerne.",
+			"Kom fyld på et stykke forårsrullepapir i den mængde du finder passende. Rul forårsruller tæt og sørge for at siderne bliver foldet ind, så fyldet ikke ryger ud af siderne. Læg på et stykke bagepapir indtil stegning.",
+			"Fortsæt indtil alt fyldet er blevet brugt, eller til der ikke er flere stykker forårsrullepapir.",
+			"Stegning",
+			"Kom olie i en pande og varm den op til 200 grader.",
+			"Når olien er klar, kom 3-5 forårsruller i panden, sørg for at give ruller god plads mellem sig.",
+			"Lad dem stege i 3 minutter, halvandet minut på hver side.",
+			"Hold godt øje, de kan hurtigt tage farve specielt hvis du bruger en wok.",
+			"",
+			"Lad rullerne køle af 5-10 minutter inden servering.",
+			"Server med sursød sauce eller blommesauce."
+		],
+		"additionalImages": [
+			"springroll_filling.jpg",
+			"springroll_fold_0.jpg",
+			"springroll_fold_1.jpg",
+			"springroll_fold_2.jpg",
+			"springroll_fold_3.jpg",
+			"springroll_folded.jpg",
+			"springroll_done_2.jpg"
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "40",
+			"type": "stk"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": "60"
+		},
+		"protip": "",
+		"categories": [
+			"snack",
+			"vegetarisk",
+			"forret",
+			"aftensmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Pad Thai",
+		"teaser": "Nudelret med kylling, peanuts, bønnespirer og en god sauce.",
+		"image": "pad_thai.jpg",
+		"ingredients": [
+			{
+				"amount": "600",
+				"unit": "g",
+				"ingredient": "kylling"
+			},
+			{
+				"amount": "20",
+				"unit": "ml",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "hvidløgspulver"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "0.75",
+				"unit": "dl",
+				"ingredient": "tamarind paste"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "honning"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "fiskesauce"
+			},
+			{
+				"amount": "0.25",
+				"unit": "dl",
+				"ingredient": "sriracha"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime, saften"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "forårsløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "risnudler"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "bønnespirer"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "peanuts, groft hakket"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "chiliflager"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "lime"
+			}
+		],
+		"steps": [
+			"Marinade",
+			"Skær kyllingen i mundrette stykker og bland godt med soya, sort peber, hvidløgspulver, chiliflager og olivenolie.",
+			"Du kan stege kyllingen direkte eller lade den stå i marinaden før du steger den.",
+			"Sauce",
+			"Hvis du ikke har alle ingredienserne til saucen, eller ikke vil lave den selv kan du også købe \"Pad Thai sauce\" i mange asiatiske supermarkeder.",
+			"Bland soya, tamarind paste, honning, fiskesauce, sriracha og lime. Stil til side.",
+			"Bring en gryde med vand i kog og kog nudlerne efter anvisning på pakken. Når de er færdige, skyl dem med kold vand og sæt dem til side. Hak hvidløg, løg, forårsløg og peanuts.",
+			"Hak løg, hvidløg og forårsløg.",
+			"På en pande, eller i en wok svits løg til de får en glasagtig overflade. Tilføj kylling og steg den til den er færdig.",
+			"Skub kyllingen til side på panden og kom æggene på panden og steg dem som var det røræg. Når æggene er færdig, tilsæt da nudler og bønnespirer -- gem nogle af bønnespirene hvis du vil have lidt crunch at pynte med. Bland alle ingredienser godt og kom derefter pad thai saucen på. ",
+			"Server med lime, koriander og hakkede peanuts."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "4",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": ""
+		},
+		"protip": "Server gerne med agurk i strimler for at give et crunchy og friskt element.",
+		"categories": [
+			"aftensmad"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
 	}
 ]
