@@ -13,14 +13,14 @@
 				"ingredient": "tipo OO mel"
 			},
 			{
-				"amount": "100",
-				"unit": "ml",
-				"ingredient": "kogende vand"
-			},
-			{
 				"amount": "0.5",
 				"unit": "tsk",
 				"ingredient": "salt"
+			},
+			{
+				"amount": "100",
+				"unit": "ml",
+				"ingredient": "kogende vand"
 			},
 			{
 				"amount": "1",
@@ -33,15 +33,15 @@
 		"teaser": "Små hvedemelspandekager som kan tilberedes med f.eks. fars af svin og forårsløg",
 		"steps": [
 			"Wrappers",
-			"Bland de to typer mel i en stor skål",
+			"Bland de to typer mel og salt i en stor skål",
 			"Tilføj kogende vand og rør til blandingen bliver som savsmul",
-			"TIlføj sesamolie og fortsæt med at røre. Når blandingen er som savsmul kan du beguunde at samle dejen med hænderne, så det bliver en bold",
+			"TIlføj sesamolie og fortsæt med at røre. Saml dejen med hænderne, så det bliver en ensartet bold",
 			"Dæk dejen med vitawrap og lad den hvile i ca. 30 min.",
 			"Fjern herefter wrappen og ælt dejen i et par minutter på en meldrysset overflade. Når overfladen begynder at være glat, tildæk igen dejen med vitawrap og lad den afkøle i yderligere 30 min.",
 			"Del dejen i to lige store stykker. Rul den flat ud på en meldrysset overflade til en tykkelse på ca. 1mm med en kagerulle.",
 			"Brug nu et glas, eller en kagering (ca. 10-11 cm i diameter) til at skære dejen ud i cirkler.",
 			"Bliv ved indtil al dejen er brugt",
-			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling pandekager, med eller uden fyld, kan sagtens fryses ned.",
+			"Dejen kan sagtens ligge på køl et par dage og de færdige dumpling wrappers, med eller uden fyld, kan sagtens fryses ned.",
 			"Fyld dine wrappers med fars, smør vand langs hele kanten og fold for at lukke -- der er mange metoder, jeg går med en simpel foldning fra midten.",
 			"Stegning",
 			"Kom lidt olie på en pande og steg dine dumplings ved høj varme på én side. Når de er blevet gyldne og har fået lidt skorpe, tilsæt da vand, kom et låg på panden, skru ned på medium varme og lad dine dumplings dampe i 4-5 minutter.",
@@ -132,63 +132,65 @@
 			"bagning"
 		]
 	},
-	{ 
-		"name": "Pasta Amatriciana", 
-		"teaser": "Pastaret med tomater, pecorino og guanciale. Overraskende smagfuld uden olie og hvidløg.", 
-		"image": "amatriciana.jpg", 
-		"ingredients": [ 
+	{
+		"name": "Pasta Amatriciana",
+		"teaser": "Pastaret med tomater, pecorino og guanciale. Overraskende smagfuld uden olie og hvidløg.",
+		"image": "amatriciana.jpg",
+		"ingredients": [
 			{
-				"amount": "250", 
-				"unit": "g", 
+				"amount": "250",
+				"unit": "g",
 				"ingredient": "pasta, rigatoni"
 			},
-			{ 
-				"amount": "70", 
-				"unit": "g", 
-				"ingredient": "guanciale, i tern" 
-			}, 
-			{ 
-				"amount": "50", 
-				"unit": "g", 
-				"ingredient": "pecorino, revet" 
-			}, 
-			{ 
-				"amount": "400", 
-				"unit": "g", 
-				"ingredient": "hele, pillede pomodori tomater" 
-			}, 
-			{ 
-				"amount": "1", 
-				"unit": "knivspids", 
-				"ingredient": "peber" 
-			} 
-		], 
-		"steps": [ 
-			"Kog vand til pasta", 
-			"Skær guanciale i tern og riv pecorino.", 
-			"Kom pastaen i vandet og kog efter anvisning (jeg plejer at bruge rigatoni)", 
-			"Steg guancialen ved lav varme til den er crispy. Tag ternene fra og lad størstedelen af fedtet blive i panden. ", 
-			"I panden med fedt, knus tomaterne over det varme fedt og bland godt. Kom evt. lidt salt ved, men ikke for meget, da pecorinoen indenholder masser af salt.", 
-			"Når pastavandet er hældt fra, bland da pastaen med tomatsaucen og sluk for blusset. Tilsæt pecorino og bland igen. Gem lidt af pecorinoen.", 
-			"Fordel pecorinoen over pastaen og bland godt.", 
-			"Kom pastaen på en tallerken, drys guancialen ud over pastaen, kværn lidt peber over og tilsæt lidt pecorino efter behov. Servér!" 
-			], 
-		"path": "description", 
-		"servings": "", 
-		"servings_w_type": { 
-			"servings": "2", 
-			"type": "person(er)" }, 
-			"preparationtime": { 
-				"active": "20", 
-				"passive": "10" 
-			}, 
-			"protip": "", 
-			"categories": [ 
-				"aftensmad", 
-				"forret" 
-			], 
-			"relatedrecipes": [], 
-			"inspirationlink": "" },
+			{
+				"amount": "70",
+				"unit": "g",
+				"ingredient": "guanciale, i tern"
+			},
+			{
+				"amount": "50",
+				"unit": "g",
+				"ingredient": "pecorino, revet"
+			},
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "hele, pillede pomodori tomater"
+			},
+			{
+				"amount": "1",
+				"unit": "knivspids",
+				"ingredient": "peber"
+			}
+		],
+		"steps": [
+			"Kog vand til pasta",
+			"Skær guanciale i tern og riv pecorino.",
+			"Kom pastaen i vandet og kog efter anvisning (jeg plejer at bruge rigatoni)",
+			"Steg guancialen ved lav varme til den er crispy. Tag ternene fra og lad størstedelen af fedtet blive i panden. ",
+			"I panden med fedt, knus tomaterne over det varme fedt og bland godt. Kom evt. lidt salt ved, men ikke for meget, da pecorinoen indenholder masser af salt.",
+			"Når pastavandet er hældt fra, bland da pastaen med tomatsaucen og sluk for blusset. Tilsæt pecorino og bland igen. Gem lidt af pecorinoen.",
+			"Fordel pecorinoen over pastaen og bland godt.",
+			"Kom pastaen på en tallerken, drys guancialen ud over pastaen, kværn lidt peber over og tilsæt lidt pecorino efter behov. Servér!"
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "2",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "20",
+			"passive": "10"
+		},
+		"protip": "",
+		"categories": [
+			"aftensmad",
+			"forret"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
 	{
 		"name": "Pizzadej",
 		"ingredients": [
@@ -398,7 +400,7 @@
 			"Lad dem hvile på en rist."
 		],
 		"servings_w_type": {
-			"servings":8,
+			"servings": 8,
 			"type": "stk"
 		},
 		"path": "description",
@@ -528,11 +530,13 @@
 				"amount": "50",
 				"unit": "g",
 				"ingredient": "smør"
-			},			{
+			},
+			{
 				"amount": "0.5",
 				"unit": "dl",
 				"ingredient": "olivenolie"
-			},			{
+			},
+			{
 				"amount": "8",
 				"unit": "fed",
 				"ingredient": "hvidløg"
@@ -546,7 +550,7 @@
 				"amount": "2",
 				"unit": "stk",
 				"ingredient": "gulerødder, skåret i to"
-			},			
+			},
 			{
 				"amount": "1",
 				"unit": "stk",
@@ -582,7 +586,6 @@
 			"Hak tomater og skær gulerødder og løg i to. Kom grøntsagerne, samt frisk basilikum i gryden og læg låg på. Lad retten koge ind i 2-3 timer ved lav varme, under jævnlig omrøring.",
 			"Inden servering, fjern gulerod og løg og smag til med salt og peber.",
 			"Servér som sauce til pasta, eller sammen med sicilienske kødboller."
-
 		],
 		"servings_w_type": {
 			"servings": 4,
@@ -1199,11 +1202,6 @@
 		"name": "Blåbærtærte",
 		"ingredients": [
 			{
-				"amount": "150",
-				"unit": "g",
-				"ingredient": "hvedemel"
-			},
-			{
 				"amount": "40",
 				"unit": "g",
 				"ingredient": "rørsukker eller flormelis"
@@ -1212,6 +1210,11 @@
 				"amount": "1",
 				"unit": "knivspids",
 				"ingredient": "salt"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "hvedemel"
 			},
 			{
 				"amount": "100",
@@ -1255,8 +1258,8 @@
 		"steps": [
 			"Mørdejstærtebund",
 			"Rør sukker/flormelis, salt og mel sammen.",
-			"Skær smørret i tern og smuldr det i melet. Med en mixer eller røremaskine, kør det til det er som savsmuld.",
-			"Saml dejen med æg og form det som en kugle.",
+			"Skær smørret i tern og smuldr det i melet. Brug en mixer eller røremaskine til at blande det, til det ligner savsmuld.",
+			"Saml dejen med ægget og form det som en kugle.",
 			"Lad dejen hvile en halv time på køl.",
 			"Rul dejen ud til en tykkelse på ca. 2-3 mm og placér mørdejen i tærteformen.",
 			"Frangipane",
@@ -1388,51 +1391,6 @@
 		"name": "Brunsviger",
 		"ingredients": [
 			{
-				"amount": "40",
-				"unit": "g",
-				"ingredient": "smør"
-			},
-			{
-				"amount": "1",
-				"unit": "dl",
-				"ingredient": "mælk"
-			},
-			{
-				"amount": "40",
-				"unit": "g",
-				"ingredient": "sukker"
-			},
-			{
-				"amount": "25",
-				"unit": "g",
-				"ingredient": "gær"
-			},
-			{
-				"amount": "1",
-				"unit": "stk",
-				"ingredient": "æg"
-			},
-			{
-				"amount": "0.5",
-				"unit": "tsk",
-				"ingredient": "salt"
-			},
-			{
-				"amount": "250",
-				"unit": "g",
-				"ingredient": "hvedemel"
-			},
-			{
-				"amount": "1",
-				"unit": "knivspids",
-				"ingredient": "stødt kardemomme"
-			},
-			{
-				"amount": "",
-				"unit": "",
-				"ingredient": ""
-			},
-			{
 				"amount": "150",
 				"unit": "g",
 				"ingredient": "brun farin"
@@ -1446,6 +1404,51 @@
 				"amount": "1",
 				"unit": "spsk",
 				"ingredient": "kanel"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
+			},
+			{
+				"amount": "40",
+				"unit": "g",
+				"ingredient": "smør"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "25",
+				"unit": "g",
+				"ingredient": "gær"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			},
+			{
+				"amount": "40",
+				"unit": "g",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "0.5",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "knivspids",
+				"ingredient": "stødt kardemomme"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "hvedemel"
 			}
 		],
 		"image": "brunsviger2.jpg",
@@ -1902,8 +1905,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "tsk",
-				"ingredient": "bagepulver"
+				"unit": "spsk",
+				"ingredient": "sukker"
 			},
 			{
 				"amount": "1",
@@ -1912,8 +1915,8 @@
 			},
 			{
 				"amount": "2",
-				"unit": "spsk",
-				"ingredient": "sukker"
+				"unit": "tsk",
+				"ingredient": "bagepulver"
 			},
 			{
 				"amount": "1",
@@ -1921,14 +1924,9 @@
 				"ingredient": "vanillepulver"
 			},
 			{
-				"amount": "2",
-				"unit": "dl",
-				"ingredient": "mælk"
-			},
-			{
-				"amount": "0.5",
-				"unit": "dl",
-				"ingredient": "vand"
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
 			},
 			{
 				"amount": "1",
@@ -1937,8 +1935,23 @@
 			},
 			{
 				"amount": "2",
+				"unit": "dl",
+				"ingredient": "mælk"
+			},
+			{
+				"amount": "2",
 				"unit": "spsk",
 				"ingredient": "smør, smeltet"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "",
+				"unit": "",
+				"ingredient": ""
 			},
 			{
 				"amount": "1",
@@ -1953,8 +1966,9 @@
 		],
 		"steps": [
 			"Forberedelse",
-			"Tilføj mel, sukker, salt og bagepulver og vanillepulver i en skål og bland godt.",
-			"I en anden skål, bland æg, mælk og smør. Smørret skal være afkølet.",
+			"Smelt smørret ved lav varme og skær banan i skiver.",
+			"Kom mel, sukker, salt, bagepulver og vanillepulver i en skål og bland godt.",
+			"I en anden skål, bland æg, mælk, smør og vand. Smørret skal være afkølet.",
 			"Bland de tørre og de våde ingredienser. Dejen skal være lidt tyk.",
 			"Skær bananen i skiver.",
 			"Stegning",
@@ -2071,14 +2085,14 @@
 				"ingredient": ""
 			},
 			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "husblads"
+			},
+			{
 				"amount": "85",
 				"unit": "g",
 				"ingredient": "hvid chokolade"
-			},
-			{
-				"amount": "1",
-				"unit": "g",
-				"ingredient": "husblads"
 			},
 			{
 				"amount": "50",
@@ -2212,26 +2226,28 @@
 			}
 		],
 		"steps": [
+			"Forklaring",
+			"Denne opskrift består af 5 forskellige dele, en pistaciepasta, som skal bruges i to af de andre komponenter, en Namelaka pistacie creme, en mandelmørdejsbund, en pistachiecreme og en hindbærkompot. Hver af komponenterne beskrives i rækkefølge og de tilhørende ingredienser findes sætvis ude til venstre.",
 			"Pistachiepasta",
 			"Denne pistaciepasta bliver mere på pulverform, end en faktisk pasta.",
 			"Bag pistaciekernerne (1) i 15 min ved 150 grader, celcius. ",
 			"Kom de bagte og de rå kerner (2) med flormelis og salt i en blender til det er en lind masse. Sæt til side.",
-			"Husk at denne skal benyttes i to af de individuelle tærtekomponenter nedenunder",
+			"Husk at denne skal benyttes i to af de individuelle tærtekomponenter nedenunder.",
 			"Namelaka-Pistacie",
 			"Kom husbladsen i en skål med vand i ca. 10 min.",
-			"Smelt den hvide chokolade i et vandbad, eller i mikrobølgeovnen. Sæt til side ",
-			"Kog mælken i en gryde. Når den koger, tilsæt da husbladsen og bland derefter for at smelte husbladsen.",
+			"Smelt den hvide chokolade i et vandbad, eller i mikrobølgeovnen og sæt den til side. ",
+			"Kog mælken i en gryde. Når den koger, tilsæt da husbladsen og rør rundt for at smelte husbladsen.",
 			"Hæld den varme mælk over den smeltede chokolade og rør for at emulgere blandingen.",
-			"Tilsæt kold fløde og pistaciepasta og bland med en stavblender.",
-			"Hæld i en bredbundet skål og dæk til. Lad det krystallisere i køleskabet i mindst 8 timer inden brug.",
+			"Tilsæt kold fløde og pistaciepasta og bland med en stavblender så blandingen bliver ensartet og luftig.",
+			"Hæld massen i en bredbundet skål og dæk til. Lad det krystallisere i køleskabet i mindst 8 timer inden brug.",
 			"Mandelmørdej",
-			"Bland smør, flormelis, mandelmel, og salt i en blender. Tilsæt ægget og bland igen. Stop så snart det hele er homogent.",
-			"På en melet arbejdsflade ælt dejen med håndfladen for at homogenisere dejen.",
+			"Bland smør, flormelis, mandelmel, og salt med en mixer. Tilsæt ægget og bland igen. Stop så snart det hele er homogent.",
+			"På en melet arbejdsflade ælt dejen med håndfladen til den er ensartet.",
 			"Rul dejen ud (ca. 2.5 mm tyk) mellem to ark bagepapir. Anbring dejen på en bageplade. Anbring i fryseren i 20 minutter.",
 			"Skær 6 dejskiver ud der passer til dine tærteforme (8 cm i diameter eller lign.). Sæt dejskiverne tilbage i køleskabet i 10 minutter, før du bruger dem.",
 			"På en melet arbejdsflade tilpasses tærtejen i de smurte forme. Afslut med at udjævne dejen (skær dejen, der stikker ud fra cirklen fra med en kniv), og lad dem hvile i 2 timer i fryseren, inden de bages (eller 12 timer i køleskabet).",
 			"Pistachecreme",
-			"Bland alle ingredienserne en efter en med en mixer eller spatel. Start med det bløde smør med sukkeret.",
+			"Bland alle ingredienserne en efter en med en mixer eller spatel -- start med det bløde smør med sukkeret.",
 			"Når blandingen er homogen, tilsættes pistahcen og mandelmel og der blandes igen. Tilsæt derefter ægget og afslut blandingen.",
 			"Overfør til en skål og pak den i kontakt med pistaciekremen med madpapir. Sæt på køl i køleskabet i 1 time.",
 			"Bagning",
@@ -2243,10 +2259,10 @@
 			"Læg de 2 blade husblads i vand i 10 minutter",
 			"Kom hindbær, citronsaft og brunt sukker i en gryde og kog på svag varme i ca. 4 minutter.",
 			"Tilsæt husblads under omrøring og rør til husbladsen er opløst.",
-			"Anbring i en bredbundet skål ved at hælde kompottet gennem en si for at filtrere hindbærfrøene og dæk med film før afkøling i køleskabet (ca. 3 timer).",
+			"Anbring blandingen i en bredbundet skål ved at hælde kompottet gennem en si for at filtrere hindbærfrøene og dæk med film før afkøling i køleskabet (ca. 3 timer).",
 			"Samling",
-			"Saml tærteskaller bagt med pistaciekrem. Læg Namelaka cremen i en konditorpose og påfør i en spiral (0,5 cm tyk) Namelaka på pistaciencremen. Fordel det jævnt over hele overfladen. Anbring tærterne 10 minutter i fryseren før næste trin (eller 30 minutter i køleskabet).",
-			"Hæld hindbærkompotten i en skål og løsn den med en piskeris. Kom derefter hindbærkompottet i en pose, og fordel det over Namelaka-cremen og glat med en spatel så kompottet flugter med kanterne af tærten. Anbring i køleskabet i køleskabe i 3 timer, før hindbærene arrangeres.",
+			"Læg Namelaka cremen i en konditorpose og påfør i en spiral (0,5 cm tyk) ovenpå pistaciencremen i de bagte tærteskaller. Fordel det jævnt over hele overfladen. Anbring tærterne 10 minutter i fryseren før næste trin (eller 30 minutter i køleskabet).",
+			"Hæld hindbærkompotten i en skål og løsn den med en piskeris. Kom derefter hindbærkompottet i en pose, og fordel det over Namelaka-cremen og glat med en spatel så kompottet flugter med kanterne af tærten. Anbring i køleskabet i 3 timer, før hindbærene arrangeres.",
 			"Vask hindbærene, anbrig dem derefter på tærten for at dække hindbærkompottet. Pynt derefter med små pistacienødder.",
 			"Servér med det samme eller hav tærtere stående på køl. De kan sagtens holde sig i 2-3 dage."
 		],
@@ -2892,7 +2908,7 @@
 		"inspirationlink": "https://www.metteblomsterberg.dk/opskrifter/smoerbagte-cremelinser"
 	},
 	{
-		"name": "Chokolate Chip Cookies",
+		"name": "Chocolate Chip Cookies",
 		"teaser": "Sprøde Amerikansk-inspirerede småkager med chokolde",
 		"image": "cookies_bagt.jpg",
 		"ingredients": [
@@ -3183,6 +3199,313 @@
 		"categories": [
 			"dessert",
 			"specielle anledninger"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Turbo Ramen",
+		"teaser": "En hurtig opskrift på ramen, hvor du snildt kan bruge de rester du har i køleskabet, som tilbehør.",
+		"image": "turbo_ramen.jpg",
+		"ingredients": [
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg/forårsløg"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "svampe, skiveskåret"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "chili olie"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt, tilsmagning"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "grøntsagsbuillon, valgfrit"
+			},
+			{
+				"amount": "5",
+				"unit": "dl",
+				"ingredient": "vand"
+			},
+			{
+				"amount": "1",
+				"unit": "pakke(r)",
+				"ingredient": "nudler, dem du bedst kan lide"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "æg"
+			}
+		],
+		"steps": [
+			"",
+			"Hak løg og skær svampene i skiver.",
+			"Svits svampe og løg i en lille gryde.",
+			"Når løgene er blevet glatte og svampene har taget farve, tilsæt da chili olie, salt, buillon, vand og nudler. Bring vandet i kog.",
+			"Når vandet har noget kogepunktet og nudlerne er beguyndt at bløde op, skru da ned på lav varme og vent til vandet bobler (ikke bulder-koger).",
+			"Slå ægget ud mellem nudlerne (så ægget forbliver samlet og kan pocheres i 'nuddel-reden'). Lad retten stå på lav varme i ca. 5 minutter, sørge for at vandet ikke koger op, det kan ødelægge ægget. ",
+			"Serveres direkte ved at hælde alt indhold i en skål."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "1",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": "5"
+		},
+		"protip": "Tilføj evt. andre grøntsager eller spirer for at give et personligt twist.",
+		"categories": [
+			"vegetarisk",
+			"suppe",
+			"aftensmad",
+			"frokost"
+		],
+		"relatedrecipes": [
+			"Chili olie"
+		],
+		"inspirationlink": ""
+	},
+	{
+		"name": "Benløse fugle",
+		"teaser": "Det har intet med fugle at gøre. Det er grøntsager i et svøb af bacon og oksekød, et efterårshit! Rigtig god at servere med kartoffel/rodfrugtmos",
+		"image": "benlose_fugle.jpg",
+		"ingredients": [
+			{
+				"amount": "800",
+				"unit": "g",
+				"ingredient": "okseklump, skiveskåret"
+			},
+			{
+				"amount": "12",
+				"unit": "stk",
+				"ingredient": "bacon, skiver"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "gulerødder"
+			},
+			{
+				"amount": "1",
+				"unit": "bundt",
+				"ingredient": "persille"
+			},
+			{
+				"amount": "2",
+				"unit": "stk",
+				"ingredient": "laurbærblade"
+			},
+			{
+				"amount": "3",
+				"unit": "dl",
+				"ingredient": "fløde"
+			},
+			{
+				"amount": "1",
+				"unit": "dl",
+				"ingredient": "grøntsagsbuillon"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "2",
+				"unit": "tsk",
+				"ingredient": "Maizena, jævning"
+			},
+			{
+				"amount": "",
+				"unit": "tsk",
+				"ingredient": "smør, stegning"
+			},
+			{
+				"amount": "75",
+				"unit": "g",
+				"ingredient": "tomatpuré"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "ribsgele"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "løg"
+			}
+		],
+		"steps": [
+			"Skær gulerødder i 2 x 2mm stave, del løget i fire og giv persillen et enkelt hak på midten.",
+			"Skær kødet i tynde skiver og bank hver enkelt ud.",
+			"Dup skiverne af oksekød af med et stykke køkkenrulle.",
+			"Læg et stykke kød ud på et skærebræt og kom salt og peber på.",
+			"Læg bacon, to stave gulerødder og lidt persille på midten af kødet og rul det herefter tæt sammen.",
+			"Brug en kødnål eller kødsnor til at holde rullen lukket.",
+			"Gentag processen for alle dine kødstykker.",
+			"Brun alle \"fuglene\" på en pande med lidt smør, så de får farve hele vejen rundt. Når alle fuglene har taget farve, tilsæt da din buillon, tomatpuré, løg og fløde og lad blandingen koge op.",
+			"Læg låg på gryden og lad fuglene simre ved svag varme i ca. halvanden time.",
+			"Efter halvanden time, tag da alle fuglene nænsomt op og fjern kødsnoren/kødnålene.",
+			"Kog flødesaucen op og tilsæt ribsgele. Fjern løgstykkerne og jævn saucen med Maizena og smag til med salt og peber.",
+			"Server fuglene på en bund af rodfrugtmos. Retten fungerer rigtig godt med et godt glas fyldig rødvin eller en mørk øl."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "6",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "30",
+			"passive": "90"
+		},
+		"protip": "Hvis du ikke stoler på dine egne evner til at skære kødet i tynde skiver, kan du evt. bede en slagter om at gøre det for dig -- de kan også banke det ud.",
+		"categories": [
+			"specielle anledninger",
+			"aftensmad",
+			"simreretter"
+		],
+		"relatedrecipes": [
+			"Rodfrugtmos"
+		],
+		"additionalImages": [
+			"benlose_fugle2.jpg"
+		],
+		"inspirationlink": "https://madensverden.dk/benloese-fugle-i-gryde-med-floedesauce/"
+	},
+	{
+		"name": "Salmon Crudo",
+		"teaser": "Rå laks og agurk med en stærk og syrlig sauce, afbalanceret med japansk mayo og olivenolie",
+		"image": "salmon_crudo_garnished.jpg",
+		"ingredients": [
+			{
+				"amount": "300",
+				"unit": "g",
+				"ingredient": "sushi-klasse laks"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "skallotteløg, finthakket"
+			},
+			{
+				"amount": "3",
+				"unit": "spsk",
+				"ingredient": "kapers, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "chili, frisk, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "kapersvand"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "soya"
+			},
+			{
+				"amount": "",
+				"unit": "tsk",
+				"ingredient": "dijon"
+			},
+			{
+				"amount": "1",
+				"unit": "spsk",
+				"ingredient": "sukker"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "dill, finthakket"
+			},
+			{
+				"amount": "2",
+				"unit": "spsk",
+				"ingredient": "purløg, finthakket"
+			},
+			{
+				"amount": "0.5",
+				"unit": "stk",
+				"ingredient": "citron, saft og skal"
+			},
+			{
+				"amount": "0.5",
+				"unit": "dl",
+				"ingredient": "olivenolie"
+			},
+			{
+				"amount": "1",
+				"unit": "stk",
+				"ingredient": "agurk"
+			},
+			{
+				"amount": "",
+				"unit": "spsk",
+				"ingredient": "japansk mayo, pynt"
+			},
+			{
+				"amount": "1",
+				"unit": "pakke(r)",
+				"ingredient": "mikrogrønt, pynt"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "salt og peber, smag"
+			}
+		],
+		"steps": [
+			"Hak skallottløg, kapers og chili, dill og purløg fin og kom det i en skål.",
+			"I samme skål, tilsæt dijon, soya, kapersvand, sukker, citronsaft og skræl og tilsæt ca. halvdelen af olivenolien.",
+			"Skær laksen i tynde stykker og riv agurken i stykker af ca. samme størrelse på et mandolinjern.",
+			"Arrangér stykker af laks of agurk vækselvis på en tallerken (se billeder) og hæld saucen ud over. Smag til med salt og peber.",
+			"Pynt med lidt ekstra olivenolie, japansk mayo og mikrogrønt og servér med det samme eller lad det stå på køl til gæsterne ankommer."
+		],
+		"additionalImages": [
+			"salmon_crudo_topping.jpg",
+			"salmon_crudo_assemble.jpg",	
+			"salmon_crudo_garnished_straight.jpg"
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "3",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "15",
+			"passive": ""
+		},
+		"protip": "",
+		"categories": [
+			"specielle anledninger",
+			"forret"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
