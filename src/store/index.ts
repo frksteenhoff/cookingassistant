@@ -66,7 +66,8 @@ export default new Vuex.Store<AppState>({
 			"spread",
 			"raw",
 			"suppe",
-			"olier"
+			"olier",
+			"traditionel"
 		],
 		servingsType: [
 			"person(er)",

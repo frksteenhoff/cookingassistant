@@ -67,6 +67,7 @@
 		"categories": [
 			"aftensmad",
 			"forret",
+			"snack",
 			"bagning"
 		],
 		"preparationtime": {
@@ -131,7 +132,9 @@
 		"relatedrecipes": [],
 		"categories": [
 			"brød",
-			"bagning"
+			"bagning",
+			"morgenmad",
+			"frokost"
 		]
 	},
 	{
@@ -813,7 +816,8 @@
 		],
 		"categories": [
 			"aftensmad",
-			"frokost"
+			"frokost",
+			"specielle anledninger"
 		]
 	},
 	{
@@ -1130,7 +1134,10 @@
 		"categories": [
 			"dessert",
 			"specielle anledninger",
-			"bagning"
+			"bagning",
+			"morgenmad",
+			"frokost",
+			"dessert"
 		]
 	},
 	{
@@ -1386,6 +1393,7 @@
 		"categories": [
 			"dessert",
 			"specielle anledninger",
+			"bagning",
 			"raw"
 		]
 	},
@@ -1478,7 +1486,8 @@
 		"categories": [
 			"bagning",
 			"dessert",
-			"specielle anledninger"
+			"specielle anledninger",
+			"traditionel"
 		]
 	},
 	{
@@ -1561,7 +1570,8 @@
 		"categories": [
 			"bagning",
 			"snack",
-			"dessert"
+			"dessert",
+			"traditionel"
 		]
 	},
 	{
@@ -1705,6 +1715,7 @@
 		],
 		"steps": [
 			"Pres citronen, dræn kikærterne og hak hvidløg fint.",
+			"Kog kikærterne til deres skal falder af, fjern dem løbende.",
 			"Kom alle ingredienser i en skål.",
 			"Blend alle ingredienserne med en stavblender til en ensartet masse.",
 			"Hæld lidt olivenolie over den færdige masse og stil på køl, eller servér direkte."
@@ -2279,7 +2290,8 @@
 		},
 		"categories": [
 			"dessert",
-			"bagning"
+			"bagning",
+			"specielle anledninger"
 		],
 		"additionalImages": [
 			"framboise_shell_cooked.jpg",
@@ -2470,7 +2482,9 @@
 		"categories": [
 			"dressing",
 			"marinade",
-			"tilbehør"
+			"tilbehør",
+			"vegetarisk",
+			"olier"
 		],
 		"relatedrecipes": [],
 		"relatedImages": [],
@@ -2563,7 +2577,8 @@
 			"passive": "120"
 		},
 		"categories": [
-			"dessert"
+			"dessert",
+			"bagning"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": "",
@@ -2682,7 +2697,8 @@
 		},
 		"categories": [
 			"frokost",
-			"aftensmad"
+			"aftensmad",
+			"bagning"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -3386,7 +3402,8 @@
 		"categories": [
 			"specielle anledninger",
 			"aftensmad",
-			"simreretter"
+			"simreretter",
+			"traditionel"
 		],
 		"relatedrecipes": [
 			"Rodfrugtmos"

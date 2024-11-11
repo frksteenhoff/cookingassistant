@@ -533,7 +533,8 @@
 			"type": "L"
 		},
 		"categories": [
-			"tilbehør"
+			"tilbehør",
+			"syltning"
 		],
 		"preparationtime": {
 			"active": "20",
@@ -1238,7 +1239,8 @@
 		},
 		"categories": [
 			"dessert",
-			"snack"
+			"snack",
+			"raw"
 		],
 		"preparationtime": {
 			"active": "15",
@@ -1249,7 +1251,7 @@
 	},
 	{
 		"name": "Svampetacos",
-		"teaser": "",
+		"teaser": "Et vegetarisk alternativ til tacofyld",
 		"image": "",
 		"ingredients": [
 			{
@@ -1439,6 +1441,7 @@
 			"Bland æg, mælk, olie og spinat.",
 			"Tilføj mel og rør til dejen er jævn. Lad dejen stå i 5-10 minutter.",
 			"Steg evt. lidt bacon og bland i pandekagen dejen",
+			"Fyld med salat, grøntsager og kød efter ønske.",
 			"Steg pandekagerne og server med det samme."
 		],
 		"servings_w_type": {
@@ -1882,7 +1885,9 @@
 			"passive": ""
 		},
 		"categories": [
-			"sauce"
+			"sauce",
+			"dip",
+			"tilbehør"
 		],
 		"inspirationlink": "https://www.tasteandtellblog.com/teriyaki-chicken/"
 	},
@@ -2748,7 +2753,9 @@
 		"categories": [
 			"aftensmad",
 			"tilbehør",
-			"vegetarisk"
+			"vegetarisk",
+			"brød",
+			"bagning"
 		],
 		"relatedrecipes": [
 			"Butter chicken",
@@ -3438,6 +3445,7 @@
 		},
 		"categories": [
 			"morgenmad",
+			"frokost",
 			"brød",
 			"bagning"
 		],
@@ -3596,6 +3604,7 @@
 		"categories": [
 			"snack",
 			"tilbehør",
+			"frokost",
 			"aftensmad",
 			"vegetarisk",
 			"surdej"
@@ -3740,7 +3749,8 @@
 		},
 		"categories": [
 			"morgenmad",
-			"bagning"
+			"bagning",
+			"brød"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -3967,8 +3977,7 @@
 		},
 		"categories": [
 			"aftensmad",
-			"frokost",
-			"simreretter"
+			"frokost"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -4374,7 +4383,8 @@
 		"categories": [
 			"bagning",
 			"dessert",
-			"specielle anledninger"
+			"specielle anledninger",
+			"traditionel"
 		],
 		"additionalImages": [
 			"berlinerkranse_eggs.jpg",
@@ -4469,7 +4479,8 @@
 		},
 		"protip": "Gløggekstrakten kan sagtens stilles på køl et paar dage, eller indtil den kan bruges. Varm den blot op med vin og rom.",
 		"categories": [
-			"varme drikke"
+			"varme drikke",
+			"specielle anledninger"
 		],
 		"additionalImages": [
 			"hvid_glogg_spices.jpg",
@@ -4684,7 +4695,8 @@
 		"protip": "",
 		"categories": [
 			"simreretter",
-			"aftensmad"
+			"aftensmad",
+			"traditionel"
 		],
 		"additionalImages": [
 			"jordskokkesuppe_kog.jpg",
@@ -5026,7 +5038,8 @@
 		"protip": "",
 		"categories": [
 			"dessert",
-			"bagning"
+			"bagning",
+			"traditionel"
 		],
 		"additionalImages": [
 			"apple_pie.jpg",
@@ -5203,7 +5216,8 @@
 		"protip": "",
 		"categories": [
 			"aftensmad",
-			"frokost"
+			"frokost",
+			"salat"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
@@ -5436,8 +5450,8 @@
 		},
 		"protip": "",
 		"categories": [
-			"dressing",
-			"sauce",
+			"dip",
+			"olier",
 			"tilbehør"
 		],
 		"additionalImages": [
@@ -6632,7 +6646,11 @@
 			"passive": "30"
 		},
 		"protip": "",
-		"categories": [],
+		"categories": [
+			"dressing",
+			"tilbehør",
+			"forret"
+		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
 	},
@@ -6764,7 +6782,7 @@
 		"inspirationlink": ""
 	},
 	{
-		"name": "Tyrkiske æg ",
+		"name": "Tyrkiske æg",
 		"teaser": "Æg tilberedt på en bund af græsk youghurt med hvidløg, chili, smør og olie. Serveres med brød.",
 		"image": "turkish_eggs_front.jpg",
 		"ingredients": [
@@ -7427,7 +7445,8 @@
 		},
 		"protip": "Server gerne med agurk i strimler for at give et crunchy og friskt element.",
 		"categories": [
-			"aftensmad"
+			"aftensmad",
+			"frokost"
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
