@@ -7687,5 +7687,91 @@
 		],
 		"relatedrecipes": [],
 		"inspirationlink": ""
+	},
+	{
+		"name": "Spinach Artichoke Dip",
+		"teaser": "En ostet dip med spinat og artiskokker. Den perfekte forret.",
+		"image": "",
+		"ingredients": [
+			{
+				"amount": "400",
+				"unit": "g",
+				"ingredient": "artiskokhjerter, finthakket"
+			},
+			{
+				"amount": "115",
+				"unit": "g",
+				"ingredient": "creme fraiche"
+			},
+			{
+				"amount": "120",
+				"unit": "g",
+				"ingredient": "mayo"
+			},
+			{
+				"amount": "250",
+				"unit": "g",
+				"ingredient": "flødeost, stuetemperatur"
+			},
+			{
+				"amount": "150",
+				"unit": "g",
+				"ingredient": "parmesan, revet"
+			},
+			{
+				"amount": "4",
+				"unit": "fed",
+				"ingredient": "hvidløg, finthakket"
+			},
+			{
+				"amount": "1",
+				"unit": "pakke(r)",
+				"ingredient": "spinat"
+			},
+			{
+				"amount": "200",
+				"unit": "g",
+				"ingredient": "revet mosarella"
+			},
+			{
+				"amount": "1",
+				"unit": "tsk",
+				"ingredient": "peber, friskkværnet"
+			},
+			{
+				"amount": "1",
+				"unit": "knivspids",
+				"ingredient": "muskatnød, valgfri"
+			}
+		],
+		"steps": [
+			"Forberedelse",
+			"Forvarm ovnen til 190 grader.",
+			"Hvis du bruger frisk spinat, kom den i en pande og steg væden fra. Giv den gerne en smule muskatnød. Køl spinaten af inden den blandes med de resterende ingredienser.",
+			"Hak hvidløg fint og artiskokhjerter groft, men tyndt.",
+			"I en skål, bland creme fraiche, mayo, flødeost, spinat, finthakkede artiskokker, hvidløg og 3/4 af parmesanen. Smag til med peber.",
+			"Kom blandingen i et ovnfast fad og kom den resterende parmesan ovenpå.",
+			"Tilberedning",
+			"Bag dippen i 15 minutter, tag den derefter ud og kom mosarellaen på og lad den bage i yderligere 10 minutter, til osten begynder at tage farve.",
+			"Servér efter 5 minutters afkøling med ristet brød eller dit valg af saltet kiks."
+		],
+		"path": "description",
+		"servings": "",
+		"servings_w_type": {
+			"servings": "8",
+			"type": "person(er)"
+		},
+		"preparationtime": {
+			"active": "5",
+			"passive": "20"
+		},
+		"protip": "Sørg for at skalere mængden rigtigt, det er nemt at spise for meget!",
+		"categories": [
+			"dip",
+			"forret",
+			"snack"
+		],
+		"relatedrecipes": [],
+		"inspirationlink": "https://tastesbetterfromscratch.com/spinach-artichoke-dip/"
 	}
 ]
